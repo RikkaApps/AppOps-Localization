@@ -98,7 +98,6 @@
     <string name="all_op_title">すべての権限</string>
     <string name="all_op_summary">システムでサポートされているすべての権限（操作）を表示する</string>
     <string name="always_shown_op_title">常時表示の権限</string>
-    <string name="always_shown_op_header"/>
     <string name="settings">設定</string>
     <string name="settings_behavior">動作</string>
     <string name="settings_language">言語</string>
@@ -109,7 +108,6 @@
     <string name="unlock_description">広告を除去し、追加機能のロックを解除する。</string>
     <string name="remove_ads">広告を除去</string>
     <string name="bug_report_dialog_title">何かが間違っている</string>
-    <string name="bug_report_mail_message"/>
     <string name="send_to_developer">デベロッパーに送信</string>
     <string name="user_name_fallback">ユーザー</string>
     <string name="working_mode_title">実行モード：%s</string>
