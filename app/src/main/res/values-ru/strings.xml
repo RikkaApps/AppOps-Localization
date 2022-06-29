@@ -488,5 +488,7 @@
     <string name="op_desc_READ_CLIPBOARD">На Android 10 и выше приложения могут читать буфер обмена только в активном режиме.</string>
     <string name="op_desc_READ_DEVICE_IDENTIFIERS">По умолчанию на Android 10 и выше ни у одного из пользовательских приложений нет разрешения на просмотр идентификаторов устройства (IMEI, MEID, IMSI, номер SIM-карты и серийный номер).</string>
     <string name="op_desc_ACCESS_MEDIA_LOCATION">Позволяет приложению узнавать пути расположения медиафайлов (через Media Store).</string>
-
+    <string name="op_mode_ignore_may_not_work_under_dpm_mode">Под %1$s, \"%2$s\" может не работать</string>
+    <string name="settings_use_system_color">Использовать системную палитру</string>
+    <string name="op_name_MANAGE_EXTERNAL_STORAGE">Управлять всеми файлами</string>
 </resources>
