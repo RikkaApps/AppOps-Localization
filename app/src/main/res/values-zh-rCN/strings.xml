@@ -110,7 +110,6 @@
     <string name="menu_help">帮助和支持</string>
     <string name="settings_theme_base">基础主题</string>
     <string name="settings_theme_accent_color">强调色</string>
-    <string name="translators"/>
     <string name="menu_sort_by_app_name">根据应用名称</string>
     <string name="menu_show_framework">显示系统框架应用</string>
     <string name="settings_language">语言</string>
@@ -400,5 +399,4 @@
 <p>Shizuku 是一个独立的 Android 应用。
 ]]></string>
     <string name="settings_use_system_color">使用系统主题颜色</string>
-
 </resources>

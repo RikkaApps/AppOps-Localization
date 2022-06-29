@@ -110,7 +110,6 @@
     <string name="menu_help">幫助和支持</string>
     <string name="settings_theme_base">基礎主題</string>
     <string name="settings_theme_accent_color">強調色</string>
-    <string name="translators" />
     <string name="menu_sort_by_app_name">根據應用程式名稱</string>
     <string name="menu_show_framework">顯示系統框架應用程式</string>
     <string name="settings_language">語言</string>
@@ -313,7 +312,8 @@
     <string name="auto_recovery_notification_waiting_text">請完成「%1$s」的設定。</string>
     <string name="auto_recovery_settings_toggle_title">啟用自動恢復</string>
     <string name="auto_recovery_settings_toggle_summary">自動恢復先前設定的「忽略」</string>
-    <string name="auto_recovery_settings_note">從 Android 10 起，在特定情況下，部分您設定的「忽略」會被系統重設。\n\n對於高度修改的系統（如 MIUI），此行為可能在更低版本出現。\n\n唯一的方法是在系統重設後再次重設。自動恢復工作時，您會看到一條通知。</string>    <string name="auto_recovery_settings_start_now_title">立刻開始恢復</string>
+    <string name="auto_recovery_settings_note">從 Android 10 起，在特定情況下，部分您設定的「忽略」會被系統重設。\n\n對於高度修改的系統（如 MIUI），此行為可能在更低版本出現。\n\n唯一的方法是在系統重設後再次重設。自動恢復工作時，您會看到一條通知。</string>
+    <string name="auto_recovery_settings_start_now_title">立刻開始恢復</string>
     <string name="auto_recovery_settings_start_now_summary">可能有沒有被考慮到的情況</string>
     <string name="brackets">（%s）</string>
     <string name="op_associated_with_runtime">除了「忽略」，其他選項與系統權限設定中的相同。</string>
@@ -403,5 +403,4 @@
 <p>Shizuku 是一個獨立的 Android 應用程式。
 ]]></string>
     <string name="settings_use_system_color">使用系統主題顏色</string>
-
 </resources>
