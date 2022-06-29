@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="working_mode_choice">Zvolte pracovní režim:</string>
+    <string name="working_mode_title">Pracovní režim: %s</string>
+    <string name="working_mode_button_download">Stažení</string>
+    <string name="working_mode_button_switch">Přepněte do jiného pracovního režimu</string>
+    <string name="working_mode_button_continue">Pokračovat</string>
+    <string name="working_mode_button_open">Otevřít %s</string>
+    <string name="shizuku_mode_error_not_running">Shizuku neběží nebo existují jiné chyby. &lt;br&gt; Pokud je spuštěn Shizuku, zkuste vynutit zastavení této aplikace.</string>
+    <string name="shizuku_mode_error_user_denied_permission">Teto aplikaci jste zakázali používat Shizuku. &lt;br&gt; Udělte prosím povolení této aplikaci v nastavení systému nebo v aplikaci Shizuku. &lt;p&gt; Pokud používáte MIUI, MIUI porušuje vlastní mechanismus oprávnění systému Android, můžete udělit oprávnění pouze z aplikace Shizuku.</string>
+    <string name="shizuku_mode_error_user_denied_permission_sui">Této aplikaci jste zakázali používat Sui. &lt;br&gt; Udělte prosím povolení této aplikaci v Sui.</string>
+    <string name="shizuku_mode_error_manager_app_not_installed_rooted">Nejprve nainstalujte Sui nebo Shizuku. Jsou to dvojčata, která sdílejí stejný design API. &lt;p&gt; Sui je modul Magisk. Doporučeno pro zařízení s nainstalovaným Magiskem. &lt;p&gt; Shizuku je samostatná aplikace pro Android.</string>
+    <string name="shizuku_mode_error_manager_app_not_installed">Nejprve nainstalujte Shizuku. &lt;p&gt; Shizuku je open-source projekt od roku 2017 (viz %s na GitHub). Je navržen tak, aby prospíval více aplikacím, které vyžadují root nebo adb. Shizuku používá nejen tato aplikace, ale také některé aplikace od jiných vývojářů. &lt;p&gt; Se Shizuku tato aplikace získá neuvěřitelně vysokou rychlost a další zajímavé funkce. U samotného Shizuku je spotřeba baterie nebo výkonu zanedbatelná (při nepoužívání nulová). &lt;p&gt; Stejně jako filozofie Unixu by jeden program měl dělat pouze jednu práci. Shizuku a tato aplikace sledují tuto filozofii. Ve skutečnosti je vestavěné vše podobné tomu, co rády dělají „špatné aplikace“.</string>
+    <string name="shizuku_mode_description_rooted">Užijte si plnou funkčnost &lt;br&gt; &lt;br&gt;- Vyžaduje instalaci Sui (modul Magisk) nebo Shizuku (aplikace), oba jsou z otevřeného zdroje</string>
+    <string name="shizuku_mode_description">Funguje na zařízeních root i non-root &lt;br&gt; Velmi rychle, se zanedbatelnou spotřebou zdrojů &lt;br&gt;+ Užijte si plnou funkčnost &lt;br&gt; &lt;br&gt;- Vyžaduje instalaci aplikace s otevřeným zdrojovým kódem (Shizuku) &lt;br&gt;- Pro uživatele bez oprávnění root zařízení, při každém restartu je nutné spustit Shizuku pomocí adb s počítačem &lt;br&gt;- U zařízení se systémem Android 11 nebo vyšším lze Shizuku spustit bez počítače</string>
+    <string name="shizuku_mode_shizuku_not_running">(Shizuku neběží)</string>
+    <string name="shizuku_mode_over_root">mód Shizuku (spuštěn pomocí root)</string>
+    <string name="shizuku_mode_over_adb">mód Shizuku (spuštěn pomocí Adb)</string>
+    <string name="shizuku_mode">mód Shizuku</string>
+    <string name="working_mode_root_removed_description">Starší verze App Ops nesledovaly chování systému správně. Například od systému Android 10, jakmile změníte oprávnění k poloze ze systému, změny v aplikacích se nikdy neprojeví. &lt;p&gt; K vyřešení tohoto problému nezbývá, než systém zcela dodržovat. To není možné s čistým kořenem. &lt;p&gt; Mnoho lidí si myslí, že root je všemocný, ale ve skutečnosti root v zásadě poskytuje pouze možnost spouštět příkazy ve světě Linuxu. Chcete -li vstoupit do světa Androidu, musíte spustit něco jako „most“. „Shizuku“ dělá tuto část práce. Použití „Shizuku“ může snížit využití zdrojů.</string>
+    <string name="working_mode_root_removed">Režim root byl odstraněn</string>
+    <string name="working_mode_button_download_format">Stáhnout %s</string>
+    <string name="working_mode_button_retry">Znovu</string>
+</resources>

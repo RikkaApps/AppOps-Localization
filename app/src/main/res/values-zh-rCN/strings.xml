@@ -1,0 +1,404 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="menu_reset">重置</string>
+    <string name="menu_app_info">应用信息</string>
+    <string name="menu_show_system">显示系统应用</string>
+    <string name="menu_sort_by_updated_time">根据更新时间</string>
+    <string name="menu_sort_by_install_time">根据安装时间</string>
+    <string name="menu_search">搜索</string>
+    <string name="menu_contact">联系开发者</string>
+    <string name="user_name_fallback">用户</string>
+    <string name="menu_sort">排序</string>
+    <string name="menu_save">保存</string>
+    <string name="menu_apply_template">套用模版</string>
+    <string name="menu_show_detail">显示详情</string>
+    <string name="menu_select_all">全选</string>
+    <string name="menu_select_inverse">反选</string>
+    <string name="menu_copy_info">复制信息</string>
+    <string name="app_detail_version">版本 %1$s</string>
+    <string name="permission_group_body_sensor">身体传感器</string>
+    <string name="permission_group_phone">电话</string>
+    <string name="permission_group_sms">短信</string>
+    <string name="permission_group_contacts">通讯录</string>
+    <string name="permission_group_camera">相机</string>
+    <string name="permission_group_location">位置</string>
+    <string name="permission_group_calender">日历</string>
+    <string name="permission_group_microphone">麦克风</string>
+    <string name="permission_group_storage">存储空间</string>
+    <string name="permission_group_other">其他</string>
+    <string name="op_mode_allow">允许</string>
+    <string name="op_mode_ignore">忽略</string>
+    <string name="op_mode_ignore_description_others">应用会得到空数据或操作不被执行</string>
+    <string name="op_mode_ignore_description_runtime">“授予”应用权限，但是应用会得到空数据或操作不会被执行</string>
+    <string name="op_mode_ignore_may_not_work_under_dpm_mode">在%1$s下，“%2$s”可能无效</string>
+    <string name="op_mode_deny">拒绝</string>
+    <string name="op_mode_deny_crash">拒绝（可能让应用崩溃）</string>
+    <string name="op_mode_default">默认</string>
+    <string name="op_mode_foreground">仅在使用该应用期间允许</string>
+    <string name="op_mode_onetime">每次都询问</string>
+    <string name="op_mode_unspecified">尚未设置</string>
+    <string name="op_mode_unknown">未知（%1$d）</string>
+    <string name="reset_settings_dialog_title">重设为系统默认？</string>
+    <string name="reset_settings_dialog_message">这将使该应用的权限重置为系统默认状态。</string>
+    <string name="unlock_description">去除广告和解锁高级功能。</string>
+    <string name="permissions_view_summary">根据权限分组应用，更清晰地管理权限。</string>
+    <string name="new_app_behavior">新应用行为</string>
+    <string name="new_app_behavior_summary">新应用安装后的行为，如展示通知或自动套用模版。</string>
+    <string name="template_summary">预先定义一组可以一键套用的权限设置。</string>
+    <string name="backup_and_restore_summary">备份您的设置以便在您拥有新设备或者清除数据后恢复。</string>
+    <string name="app_name_multi_user">%1$s（%2$s）</string>
+    <string name="op_allow_time">%1$s曾允许</string>
+    <string name="op_reject_time">%1$s曾拒绝</string>
+    <string name="op_never_used">（从未使用）</string>
+    <string name="settings">设置</string>
+    <string name="do_not_show_again">不再显示</string>
+    <string name="progress_checking_availability">检查可用性…</string>
+    <string name="progress_fetching_user_list">获取用户列表…</string>
+    <string name="progress_fetching_app_list">获取应用列表…</string>
+    <string name="progress_working">正在进行 （第 %1$d 个 共 %2$d 个）…</string>
+    <string name="send_to_developer">发送给开发者</string>
+    <string name="menu_about">关于</string>
+    <string name="remove_ads">移除广告</string>
+    <string name="menu_users">用户</string>
+    <string name="settings_translate">翻译</string>
+    <string name="settings_translate_summary">帮助我们翻译 App Ops 到您的语言</string>
+    <string name="settings_translation_contributors">贡献者</string>
+    <string name="working_mode_button_download">下载</string>
+    <string name="unlock_full_version">解锁完整版</string>
+    <string name="full_version">完整版</string>
+    <string name="template">模版</string>
+    <plurals name="template_item_summary">
+        <item quantity="other">%1$d 个项目</item>
+    </plurals>
+    <string name="new_app_behavior_notification_tap_to_set">点按可设置此应用的权限。</string>
+    <string name="new_app_behavior_notification_tap_to_open">点按打开应用。</string>
+    <string name="new_app_behavior_notification_app_installed">已安装 %1$s</string>
+    <string name="new_app_behavior_notification_applied_template">已为 %1$s 套用模版。</string>
+    <string name="new_app_behavior_notification_applying_template">正在套用模版…</string>
+    <string name="new_app_behavior_notification_apply_template_failed">套用模版失败。</string>
+    <string name="new_app_behavior_notification_action_open_app">打开应用</string>
+    <string name="new_app_behavior_notification_action_detail_settings">详细设置</string>
+    <string name="new_app_behavior_settings_show_notification">显示通知</string>
+    <string name="new_app_behavior_settings_switch_button">交换按钮</string>
+    <string name="new_app_behavior_settings_switch_button_summary">点击通知直接打开应用而不是进入设置</string>
+    <string name="new_app_behavior_settings_notification_style">通知样式</string>
+    <string name="settings_appearance">界面外观</string>
+    <string name="system_app_warning">这个应用是系统应用，修改可能会造成严重问题。</string>
+    <string name="backup_and_restore">备份和恢复</string>
+    <string name="backup_restore">恢复</string>
+    <string name="backup_create_backup">创建新的备份文件</string>
+    <string name="backup_create_backup_summary"><![CDATA[备份当前应用设置到文件（内置存储或 Google Drive 等）中。]]></string>
+    <string name="backup_restore_backup">从备份文件恢复</string>
+    <string name="backup_restore_backup_summary"><![CDATA[为<b>已安装的应用</b>恢复设置。<br>对<b>尚未安装的应用</b>，配置将会在安装自动恢复（需要在“新应用”中开启对应选项）。]]></string>
+    <string name="backup_open_backup">打开备份文件</string>
+    <string name="backup_open_backup_summary"><![CDATA[查看已保存的备份文件内容。]]></string>
+    <string name="backup_preview">备份预览</string>
+    <string name="backup_not_installed">%1$s（未安装）</string>
+    <string name="monitors_service_label">监听服务</string>
+    <string name="monitors_service_description">被“新应用行为”、“剪贴板监视器”、“使用情况监视器”、“使用情况历史” 所使用。</string>
+    <string name="progress_requesting_authorization">请求授权中…</string>
+    <string name="shizuku_mode_error_adb_no_update_permission"><![CDATA[ADB 有获取 appops 设置但没有更新设置的权限。<br>请尝试在系统的“开发者设置”中寻找并开启类似<b>“USB 调试允许修改权限”</b>的选项。<p><small>比如，在 MIUI 中是 “USB 调试（安全选项）”。</small>]]></string>
+    <string name="new_app_behavior_notification_action_restore_backup">恢复备份</string>
+    <string name="backup_notification_restored">已为 %1$s 恢复备份。</string>
+    <string name="backup_notification_restoring">恢复备份中…</string>
+    <string name="backup_notification_restore_failed">恢复备份失败</string>
+    <string name="new_app_behavior_settings_restore_backup_summary">备份可以来自先前的配置或者手动备份</string>
+    <string name="new_app_behavior_settings_restore_backup">自动恢复备份（如果存在）</string>
+    <string name="new_app_behavior_settings_apply_template">自动套用模板</string>
+    <string name="new_app_behavior_settings_apply_template_summary">如果恢复备份被开启，该选项只在备份不存在时有效</string>
+    <string name="menu_changelog">变更日志</string>
+    <string name="menu_help">帮助和支持</string>
+    <string name="settings_theme_base">基础主题</string>
+    <string name="settings_theme_accent_color">强调色</string>
+    <string name="translators"/>
+    <string name="menu_sort_by_app_name">根据应用名称</string>
+    <string name="menu_show_framework">显示系统框架应用</string>
+    <string name="settings_language">语言</string>
+    <string name="template_default">默认</string>
+    <string name="bug_report_dialog_title">出现了错误</string>
+    <plurals name="app_view_item_modified">
+        <item quantity="other">已修改 %d 项</item>
+    </plurals>
+    <string name="app_view_item_not_modified">没有修改</string>
+    <string name="bug_report_dialog_message">您可以通过邮件将错误信息发送给我们，以帮助我们解决问题。</string>
+    <string name="bug_report_mail_message">如果可以的话，请描述发生错误时的情况。</string>
+    <string name="menu_view_options">视图选项</string>
+    <string name="menu_options">选项</string>
+    <string name="all_op_title">全部权限</string>
+    <string name="all_op_summary">查看您的系统支持的全部权限（应用操作）</string>
+    <string name="all_op_header"><![CDATA[以下是您的系统支持的全部权限（其实并非是真的权限，详情请参阅帮助）。<br><br>* 系统版本越高，支持的就越多。<br>* 修改后无效的已被隐藏。]]></string>
+    <string name="system_app">系统应用</string>
+    <string name="always_shown_op_title">始终显示的权限</string>
+    <string name="always_shown_op_header"><![CDATA[不论应用是否曾经使用或是否可能使用，被勾选的权限（应用操作）将总会显示。]]></string>
+    <string name="always_shown_op_summary">编辑不论如何都会被显示的权限（应用操作）</string>
+    <string name="settings_behavior">行为</string>
+    <string name="menu_show_app_info_in">显示应用信息…</string>
+    <string name="settings_black_night_theme">黑色主题</string>
+    <string name="settings_black_night_theme_summary">当深色模式启用时使用纯黑色</string>
+    <string name="toast_cannot_load_help">无法载入帮助。</string>
+    <string name="multi_selection_tip">您可以通过点击左侧图标或长按进入多选模式以快速操作。</string>
+    <string name="op_summary_controlled_by_other">由「%s」控制</string>
+    <string name="op_mode_default_description"><![CDATA[“默认”表示受<b><a href="%1$s">系统设置</a></b>或<b><a href="%2$s">应用信息</a></b>中的设置控制。]]></string>
+    <string name="permissions_view_preset">预设组合</string>
+    <string name="permissions_view_all">全部</string>
+    <plurals name="permissions_view_item_summary">
+        <item quantity="other">共 %1$d 个应用</item>
+    </plurals>
+    <plurals name="permissions_view_item_summary_controlled_by_other">
+        <item quantity="other">共 %2$d 个应用，由 %1$s 控制</item>
+    </plurals>
+    <string name="template_create">创建模板…</string>
+    <string name="template_description"><![CDATA[您可以在此处创建模板以便快速应用。<p>若您在“%1$s”中启用了“%2$s”，则需要设置一个默认模板（三点菜单 - %3$s）。]]></string>
+    <string name="template_edit">编辑模板</string>
+    <string name="template_edit_title_for_create">创建模板</string>
+    <string name="template_edit_title">标题</string>
+    <string name="template_default_title">无标题</string>
+    <string name="menu_delete">删除</string>
+    <string name="template_dialog_delete_message">您确定要删除此模板吗？</string>
+    <string name="template_default_title_copy">%s - 副本</string>
+    <string name="template_menu_set_as_default">设为默认</string>
+    <string name="template_menu_create_copy">创建副本</string>
+    <string name="bug_report_dialog_view_stacktrace">查看堆栈跟踪</string>
+    <string name="menu_more">更多选项</string>
+    <string name="do_not_show_again_dialog_message">您确定不再想看到这条提示吗？</string>
+    <string name="worker_service_notification_channel_label">工作状态</string>
+    <string name="worker_service_notification_title">正在工作中…</string>
+    <string name="new_app_behavior_notification_channel_label">新应用安装</string>
+    <string name="monitors_notification_channel_label">运行状态</string>
+    <string name="button_discard">放弃</string>
+    <string name="template_edit_dialog_not_saved_message">您已作出一些修改，是否保存？</string>
+    <string name="no_files_app_dialog_title">无法启动文件应用</string>
+    <string name="no_files_app_dialog_message">文件（或文档，com.android.documentsui）是一个系统应用，同时也是 Android 的重要组成部分。你的设备供应商（或者你）禁用（甚至删除）文件应用是非常荒谬的。\n请打开设置并启用它。</string>
+    <string name="no_files_app_dialog_open_settings">打开设置</string>
+    <string name="no_files_app_open_failed">无法打开文件应用的应用详情。</string>
+    <string name="op_summary_control_others">仅用于控制其他</string>
+    <string name="menu_disabled_first">已禁用优先</string>
+    <string name="op_run_in_background_description"><![CDATA[不同级别下此应用会受到不同限制，越高的限制级别效果越好，但可能会影响越多应用的行为。]]></string>
+    <string name="op_run_in_background_description_26"><![CDATA[这个应用的目标 API 级别是 %1$d（Android 8.0，26 以上）。此应用至少受到 Android 8 级别的限制，你只可以修改是否受到 Android 9+ 级别的限制。]]></string>
+    <string name="op_run_in_background_description_learn_more"><![CDATA[<b><a href="%1$s">了解更多技术信息</a></b>]]></string>
+    <string name="op_run_in_background_mode_none">不受限制</string>
+    <string name="op_run_in_background_mode_basic">基础限制</string>
+    <string name="op_run_in_background_mode_strict">严格限制</string>
+    <string name="button_authorize">授权</string>
+    <string name="button_learn_more">了解更多</string>
+    <string name="working_mode_button_open">打开 %s</string>
+    <string name="storage_isolation_authorization"><![CDATA[已安装“%1$s”。启用隔离后，您不应在此处更改设置，否则会出现问题。<br>为了从“%1$s”取得配置信息，请授予权限。]]></string>
+    <string name="storage_isolation_enabled"><![CDATA[由“%s”控制。<br>您不应在此处更改设置，否则会出现问题。]]></string>
+    <string name="storage_isolation_not_running"><![CDATA[无法从“%s”取得配置信息。]]></string>
+    <string name="storage_isolation_install"><![CDATA[“%s”（由我们开发）可以提供更多高级控制。]]></string>
+    <string name="storage_isolation_requires_enhance_mode"><![CDATA[注意，“%s”需要运行于“增强模式”下。]]></string>
+    <string name="settings_integrations">集成</string>
+    <string name="settings_integrations_storage_isolation_summary">“%s”是我们的一个需要 root 的应用，它提供更多对于存储的高级控制。\n\n此选项可防止您尝试更改与存储相关的配置时误操作。</string>
+    <string name="working_mode_button_switch">切换到其他工作模式</string>
+    <string name="dpm_mode_error_app_not_installed"><![CDATA[要使用托管设备管理员模式，你需要安装其他应用并经历复杂的的设置过程（需要使用 adb 且不止需要一条指令）。设置过程只需进行一次。<p><b><a href="appops-client://help/dpm_mode">阅读帮助</a></b>了解如何操作。]]></string>
+    <string name="dpm_mode_error_no_permission"><![CDATA[缺失必要的权限，点击刷新重试。]]></string>
+    <string name="dpm_mode_error_no_get_appops_permission"><![CDATA[还需要使用 adb 授予必要的权限。<p><b><a href="appops-client://help/dpm_mode">阅读帮助</a></b>了解如何操作。]]></string>
+    <string name="user_name_owner">主用户</string>
+    <string name="user_name_work_profile">工作资料</string>
+    <string name="op_unknown_description"><![CDATA[此权限不包含于原生 Android（由你的设备制造商添加或是在新版本 Android 添加）。请谨慎。]]></string>
+    <string name="op_summary_unknown">来自设备制造商或是新版本 Android 系统</string>
+    <plurals name="include_system_apps_dialog_title">
+        <item quantity="other">包含 %d 个系统应用</item>
+    </plurals>
+    <string name="include_system_apps_dialog_message">错误操作重要系统应用可能带来难以挽回的问题，请务必谨慎。\n\n共有数个来自三星用户的无法开机的报告。</string>
+    <string name="include_system_apps_dialog_button_skip">跳过系统应用</string>
+    <string name="include_system_app_button_dialog_do_not_skip">不要跳过</string>
+    <string name="apply_template_dialog_create">创建新的模板…</string>
+    <string name="cannot_open_browser_dialog_title">无法启动浏览器</string>
+    <string name="dpm_mode">托管设备管理员模式</string>
+    <string name="dpm_mode_description"><![CDATA[
++ 可在无 root 设备上工作
+<br>+ 一次性设置
+<br><br>- 需要连接电脑（使用 adb）
+<br>- 需要安装特定的第三方应用
+<br>- 需要 Android 9 以上
+    ]]></string>
+    <string name="shizuku_mode">Shizuku 模式</string>
+    <string name="shizuku_mode_description"><![CDATA[
++ 在 root 和非 root 设备上均可工作
+<br>+ 非常快，资源消耗可忽略不计
+<br>+ 享受全部功能
+<br><br>- 需要安装一个开源应用（Shizuku）
+<br>- 对于非 root 设备，每次设备重新启动都需要通过电脑使用 adb 来启动 Shizuku
+<br>- 对于 Android 11 及以上设备，Shizuku 无需电脑即可启动
+    ]]></string>
+    <string name="shizuku_mode_error_manager_app_not_installed"><![CDATA[请先下载 Shizuku。
+<p>Shizuku 是一个从 2017 年开始的开源项目（请参阅 GitHub 上的 %s）。它旨在使多个需要 root 或 adb 的应用受益。不仅此应用，一些其他开发者的应用也在使用 Shizuku。
+<p>借助 Shizuku，此应用将获得难以置信的高速度和更多有趣的功能。对于 Shizuku 本身，电池或性能消耗可忽略不计（不使用时零消耗）。
+<p>就像 Unix 哲学，一个程序应该只做一件事。Shizuku 和此应用奉行这个理念。实际上，内置所有东西更像是“不良应用”所喜欢的。]]></string>
+    <string name="shizuku_mode_error_user_denied_permission"><![CDATA[您拒绝了此应用使用 Shizuku。<br>请在系统设置或 Shizuku 应用中授予权限。<p>如果您正在使用 MIUI，MIUI 破坏了 Android 的自定义权限机制，您只能从 Shizuku 应用中授权。]]></string>
+    <string name="shizuku_mode_error_not_running"><![CDATA[Shizuku 未在运行或是出现其他错误。<br>若 Shizuku 正在运行，请尝试强行停止此应用。]]></string>
+    <string name="shizuku_mode_error_version_too_low"><![CDATA[已安装的 Shizuku 版本过低，请安装最新版本的 Shizuzku（%s 或以上）。]]></string>
+    <string name="working_mode_title">工作模式：%s</string>
+    <string name="working_mode_choice">选择一个工作模式：</string>
+    <string name="working_mode_button_retry">重试</string>
+    <string name="working_mode_button_continue">继续</string>
+    <string name="settings_reselect_working_mode_title">重新选择工作模式</string>
+    <string name="settings_reselect_working_mode_summary">下次打开主页时重新选择工作模式</string>
+    <string name="settings_more">更多</string>
+    <string name="settings_send_data_summary">我们使用 Visual Studio App Center（来自 Microsoft）。\n\n根据 App Center SDK 源代码，只有应用版本、系统版本、设备型号、屏幕尺寸、语言、时区、运营商信息会被收集和发送。\n\n一个随机生成的安装 ID 被用于区分不同的设备。</string>
+    <string name="settings_analytics_title">发送使用数据</string>
+    <string name="settings_crash_report_title">发送错误报告</string>
+    <string name="settings_crash_report_summary">这将帮助我们更快地发现问题</string>
+    <string name="ad">广告</string>
+    <string name="ad_view_other_apps">看看其他由我们开发的应用</string>
+    <string name="dpm_mode_error_admin_not_setup"><![CDATA[管理员应用的设置可能未正确完成，请尝试重新打开管理员应用或重新启动设备。<p>如果此问题重复出现，请向管理员应用的开发者寻求帮助。]]></string>
+    <string name="dpm_mode_error_no_interact_across_users_permission"><![CDATA[在此工作模式下，要获得多用户支持，您还需要使用 adb 授予另一个权限。<b><a href="%1$s">阅读帮助</a></b>了解如何操作。<p>或者您可以简单地将此应用安装至工作资料。]]></string>
+    <string name="dpm_mode_error_no_multi_user_support"><![CDATA[您正在使用的管理应用似乎不支持多用户。<p>最简单的方法是将此应用安装到工作资料中。或者，您可以切换到 Shizuku 模式。]]></string>
+    <string name="dpm_mode_error_operation_not_supported"><![CDATA[此操作不被您正在使用的管理员应用支持。]]></string>
+    <string name="settings_theme_white_appbar">白色应用栏</string>
+    <string name="settings_theme_colored_appbar">彩色应用栏</string>
+    <string name="settings_theme_blue">蓝色</string>
+    <string name="settings_theme_deep_blue">深蓝色</string>
+    <string name="settings_theme_pink">粉色</string>
+    <string name="settings_theme_teal">蓝绿色</string>
+    <string name="settings_theme_purple">紫色</string>
+    <string name="settings_theme_cyan">青色</string>
+    <string name="settings_theme_green">绿色</string>
+    <string name="settings_theme_orange">橙色</string>
+    <string name="settings_theme_brown">棕色</string>
+    <string name="settings_theme_blue_grey">蓝灰色</string>
+    <string name="menu_badge_full_version">@string/full_version</string>
+    <string name="apps_view">应用视图</string>
+    <string name="permissions_view">权限视图</string>
+    <string name="toast_options_has_been_moved">一些选项搬家了。</string>
+    <string name="menu_badge_early_access">抢先体验</string>
+    <string name="clipboard_monitor">剪贴板监视器</string>
+    <string name="clipboard_monitor_access"><![CDATA[%1$s <b>%2$s</b>了剪贴板。]]></string>
+    <string name="clipboard_monitor_denied_access"><![CDATA[已阻止 %1$s <b>%2$s</b>剪贴板。]]></string>
+    <string name="clipboard_monitor_read">读取</string>
+    <string name="clipboard_monitor_write">写入</string>
+    <string name="clipboard_monitor_allow_for">允许 %d 秒</string>
+    <string name="clipboard_monitor_settings_toggle">启用剪贴板监视器</string>
+    <string name="clipboard_monitor_settings_toggle_summary">当应用访问剪贴板时收到提示</string>
+    <string name="clipboard_monitor_settings_note">如果您禁止应用使用剪贴板，则授予临时访问权限的“允许按钮”将显示在提示窗口中。\n\n注意，您在尝试复制或粘贴时也将收到提示（由您或应用进行的剪贴板访问在技术上相同）。</string>
+    <string name="clipboard_monitor_settings_permission">需要“%s”</string>
+    <string name="clipboard_monitor_settings_permission_summary">要显示可交互的窗口，此权限是必须的\n点按打开系统的权限页面</string>
+    <string name="requirements">需求</string>
+    <string name="requirement_android_version">需要的 Android 版本：%s</string>
+    <string name="requirement_working_mode">需要的工作模式：%s</string>
+    <string name="your_android_version">您的 Android 版本：%s</string>
+    <string name="your_working_mode">您的工作模式：%s</string>
+    <string name="shizuku_mode_over_root">Shizuku 模式（通过 root 启动）</string>
+    <string name="shizuku_mode_over_adb">Shizuku 模式（通过 adb 启动）</string>
+    <string name="shizuku_mode_shizuku_not_running">（Shizuku 未在运行）</string>
+    <string name="usage_history">使用情况历史</string>
+    <string name="clipboard_monitor_settings_window_position">提示窗口位置</string>
+    <string name="clipboard_monitor_settings_window_position_top">屏幕上方</string>
+    <string name="clipboard_monitor_settings_window_position_bottom">屏幕下方</string>
+    <string name="clipboard_monitor_settings_allow_timeout">临时访问时限</string>
+    <string name="clipboard_monitor_settings_allow_timeout_second">%s 秒</string>
+    <string name="comma">，</string>
+    <string name="quotation_marks">“%s”</string>
+    <string name="monitors_notification_summary">点按以查看通知选项。</string>
+    <string name="monitors_notification_title">正在使用%s</string>
+    <string name="clipboard_monitor_settings_excluded_apps">排除的应用</string>
+    <string name="clipboard_monitor_settings_excluded_apps_summary">选择不需要提示的应用</string>
+    <string name="usage_monitor">使用情况监视器</string>
+    <string name="usage_monitor_settings_toggle">启用使用情况监视器</string>
+    <string name="usage_monitor_settings_toggle_summary">当应用使用位置、相机或麦克风时收到提示</string>
+    <string name="usage_monitor_location">位置</string>
+    <string name="usage_monitor_camera">相机</string>
+    <string name="usage_monitor_microphone">麦克风</string>
+    <string name="usage_monitor_notification_title">“%1$s”正在使用%2$s</string>
+    <string name="usage_monitor_notification_text">包含 %1$s。</string>
+    <string name="auto_recovery">自动恢复</string>
+    <string name="auto_recovery_notification_channel_label">自动恢复状态</string>
+    <string name="auto_recovery_notification_title">正在恢复配置…</string>
+    <string name="auto_recovery_notification_waiting_title">等待恢复配置中…</string>
+    <string name="auto_recovery_notification_waiting_text">请完成“%1$s”的设置。</string>
+    <string name="auto_recovery_settings_toggle_title">启用自动恢复</string>
+    <string name="auto_recovery_settings_toggle_summary">自动恢复先前设置的“忽略”</string>
+    <string name="auto_recovery_settings_note">从 Android 10 起，在特定情况下，部分您设置的“忽略”会被系统重设。\n\n对于高度修改的系统（如 MIUI），此行为可能在更低版本出现。\n\n唯一的方法是在系统重设后再次重设。自动恢复工作时，您会看到一条通知。</string>
+    <string name="auto_recovery_settings_start_now_title">立刻开始恢复</string>
+    <string name="auto_recovery_settings_start_now_summary">可能有没有被考虑到的情况</string>
+    <string name="brackets">（%s）</string>
+    <string name="op_associated_with_runtime">除了“忽略”，其他选项与系统权限设置中的相同。</string>
+    <string name="op_associated_with_runtime_dpm">在“%1$s”下，由于系统限制，无法准确地取得当前状态。</string>
+    <string name="op_associated_with_runtime_dpm_unable_to_confirm">无法确认</string>
+    <string name="op_associated_with_runtime_r">在 Android 11 或更高版本上，系统仅允许“位置”、“摄像头”和“麦克风”使用%s。</string>
+    <string name="dpm_mode_error_outdated_admin"><![CDATA[
+目前的管理员应用 %1$s 尚未支持某些关键的功能。请升级您的管理员应用或要求管理员应用的开发者做出改变。
+<p><b>如果没有那些功能，在 Android 10 以上，您的部分设置可能实际上不起作用</b>。即使在较旧的系统上，在极少数情况下，这些功能仍然是必需的。
+<p>当前版本发布时，已知的具有必要支持的管理员应用（升级管理员应用后，您可能需要重新启动此应用）：
+<br>%2$s
+]]></string>
+    <string name="dpm_mode_error_outdated_admin_ignore">忽略这个问题</string>
+    <string name="op_associated_with_runtime_dpm_not_support"><![CDATA[
+当前的管理员应用 %1$s 尚未支持某些关键的功能。<b>您的设置在某些情况下可能不会生效</b>。
+<p>当前版本发布时，已知的具有必要支持的管理员应用（升级管理员应用后，您可能需要重新启动此应用）：
+<br>%2$s
+]]></string>
+    <string name="menu_working_mode">工作模式</string>
+    <string name="dpm_mode_error_timeout"><![CDATA[
+无法连接到管理员应用 %1$s。
+<p>系统可能阻止了该连接（在技术上称为绑定服务）。一加，小米，华为，三星等制造商极有可能限制绑定服务（即使应用确实符合 Android 的标准）。
+<p>请尝试为此应用和管理员应用 %1$s 禁用这些限制（后台行为限制）。您可以参考 %2$s。
+]]></string>
+    <string name="backup_create_backup_summary_system_components"><![CDATA[为了避免无法挽回的问题，<b>系统组件将不会被备份</b>。]]></string>
+    <string name="backup_creating_backup">创建备份中…</string>
+    <string name="backup_writing_file">写入文件中…</string>
+    <string name="backup_reading_file">读取文件中…</string>
+    <string name="backup_parsing_backup">处理备份中…</string>
+    <string name="backup_review">查看备份</string>
+    <string name="backup_review_description">此备份创建于运行 %2$s 的 %1$s。</string>
+    <string name="backup_review_description_from_newer_version">仅存在于新版本系统的部分（如果有）无法被查看或恢复。</string>
+    <plurals name="backup_review_apps_title">
+        <item quantity="other">来自 %2$s 的 %1$d 个应用</item>
+    </plurals>
+    <plurals name="backup_review_templates_title">
+        <item quantity="other">%1$d 个模板</item>
+    </plurals>
+    <string name="backup_review_action_dont_restore">不要恢复</string>
+    <string name="backup_review_action_restore_apps_to_user">恢复到 %s</string>
+    <string name="backup_review_action_restore_templates_add">作为新模板恢复</string>
+    <string name="backup_review_action_restore_templates_replace">清除所有模板并恢复</string>
+    <string name="backup_error_not_backup">此文件不是备份文件。</string>
+    <string name="backup_error_legacy_backup">注意，因为缺少必要的信息，在 %s 之前创建的备份不受支持。</string>
+    <string name="backup_error_newer_version">此文件可能是由较新版本的应用创建，请升级应用并重试。</string>
+    <string name="backup_error_broken">此文件可能已损坏。</string>
+    <string name="backup_error_open_input">无法打开文件。</string>
+    <string name="backup_error_open_output">无法保存文件。</string>
+    <string name="backup_error_io_exception">读取/写入时出现了问题。</string>
+    <string name="close">关闭</string>
+    <string name="working_mode_root_removed">Root 模式已被移除</string>
+    <string name="working_mode_root_removed_description"><![CDATA[
+旧版本的 App Ops 没有正确地遵循系统行为。例如，从 Android 10 开始，一旦您从系统更改了位置权限，App Ops 中的更改便永远不会生效。
+<p>要解决此问题，除了完全遵循系统别无选择。纯 root 不可能做到。
+<p>许多人认为 root 是万能的，但实际上 root 基本上仅提供在 Linux 世界中运行命令的能力。要进入 Android 世界，运行一些东西作为“桥梁”是必须的。“Shizuku”做了这部分工作，使用“Shizuku”可以减少资源使用。
+]]></string>
+    <string name="progress_format">%1$d/%2$d</string>
+    <string name="backup_restoring_backup">恢复备份中…</string>
+    <string name="auto_recovery_settings_ignore_title">忽略这个“问题”</string>
+    <string name="auto_recovery_settings_ignore_summary">如果您确定系统没有此问题（例如 Pixel 或类似 AOSP 的 ROM），请启用此选项，自动恢复选项将不再强制</string>
+    <string name="manufacturer_restriction_dialog_title">来自制造商的限制</string>
+    <string name="manufacturer_restriction_dialog_message"><![CDATA[
+许多制造商（主要来自中国大陆），包括但不限于一加，小米，华为，三星，默认情况下限制所有应用的后台行为。
+<p>制造商的限制通常设计粗劣。<b>对于遵循 Android 标准的应用，它们的限制不会节省更多电量，只会破坏应用的功能</b>。更可笑的是，这些制造商<b>通常有默认的包含大公司的应用的“允许列表”</b>。整个 Android 生态系统深受其害。
+<p>要使“%1$s”起作用，请禁用那些限制。您可以参考 %2$s。不用担心，它不会连续使用 CPU，此应用甚至不会出现在系统的电池使用量列表中。]]></string>
+    <string name="manufacturer_restriction_dialog_ignore">不再为“%s”提示</string>
+    <string name="clipboard_monitor_settings_excluded_system_apps">排除系统应用</string>
+    <string name="clipboard_monitor_settings_excluded_system_apps_summary">排除所有系统应用，无论单个选项如何</string>
+    <string name="op_added_by_others"><![CDATA[
+这个应用没有请求“%s”，只是请求的其他一些权限由它控制。
+]]></string>
+    <string name="menu_last_used_first">上次使用的优先</string>
+    <string name="menu_set_as">设置为</string>
+    <string name="shared_user_id_tip">此应用的 Shared user ID 是 %s，具有相同 Shared user ID 的应用共享大部分的权限。</string>
+    <string name="working_mode_button_download_format">下载 %s</string>
+    <string name="shizuku_mode_description_rooted"><![CDATA[
++ 享受全部功能
+<br><br>- 需要安装 Sui（Magisk 模块）或 Shizuku（应用），它们都是开源的
+    ]]></string>
+    <string name="shizuku_mode_error_user_denied_permission_sui"><![CDATA[
+您拒绝了此应用使用 Sui。
+<br>请在 Sui 中授予权限。
+]]></string>
+    <string name="shizuku_mode_error_manager_app_not_installed_rooted"><![CDATA[
+请先安装 Sui 或者 Shizuku。她们是一对拥有相同 API 设计的姐妹。
+<p>Sui 是一个 Magisk 模块。推荐已安装 Magisk 的设备使用。
+<p>Shizuku 是一个独立的 Android 应用。
+]]></string>
+    <string name="settings_use_system_color">使用系统主题颜色</string>
+
+</resources>

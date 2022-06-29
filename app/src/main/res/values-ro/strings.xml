@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="translators">freeman711</string>
+    <string name="working_mode_root_removed_description">Versiunile anterioare de App Ops nu au urmat corect comportamentul sistemului. De exemplu, incepand cu Android 10, odată ce ați schimbat permisiunea de localizare din setările sistemului, modificările din App Ops nu mai intrau în vigoare. &lt;p&gt;Pentru a rezolva această problemă, nu mai există altă opțiune decât a urma în totalitate setările sistemului. Doar cu root ar fi imposibil. &lt;p&gt;Majoritatea utilizatorilor cred că root este omnipotent, când de fapt doar permite rularea de comenzi Linux. În Android este necesară utilizarea de \"punți\", cum e Shizuku. Folosind Shizuku se reduce considerabil consumul de resurse.</string>
+    <string name="shizuku_mode_description">+ Funcționează cu dispozitive rootate și nerootate &lt;br&gt;+ Foarte rapid, consum de resurse neglijabil &lt;br&gt;+ Funcționalitate completă&lt;br&gt;&lt;br&gt;- Este necesară instalarea unei aplicații open-source (Shizuku) &lt;br&gt;- Pentru dispozitive nerootate este necesară pornirea manuală a aplicației Shizuku, prin adb de pe un calculator, de fiecare dată când reporniți dispozitivul&lt;br&gt;- Pentru dispozitive cu Android 11+, Shizuku poate fi pornit fără calculator</string>
+    <string name="dpm_mode">Mod de administrare delegată a dispozitivului</string>
+    <string name="shizuku_mode_error_version_too_low">Versiunea de Shizuku pe care o aveți instalată este învechită. Vă rugăm descărcați ultima versiune de Shizuku (%s sau mai nou).</string>
+    <string name="shizuku_mode_error_not_running">Shizuku este oprit ori există alte erori. &lt;br&gt;Dacă Shizuku rulează, vă rugăm opriți forțat aceasta aplicație.</string>
+    <string name="shizuku_mode_error_user_denied_permission">Ai blocat accesul acestei aplicații la Shizuku. &lt;br&gt;Vă rugăm permiteți acest acces al aplicaței în setările sistemului sau în Shizuku. &lt;p&gt;În dispozitivele cu MIUI, există o problemă în mecanismul de personalizare a permisiunilor și se poate permite accesul doar din Shizuku.</string>
+    <string name="shizuku_mode_error_user_denied_permission_sui">Ai blocat accesul acestei aplicații la Sui. &lt;br&gt;Vă rugăm permiteți accesul acestei aplicații în Sui.</string>
+    <string name="shizuku_mode_error_manager_app_not_installed_rooted">Vă rugăm instalați mai întâi Sui sau Shizuku. Sui este un modul pentru Magisk (recomandat pentru dispozitivele cu Magisk instalat), iar Shizuku este o aplicație autonomă. Acestea folosesc aceleași API.</string>
+    <string name="shizuku_mode_error_manager_app_not_installed">Vă rugăm instalați mai întâi Shizuku. &lt;p&gt;Shizuku este un proiect open-source începând din 2017 (vezi %s pe GitHub). Este conceput pentru a servi multor aplicații care au nevoie de root sau adb. Nu doar această aplicație, ci și aplicații ale altor dezvoltatori, folosesc Shizuku. &lt;p&gt;Cu Shizuku, această aplicație va rula incredibil de rapid și va avea multe funcții interesante. Pentru Shizuku, consumul bateriei sau al resurselor este neglijabil (zero când nu este folosit). &lt;p&gt;Inspirat din filozofia Unixului, un program ar trebui să facă doar o singură treabă. De fapt, \"aplicațiile rele\" au totul integrat.</string>
+    <string name="shizuku_mode_description_rooted">+ Funcționalitate completă &lt;br&gt;&lt;br&gt;- Este necesară instalarea modulului Sui (în Magisk) sau a aplicației Shizuku, ambele sunt open-source</string>
+    <string name="shizuku_mode_shizuku_not_running">(Shizuku este oprit)</string>
+    <string name="shizuku_mode_over_adb">Modul Shizuku (pornit prin adb)</string>
+    <string name="shizuku_mode_over_root">Modul Shizuku (pornit prin root)</string>
+    <string name="shizuku_mode">Modul Shizuku</string>
+    <string name="working_mode_root_removed">Modul root a fost eliminat</string>
+    <string name="working_mode_button_open">Deschide %s</string>
+    <string name="working_mode_button_download_format">Descarcă %s</string>
+    <string name="working_mode_button_download">Descarcă</string>
+    <string name="working_mode_button_switch">Schimbă modul de lucru</string>
+    <string name="working_mode_button_continue">Continuă</string>
+    <string name="working_mode_button_retry">Încearcă din nou</string>
+    <string name="working_mode_choice">Alegeți un mod de lucru:</string>
+    <string name="working_mode_title">Mod de lucru: %s</string>
+</resources>

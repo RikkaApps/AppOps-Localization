@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="op_label">14sp</dimen>
+    <dimen name="dialog_op_name">16sp</dimen>
+    <dimen name="line_space">1sp</dimen>
+
+</resources>

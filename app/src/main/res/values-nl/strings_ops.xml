@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="op_name_LOCK_APP">app blokkeren</string>
+    <string name="op_name_SU">root toegang verkrijgen</string>
+    <string name="op_name_TURN_ON_SCREEN">scherm aanzetten</string>
+    <string name="op_name_WRITE_EXTERNAL_STORAGE">opslag schrijven</string>
+    <string name="op_name_READ_EXTERNAL_STORAGE">opslag lezen</string>
+    <string name="op_name_MOCK_LOCATION">nep locatie</string>
+    <string name="op_name_BODY_SENSORS">lichaam sensors</string>
+    <string name="op_name_USE_FINGERPRINT">vingerafdruk</string>
+    <string name="op_name_ACTIVATE_VPN">VPN activeren</string>
+    <string name="op_name_WAKE_LOCK">wakker houden</string>
+    <string name="op_name_AUDIO_BLUETOOTH_VOLUME">bluetooth volume</string>
+    <string name="op_name_AUDIO_NOTIFICATION_VOLUME">notificatie volume</string>
+    <string name="op_name_AUDIO_VOICE_VOLUME">stem volume</string>
+    <string name="op_name_WRITE_CLIPBOARD">klembord aanpassen</string>
+    <string name="op_name_READ_CLIPBOARD">klembord lezen</string>
+    <string name="op_name_PLAY_AUDIO">geluid afspelen</string>
+    <string name="op_name_RECORD_AUDIO">geluid opnemen</string>
+    <string name="op_name_CAMERA">camera</string>
+    <string name="op_name_WRITE_SETTINGS">systeeminstellingen aanpassen</string>
+    <string name="op_name_SEND_SMS">SMS verzenden</string>
+    <string name="op_name_RECEIVE_MMS">MMS ontvangen</string>
+    <string name="op_name_RECEIVE_SMS">SMS ontvangen</string>
+    <string name="op_name_WRITE_SMS">SMS schrijven</string>
+    <string name="op_name_READ_SMS">SMS lezen</string>
+    <string name="op_name_CALL_PHONE">bellen</string>
+    <string name="op_name_POST_NOTIFICATION">notificatie</string>
+    <string name="op_name_WIFI_SCAN">wi-fi scannen</string>
+    <string name="op_name_WRITE_CALENDAR">Kalender aanpassen</string>
+    <string name="op_name_READ_CALENDAR">Kalender lezen</string>
+    <string name="op_name_WRITE_CONTACTS">contacten aanpassen</string>
+    <string name="op_name_READ_CONTACTS">contacten lezen</string>
+    <string name="op_name_VIBRATE">Trillen</string>
+    <string name="op_name_GPS">GPS</string>
+</resources>

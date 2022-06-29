@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="shizuku_mode_over_adb">Shizuku ռեժիմ (բեռնվում է adb-ով)</string>
+    <string name="shizuku_mode_over_root">Shizuku ռեժիմ (բեռնվում է root-ով)</string>
+    <string name="shizuku_mode">Shizuku ռեժիմ</string>
+    <string name="working_mode_root_removed_description">Ավելի հին App Ops-ի փոփոխակները ճիշտ չէին աշխատում։ Օրինակ` Android 10-ից սկսած, եթե դուք համակարգից փոխեք Ձեր տեղակայման իմանալու թույլտվությունը, App Ops-ը այդ փոփոխության մասին չէր իմանում։ &lt;p&gt;Այս խնդիրը լուծելու համար համակարգին հետևելու բացի ուրիշ տարբերակ չկա։ Սա հնարավոր չէ root-ով։ &lt;p&gt;Լիքը մարդիկ մտածում են, թե root-ը հզոր մի բան է, բայց իրականում այն Linux-ի հրահանգներ տալու միջոց է, որպեսզի Android-ին կառավարել, պետք է կառուցել «կամուրջ«։ «Shizuku»-ն այս աշխատանքի մի մասը անում է։ «Shizuku»-ի օգտագործումը բերում է ավելի քիչ ռեսուրսների օգտագործման։</string>
+    <string name="working_mode_root_removed">Root-ի ռեժիմը ջնջվեց</string>
+    <string name="working_mode_button_open">Բացել «%s»-ը</string>
+    <string name="working_mode_button_retry">Ընտրել նորից</string>
+    <string name="working_mode_button_download">Ներբեռնել</string>
+    <string name="working_mode_button_switch">Ընտրել ուրիշ աշխատելու ձև</string>
+    <string name="working_mode_button_continue">Շարունակել</string>
+    <string name="working_mode_choice">Ընտրեք աշխատանքի ձև.</string>
+    <string name="working_mode_title">Աշխատանքի ձև. %s</string>
+    <string name="translators">Tigran Khachatryan</string>
+</resources>

@@ -1,0 +1,489 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Translator names -->
+    <string name="translators"><![CDATA[
+]]></string>
+
+    <string name="working_mode_title">Working mode: %s</string>
+    <string name="working_mode_choice">Choose a working mode:</string>
+    <string name="working_mode_button_retry">Retry</string>
+    <string name="working_mode_button_continue">Continue</string>
+    <string name="working_mode_button_switch">Switch to another working mode</string>
+    <string name="working_mode_button_download">Download</string>
+    <string name="working_mode_button_download_format">Download %s</string>
+    <string name="working_mode_button_open">Open %s</string>
+    <string name="working_mode_root_removed">Root mode has been removed</string>
+    <string name="working_mode_root_removed_description"><![CDATA[
+The older versions of App Ops didn\'t follow system behavior correctly. For example, starting from Android 10, once you have changed location permission from the system, changes in App Ops never take effect.
+<p>To solve this problem, there is no choice but to completely follow the system. This is impossible with pure root.
+<p>Many people think that root is omnipotent, but in fact root basically only provides the capability to run commands in the Linux world. To enter the Android world, run something as \"a bridge\" is a must. \"Shizuku\" does this part of the job. Use \"Shizuku\" can reduce resource usage.
+]]></string>
+    <!-- "Shizuku" is a noun, DO NOT translate it -->
+    <string name="shizuku_mode">Shizuku mode</string>
+    <string name="shizuku_mode_over_root">Shizuku mode (started via root)</string>
+    <string name="shizuku_mode_over_adb">Shizuku mode (started via adb)</string>
+    <string name="shizuku_mode_shizuku_not_running">(Shizuku is not running)</string>
+    <string name="shizuku_mode_description"><![CDATA[
++ Works both root and non-root devices
+<br>+ Very fast, with negligible resource consumption
+<br>+ Enjoy full functionality
+<br><br>- Requires to install an open-source app (Shizuku)
+<br>- For non-root devices, every time of the reboot, it\'s required to start Shizuku using adb with computer
+<br>- For devices running Android 11 or above, Shizuku can be started without computer
+    ]]></string>
+    <string name="shizuku_mode_description_rooted"><![CDATA[
++ Enjoy full functionality
+<br><br>- Requires to install Sui (a Magisk module) or Shizuku (an application), both of them are open-sourced
+    ]]></string>
+    <string name="shizuku_mode_error_manager_app_not_installed"><![CDATA[Please install Shizuku first.
+<p>Shizuku is an open-source project starting from 2017 (see %s at GitHub). It is designed to benefit multiple apps that require root or adb. Not only this app, but also some apps from other developers are using Shizuku.
+<p>With Shizuku, this app will get incredibly high speed and more interesting features. For Shizuku itself, the battery or performance consumption is negligible (zero when not used).
+<p>Like the Unix philosophy, one program should only do one job. Shizuku and this app pursue this philosophy. In fact, build-in everything is more like what \"bad apps\" like to do.]]></string>
+    <string name="shizuku_mode_error_manager_app_not_installed_rooted"><![CDATA[
+Please install Sui or Shizuku first. They are twin sisters which shares the same API design.
+<p>Sui is a Magisk module. Recommended for devices with Magisk installed.
+<p>Shizuku is a standalone Android application.
+]]></string>
+    <string name="shizuku_mode_error_user_denied_permission_sui"><![CDATA[
+You have disallowed this app to use Sui.
+<br>Please grant the permission to this app in Sui.
+]]></string>
+    <string name="shizuku_mode_error_user_denied_permission"><![CDATA[You have disallowed this app to use Shizuku.
+<br>Please grant the permission to this app in system settings or Shizuku app.
+<p>If you are using MIUI, MIUI breaks custom permission mechanism of Android, you can only grant the permission from Shizuku app.]]></string>
+    <string name="shizuku_mode_error_not_running"><![CDATA[Shizuku is not running or there are other errors.
+<br>If Shizuku is running, please try to force stop this app.]]></string>
+    <string name="shizuku_mode_error_version_too_low"><![CDATA[The version of installed Shizuku is too low, please download the latest version of Shizuzku (%s or above).]]></string>
+    <string name="shizuku_mode_error_adb_no_update_permission"><![CDATA[ADB only have get appops but no update appops permission.
+<br>Please try looking for a option like "Allow modify permission" in system\'s "Developer options".
+<p><small>For example, in MIUI, the option is "USB debugging (security options)".</small>]]></string>
+
+    <string name="dpm_mode">Delegated Device Admin mode</string>
+    <string name="dpm_mode_description"><![CDATA[
++ Works on non-root devices
+<br>+ One-time setup
+<br><br>- Requires computer connection (use adb)
+<br>- Requires to install a specific third-party app
+<br>- Requires Android 9 or above
+    ]]></string>
+    <string name="dpm_mode_error_admin_not_setup"><![CDATA[The setup of the admin app may not be completed correctly, please try reopen the admin app or reboot the device.<p>If this problem occurs repeatedly, please ask the developer of the admin app for help.]]></string>
+    <string name="dpm_mode_error_no_interact_across_users_permission"><![CDATA[Under this working mode, for multi-user support, you also need to use adb to grant another permission.
+<b><a href="%1$s">Read help</a></b> to learn how to do this
+.<p>Or you can simply install this app into the work profile.]]></string>
+    <string name="dpm_mode_error_no_multi_user_support"><![CDATA[It seems that the admin app you are using does not support multi-user.
+<p>The simplest way is to install this app into the work profile. Or you can switch to Shizuku mode.]]></string>
+    <string name="dpm_mode_error_operation_not_supported"><![CDATA[This operation is not supported by the admin app you are using.]]></string>
+    <string name="dpm_mode_error_app_not_installed"><![CDATA[To use Delegated Device Admin mode, you need to install another app and go through a complicated setup process (requires adb with more than one line of command). The setup process only needs to be done once.
+<p><b><a href="appops-client://help/dpm_mode">Read help</a></b> to learn how to do this.]]></string>
+    <string name="dpm_mode_error_no_permission"><![CDATA[Missing necessary permissions, tap Refresh to try again.]]></string>
+    <string name="dpm_mode_error_no_get_appops_permission"><![CDATA[You also need to use adb to grant the necessary permission.
+<p><b><a href="appops-client://help/dpm_mode">Read help</a></b> to learn how to do this.]]></string>
+    <string name="dpm_mode_error_outdated_admin"><![CDATA[
+The current admin app, %1$s, haven\'t supported some critical functions yet. Please upgrade your admin app or ask the developer of the admin app to make changes.
+<p><b>Without those functions, on Android 10 or above, sometimes your settings may not actually work</b>. Even on older systems, those functions are still necessary in rare cases.
+<p>When the current version was released, the known Admin apps with the necessary support (you may have to restart this app after upgrading the admin app):
+<br>%2$s
+]]></string>
+    <string name="dpm_mode_error_outdated_admin_ignore">Ignore this problem</string>
+    <string name="dpm_mode_error_timeout"><![CDATA[
+Cannot connect to the admin app %1$s.
+<p>The connection (called bound service in technical) may be blocked by your system. It is highly possible that manufacturers like OnePlus, Xiaomi, Huawei, Samsung restrict bound service (even if the app does meet Android\'s standard).
+<p>Please try to disable these restrictions (background behavior restrictions) for both this app and the admin app %1$s. You can refer to %2$s.
+]]></string>
+
+    <string name="progress_requesting_authorization">Requesting for authorization…</string>
+    <string name="progress_checking_availability">Checking availability…</string>
+    <string name="progress_fetching_user_list">Fetching user list…</string>
+    <string name="progress_fetching_app_list">Fetching app list…</string>
+    <!-- %1$s, $2$s -> number (example: 1 of 100) -->
+    <string name="progress_working">Working (%1$d of %2$d)…</string>
+
+    <string name="menu_reset">Reset</string>
+    <string name="menu_app_info">App info</string>
+    <string name="menu_show_app_info_in">Show app info in…</string>
+    <string name="menu_show_system">Show system apps</string>
+    <string name="menu_sort_by_updated_time">By update time</string>
+    <string name="menu_sort_by_install_time">By installation time</string>
+    <string name="menu_search">Search</string>
+    <string name="menu_contact">Contact developer</string>
+    <string name="menu_sort">Sort</string>
+    <string name="menu_save">Save</string>
+    <string name="menu_apply_template">Apply template</string>
+    <string name="menu_show_detail">Show detail</string>
+    <string name="menu_select_all">Select all</string>
+    <string name="menu_select_inverse">Select inverse</string>
+    <string name="menu_copy_info">Copy info</string>
+    <string name="menu_more">More options</string>
+    <string name="menu_changelog">Changelog</string>
+    <string name="menu_help">Help &amp; support</string>
+    <string name="menu_sort_by_app_name">By app name</string>
+    <string name="menu_show_framework">Show system framework apps</string>
+    <string name="menu_view_options">View options</string>
+    <string name="menu_options">Options</string>
+    <string name="menu_delete">Delete</string>
+    <string name="menu_disabled_first">Disabled first</string>
+    <string name="menu_last_used_first">Last used first</string>
+    <string name="menu_users">Users</string>
+    <string name="menu_about">About</string>
+    <string name="menu_set_as">Set as</string>
+    <string name="menu_working_mode">Working mode</string>
+    <!-- Displayed in the navigation drawer, must be short -->
+    <string name="menu_badge_full_version">Full</string>
+    <!-- Displayed in the navigation drawer, must be short -->
+    <string name="menu_badge_early_access">Early access</string>
+
+    <string name="button_discard">Discard</string>
+    <string name="button_authorize">Authorize</string>
+    <string name="button_learn_more">Learn more</string>
+
+    <!-- %1$s -> version name (example: version 1.0) -->
+    <string name="app_detail_version">version %1$s</string>
+
+    <string name="apps_view">Apps view</string>
+    <plurals name="app_view_item_modified">
+        <item quantity="one">%d item modified</item>
+        <item quantity="other">%d items modified</item>
+    </plurals>
+    <string name="app_view_item_not_modified">Not modified</string>
+    <string name="system_app">System app</string>
+
+    <string name="permissions_view">Permissions view</string>
+    <string name="permissions_view_summary">List apps by permission and manage them clearly.</string>
+    <string name="permissions_view_preset">Preset combination</string>
+    <string name="permissions_view_all">All</string>
+    <plurals name="permissions_view_item_summary">
+        <item quantity="one">%1$d app</item>
+        <item quantity="other">%1$d apps</item>
+    </plurals>
+    <plurals name="permissions_view_item_summary_controlled_by_other">
+        <item quantity="one">%2$d app, controlled by %1$s</item>
+        <item quantity="other">%2$d apps, controlled by %1$s</item>
+    </plurals>
+
+    <string name="system_app_warning">This is a system application, change settings may cause serious problems.</string>
+    <string name="multi_selection_tip">You can tap the icon left or long press to enter multiple selection mode to operate quickly.</string>
+    <string name="shared_user_id_tip">The Shared user ID for this application is %s, and applications with the same Shared user ID share most of the permissions.</string>
+
+    <!-- %1$s -> app name, %2$s -> user name (example: ExampleApp (Primary user)) -->
+    <string name="app_name_multi_user">%1$s (%2$s)</string>
+
+    <string name="permission_group_body_sensor">Body sensor</string>
+    <string name="permission_group_phone">Phone</string>
+    <string name="permission_group_sms">SMS</string>
+    <string name="permission_group_contacts">Contacts</string>
+    <string name="permission_group_camera">Camera</string>
+    <string name="permission_group_location">Location</string>
+    <string name="permission_group_calender">Calendar</string>
+    <string name="permission_group_microphone">Microphone</string>
+    <string name="permission_group_storage">Storage</string>
+    <string name="permission_group_other">Other</string>
+
+    <string name="op_mode_allow">Allow</string>
+    <string name="op_mode_ignore">Ignore</string>
+    <string name="op_mode_ignore_description_others">The app will get empty data or the operation will not be performed</string>
+    <string name="op_mode_ignore_description_runtime">\"Grant\" the permission for the app, but the app will get empty data or the operation will not be performed</string>
+    <string name="op_mode_ignore_may_not_work_under_dpm_mode">Under %1$s, \"%2$s\" may not work</string>
+    <string name="op_mode_deny">Deny</string>
+    <string name="op_mode_deny_crash">Deny (may crash the app)</string>
+    <string name="op_mode_default">Default</string>
+    <string name="op_mode_foreground">Allow only while using the app</string>
+    <string name="op_mode_onetime">Ask every time</string>
+    <string name="op_mode_unspecified">Not yet set</string>
+    <string name="op_mode_unknown">Unknown (%1$d)</string>
+    <string name="op_mode_default_description"><![CDATA[\"Default\" means controlled by settings that can be found in <b><a href="%1$s">system settings</a></b> or <b><a href="%2$s">app info</a></b>.]]></string>
+    <string name="op_run_in_background_mode_none">No restriction</string>
+    <string name="op_run_in_background_mode_basic">Basic restriction</string>
+    <string name="op_run_in_background_mode_strict">Strict restriction</string>
+
+    <string name="op_associated_with_runtime">Except for \"Ignore\", the other options are the same as those in the system permission settings.</string>
+    <string name="op_associated_with_runtime_r">On Android 11 or above, the system only allows \"location\", \"camera\" and \"microphone\" to use %1$s.</string>
+
+    <!--%1$s -> Delegated Device Admin mode-->
+    <string name="op_associated_with_runtime_dpm">Under \"%1$s\", due to system limitations, the current status cannot be accurately obtained.</string>
+    <string name="op_associated_with_runtime_dpm_not_support"><![CDATA[
+The current admin app, %1$s, haven\'t support some critical functions yet. <b>Your settings may not take effect in some cases</b>.
+<p>When the current version was released, the known Admin apps with the necessary support (you may have to restart this app after upgrading the admin app):
+<br>%2$s
+]]></string>
+    <string name="op_associated_with_runtime_dpm_unable_to_confirm">unable to confirm</string>
+
+    <string name="op_added_by_others"><![CDATA[
+This app does not request for \"%s\", but some other requested permissions are controlled by it.
+]]></string>
+
+    <string name="op_summary_controlled_by_other">Controlled by \"%s\"</string>
+    <string name="op_summary_control_others">Only used to controls others</string>
+    <string name="op_summary_unknown">From device manufacturer or newer Android system</string>
+
+    <string name="op_unknown_description"><![CDATA[This permission is not included in stock Android (added by your device manufacture or added in newer Android version). Please be careful.]]></string>
+    <string name="op_run_in_background_description"><![CDATA[This app will subject to different restrictions at different levels. The higher level the better effect, and the more app behaviors may be affected.]]></string>
+    <string name="op_run_in_background_description_26"><![CDATA[The target API level of this app is %1$d (Android 8.0, 26 or above). This app has been restricted by at least Android 8 level restriction, so you can only choose whether to enforce the restriction of Android 9+ or not.]]></string>
+    <string name="op_run_in_background_description_learn_more"><![CDATA[<b><a href="%1$s">Learn more technical information</a></b>]]></string>
+
+    <string name="op_allow_time">allowed %1$s</string>
+    <string name="op_reject_time">rejected %1$s</string>
+    <string name="op_never_used">(never used)</string>
+
+    <string name="reset_settings_dialog_title">Reset all settings to system default?</string>
+    <string name="reset_settings_dialog_message">This will set permission settings of this app to system default state.</string>
+
+    <string name="do_not_show_again">Do not show again</string>
+    <string name="do_not_show_again_dialog_message">Are you sure you don\'t want to see this tip again?</string>
+
+    <string name="requirements">Requirements</string>
+    <string name="requirement_android_version">Required Android version: %s</string>
+    <string name="requirement_working_mode">Required working mode: %s</string>
+    <string name="your_android_version">Your Android version: %s</string>
+    <string name="your_working_mode">Your working mode: %s</string>
+
+    <string name="clipboard_monitor">Clipboard monitor</string>
+    <!-- %1$s -> app name, %2$s -> "read" or "write" (example: ExampleAll read the clipboard) -->
+    <string name="clipboard_monitor_access"><![CDATA[%1$s <b>%2$s</b> the clipboard.]]></string>
+    <!-- %1$s -> app name, %2$s -> "read" or "write" (example: Denied ExampleAll to read the clipboard) -->
+    <string name="clipboard_monitor_denied_access"><![CDATA[Denied %1$s to <b>%2$s</b> the clipboard.]]></string>
+
+    <!-- TODO -->
+    <string name="clipboard_monitor_read">read</string>
+    <string name="clipboard_monitor_write">write</string>
+    <!-- %d -> a number (example: Allow for 5s) -->
+    <string name="clipboard_monitor_allow_for">Allow for %ds</string>
+    <string name="clipboard_monitor_settings_toggle">Enable clipboard monitor</string>
+    <string name="clipboard_monitor_settings_toggle_summary">Get notified when apps are accessing the clipboard</string>
+    <string name="clipboard_monitor_settings_note">If you disallow apps to use the clipboard, the \"allow button\" to give temporary access will show in the prompt window.\n\nNote that you will also be notified when you are trying to copy or paste (clipboard accesses by you or the app are technically same).</string>
+    <string name="clipboard_monitor_settings_permission">Requires \"%s\"</string>
+    <string name="clipboard_monitor_settings_permission_summary">To display interactive window, this permission is a must\nTap to open the permission page of system</string>
+    <string name="clipboard_monitor_settings_window_position">Prompt window position</string>
+    <string name="clipboard_monitor_settings_window_position_top">Top of the screen</string>
+    <string name="clipboard_monitor_settings_window_position_bottom">Bottom of the screen</string>
+    <string name="clipboard_monitor_settings_allow_timeout">Temporary access time</string>
+    <string name="clipboard_monitor_settings_allow_timeout_second">%s seconds</string>
+    <string name="clipboard_monitor_settings_excluded_apps">Excluded apps</string>
+    <string name="clipboard_monitor_settings_excluded_apps_summary">Choose apps that don\'t require prompts</string>
+    <string name="clipboard_monitor_settings_excluded_system_apps">Excluded system apps</string>
+    <string name="clipboard_monitor_settings_excluded_system_apps_summary">Exclude all system apps regardless of the individual options</string>
+
+    <string name="usage_monitor">Usage monitor</string>
+    <string name="usage_monitor_settings_toggle">Enable Usage monitor</string>
+    <string name="usage_monitor_settings_toggle_summary">Get notified when apps are using location, camera or microphone</string>
+    <string name="usage_monitor_location">location</string>
+    <string name="usage_monitor_camera">camera</string>
+    <string name="usage_monitor_microphone">microphone</string>
+    <string name="usage_monitor_notification_title">\"%1$s\" is using %2$s</string>
+    <string name="usage_monitor_notification_text">Includes %1$s.</string>
+
+    <string name="usage_history">Usage history</string>
+
+    <string name="template">Template</string>
+    <string name="template_summary">Predefine a list of permissions setting and apply them by one tap.</string>
+    <string name="template_description"><![CDATA[You create templates to apply quickly.<p>If you have \"%2$s\" enabled in \"%1$s\", you will need to set a default template (three-dot menu - %3$s).]]></string>
+    <string name="template_default">Default</string>
+    <string name="template_create">Create template…</string>
+    <plurals name="template_item_summary">
+        <item quantity="one">%1$d item</item>
+        <item quantity="other">%1$d items</item>
+    </plurals>
+    <string name="template_default_title">Untitled</string>
+    <string name="template_default_title_copy">%s - Copy</string>
+    <string name="template_menu_set_as_default">Set as default</string>
+    <string name="template_menu_create_copy">Create copy</string>
+    <string name="template_dialog_delete_message">Are you sure you want to delete this template?</string>
+    <string name="template_edit">Edit template</string>
+    <string name="template_edit_title_for_create">Create template</string>
+    <string name="template_edit_title">Title</string>
+    <string name="template_edit_dialog_not_saved_message">You have made some changes, save?</string>
+
+    <plurals name="include_system_apps_dialog_title">
+        <item quantity="other">Include %d system apps</item>
+        <item quantity="one">Include %d system app</item>
+    </plurals>
+    <string name="include_system_apps_dialog_message">Incorrect operations to important system apps can cause irreversible problems. Be cautious.\n\nThere are several unable to boot reports from Samsung users.</string>
+    <string name="include_system_apps_dialog_button_skip">Skip system apps</string>
+    <string name="include_system_app_button_dialog_do_not_skip">Don\'t skip</string>
+
+    <string name="apply_template_dialog_create">Create new template…</string>
+
+    <string name="new_app_behavior">New app behavior</string>
+    <string name="new_app_behavior_summary">Behaviors when new app got installed, such as show a notification or apply template automatically.</string>
+    <string name="new_app_behavior_notification_tap_to_set">Tap to set the permission of this app.</string>
+    <string name="new_app_behavior_notification_tap_to_open">Tap to open app.</string>
+    <string name="new_app_behavior_notification_app_installed">%1$s installed</string>
+    <string name="new_app_behavior_notification_applied_template">Template applied for %1$s.</string>
+    <string name="new_app_behavior_notification_applying_template">Applying template…</string>
+    <string name="new_app_behavior_notification_apply_template_failed">Apply template failed.</string>
+    <string name="new_app_behavior_notification_action_open_app">Open app</string>
+    <string name="new_app_behavior_notification_action_detail_settings">Detail settings</string>
+    <string name="new_app_behavior_notification_action_restore_backup">Restore backup</string>
+    <string name="new_app_behavior_notification_channel_label">New app installed</string>
+    <string name="new_app_behavior_settings_show_notification">Show notification</string>
+    <string name="new_app_behavior_settings_switch_button">Switch button</string>
+    <string name="new_app_behavior_settings_switch_button_summary">Tap the notification to open app directly rather than open settings</string>
+    <string name="new_app_behavior_settings_notification_style">Notification style</string>
+    <string name="new_app_behavior_settings_restore_backup">Restore backup automatically if exists</string>
+    <string name="new_app_behavior_settings_restore_backup_summary">Backup can come from previous configuration or from manually backup file</string>
+    <string name="new_app_behavior_settings_apply_template">Apply template automatically</string>
+    <string name="new_app_behavior_settings_apply_template_summary">If \"Restore backup\" is enabled, this option will only in effect when backup not existed</string>
+
+    <string name="backup_and_restore">Backup and restore</string>
+    <string name="backup_and_restore_summary">Backup your settings and restore them when you have a new device or clear your data.</string>
+    <string name="backup_restore">Restore</string>
+    <string name="backup_create_backup">Create a new backup file</string>
+    <string name="backup_create_backup_summary"><![CDATA[Backup current settings of installed apps into a file (Internal storage, Google Drive, etc).]]></string>
+    <string name="backup_create_backup_summary_system_components"><![CDATA[To avoid irreparable problems, <b>system components will not be backup</b>.]]></string>
+    <string name="backup_restore_backup">Restore from backup file</string>
+    <string name="backup_restore_backup_summary"><![CDATA[Restore settings for <b>installed apps</b>.<br>To <b>apps not yet installed</b>, the configuration will be restored automatically (require enabled in "New app").]]></string>
+    <string name="backup_open_backup">Open backup file</string>
+    <string name="backup_open_backup_summary"><![CDATA[View the content of saved backup file.]]></string>
+    <string name="backup_preview">Backup preview</string>
+    <string name="backup_not_installed">%1$s (not installed)</string>
+    <string name="backup_notification_restored">Backup restored for %1$s.</string>
+    <string name="backup_notification_restoring">Restoring backup…</string>
+    <string name="backup_notification_restore_failed">Restore backup failed</string>
+    <string name="backup_creating_backup">Creating backup…</string>
+    <string name="backup_writing_file">Writing file…</string>
+    <string name="backup_reading_file">Reading file…</string>
+    <string name="backup_parsing_backup">Parsing backup…</string>
+    <string name="backup_restoring_backup">Restoring backup…</string>
+
+    <string name="backup_review">Review the backup</string>
+    <string name="backup_review_description">This backup was created on %1$s running %2$s.</string>
+    <string name="backup_review_description_from_newer_version">The part (if any) only exists in the new version of the system cannot be viewed or restored.</string>
+    <plurals name="backup_review_apps_title">
+        <item quantity="one">%1$d app from %2$s</item>
+        <item quantity="other">%1$d apps from %2$s</item>
+    </plurals>
+    <plurals name="backup_review_templates_title">
+        <item quantity="one">%1$d template</item>
+        <item quantity="other">%1$d templates</item>
+    </plurals>
+    <string name="backup_review_action_dont_restore">Don\'t restore</string>
+    <string name="backup_review_action_restore_apps_to_user">Restore to %s</string>
+    <string name="backup_review_action_restore_templates_add">Restore as new templates</string>
+    <string name="backup_review_action_restore_templates_replace">Clear all templates and restore</string>
+
+    <string name="backup_error_not_backup">This file is not a backup file.</string>
+    <string name="backup_error_legacy_backup">Note, backups created before %s is not supported because of the lack of necessary information.</string>
+    <string name="backup_error_newer_version">This file may be created by a newer version of the app, please upgrade the app and try again.</string>
+    <string name="backup_error_broken">This file may be corrupted.</string>
+    <string name="backup_error_open_input">Cannot open the file.</string>
+    <string name="backup_error_open_output">Cannot write the file.</string>
+    <string name="backup_error_io_exception">Something went wrong when read/write the file.</string>
+
+    <string name="no_files_app_dialog_title">Unable to start Files app</string>
+    <string name="no_files_app_dialog_message">Files (or Documents, com.android.documentsui) app is a system app, also an important part of Android system. It\'s ridiculous that your device\'s vendor (or you) has disabled (or even deleted) it.\nPlease open settings and enable it.</string>
+    <string name="no_files_app_dialog_open_settings">Open Settings</string>
+    <string name="no_files_app_open_failed">Unable to open App info of Files app.</string>
+
+    <string name="all_op_title">All permissions</string>
+    <string name="all_op_summary">View all permissions (operation) supported by your system</string>
+    <string name="all_op_header"><![CDATA[The following are all permissions supported by your system (in fact, not the real permission, please refer to the help). <br><br>* The higher Android version is, the more items are. <br>* Some items are hidden because modify them have no effect.]]></string>
+
+    <string name="always_shown_op_title">Always-shown permissions</string>
+    <string name="always_shown_op_summary">Edit permissions (operations) that will been shown in any case</string>
+    <string name="always_shown_op_header"><![CDATA[The checked permission (operation) will always be displayed, regardless of whether the permission was or could have been used.]]></string>
+
+    <string name="settings">Settings</string>
+    <string name="settings_behavior">Behavior</string>
+    <string name="settings_reselect_working_mode_title">Reselect working mode</string>
+    <string name="settings_reselect_working_mode_summary">Select working mode at next time open home page</string>
+    <string name="settings_language">Language</string>
+    <string name="settings_translate">Translate</string>
+    <string name="settings_translate_summary">Help us translate App Ops to your own language</string>
+    <string name="settings_translate_summary_percentage">" (%s are translated)"</string>
+    <string name="settings_translation_contributors">Contributors</string>
+    <string name="settings_appearance">Appearance</string>
+    <string name="settings_theme_base">Base theme</string>
+    <string name="settings_theme_accent_color">Accent color</string>
+    <string name="settings_theme_white_appbar">White app bar</string>
+    <string name="settings_theme_colored_appbar">Colored app bar</string>
+    <string name="settings_theme_blue">Blue</string>
+    <string name="settings_theme_deep_blue">Deep Blue</string>
+    <string name="settings_theme_pink">Pink</string>
+    <string name="settings_theme_teal">Teal</string>
+    <string name="settings_theme_purple">Purple</string>
+    <string name="settings_theme_cyan">Cyan</string>
+    <string name="settings_theme_green">Green</string>
+    <string name="settings_theme_orange">Orange</string>
+    <string name="settings_theme_brown">Brown</string>
+    <string name="settings_theme_blue_grey">Blue Grey</string>
+    <string name="settings_black_night_theme">Black theme</string>
+    <string name="settings_black_night_theme_summary">Use pure black when dark mode is enabled</string>
+    <string name="settings_use_system_color">Use system theme color</string>
+    <string name="settings_integrations">Integrations</string>
+    <string name="settings_integrations_storage_isolation_title" translatable="false">@string/app_name_storage_isolation</string>
+    <string name="settings_integrations_storage_isolation_summary">\"%s\" is a root-required app from us. It provides more advanced control over storage.\n\nThis option is to prevent misoperation when you try to change storage-related configurations.</string>
+    <string name="settings_more">More</string>
+    <string name="settings_send_data_summary">We use Visual Studio App Center (from Microsoft).\n\nAccording to the source code of App Center SDK, only app version, system version, device model, screen size, language, time zone, and carrier information will be collected and send.\n\nA randomly generated install ID is used to distinguish between different devices.</string>
+    <string name="settings_analytics_title">Send usage data</string>
+    <string name="settings_crash_report_title">Send bug report</string>
+    <string name="settings_crash_report_summary">This will help us find problems faster</string>
+
+    <string name="unlock_description">Remove ads and unlock additional features.</string>
+    <string name="remove_ads">Remove ads</string>
+    <string name="unlock_full_version">Unlock full version</string>
+    <string name="full_version">Full version</string>
+    <string name="ad">AD</string>
+    <string name="ad_view_other_apps">Check out other apps developed by us</string>
+
+    <string name="bug_report_dialog_title">Something is wrong</string>
+    <string name="bug_report_dialog_message">You can send an error message to us by mail to help us solve the problem.</string>
+    <string name="bug_report_dialog_view_stacktrace">View stacktrace</string>
+    <string name="bug_report_mail_message">If possible, please describe the situation when the error occurred.</string>
+    <string name="send_to_developer">Send to developer</string>
+
+    <string name="monitors_service_label">Monitor service</string>
+    <string name="monitors_service_description">Used by \"New app behavior\", \"Clipboard monitor\",  \"Usage monitor\" and \"Usage history\".</string>
+    <string name="monitors_notification_title">Using %s</string>
+    <string name="monitors_notification_summary">Tap for notification options.</string>
+    <string name="monitors_notification_channel_label">Running status</string>
+
+    <string name="user_name_fallback">User</string>
+    <string name="user_name_owner">Primary user</string>
+    <string name="user_name_work_profile">Work profile</string>
+
+    <string name="worker_service_notification_channel_label">Work status</string>
+    <string name="worker_service_notification_title">Working…</string>
+
+    <string name="cannot_open_browser_dialog_title">Can\'t start browser</string>
+
+    <string name="auto_recovery">Automatic recovery</string>
+    <string name="auto_recovery_notification_channel_label">Automatic recovery status</string>
+    <string name="auto_recovery_notification_title">Recovering configurations…</string>
+    <string name="auto_recovery_notification_waiting_title">Waiting for recover configurations…</string>
+    <!-- %1$s -> working mode name -->
+    <string name="auto_recovery_notification_waiting_text">Please finish the setup of \"%1$s\".</string>
+    <string name="auto_recovery_settings_toggle_title">Enable automatic recovery</string>
+    <string name="auto_recovery_settings_toggle_summary">Automatically recover the previous set \"Ignore\" when necessary</string>
+    <string name="auto_recovery_settings_note">Starting from Android 10, under certain circumstances, some of your \"Ignore\" settings will be reset by the system.\n\nFor highly modified systems (e.g., MIUI), this behavior may appear in older versions.\n\nThe only way is to reset again after the system. You will see a notification when automatic recovery is working.</string>
+    <string name="auto_recovery_settings_start_now_title">Start to recover now</string>
+    <string name="auto_recovery_settings_start_now_summary">There could be situations that have not been considered</string>
+    <string name="auto_recovery_settings_ignore_title">Ignore this \"problem\"</string>
+    <string name="auto_recovery_settings_ignore_summary">If you are you are sure your system does not have this problem (e.g., Pixel or AOSP-like ROMs), enable this option so that the automatic recovery option will not be enforced</string>
+
+    <string name="storage_isolation_authorization"><![CDATA[\"%1$s\" is installed. When the isolation is enabled, you shouldn\'t change settings here, or there would be problems.<br>To get configuration from \"%1$s\", please grant the permission.]]></string>
+    <string name="storage_isolation_enabled"><![CDATA[Controlled by \"%s\".<br>You shouldn\'t change settings here, or there would be problems.]]></string>
+    <string name="storage_isolation_not_running"><![CDATA[Can\'t get configuration from \"%s\".]]></string>
+    <string name="storage_isolation_install"><![CDATA[\"%1$s\" app (developed by us) can provide more advanced control.]]></string>
+    <string name="storage_isolation_requires_enhance_mode"><![CDATA[Note, \"%1$s\" needs to be run under \"Enhanced mode\".]]></string>
+
+    <string name="toast_options_has_been_moved">Some options have been moved.</string>
+    <string name="toast_cannot_load_help">Can\'t load help.</string>
+
+    <string name="manufacturer_restriction_dialog_title">Restrictions from manufacturers</string>
+    <string name="manufacturer_restriction_dialog_message"><![CDATA[
+Many manufacturers (mainly from mainland China), including but not limited to OnePlus, Xiaomi, Huawei, Samsung, restrict the background behaviors by default.
+<p>The manufacturers\' restrictions are usually poorly designed. <b>For the app follows Android\'s standard, their restrictions will not save more battery but only break app\'s function</b>. What\'s more ridiculous is that these manufacturers <b>usually have a default \"allow list\" includes apps from big companies</b>. The whole Android ecosystem is deeply hurt by them.
+<p>To make \"%1$s\" work, please disable those restrictions. You can refer to %2$s. And do not worry, it does not use the CPU continuously, the app won\'t even appear in the system\'s battery usage list.]]></string>
+    <string name="manufacturer_restriction_dialog_ignore">Don\'t show for \"%s\"</string>
+
+    <string name="close">Close</string>
+
+    <!-- comma, used to build strings like "A, B, C"-->
+    <string name="comma">", "</string>
+    <!-- quotation marks, used to build strings-->
+    <string name="quotation_marks">"\"%s\""</string>
+    <!-- brackets, used to build strings like "(A)"-->
+    <string name="brackets">(%s)</string>
+    <!-- used to build strings like "1/100"-->
+    <string name="progress_format">%1$d/%2$d</string>
+
+</resources>
