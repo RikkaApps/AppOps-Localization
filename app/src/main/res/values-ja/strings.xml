@@ -132,7 +132,6 @@
     <string name="button_discard">破棄</string>
     <string name="op_summary_unknown">デバイスメーカーや新しいAndroidバーションによる</string>
     <string name="clipboard_monitor_access">%1$s はクリップボードを<b>%2$s</b>。</string>
-    <string name="working_mode_root_removed">Rootモードは削除されました</string>
     <string name="translators">翻訳者名</string>
     <string name="clipboard_monitor_denied_access">クリップボード%1$sへの <b>%2$s</b> を拒否しました。</string>
     <string name="clipboard_monitor_settings_permission_summary">インタラクティブウィンドウを表示するには、この権限が必要です
@@ -143,7 +142,6 @@
     <string name="shizuku_mode_description">+ rootデバイスでも非rootデバイスでも動作します &lt;br&gt;+非常に高速で、リソースの消費もごくわずかです&lt;br&gt;+完全な機能をお楽しみください&lt;br&gt;&lt;br&gt;-オープンソースのアプリ（Shizuku）をインストールする必要があります&lt;br&gt;-非root端末の場合、再起動のたびにパソコンでadbを使ってShizukuを起動する必要があります&lt;br&gt;- Android 11以上の端末の場合、パソコンなしでShizukuを起動することができます</string>
     <string name="apps_view">アプリの表示</string>
     <string name="usage_monitor_notification_text">%1$sを含みます。</string>
-    <string name="working_mode_root_removed_description">古いバージョンのApp Opsは、システムの動作に正しく従っていませんでした。例えば、Android 10からは、一度システムから位置情報の許可を変更してしまうと、App Opsの変更は決して反映されません。&lt;p&gt;この問題を解決するには、システムに完全に従うしかありません。これは純粋なrootでは不可能です。&lt;p&gt;「rootは全能」と思われがちですが、実はrootは基本的にLinuxの世界でコマンドを実行する機能しか持っていません。Androidの世界に入るためには、「橋渡し 」として何かを実行することが必要です。その役割を果たしてくれるのが 「Shizuku」 です。「Shizuku」 を使うことで、リソースの使用量を減らすことができます。</string>
     <string name="shizuku_mode_error_manager_app_not_installed">先にShizukuをインストールしてください。&lt;p&gt;Shizukuは、2017年から始まったオープンソースのプロジェクトです（GitHubの%sを参照）。rootやadbを必要とする複数のアプリに恩恵を与えるように設計されています。このアプリだけでなく、他の開発者のアプリでもShizukuを使っているものがあります。&lt;p&gt;Shizukuを使うと、このアプリは信じられないほどの高速化と、より面白い機能を手に入れることができます。&lt;p&gt;Shizuku自体は、バッテリーやパフォーマンスの消費はごくわずかです（使用しない場合はゼロ）。</string>
     <string name="shizuku_mode_error_manager_app_not_installed_rooted">「Sui」または「Shizuku」を先にインストールしてください。この2つのモジュールは同じAPIデザインを持つ双子の姉妹です。&lt;p&gt;「Sui」はMagiskのモジュールです。Magiskがインストールされている端末での使用を推奨します。&lt;p&gt;「Shizuku」は、スタンドアロンのAndroidアプリケーションです。</string>
     <string name="requirements">要求事項</string>

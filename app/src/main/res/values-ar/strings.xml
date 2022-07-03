@@ -130,7 +130,6 @@
     <string name="storage_isolation_requires_enhance_mode">ملاحظة ، يجب تشغيل \"%1$s\" ضمن \"الوضع المحسن\".</string>
     <string name="storage_isolation_enabled">يتحكم فيها \"%s\".&lt;br&gt;لا يجب تغيير الإعدادات هنا ، وإلا فستكون هناك مشاكل.</string>
     <string name="auto_recovery_settings_ignore_summary">إذا كنت متأكدًا من أن نظامك لا يعاني من هذه المشكلة (على سبيل المثال ، Pixel أو AOSP-like ROMs) ، فقم بتمكين هذا الخيار حتى لا يتم فرض خيار الاسترداد التلقائي</string>
-    <string name="working_mode_root_removed_description">الإصدارات القديمة من App Ops لم تتبع سلوك النظام بشكل صحيح. على سبيل المثال ، بدءًا من Android 10 ، بمجرد تغيير إذن الموقع من النظام ، لا تسري التغييرات في App Ops أبدًا. &lt;p&gt; لحل هذه المشكلة ، لا يوجد خيار سوى اتباع النظام بالكامل. هذا مستحيل مع الجذر الخالص. &lt;p&gt; يعتقد العديد من الأشخاص أن الجذر كلي القدرة ، ولكن في الواقع يوفر الجذر بشكل أساسي فقط القدرة على تشغيل الأوامر في عالم Linux. للدخول إلى عالم Android ، قم بتشغيل شيء ما باعتباره \"جسرًا\" أمرًا لا بد منه. يقوم \"شيزوكو\" بهذا الجزء من العمل. يمكن أن يؤدي استخدام \"Shizuku\" إلى تقليل استخدام الموارد.</string>
     <string name="shizuku_mode_description">+ يعمل كلاً من الأجهزة الجذر وغير الجذر &lt;br&gt;+ سريع جدًا, مع استهلاك ضئيل للموارد &lt;br&gt;+ تمتع بالوظائف الكاملة &lt;br&gt;&lt;br&gt;- يتطلب تثبيت تطبيق مفتوح المصدر (Shizuku) &lt;br&gt;- من أجل الأجهزة التي لا تحتوي على جذر, في كل مرة تتم فيها إعادة التشغيل, يلزم بدء Shizuku باستخدام adb مع الكمبيوتر &lt;br&gt;- بالنسبة للأجهزة التي تعمل بنظام Android 11 أو أعلى, يمكن بدء Shizuku بدون كمبيوتر</string>
     <string name="auto_recovery_settings_ignore_title">تجاهل هذه \"المشكلة\"</string>
     <string name="auto_recovery_settings_start_now_summary">قد تكون هناك مواقف لم يتم النظر فيها</string>
@@ -300,7 +299,6 @@
     <string name="shizuku_mode_over_adb">Shizuku وضـع (بدأ عبر adb)</string>
     <string name="shizuku_mode">Shizuku وضـع</string>
     <string name="working_mode_button_open">افتح %s</string>
-    <string name="working_mode_root_removed">تمت إزالة وضع Root</string>
     <string name="working_mode_button_download_format">التحميلات %s</string>
     <string name="settings_translation_contributors">المساهمون</string>
     <string name="settings_behavior">سلوك</string>

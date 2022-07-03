@@ -314,7 +314,6 @@
     <string name="menu_set_as">Olarak ayarla</string>
     <string name="menu_last_used_first">Son kullanılan ilk</string>
     <string name="dpm_mode_error_outdated_admin_ignore">Bu sorunu yoksayın</string>
-    <string name="working_mode_root_removed">Kök modu kaldırıldı</string>
     <string name="working_mode_button_download_format">%s İndir</string>
     <string name="op_desc_READ_CLIPBOARD">Android 10 veya üstü sürümlerde, uygulamalar panoyu yalnızca ön plandaysa okuyabilir.</string>
     <string name="op_desc_START_FOREGROUND">Kısacası, bir ön plan hizmeti reddedilemeyecek bir bildirimi olan bir arka plan hizmetidir. Bildirimin varlığından aktif olarak haberdar olabileceğiniz için, sistem ön plan hizmetlerinin hayatta kalmasını sağlayacaktır. &lt;p&gt; Bunun ön plan hizmetlerinin normal hizmetlere düşmesine neden olacağını reddet diyerek, bu uygulama davranışını bozabilir (müzik çalar arka plan, harita uygulaması konum güncellemesini durdurur). &lt;p&gt; &lt;b&gt; &lt;a href=https://developer.android.com/guide/components/services&gt; Android Geliştiricileri dokümanlarını görüntüleyin &lt;/a&gt; &lt;/b&gt;</string>

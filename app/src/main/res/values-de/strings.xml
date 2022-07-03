@@ -180,7 +180,6 @@
     <string name="progress_format">%1$d/%2$d</string>
     <string name="quotation_marks">\"%s\"</string>
     <string name="brackets">(%s)</string>
-    <string name="working_mode_root_removed_description">Die älteren Versionen von App Ops funktionieren mit neueren Android-Versionen nicht mehr zuverlässig. Seit Android 10 treten zum Beispiel, sobald man einmal die Standortberechtigung über die Systemeinstellungen verändert hat, Änderungen, die in App Ops durchgeführt wurden, nie in Kraft. &lt;p&gt;Um dieses Problem zu beheben, gibt es keine andere Möglichkeit, als dem System vollständig zu folgen. Dies ist mit purem Root unmöglich. &lt;p&gt;Viele Leute denken, Root wäre allmächtig, allerdings bietet Root in Wahrheit praktisch nur die Möglichkeit, Befehle in der Linux-Welt auszuführen. Um jedoch die Android-Welt zu betreten, ist es notwendig, etwas als eine \"Brücke\" zu betreiben. Diesen Job erledigt \"Shizuku\". Die Benutzung von \"Shizuku\" kann den Ressourcenverbrauch senken.</string>
     <string name="shizuku_mode_error_user_denied_permission_sui">Du hast dieser App den Zugriff auf Sui verweigert. &lt;br&gt;Bitte gewähre der App diese Berechtigung in Sui.</string>
     <string name="shizuku_mode_error_user_denied_permission">Du hast dieser App den Zugriff auf Shizuku verweigert. &lt;br&gt;Bitte gewähre der App diese Berechtigung in den Systemeinstellungen oder der Skizuku-App. &lt;p&gt;Falls du MIUI benutzt, behindert MIUI den Mechanismus für benutzerdefinierte Berechtigungen, weswegen du die Berechtigung nur über die Shizuku-App erteilen kannst.</string>
     <string name="dpm_mode">Delegierter Geräteadministrator-Modus</string>
@@ -326,7 +325,6 @@
     <string name="shizuku_mode_over_root">Shizuku-Modus (über Root gestartet)</string>
     <string name="shizuku_mode_over_adb">Shizuku-Modus (über ADB gestartet)</string>
     <string name="shizuku_mode">Shizuku-Modus</string>
-    <string name="working_mode_root_removed">Root-Modus wurde entfernt</string>
     <string name="working_mode_button_open">%s öffnen</string>
     <string name="working_mode_button_download_format">%s herunterladen</string>
     <string name="backup_error_io_exception">Etwas ist beim Schreiben/Lesen der Datei schiefgelaufen.</string>

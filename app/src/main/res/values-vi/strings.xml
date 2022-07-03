@@ -8,7 +8,6 @@
     <string name="working_mode_button_switch">Chuyển sang chế độ làm việc khác</string>
     <string name="working_mode_button_download_format">Tải xuống %s</string>
     <string name="working_mode_button_open">Mở %s</string>
-    <string name="working_mode_root_removed">Chế độ Root đã bị loại bỏ</string>
     <string name="shizuku_mode">Chế độ Shizuku</string>
     <string name="shizuku_mode_over_root">Chế độ Shizuku (bắt đầu qua root)</string>
     <string name="shizuku_mode_over_adb">Chế độ Shizuku (bắt đầu qua adb)</string>
@@ -277,7 +276,6 @@
     <string name="quotation_marks">\"%s\"</string>
     <string name="brackets">(%s)</string>
     <string name="progress_format">%1$d/%2$d</string>
-    <string name="working_mode_root_removed_description">Các phiên bản cũ hơn của App Ops không tuân theo hành vi của hệ thống một cách chính xác. Ví dụ: bắt đầu từ Android 10, khi bạn đã thay đổi quyền vị trí từ hệ thống, các thay đổi trong App Ops sẽ không bao giờ có hiệu lực. &lt;p&gt;Để giải quyết vấn đề này, không có lựa chọn nào khác ngoài việc hoàn toàn tuân theo hệ thống. Điều này là không thể với root thuần túy. &lt;p&gt;Nhiều người nghĩ rằng root là toàn năng, nhưng trên thực tế root về cơ bản chỉ cung cấp khả năng chạy các lệnh trong thế giới Linux. Để bước vào thế giới Android, hãy chạy một thứ gì đó như \"một cây cầu\" là điều bắt buộc. \"Shizuku\" thực hiện một phần công việc này. Sử dụng \"Shizuku\" có thể giảm mức sử dụng tài nguyên.</string>
     <string name="shizuku_mode_description">+ Hoạt động trên cả thiết bị root và không root &lt;br&gt;+Rất nhanh, với mức tiêu thụ tài nguyên không đáng kể &lt;br&gt;+Tận hưởng đầy đủ chức năng &lt;br&gt;&lt;br&gt;- Yêu cầu cài đặt ứng dụng mã nguồn mở (Shizuku) &lt;br&gt;- Dành cho thiết bị không phải root, mỗi khi khởi động lại, bắt buộc phải khởi động Shizuku bằng adb với máy tính &lt;br&gt;- Đối với các thiết bị chạy Android 11 trở lên, Shizuku có thể được khởi động mà không cần máy tính</string>
     <string name="shizuku_mode_error_manager_app_not_installed">Vui lòng cài đặt Shizuku trước. &lt;p&gt;Shizuku là một dự án mã nguồn mở bắt đầu từ năm 2017 (xem%s tại GitHub). Nó được thiết kế để mang lại lợi ích cho nhiều ứng dụng yêu cầu root hoặc adb. Không chỉ ứng dụng này, mà một số ứng dụng từ các nhà phát triển khác cũng đang sử dụng Shizuku. &lt;p&gt;Với Shizuku, ứng dụng này sẽ có tốc độ cực cao và nhiều tính năng thú vị hơn. Đối với bản thân Shizuku, mức tiêu thụ pin hoặc hiệu suất là không đáng kể (bằng không khi không sử dụng). &lt;p&gt;Giống như triết lý Unix, một chương trình chỉ nên thực hiện một công việc. Shizuku và ứng dụng này theo đuổi triết lý này. Trên thực tế, mọi thứ tích hợp giống như những gì \"ứng dụng xấu\" muốn làm.</string>
     <string name="op_mode_allow">Cho phép</string>

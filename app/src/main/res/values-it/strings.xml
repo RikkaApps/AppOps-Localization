@@ -103,7 +103,6 @@
     <string name="shizuku_mode_description_rooted">+ Goditi la piena funzionalità &lt;br&gt;&lt;br&gt;- Richiede di installare Sui (un modulo Magisk) o Shizuku (un\'app), entrambi open source</string>
     <string name="shizuku_mode_shizuku_not_running">(Shizuku non è in esecuzione)</string>
     <string name="shizuku_mode_over_adb">Modalità Shizuku (avviata via ADB)</string>
-    <string name="working_mode_root_removed">La modalità root è stata rimossa</string>
     <string name="shizuku_mode_over_root">Modalità Shizuku (avviata via root)</string>
     <string name="working_mode_button_open">Apri %s</string>
     <string name="working_mode_button_download_format">Scarica %s</string>
@@ -138,7 +137,6 @@
     </plurals>
     <string name="usage_history">Cronologia di utilizzo</string>
     <string name="usage_monitor_notification_text">Include %1$s.</string>
-    <string name="working_mode_root_removed_description">Le vecchia versioni di App Ops non seguono correttamente il comportamento del sistema. Per esempio, da Android 10, una volta cambiati i permessi della posizione dal sistema, i cambiamenti in App Ops non avranno effetto. &lt;p&gt;Per risolvere questo problema, non c\'è altra scelta che seguire completamente il sistema. Non c\'è niente da fare con il root puro. &lt;p&gt;Molte persone pensano che il root sia onnipotente, ma fondamentalmente fornisce solo la capacità di eseguire comandi nel mondo Linux. Per entrare nel mondo Android, è doveroso eseguire qualcosa come \"un bridge\". \"Shizuku\" fa questa parte del lavoro. Utilizzare \"Shizuku\" può ridurre l\'utilizzo delle risorse.</string>
     <string name="shizuku_mode_description">+ Funziona per dispositivi con e senza root &lt;br&gt;+ Molto veloce, con un consumo di risorse trascurabile &lt;br&gt;+ Goditi la piena funzionalità &lt;br&gt;&lt;br&gt;- Richiede l\'installazione di un\'app open source (Shizuku) &lt;br&gt;- Per i dispositivi senza root, ogni volta che si riavvia, è richiesto avviare Shizuku usando ADB dal computer &lt;br&gt;- Per i dispositivi che eseguono Android 11 o maggiore, Shizuku può essere avviato senza computer</string>
     <string name="shizuku_mode_error_user_denied_permission">Hai impedito a quest\'app di usare Shizuku. &lt;br&gt;Per favore concedi il permesso a quest\'app nelle impostazioni di sistema o nell\'app Shizuku. &lt;p&gt;Se stai usando MIUI, poiché MIUI rompe il meccanismo dei permessi personalizzati di Android, puoi solo garantire il permesso dall\'app Shizuku.</string>
     <string name="shizuku_mode_error_not_running">Shizuku non è in esecuzione o ci sono altri errori. &lt;br&gt;Se Shizuku è in esecuzione, per favore prova a forzare l\'arresto di quest\'app.</string>

@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="translators">freeman711</string>
-    <string name="working_mode_root_removed_description">Versiunile anterioare de App Ops nu au urmat corect comportamentul sistemului. De exemplu, incepand cu Android 10, odată ce ați schimbat permisiunea de localizare din setările sistemului, modificările din App Ops nu mai intrau în vigoare. &lt;p&gt;Pentru a rezolva această problemă, nu mai există altă opțiune decât a urma în totalitate setările sistemului. Doar cu root ar fi imposibil. &lt;p&gt;Majoritatea utilizatorilor cred că root este omnipotent, când de fapt doar permite rularea de comenzi Linux. În Android este necesară utilizarea de \"punți\", cum e Shizuku. Folosind Shizuku se reduce considerabil consumul de resurse.</string>
     <string name="shizuku_mode_description">+ Funcționează cu dispozitive rootate și nerootate &lt;br&gt;+ Foarte rapid, consum de resurse neglijabil &lt;br&gt;+ Funcționalitate completă&lt;br&gt;&lt;br&gt;- Este necesară instalarea unei aplicații open-source (Shizuku) &lt;br&gt;- Pentru dispozitive nerootate este necesară pornirea manuală a aplicației Shizuku, prin adb de pe un calculator, de fiecare dată când reporniți dispozitivul&lt;br&gt;- Pentru dispozitive cu Android 11+, Shizuku poate fi pornit fără calculator</string>
     <string name="dpm_mode">Mod de administrare delegată a dispozitivului</string>
     <string name="shizuku_mode_error_version_too_low">Versiunea de Shizuku pe care o aveți instalată este învechită. Vă rugăm descărcați ultima versiune de Shizuku (%s sau mai nou).</string>
@@ -15,7 +14,6 @@
     <string name="shizuku_mode_over_adb">Modul Shizuku (pornit prin adb)</string>
     <string name="shizuku_mode_over_root">Modul Shizuku (pornit prin root)</string>
     <string name="shizuku_mode">Modul Shizuku</string>
-    <string name="working_mode_root_removed">Modul root a fost eliminat</string>
     <string name="working_mode_button_open">Deschide %s</string>
     <string name="working_mode_button_download_format">Descarcă %s</string>
     <string name="working_mode_button_switch">Schimbă modul de lucru</string>

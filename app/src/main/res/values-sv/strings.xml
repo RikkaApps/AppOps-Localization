@@ -70,7 +70,6 @@
     <string name="shizuku_mode_shizuku_not_running">(shizuku körs inte)</string>
     <string name="shizuku_mode_over_adb">Shizuku läge (startade via adb)</string>
     <string name="shizuku_mode_over_root">Shizuku läge (startade med root)</string>
-    <string name="working_mode_root_removed">Root läge har tagits bort</string>
     <string name="working_mode_button_open">Öppen %s</string>
     <string name="working_mode_button_download_format">Ladda ner %s</string>
     <string name="working_mode_button_continue">Fortsätt</string>

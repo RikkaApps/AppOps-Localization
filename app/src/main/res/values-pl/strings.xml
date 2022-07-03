@@ -33,7 +33,6 @@
     <string name="working_mode_button_retry">Ponów</string>
     <string name="shizuku_mode_over_root">Tryb Shizuku (uruchamiane za pomocą roota)</string>
     <string name="shizuku_mode_over_adb">Tryb Shizuku (uruchamiane za pomocą adb)</string>
-    <string name="working_mode_root_removed_description">Starsze wersje App Ops nie reagowały poprawnie na zachowanie systemu. Na przykład, od wersji Android 10, po modyfikacji uprawnień dostępu do lokalizacji z poziomu systemu, zmiany tych ustawień w aplikacji App Ops nie przynosiły żanego efektu. &lt;p&gt;Jedynym sposobem na rozwiązanie tego problemu jest całkowite podporządkowanie się zachowaniom systemu. Przy używaniu wyłącznie roota nie jest to jednak możliwe. &lt;p&gt;Wiele osób sądzi, że uprawnienia roota są wszechpotężne, ale jedynym co w rzeczywistości dają jest możliwość uruchamiania poleceń środowiska Linux. Aby dostać się do środowiska Androida, konieczne jest użycie czegoś w rodzaju mostu. Shizuku działa właśnie jako taki most. Używanie Shizuku może zmniejszyć zużycie zasobów urządzenia.</string>
     <string name="translators">Gabriel Markowski
 \n
 \nMateusz Jerzyński</string>
@@ -44,7 +43,6 @@
     <string name="shizuku_mode_error_user_denied_permission_sui">Ta aplikacja nie może korzystać z Sui.&lt;br&gt;Proszę udzielić pozwolenia na tę aplikację w Sui.</string>
     <string name="working_mode_choice">Wybierz tryb pracy:</string>
     <string name="working_mode_title">Tryb pracy: %s</string>
-    <string name="working_mode_root_removed">Tryb roota został usunięty</string>
     <string name="shizuku_mode_description_rooted">+ Ciesz się pełną funkcjonalnością &lt;br&gt;&lt;br&gt;- Wymaga zainstalowania Sui (moduł Magisk) lub Shizuku (aplikacja), oba są typu open source</string>
     <string name="shizuku_mode_shizuku_not_running">(Shizuku nie działa)</string>
     <string name="shizuku_mode_error_manager_app_not_installed_rooted">Najpierw zainstaluj Sui lub Shizuku. Są to bliźniacze aplikacje, które mają ten sam projekt API. &lt;p&gt;Sui to moduł Magisk. Zalecany dla urządzeń z zainstalowanym Magisk. &lt;p&gt;Shizuku to samodzielna aplikacja na Androida.</string>

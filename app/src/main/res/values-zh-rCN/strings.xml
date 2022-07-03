@@ -334,12 +334,6 @@
     <string name="backup_error_open_output">无法保存文件。</string>
     <string name="backup_error_io_exception">读取/写入时出现了问题。</string>
     <string name="close">关闭</string>
-    <string name="working_mode_root_removed">Root 模式已被移除</string>
-    <string name="working_mode_root_removed_description"><![CDATA[
-旧版本的 App Ops 没有正确地遵循系统行为。例如，从 Android 10 开始，一旦您从系统更改了位置权限，App Ops 中的更改便永远不会生效。
-<p>要解决此问题，除了完全遵循系统别无选择。纯 root 不可能做到。
-<p>许多人认为 root 是万能的，但实际上 root 基本上仅提供在 Linux 世界中运行命令的能力。要进入 Android 世界，运行一些东西作为“桥梁”是必须的。“Shizuku”做了这部分工作，使用“Shizuku”可以减少资源使用。
-]]></string>
     <string name="progress_format">%1$d/%2$d</string>
     <string name="backup_restoring_backup">恢复备份中…</string>
     <string name="auto_recovery_settings_ignore_title">忽略这个“问题”</string>
@@ -477,5 +471,9 @@
     <string name="privacy_policy">隐私政策</string>
     <string name="settings_request_to_delete_data">删除数据</string>
     <string name="settings_request_to_delete_data_summary">永久阻止从此实例传出数据，并删除已收集的数据</string>
+    <string name="working_mode_dpm_removed">托管设备管理员模式已被移除</string>
+    <string name="working_mode_dpm_removed_description"><![CDATA[
+由于一个新的 Google Play 政策要求，托管设备管理员模式需要在 2022-07-12 前被移除。
+<p>如果您需要使用托管设备管理员模式，请从我们的网站下载旧版本。]]></string>
 
 </resources>

@@ -179,8 +179,6 @@
     <string name="shizuku_mode_over_adb">Modo Shizuku (iniciado a través de adb)</string>
     <string name="shizuku_mode_over_root">Modo Shizuku (iniciado a través de root)</string>
     <string name="shizuku_mode">Modo Shizuku</string>
-    <string name="working_mode_root_removed_description">Las versiones antiguas de App Ops no seguían correctamente el comportamiento del sistema. Por ejemplo, a partir de Android 10, una vez que has cambiado el permiso de ubicación del sistema, los cambios en las operaciones de aplicación nunca tienen efecto. &lt;p&gt;Para resolver este problema, no hay otra opción que el de seguir completamente el sistema. Esto es imposible con la raíz pura. &lt;p&gt;Mucha gente piensa que root es omnipotente, pero de hecho root básicamente sólo proporciona la capacidad de ejecutar comandos en el mundo de Linux. Para entrar en el mundo de los Android, es necesario ejecutar algo como \"un puente\". \"Shizuku\" hace esta parte del trabajo. Usar \"Shizuku\" puede reducir el uso de recursos.</string>
-    <string name="working_mode_root_removed">El modo root ha sido eliminado</string>
     <string name="working_mode_button_open">Abrir %s</string>
     <string name="working_mode_button_switch">Cambie a otro modo de trabajo</string>
     <string name="working_mode_button_continue">Continuar</string>

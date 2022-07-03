@@ -11,12 +11,10 @@
     <string name="working_mode_button_switch">Switch to another working mode</string>
     <string name="working_mode_button_download_format">Download %s</string>
     <string name="working_mode_button_open">Open %s</string>
-    <string name="working_mode_root_removed">Root mode has been removed</string>
-    <string name="working_mode_root_removed_description"><![CDATA[
-The older versions of App Ops didn\'t follow system behavior correctly. For example, starting from Android 10, once you have changed location permission from the system, changes in App Ops never take effect.
-<p>To solve this problem, there is no choice but to completely follow the system. This is impossible with pure root.
-<p>Many people think that root is omnipotent, but in fact root basically only provides the capability to run commands in the Linux world. To enter the Android world, run something as \"a bridge\" is a must. \"Shizuku\" does this part of the job. Use \"Shizuku\" can reduce resource usage.
-]]></string>
+    <string name="working_mode_dpm_removed">Delegated Device Admin mode has been removed</string>
+    <string name="working_mode_dpm_removed_description"><![CDATA[
+Due to a new Google Play policy requirement, Delegated Device Admin mode needs to be removed before 2022-07-12.
+<p>If you need to use Delegated Device Admin mode, please download older version of the app from our website.]]></string>
     <!-- "Shizuku" is a noun, DO NOT translate it -->
     <string name="shizuku_mode">Shizuku mode</string>
     <string name="shizuku_mode_over_root">Shizuku mode (started via root)</string>

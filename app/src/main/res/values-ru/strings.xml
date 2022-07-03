@@ -182,8 +182,6 @@
     <string name="working_mode_button_open">Открыть %s</string>
     <string name="shizuku_mode">Режим Shizuku</string>
     <string name="shizuku_mode_shizuku_not_running">(Shizuku не запущен)</string>
-    <string name="working_mode_root_removed">Режим root удален</string>
-    <string name="working_mode_root_removed_description">Прошлые версии App Ops неправильно отслеживали поведение системы. Например, начиная с Android 10, всякий раз, когда вы меняете разрешение на доступ к геоданным в самой системе, в App Ops эти изменения никак не отражаются. &lt;p&gt;Для выхода из этой ситуации нет иного решения, кроме как полностью сверяться с системой. Это невозможно проделывать на чистом root. &lt;p&gt;Многие люди считают root всемогущим, но фактически он лишь предоставляет возможность запускать команды в мире Linux. В мире Android же необходимо запускать что-то вроде «мостика». «Shizuku» берет на себя эту часть работы. Переход на «Shizuku» может снизить потребление ресурсов.</string>
     <string name="working_mode_button_download_format">Скачать %s</string>
     <string name="shizuku_mode_over_root">Режим Shizuku (запущен через root)</string>
     <string name="shizuku_mode_description">+ Работает с устройствами без и с root правами &lt;br&gt;+ Очень быстр, незначительное потребление ресурсов &lt;br&gt;+ Доступна вся функциональность &lt;br&gt;&lt;br&gt;- Требуется установить open-source приложение (Shizuku) &lt;br&gt;- Для устройств без root прав после каждой перезагрузки придется запускать Shizuku с помощью adb на компьютере &lt;br&gt;- Для устройств на Android 11 и выше Shizuku может запускаться без компьютера</string>

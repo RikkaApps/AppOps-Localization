@@ -157,13 +157,11 @@
     <string name="worker_service_notification_title">Опрацювання…</string>
     <string name="cannot_open_browser_dialog_title">Не вдалося запустити оглядач</string>
     <string name="storage_isolation_not_running">Не вдалося отримати конфігурацію з \"%s\".</string>
-    <string name="working_mode_root_removed_description">Минулі версії App Ops неправильно слідкували за поведінкою системи. Наприклад, починаючи з Android 10, після того, як ви змінили дозвіл місцезнаходження із системи, зміни в App Ops не примінялися. &lt;p&gt;Багато людей думають, що root всемогутній, але по факту, root лише надає можливість запускати команди в світі Linux. Щоб увійти у світ Android, потрібно обовʼязково запустити щось по типу \"мостика\". \"Shizuku\" бере на себе цю частину роботи. Перехід на \"Shizuku\" може знизити використання ресурсів.</string>
     <string name="shizuku_mode_shizuku_not_running">(Shizuku не запущено)</string>
     <string name="shizuku_mode_over_root">Режим Shizuku (запущено через root)</string>
     <string name="shizuku_mode_over_adb">Режим Shizuku (запущено за допомогою adb)</string>
     <string name="shizuku_mode">Режим Shizuku</string>
     <string name="working_mode_button_open">Відкрити %s</string>
-    <string name="working_mode_root_removed">Режим root видалено</string>
     <string name="working_mode_button_download_format">Завантажити %s</string>
     <string name="working_mode_button_continue">Продовжити</string>
     <string name="translators">vitalitk</string>

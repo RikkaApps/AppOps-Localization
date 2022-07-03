@@ -334,12 +334,6 @@
     <string name="backup_error_open_output">無法儲存檔案。</string>
     <string name="backup_error_io_exception">讀取/寫入時出現了問題。</string>
     <string name="close">關閉</string>
-    <string name="working_mode_root_removed">Root 模式已被移除</string>
-    <string name="working_mode_root_removed_description"><![CDATA[
-舊版本的 App Ops 沒有正確地遵循系統行為。例如，從 Android 10 開始，一旦您從系統更改了位置權限，App Ops 中的更改便永遠不會生效。
-<p>要解決此問題，除了完全遵循系統別無選擇。純 root 不可能做到。
-<p>許多人認為 root 是萬能的，但實際上 root 基本上僅提供在 Linux 世界中執行命令的能力。要進入 Android 世界，執行一些東西作為「橋樑」是必須的。「Shizuku」做了這部分工作，使用「Shizuku」可以減少資源使用。
-]]></string>
     <string name="progress_format">%1$d/%2$d</string>
     <string name="backup_restoring_backup">恢復備份中…</string>
     <string name="auto_recovery_settings_ignore_title">忽略這個「問題」</string>
@@ -477,4 +471,8 @@
     <string name="privacy_policy">隱私權政策</string>
     <string name="settings_request_to_delete_data">刪除資料</string>
     <string name="settings_request_to_delete_data_summary">永久阻止從此例項傳出資料，並刪除已收集的資料</string>
+    <string name="working_mode_dpm_removed">託管裝置管理員模式已被移除</string>
+    <string name="working_mode_dpm_removed_description"><![CDATA[
+由於一個新的 Google Play 政策要求，託管裝置管理員模式需要在 2022-07-12 前被移除。
+<p>如果您需要使用託管裝置管理員模式，請從我們的網站下載舊版本。]]></string>
 </resources>

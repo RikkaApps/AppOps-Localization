@@ -38,12 +38,10 @@
     <string name="shizuku_mode_over_adb">Shizuku 모드 (adb)</string>
     <string name="shizuku_mode_shizuku_not_running">(Shizuku가 실행중이 아님)</string>
     <string name="shizuku_mode">Shizuku 모드</string>
-    <string name="working_mode_root_removed_description">"이전 버전의 App Ops는 시스템 동작을 올바르게 따르지 않았습니다.  예를 들어 Android 10부터 시스템에서 위치 권한을 변경하면 App Ops의 변경 사항이 적용되지 않습니다.  &lt;p&gt;이 문제를 해결하려면 시스템을 완전히 따를 수밖에 없습니다.  이것은 순수한 루트로는 불가능합니다.  &lt;p&gt;많은 사람들이 루팅이 만능이라 생각하지만 사실 루트는 기본적으로 Linux 에서 명령을 실행할 수 있는 기능만 제공합니다.  안드로이드 세계에 들어가기 위해서는 무엇인가를 \"다리\"로 실행하는 것이 필수입니다.  \"Shizuku\"가 이 부분을 담당합니다.  \"Shizuku\"를 사용하면 리소스 사용량을 줄일 수 있습니다."</string>
     <string name="shizuku_mode_description">+ 루팅 및 루팅하지 않은 장치 모두에서 작동 &lt;br&gt;+ 리소스 소비가 거의 없고 매우 빠름 &lt;br&gt;+ 전체 기능 활성화 &lt;br&gt;&lt;br&gt;- 오픈 소스 앱(Shizuku) 설치 필요 &lt;br&gt;- 루팅 하지 않은 기기는 재부팅할 때마다 컴퓨터와 함께 adb를 사용하여 Shizuku를 시작해야 합니다. &lt;br&gt;- Android 11 이상을 실행하는 기기의 경우 컴퓨터 없이 Shizuku를 시작할 수 있습니다</string>
     <string name="shizuku_mode_error_user_denied_permission_sui">이 앱이 Sui를 사용하는 것을 허용하지 않았습니다. &lt;br&gt;Sui에서 이 앱에 권한을 부여하세요.</string>
     <string name="shizuku_mode_description_rooted">+ 전체 기능 활성화 &lt;br&gt;&lt;br&gt;- Sui(Magisk 모듈) 또는 Shizuku(애플리케이션)를 설치해야 하며 둘 다 오픈 소스입니다</string>
     <string name="working_mode_button_open">열기 %s</string>
-    <string name="working_mode_root_removed">Root 모드가 제거 되었습니다.</string>
     <string name="working_mode_button_download_format">다운로드 %s</string>
     <string name="working_mode_button_continue">계속</string>
     <string name="working_mode_button_switch">다른 작업 모드로 전환</string>
