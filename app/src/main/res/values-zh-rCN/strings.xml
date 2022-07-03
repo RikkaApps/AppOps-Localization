@@ -224,7 +224,7 @@
     <string name="settings_reselect_working_mode_title">重新选择工作模式</string>
     <string name="settings_reselect_working_mode_summary">下次打开主页时重新选择工作模式</string>
     <string name="settings_more">更多</string>
-    <string name="settings_send_data_summary">我们使用 Visual Studio App Center（来自 Microsoft）。\n\n根据 App Center SDK 源代码，只有应用版本、系统版本、设备型号、屏幕尺寸、语言、时区、运营商信息会被收集和发送。\n\n一个随机生成的安装 ID 被用于区分不同的设备。</string>
+    <string name="settings_send_data_summary">上述功能使用 Microsoft 提供的 Visual Studio App Center。收集的信息是匿名的，我们无法追溯到独立的设备或用户。\n请参阅隐私政策以了解更多。</string>
     <string name="settings_crash_report_title">发送错误报告</string>
     <string name="settings_crash_report_summary">这将帮助我们更快地发现问题</string>
     <string name="dpm_mode_error_admin_not_setup"><![CDATA[管理员应用的设置可能未正确完成，请尝试重新打开管理员应用或重新启动设备。<p>如果此问题重复出现，请向管理员应用的开发者寻求帮助。]]></string>
@@ -474,5 +474,8 @@
     <string name="op_name_COARSE_LOCATION">粗略位置</string>
     <string name="op_name_LOCATION">使用位置</string>
     <string name="op_desc_READ_DEVICE_IDENTIFIERS"><![CDATA[在 Android 10 或以上，默认情况下，任何用户应用都无权读取设备识别码（IMEI，MEID，IMSI，SIM 卡号和设备序列号）。]]></string>
+    <string name="privacy_policy">隐私政策</string>
+    <string name="settings_request_to_delete_data">删除数据</string>
+    <string name="settings_request_to_delete_data_summary">永久阻止从此实例传出数据，并删除已收集的数据</string>
 
 </resources>

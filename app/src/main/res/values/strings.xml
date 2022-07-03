@@ -391,12 +391,15 @@ This app does not request for \"%s\", but some other requested permissions are c
     <string name="settings_integrations_storage_isolation_title" translatable="false">@string/app_name_storage_isolation</string>
     <string name="settings_integrations_storage_isolation_summary">\"%s\" is a root-required app from us. It provides more advanced control over storage.\n\nThis option is to prevent misoperation when you try to change storage-related configurations.</string>
     <string name="settings_more">More</string>
-    <string name="settings_send_data_summary">We use Visual Studio App Center (from Microsoft).\n\nAccording to the source code of App Center SDK, only app version, system version, device model, screen size, language, time zone, and carrier information will be collected and send.\n\nA randomly generated install ID is used to distinguish between different devices.</string>
+    <string name="settings_send_data_summary">The above features use the Visual Studio App Center provided by Microsoft. The information collected is anonymous and we cannot trace it back to an independent device or user. \nSee Privacy Policy for more.</string>
     <string name="settings_crash_report_title">Send bug report</string>
     <string name="settings_crash_report_summary">This will help us find problems faster</string>
+    <string name="settings_request_to_delete_data">Delete data</string>
+    <string name="settings_request_to_delete_data_summary">Permanently block outgoing data from this instance and delete collected data</string>
 
     <string name="unlock_full_version">Unlock full version</string>
     <string name="full_version">Full version</string>
+    <string name="privacy_policy">Privacy policy</string>
 
     <string name="bug_report_dialog_title">Something is wrong</string>
     <string name="bug_report_dialog_message">You can send an error message to us by mail to help us solve the problem.</string>
