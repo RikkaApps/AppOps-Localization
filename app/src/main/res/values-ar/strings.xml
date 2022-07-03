@@ -2,7 +2,6 @@
 <resources>
     <string name="template">نموذج</string>
     <string name="translators">tajf0000, aali022, moha5000</string>
-    <string name="working_mode_button_download">تـنزيل</string>
     <string name="progress_requesting_authorization">طلب التفويض…</string>
     <string name="progress_checking_availability">التحقق من الجاهزية…</string>
     <string name="progress_fetching_user_list">إحضار قائمة المستخدمين…</string>
@@ -14,11 +13,9 @@
     <string name="menu_sort_by_updated_time">حسب وقت التحديث</string>
     <string name="menu_sort_by_install_time">حسب وقت التثبيت</string>
     <string name="menu_search">بحث</string>
-    <string name="menu_contact">الاتصال بالمطور</string>
     <string name="menu_sort">فرز</string>
     <string name="menu_save">حفظ</string>
     <string name="menu_apply_template">تطبيق القالب</string>
-    <string name="menu_show_detail">إظهار التفاصيل</string>
     <string name="menu_select_all">اختيار الكل</string>
     <string name="menu_select_inverse">عكس التحديد</string>
     <string name="menu_copy_info">نسخ المعلومات</string>
@@ -81,7 +78,6 @@
     <string name="backup_restore_backup_summary">استعادة الإعدادات لـ &lt;b&gt;التطبيقات المثبتة&lt;/b&gt;.&lt;br&gt;الى &lt;b&gt;التطبيقات التي لم يتم تثبيتها بعد&lt;/b&gt;, ستتم استعادة التكوين تلقائيًا (يتطلب التمكين في التطبيق الجديد).</string>
     <string name="backup_open_backup">فتح ملف النسخ الأحتياطي</string>
     <string name="backup_open_backup_summary">إظهار محتوى ملفات النسخ الاحتياطي المحفوظة.</string>
-    <string name="backup_preview">معاينة النسخ الأحتياطي</string>
     <string name="backup_not_installed">(غير مثبت) %1$s</string>
     <string name="all_op_title">جميع الأذونات</string>
     <string name="all_op_summary">عرض جميع الأذونات (العملية) التي يدعمها نظامك</string>
@@ -92,8 +88,6 @@
     <string name="settings_translate">ترجمة</string>
     <string name="settings_translate_summary">ساعدنا في ترجمة App Ops إلى لغتك الخاصة</string>
     <string name="settings_appearance">مظهر</string>
-    <string name="unlock_description">إزالة الإعلانات وفتح الميزات الإضافية.</string>
-    <string name="remove_ads">ازالة الإعلانات</string>
     <string name="bug_report_dialog_title">هناك شئ غير صحيح</string>
     <string name="bug_report_dialog_message">يمكنك إرسال رسالة خطأ إلينا بالبريد لمساعدتنا في حل المشكلة.</string>
     <string name="bug_report_mail_message">إذا أمكن ، يرجى وصف الموقف الذي حدث فيه الخطأ.</string>
@@ -133,7 +127,6 @@
     <string name="button_discard">تجاهل</string>
     <string name="usage_monitor_microphone">ميكروفون</string>
     <string name="toast_options_has_been_moved">تم نقل بعض الخيارات.</string>
-    <string name="toast_cannot_load_help">لا يمكن تحميل المساعدة.</string>
     <string name="storage_isolation_requires_enhance_mode">ملاحظة ، يجب تشغيل \"%1$s\" ضمن \"الوضع المحسن\".</string>
     <string name="storage_isolation_enabled">يتحكم فيها \"%s\".&lt;br&gt;لا يجب تغيير الإعدادات هنا ، وإلا فستكون هناك مشاكل.</string>
     <string name="auto_recovery_settings_ignore_summary">إذا كنت متأكدًا من أن نظامك لا يعاني من هذه المشكلة (على سبيل المثال ، Pixel أو AOSP-like ROMs) ، فقم بتمكين هذا الخيار حتى لا يتم فرض خيار الاسترداد التلقائي</string>
@@ -153,11 +146,9 @@
     <string name="monitors_notification_channel_label">حالة التشغيل</string>
     <string name="monitors_service_label">خدمة المراقبة</string>
     <string name="bug_report_dialog_view_stacktrace">مشاهدة ملف Stacktrace</string>
-    <string name="ad_view_other_apps">تحقق من التطبيقات الأخرى التي طورناها</string>
     <string name="unlock_full_version">فتح النسخة الكاملة</string>
     <string name="full_version">النسخة الكاملة</string>
     <string name="settings_crash_report_summary">سيساعدنا هذا في إيجاد المشاكل بشكل أسرع</string>
-    <string name="settings_analytics_title">إرسال بيانات الاستخدام</string>
     <string name="settings_crash_report_title">إرسال تقرير خطأ</string>
     <string name="shizuku_mode_error_manager_app_not_installed_rooted">الرجاء تثبيت Sui أو Shizuku أولاً. إنهما أختان توأمان يشتركان في نفس تصميم واجهة برمجة التطبيقات. &lt;p&gt; Sui هي وحدة Magisk. يوصى به للأجهزة التي تم تثبيت Magisk عليها. &lt;p&gt; شيزوكو هو تطبيق أندرويد مستقل.</string>
     <string name="settings_more">المزيد</string>
@@ -281,7 +272,6 @@
     <string name="op_mode_ignore_description_others">سيحصل التطبيق على بيانات فارغة أو لن يتم تنفيذ العملية</string>
     <string name="multi_selection_tip">يمكنك النقر فوق الرمز إلى اليسار أو الضغط لفترة طويلة للدخول في وضع التحديد المتعدد للعمل بسرعة.</string>
     <string name="shared_user_id_tip">معرف المستخدم المشترك لهذا التطبيق هو %s, والتطبيقات التي لها نفس معرف المستخدم المشترك تشارك معظم الأذونات.</string>
-    <string name="permissions_view_preset">تركيبة محددة مسبقا</string>
     <string name="permissions_view">عرض الأذونات</string>
     <string name="button_authorize">تفويض</string>
     <string name="button_learn_more">يتعلم أكثر</string>
@@ -289,14 +279,12 @@
     <string name="menu_badge_early_access">الوصول المبكر</string>
     <string name="menu_working_mode">نمط العمل</string>
     <string name="menu_set_as">تعيين كـ</string>
-    <string name="menu_disabled_first">تعطيل أولا</string>
     <string name="menu_last_used_first">آخر استخدام أولا</string>
     <string name="menu_show_framework">إظهار تطبيقات إطار النظام</string>
     <string name="menu_changelog">التغيير</string>
     <string name="menu_sort_by_app_name">حسب اسم التطبيق</string>
     <string name="menu_more">المزيد من الخيارات</string>
     <string name="menu_show_app_info_in">إظهار معلومات التطبيق في…</string>
-    <string name="settings_theme_orange">البرتقالي</string>
     <string name="dpm_mode_error_timeout">لا يمكن الاتصال بتطبيق المسؤول %1$s. &lt;p&gt;قد يتم حظر الاتصال (يسمى الخدمة المقيدة من الناحية الفنية) من قبل النظام الخاص بك. من المحتمل جدًا أن تقوم الشركات المصنعة مثل OnePlus و Xiaomi و Huawei و Samsung بتقييد الخدمة المقيدة (حتى لو كان التطبيق يفي بمعايير Android). &lt;p&gt;يرجى محاولة تعطيل هذه القيود (قيود سلوك الخلفية) لكل من هذا التطبيق وتطبيق المسؤول %1$s. يمكنك الرجوع إلى %2$s.</string>
     <string name="dpm_mode_error_outdated_admin_ignore">تجاهل هذه المشكلة</string>
     <string name="dpm_mode">وضع مسؤول الجهاز المفوض</string>
@@ -314,21 +302,7 @@
     <string name="working_mode_button_open">افتح %s</string>
     <string name="working_mode_root_removed">تمت إزالة وضع Root</string>
     <string name="working_mode_button_download_format">التحميلات %s</string>
-    <string name="settings_theme_brown">بني</string>
-    <string name="settings_theme_blue_grey">رمادي مزرق</string>
-    <string name="settings_theme_cyan">ازرق سماوي</string>
-    <string name="settings_theme_green">أخضر</string>
-    <string name="settings_theme_deep_blue">ازرق غامق</string>
-    <string name="settings_theme_pink">زهري</string>
-    <string name="settings_theme_teal">تركواز</string>
-    <string name="settings_theme_purple">أرجواني</string>
-    <string name="settings_theme_accent_color">لون التمييز</string>
-    <string name="settings_theme_white_appbar">شريط التطبيق الأبيض</string>
-    <string name="settings_theme_colored_appbar">شريط التطبيق الملون</string>
-    <string name="settings_theme_blue">أزرق</string>
     <string name="settings_translation_contributors">المساهمون</string>
-    <string name="settings_theme_base">ثِـيم الأساسي</string>
-    <string name="settings_translate_summary_percentage">" (%s مترجمة)"</string>
     <string name="settings_behavior">سلوك</string>
     <string name="settings_reselect_working_mode_title">أعد تحديد وضع العمل</string>
     <string name="always_shown_op_header">سيتم دائمًا عرض الإذن المحدد (العملية) ، بغض النظر عما إذا كان الإذن قد تم استخدامه أو يمكن استخدامه.</string>
@@ -398,7 +372,6 @@
     <string name="progress_format">%1$d/%2$d</string>
     <string name="quotation_marks">\"%s\"</string>
     <string name="brackets">(%s)</string>
-    <string name="ad">AD</string>
     <string name="no_files_app_dialog_message">تطبيق الملفات (أو المستندات ، com.android.documentsui) هو تطبيق نظام ، وهو أيضًا جزء مهم من نظام Android. إنه لأمر مثير للسخرية أن يقوم بائع جهازك (أو أنت) بتعطيله (أو حتى حذفه).
 \n يرجى فتح الإعدادات وتمكينها.</string>
     <string name="op_name_BLUETOOTH_SCAN">فحص bluetooth</string>

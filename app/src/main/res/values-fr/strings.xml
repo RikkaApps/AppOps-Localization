@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="working_mode_button_download">Téléchargement</string>
     <string name="translators">mollyman, Younes-L, vincenziojovanoski</string>
     <string name="shizuku_mode_error_adb_no_update_permission">ADB a seulement obtenu app ops mais aucune mise a jour de permission d\'app ops.&lt;br&gt;Essayez de chercher une option comme \" Autoriser la modification des permissions \" dans les \" Options du développeur \" du système.&lt;p&gt;&lt;small&gt;Par exemple, dans MIUI, l\'option est \"Débogage USB (options de sécurité)\".&lt;/small&gt;</string>
     <string name="dpm_mode_error_no_permission">Permission nécessaire manquante, cliquez sur rafraichir pour essayer de nouveau.</string>
@@ -15,11 +14,9 @@
     <string name="menu_sort_by_updated_time">Par temps de mise a jour</string>
     <string name="menu_sort_by_install_time">Par temps d\'installation</string>
     <string name="menu_search">Recherche</string>
-    <string name="menu_contact">Contacter le développeur</string>
     <string name="menu_sort">Trier</string>
     <string name="menu_save">Enregistrer</string>
     <string name="menu_apply_template">Appliquer le modèle</string>
-    <string name="menu_show_detail">Montrer le détail</string>
     <string name="menu_select_all">Tout sélectionner</string>
     <string name="menu_select_inverse">Inverser la sélection</string>
     <string name="menu_changelog">Changelog</string>
@@ -95,7 +92,6 @@
     <string name="backup_restore_backup_summary">Restaurer les paramètres pour &lt;b&gt;les applications installées &lt;/b&gt;.&lt;br&gt;Pour&lt;b&gt;Applications pas encore installées&lt;/b&gt;, la configuration sera restaurée automatiquement (nécessite d\'être activé dans \"Nouvelle application\").</string>
     <string name="backup_open_backup">Ouvrir un fichier de sauvegarde</string>
     <string name="backup_open_backup_summary">Affichez le contenu du fichier de sauvegarde enregistré.</string>
-    <string name="backup_preview">Prévisualisation de la sauvegarde</string>
     <string name="backup_not_installed">%1$s (non installé)</string>
     <string name="backup_notification_restored">Sauvegarde restaurée pour %1$s.</string>
     <string name="backup_notification_restoring">Restauration de la sauvegarde.....</string>
@@ -112,10 +108,6 @@
     <string name="settings_translate">Traduire</string>
     <string name="settings_translate_summary">Aidez nous à traduire App Ops dans votre propre langue</string>
     <string name="settings_appearance">Apparence</string>
-    <string name="settings_theme_base">Thème basique</string>
-    <string name="settings_theme_accent_color">Couleur d\'accent</string>
-    <string name="unlock_description">Retire les pubs et déverrouille de nouvelles fonctions.</string>
-    <string name="remove_ads">Retirer les pubs</string>
     <string name="bug_report_dialog_title">Quelque chose ne va pas</string>
     <string name="bug_report_dialog_message">Vous pouvez nous envoyer un message d\'erreur par mail pour nous aider à résoudre le problème.</string>
     <string name="bug_report_mail_message">Si possible, veuillez décrire la situation au moment où l\'erreur s\'est produite.</string>

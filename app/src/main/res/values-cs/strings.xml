@@ -2,7 +2,6 @@
 <resources>
     <string name="working_mode_choice">Zvolte pracovní režim:</string>
     <string name="working_mode_title">Pracovní režim: %s</string>
-    <string name="working_mode_button_download">Stažení</string>
     <string name="working_mode_button_switch">Přepněte do jiného pracovního režimu</string>
     <string name="working_mode_button_continue">Pokračovat</string>
     <string name="working_mode_button_open">Otevřít %s</string>

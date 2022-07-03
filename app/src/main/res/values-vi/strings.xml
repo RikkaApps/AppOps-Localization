@@ -6,7 +6,6 @@
     <string name="working_mode_button_retry">Thử lại</string>
     <string name="working_mode_button_continue">Tiếp tục</string>
     <string name="working_mode_button_switch">Chuyển sang chế độ làm việc khác</string>
-    <string name="working_mode_button_download">Tải xuống</string>
     <string name="working_mode_button_download_format">Tải xuống %s</string>
     <string name="working_mode_button_open">Mở %s</string>
     <string name="working_mode_root_removed">Chế độ Root đã bị loại bỏ</string>
@@ -39,10 +38,8 @@
     <string name="menu_sort_by_updated_time">Theo thời gian cập nhật</string>
     <string name="menu_sort_by_install_time">Theo thời gian cài đặt</string>
     <string name="menu_search">Tìm kiếm</string>
-    <string name="menu_contact">Liên hệ nhà phát triển</string>
     <string name="menu_sort">Sắp xếp</string>
     <string name="menu_save">Lưu</string>
-    <string name="menu_show_detail">Hiện chi tiết</string>
     <string name="menu_select_all">Chọn tất cả</string>
     <string name="menu_select_inverse">Chọn nghịch đảo</string>
     <string name="menu_copy_info">Sao chép thông tin</string>
@@ -58,7 +55,6 @@
     <string name="menu_view_options">Xem tùy chọn</string>
     <string name="menu_options">Tùy chọn</string>
     <string name="menu_delete">Xoá</string>
-    <string name="menu_disabled_first">Vô hiệu hoá đầu tiên</string>
     <string name="menu_last_used_first">Lần sử dụng cuối đầu tiên</string>
     <string name="menu_users">Người dùng</string>
     <string name="menu_about">Về</string>
@@ -75,7 +71,6 @@
     </plurals>
     <string name="app_view_item_not_modified">Chưa sửa đổi</string>
     <string name="permissions_view">Chế độ xem quyền</string>
-    <string name="permissions_view_preset">Kết hợp thiết lập sẵn</string>
     <string name="permissions_view_all">Tất cả</string>
     <plurals name="permissions_view_item_summary">
         <item quantity="other">%1$d ứng dụng</item>
@@ -195,7 +190,6 @@
     <string name="backup_restore_backup">Khôi phục từ tệp sao lưu</string>
     <string name="backup_open_backup">Mở tệp sao lưu</string>
     <string name="backup_open_backup_summary">Xem nội dung của tệp sao lưu đã lưu.</string>
-    <string name="backup_preview">Xem trước bản sao lưu</string>
     <string name="backup_not_installed">%1$s (chưa được cài đặt)</string>
     <string name="backup_notification_restored">Đã khôi phục bản sao lưu cho %1$s.</string>
     <string name="backup_notification_restoring">Đang khôi phục bản sao lưu…</string>
@@ -236,34 +230,15 @@
     <string name="settings_language">Ngôn ngữ</string>
     <string name="settings_translate">Dịch</string>
     <string name="settings_translate_summary">Giúp chúng tôi dịch App Ops sang ngôn ngữ của riêng bạn</string>
-    <string name="settings_translate_summary_percentage">" (%s đã được dịch)"</string>
     <string name="settings_translation_contributors">Những người đóng góp</string>
     <string name="settings_appearance">Hiển thị</string>
-    <string name="settings_theme_base">Chủ đề chính</string>
-    <string name="settings_theme_accent_color">Màu chủ đạo</string>
-    <string name="settings_theme_white_appbar">Thanh ứng dụng trắng</string>
-    <string name="settings_theme_blue">Xanh nước biển</string>
-    <string name="settings_theme_deep_blue">Xanh nước biển đậm</string>
-    <string name="settings_theme_pink">Hồng</string>
-    <string name="settings_theme_teal">Mòng két</string>
-    <string name="settings_theme_purple">Tím</string>
-    <string name="settings_analytics_title">Gửi dữ liệu mức sử dụng</string>
-    <string name="settings_theme_cyan">Lục lam</string>
-    <string name="settings_theme_green">Xanh lá cây</string>
-    <string name="settings_theme_orange">Cam</string>
-    <string name="settings_theme_brown">Nâu</string>
-    <string name="settings_theme_blue_grey">Xám xanh</string>
     <string name="settings_black_night_theme">Chủ đề đen</string>
     <string name="settings_integrations">Tích hợp</string>
     <string name="settings_more">Thêm</string>
     <string name="settings_crash_report_title">Gửi báo cáo lỗi</string>
     <string name="settings_crash_report_summary">Điều này sẽ giúp chúng tôi tìm ra sự cố nhanh hơn</string>
-    <string name="unlock_description">Loại bỏ quảng cáo và mở khóa các tính năng bổ sung.</string>
-    <string name="remove_ads">Loại bỏ quảng cáo</string>
     <string name="unlock_full_version">Mở khoá phiên bản đầy đủ</string>
     <string name="full_version">Phiên bản đầy đủ</string>
-    <string name="ad">QUẢNG CÁO</string>
-    <string name="ad_view_other_apps">Xem các ứng dụng khác do chúng tôi phát triển</string>
     <string name="bug_report_dialog_title">Có gì đó sai</string>
     <string name="bug_report_dialog_message">Bạn có thể gửi thông báo lỗi cho chúng tôi qua mail để giúp chúng tôi giải quyết vấn đề.</string>
     <string name="bug_report_dialog_view_stacktrace">Xem stacktrace</string>
@@ -295,7 +270,6 @@
     <string name="storage_isolation_install">Ứng dụng \"%1$s\" (phát triển bởi chúng tôi) có thể cung cấp khả năng kiểm soát nâng cao hơn.</string>
     <string name="storage_isolation_requires_enhance_mode">Lưu ý, \"%1$s\" cần được chạy trong \"Chế độ nâng cao\".</string>
     <string name="toast_options_has_been_moved">Một số tùy chọn đã được di chuyển.</string>
-    <string name="toast_cannot_load_help">Không thể tải trợ giúp.</string>
     <string name="manufacturer_restriction_dialog_title">Hạn chế từ nhà sản xuất</string>
     <string name="manufacturer_restriction_dialog_ignore">Không hiển thị cho \"%s\"</string>
     <string name="close">Đóng</string>
@@ -350,7 +324,6 @@
     <string name="no_files_app_dialog_message">Ứng dụng Tệp (hoặc Tài liệu, com.android.documentsui) là một ứng dụng hệ thống, cũng là một phần quan trọng của hệ thống Android. Thật nực cười khi nhà cung cấp thiết bị của bạn (hoặc bạn) đã vô hiệu hóa (hoặc thậm chí xóa) nó.
 \nVui lòng mở cài đặt và kích hoạt nó.</string>
     <string name="all_op_header">Sau đây là tất cả các quyền được hỗ trợ bởi hệ thống của bạn (trên thực tế, không phải là quyền thực sự, vui lòng tham khảo phần trợ giúp). &lt;br&gt;&lt;br&gt;* Phiên bản Android càng cao thì càng có nhiều mục. &lt;br&gt;* Một số mục bị ẩn vì sửa đổi chúng không có tác dụng.</string>
-    <string name="settings_theme_colored_appbar">Thanh ứng dụng màu</string>
     <string name="settings_black_night_theme_summary">Sử dụng màu đen tuyền khi chế độ tối được bật</string>
     <string name="settings_integrations_storage_isolation_summary">\"%s\" là ứng dụng yêu cầu root từ chúng tôi. Nó cung cấp khả năng kiểm soát nâng cao hơn đối với việc lưu trữ.
 \n

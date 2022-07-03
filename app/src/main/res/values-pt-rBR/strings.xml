@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="settings_appearance">Aparência</string>
-    <string name="settings_theme_base">Tema base</string>
-    <string name="settings_theme_accent_color">Cor de destaque</string>
     <string name="settings_integrations">Integrações</string>
-    <string name="unlock_description">Remova anúncios e desbloqueie recursos adicionais.</string>
-    <string name="remove_ads">Remover anúncios</string>
     <string name="bug_report_dialog_title">Algo deu errado</string>
     <string name="bug_report_dialog_message">Você pode nos enviar uma mensagem de erro através de e-mail para nos ajudar a resolver o problema.</string>
     <string name="bug_report_dialog_view_stacktrace">Ver mapa de execução</string>
@@ -14,10 +10,8 @@
     <string name="user_name_fallback">Usuário</string>
     <string name="worker_service_notification_channel_label">Status de funcionamento</string>
     <string name="worker_service_notification_title">Funcionando…</string>
-    <string name="toast_cannot_load_help">Erro ao carregar ajuda.</string>
     <string name="menu_changelog">Registro de alterações</string>
     <string name="translators">Marcelo Amarante, &lt;a href=https://github.com/marciozomb13&gt;Marcio de Andrade&lt;/a&gt;</string>
-    <string name="working_mode_button_download">Baixar</string>
     <string name="shizuku_mode_error_adb_no_update_permission">ADB só obteve o appops mas não há permissão de atualização do appops.&lt;br&gt;Tente procurar por uma opção como \"Permitir modificar a permissão\" em \"Opções do desenvolvedor\" no sistema.&lt;p&gt;&lt;small&gt;Por exemplo, no MIUI, a opção é \"Depuração USB (opções de segurança)\".&lt;/small&gt;</string>
     <string name="progress_requesting_authorization">Solicitando autorização…</string>
     <string name="progress_checking_availability">Confirmando disponibilidade…</string>
@@ -31,11 +25,9 @@
     <string name="menu_sort_by_updated_time">Por data de atualização</string>
     <string name="menu_sort_by_install_time">Por data de instalação</string>
     <string name="menu_search">Procurar</string>
-    <string name="menu_contact">Contatar o desenvolvedor</string>
     <string name="menu_sort">Ordenar</string>
     <string name="menu_save">Salvar</string>
     <string name="menu_apply_template">Aplicar modelo</string>
-    <string name="menu_show_detail">Mostrar detalhes</string>
     <string name="menu_select_all">Selecionar todos</string>
     <string name="menu_select_inverse">Inverter seleção</string>
     <string name="menu_copy_info">Copiar informações</string>
@@ -46,7 +38,6 @@
     <string name="menu_view_options">Opções de exibição</string>
     <string name="menu_options">Opções</string>
     <string name="menu_delete">Excluir</string>
-    <string name="menu_disabled_first">Desabilitados primeiro</string>
     <string name="menu_users">Usuários</string>
     <string name="menu_about">Sobre</string>
     <string name="button_discard">Descartar</string>
@@ -58,7 +49,6 @@
     <string name="app_view_item_not_modified">Não modificado</string>
     <string name="system_app">App de sistema</string>
     <string name="permissions_view_summary">Liste aplicativos por permissão e os gerencie com clareza.</string>
-    <string name="permissions_view_preset">Combinação predefinida</string>
     <string name="permissions_view_all">Todas</string>
     <plurals name="permissions_view_item_summary">
         <item quantity="one">%1$d app</item>
@@ -150,7 +140,6 @@
     <string name="backup_restore_backup_summary">Restaurar as configurações para os &lt;b&gt;aplicativos instalados&lt;/b&gt;.&lt;br&gt;Para &lt;b&gt;aplicativos ainda não instalados&lt;/b&gt;, a configuração será restaurada automaticamente (requer ativação em \"Novo aplicativo\").</string>
     <string name="backup_open_backup">Abrir arquivo de backup</string>
     <string name="backup_open_backup_summary">Visualizar o conteúdo do arquivo de backup salvo.</string>
-    <string name="backup_preview">Pré-visualização de backup</string>
     <string name="backup_not_installed">%1$s (não instalado)</string>
     <string name="backup_notification_restored">Backup restaurado para %1$s.</string>
     <string name="backup_notification_restoring">Restaurando o backup…</string>
@@ -233,8 +222,6 @@
     <string name="monitors_service_label">Monitorar serviço</string>
     <string name="unlock_full_version">Desbloquear versão completa</string>
     <string name="full_version">Versão completa</string>
-    <string name="ad">AD</string>
-    <string name="settings_analytics_title">Enviar dados de uso</string>
     <string name="settings_crash_report_title">Enviar relatório de bug</string>
     <string name="settings_black_night_theme">Tema Preto</string>
     <string name="usage_monitor">Monitor de uso</string>
@@ -253,18 +240,6 @@
     <string name="op_mode_unspecified">Não definido ainda</string>
     <string name="op_mode_ignore">Ignorar</string>
     <string name="permissions_view">Vista de permissões</string>
-    <string name="settings_theme_brown">Marron</string>
-    <string name="settings_theme_blue_grey">Azul-Acinzentado</string>
-    <string name="settings_theme_purple">Roxo</string>
-    <string name="settings_theme_cyan">Ciano</string>
-    <string name="settings_theme_green">Verde</string>
-    <string name="settings_theme_orange">Laranja</string>
-    <string name="settings_theme_deep_blue">Azul Profundo</string>
-    <string name="settings_theme_pink">Rosa</string>
-    <string name="settings_theme_teal">Azul-Petróleo</string>
-    <string name="settings_theme_white_appbar">Barra de app branca</string>
-    <string name="settings_theme_colored_appbar">Barra de app colorida</string>
-    <string name="settings_theme_blue">Azul</string>
     <string name="settings_translation_contributors">Contribuidores</string>
     <string name="backup_review_action_restore_templates_add">Restaurar como novos modelos</string>
     <string name="backup_review_action_dont_restore">Não restaurar</string>

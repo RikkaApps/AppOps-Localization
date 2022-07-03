@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="working_mode_button_switch">Переход в другой режим работы</string>
-    <string name="working_mode_button_download">Загрузить</string>
     <string name="shizuku_mode_error_adb_no_update_permission">ADB только получает разрешения, но не управляет ими.&lt;br&gt;Пожалуйста, попробуйте найти «Управление разрешениями» в системном меню «Для разработчиков».&lt;p&gt;&lt;small&gt;Например, в MIUI это «Отладка по USB (параметры безопасности)».&lt;/small&gt;</string>
     <string name="dpm_mode">Режим администратора устройства</string>
     <string name="dpm_mode_error_app_not_installed">Чтобы использовать режим администратора устройства, необходимо установить другое приложение и выполнить сложный процесс установки (требуется adb и требуется несколько команд). Процесс установки необходимо выполнить только один раз.&lt;p&gt;&lt;b&gt;&lt;a href=appops-client://help/dpm_mode&gt;Прочитать FAQ&lt;/a&gt;&lt;/b&gt; для изучения.</string>
@@ -19,11 +18,9 @@
     <string name="menu_sort_by_updated_time">По времени обновления</string>
     <string name="menu_sort_by_install_time">По времени установки</string>
     <string name="menu_search">Поиск</string>
-    <string name="menu_contact">Связаться с разработчиком</string>
     <string name="menu_sort">Сортировка</string>
     <string name="menu_save">Сохранить</string>
     <string name="menu_apply_template">Применить шаблон</string>
-    <string name="menu_show_detail">Показать подробную информацию</string>
     <string name="menu_select_all">Выбрать все</string>
     <string name="menu_select_inverse">Обратное выделение</string>
     <string name="menu_copy_info">Копировать информацию</string>
@@ -34,7 +31,6 @@
     <string name="menu_view_options">Просмотр опций</string>
     <string name="menu_options">Опции</string>
     <string name="menu_delete">Удалить</string>
-    <string name="menu_disabled_first">Сначала отключенные</string>
     <string name="menu_users">Пользователи</string>
     <string name="menu_about">О приложении</string>
     <string name="button_discard">Отменить</string>
@@ -48,7 +44,6 @@
     <string name="app_view_item_not_modified">Без изменений</string>
     <string name="system_app">Системное</string>
     <string name="permissions_view_summary">Список приложений по разрешениям и управление ими.</string>
-    <string name="permissions_view_preset">Комбинация по шаблону</string>
     <string name="permissions_view_all">Все</string>
     <plurals name="permissions_view_item_summary">
         <item quantity="one">%1$d приложение</item>
@@ -143,7 +138,6 @@
     <string name="backup_restore_backup_summary">Восстановить настройки для &lt;b&gt;установленных приложений&lt;/b&gt;.&lt;br&gt;В&lt;b&gt;приложениях, которые еще не установлены&lt;/b&gt;, настройки будут автоматически восстановлены (требуется включить в «Новые приложения»).</string>
     <string name="backup_open_backup">Открыть файл резервной копии</string>
     <string name="backup_open_backup_summary">Просмотр содержимого файла резервной копии.</string>
-    <string name="backup_preview">Просмотр резервной копии</string>
     <string name="backup_not_installed">%1$s (не установлено)</string>
     <string name="backup_notification_restored">Резервная копия восстановлена для %1$s.</string>
     <string name="backup_notification_restoring">Восстановление резервной копии…</string>
@@ -165,14 +159,10 @@
     <string name="settings_translate">Перевод</string>
     <string name="settings_translate_summary">Помогите нам перевести App Ops</string>
     <string name="settings_appearance">Внешний вид</string>
-    <string name="settings_theme_base">Основная тема</string>
-    <string name="settings_theme_accent_color">Цвет акцента</string>
     <string name="settings_integrations">Интеграция</string>
     <string name="settings_integrations_storage_isolation_summary">«%s»­ ­– это наше приложение, требующие root права. Оно обеспечивает более продвинутый контроль над хранилищем.
 \n
 \nЭта опция препятствует неправильной работе служб, когда вы вносите изменения в параметры, связанные с хранилищем.</string>
-    <string name="unlock_description">Убрать рекламу и разблокировать дополнительные функции.</string>
-    <string name="remove_ads">Убрать рекламу</string>
     <string name="bug_report_dialog_title">Что-то не так</string>
     <string name="bug_report_dialog_message">Вы можете отправить нам сообщение об ошибке по почте, чтобы помочь нам решить эту проблему.</string>
     <string name="bug_report_dialog_view_stacktrace">Просмотр трассировки стека</string>
@@ -184,7 +174,6 @@
     <string name="worker_service_notification_channel_label">Статус работы</string>
     <string name="worker_service_notification_title">Работа…</string>
     <string name="storage_isolation_not_running">Не удается получить конфигурацию из «%s».</string>
-    <string name="toast_cannot_load_help">Не удается загрузить справку.</string>
     <string name="translators">WANTES, anton.galyshev, ruvlad</string>
     <string name="working_mode_title">Режим работы: %s</string>
     <string name="working_mode_choice">Выберите режим работы:</string>
@@ -195,7 +184,6 @@
     <string name="shizuku_mode_shizuku_not_running">(Shizuku не запущен)</string>
     <string name="working_mode_root_removed">Режим root удален</string>
     <string name="working_mode_root_removed_description">Прошлые версии App Ops неправильно отслеживали поведение системы. Например, начиная с Android 10, всякий раз, когда вы меняете разрешение на доступ к геоданным в самой системе, в App Ops эти изменения никак не отражаются. &lt;p&gt;Для выхода из этой ситуации нет иного решения, кроме как полностью сверяться с системой. Это невозможно проделывать на чистом root. &lt;p&gt;Многие люди считают root всемогущим, но фактически он лишь предоставляет возможность запускать команды в мире Linux. В мире Android же необходимо запускать что-то вроде «мостика». «Shizuku» берет на себя эту часть работы. Переход на «Shizuku» может снизить потребление ресурсов.</string>
-    <string name="ad">РЕКЛАМА</string>
     <string name="working_mode_button_download_format">Скачать %s</string>
     <string name="shizuku_mode_over_root">Режим Shizuku (запущен через root)</string>
     <string name="shizuku_mode_description">+ Работает с устройствами без и с root правами &lt;br&gt;+ Очень быстр, незначительное потребление ресурсов &lt;br&gt;+ Доступна вся функциональность &lt;br&gt;&lt;br&gt;- Требуется установить open-source приложение (Shizuku) &lt;br&gt;- Для устройств без root прав после каждой перезагрузки придется запускать Shizuku с помощью adb на компьютере &lt;br&gt;- Для устройств на Android 11 и выше Shizuku может запускаться без компьютера</string>
@@ -214,7 +202,6 @@
 \nСлучайно сгенерированный ID используется, чтобы отличать между собой разные устройства.</string>
     <string name="unlock_full_version">Разблокировать полную версию</string>
     <string name="full_version">Полная версия</string>
-    <string name="ad_view_other_apps">Другие приложения, разработанные нами</string>
     <string name="menu_badge_full_version">Полная</string>
     <string name="op_mode_ignore_description_runtime">Приложению якобы дается разрешение, но на самом деле оно получает «пустышку» вместо запрошенных данных или невыполненное действие</string>
     <string name="op_mode_unspecified">Не выбрано</string>
@@ -344,27 +331,13 @@
     <string name="backup_error_open_output">Не удается записать файл.</string>
     <string name="backup_error_io_exception">Что-то пошло не так при чтении/записи файла.</string>
     <string name="settings_more">Прочие</string>
-    <string name="settings_analytics_title">Отправлять данные об использовании</string>
     <string name="settings_crash_report_title">Отправлять отчеты об ошибке</string>
     <string name="settings_crash_report_summary">Так мы сможем быстрее находить причину проблемы</string>
     <string name="settings_reselect_working_mode_title">Выбрать другой режим</string>
     <string name="settings_reselect_working_mode_summary">Выбор режима работы при следующем открытии домашней страницы</string>
-    <string name="settings_translate_summary_percentage">" (%s переведено)"</string>
     <string name="settings_translation_contributors">Внесли свой вклад</string>
-    <string name="settings_theme_white_appbar">Белая шапка приложения</string>
-    <string name="settings_theme_colored_appbar">Цветная шапка приложения</string>
     <string name="settings_black_night_theme">Черная тема</string>
     <string name="settings_black_night_theme_summary">Глубокий черный цвет фона при работе темной темы</string>
-    <string name="settings_theme_blue">Голубой</string>
-    <string name="settings_theme_deep_blue">Темно-синий</string>
-    <string name="settings_theme_pink">Розовый</string>
-    <string name="settings_theme_teal">Бирюзовый</string>
-    <string name="settings_theme_purple">Фиолетовый</string>
-    <string name="settings_theme_cyan">Сине-зеленый</string>
-    <string name="settings_theme_green">Зеленый</string>
-    <string name="settings_theme_orange">Оранжевый</string>
-    <string name="settings_theme_brown">Коричневый</string>
-    <string name="settings_theme_blue_grey">Серо-синий</string>
     <string name="monitors_notification_title">Используется %s</string>
     <string name="monitors_notification_summary">Нажмите для настройки уведомлений.</string>
     <string name="monitors_notification_channel_label">Текущий статус</string>

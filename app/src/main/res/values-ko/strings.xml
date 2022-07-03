@@ -8,11 +8,9 @@
     <string name="menu_sort_by_updated_time">업데이트 시간 순</string>
     <string name="menu_sort_by_install_time">설치 시간 순</string>
     <string name="menu_search">검색</string>
-    <string name="menu_contact">개발자에게 연락하기</string>
     <string name="menu_sort">정렬</string>
     <string name="menu_save">저장</string>
     <string name="menu_apply_template">템플릿 적용하기</string>
-    <string name="menu_show_detail">자세히 보기</string>
     <string name="menu_select_all">모두 선택</string>
     <string name="menu_select_inverse">선택 반전</string>
     <string name="app_detail_version">버전 %1$s</string>
@@ -34,8 +32,6 @@
     <string name="do_not_show_again">다시 보여주지 않기</string>
     <string name="settings">설정</string>
     <string name="settings_translate">번역</string>
-    <string name="unlock_description">광고를 제거하고 추가 기능의 잠금을 해제합니다.</string>
-    <string name="remove_ads">광고 제거</string>
     <string name="send_to_developer">개발자에게 보내기</string>
     <string name="user_name_fallback">사용자</string>
     <string name="shizuku_mode_over_root">Shizuku 모드 (root)</string>
@@ -51,7 +47,6 @@
     <string name="working_mode_button_download_format">다운로드 %s</string>
     <string name="working_mode_button_continue">계속</string>
     <string name="working_mode_button_switch">다른 작업 모드로 전환</string>
-    <string name="working_mode_button_download">다운로드</string>
     <string name="working_mode_title">작업 모드: %s</string>
     <string name="working_mode_choice">작업 모드 선택:</string>
     <string name="working_mode_button_retry">다시시도</string>

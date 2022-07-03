@@ -45,7 +45,6 @@
     <string name="menu_set_as">Sätt som</string>
     <string name="menu_about">Om</string>
     <string name="menu_users">Användare</string>
-    <string name="menu_disabled_first">Inaktivera först</string>
     <string name="menu_delete">Radera</string>
     <string name="menu_options">Inställningar</string>
     <string name="menu_view_options">Visa inställningar</string>
@@ -55,10 +54,8 @@
     <string name="menu_more">Flera inställningar</string>
     <string name="menu_copy_info">Kopiera information</string>
     <string name="menu_select_all">Markera alla</string>
-    <string name="menu_show_detail">Visa detaljer</string>
     <string name="menu_save">Spara</string>
     <string name="menu_sort">Sortera</string>
-    <string name="menu_contact">Kontakta utvecklaren</string>
     <string name="menu_search">Sök</string>
     <string name="menu_show_system">Visa system appar</string>
     <string name="menu_show_app_info_in">Visa information om appen i…</string>
@@ -76,7 +73,6 @@
     <string name="working_mode_root_removed">Root läge har tagits bort</string>
     <string name="working_mode_button_open">Öppen %s</string>
     <string name="working_mode_button_download_format">Ladda ner %s</string>
-    <string name="working_mode_button_download">Ladda ner</string>
     <string name="working_mode_button_continue">Fortsätt</string>
     <string name="working_mode_button_retry">Försök igen</string>
     <string name="translators">Översättarens namn</string>

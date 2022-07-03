@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="menu_show_framework">Mostrar aplicaciones del marco de sistema</string>
-    <string name="working_mode_button_download">Descargar</string>
     <string name="progress_requesting_authorization">Solicitando autorización…</string>
     <string name="progress_checking_availability">Comprobando disponibilidad…</string>
     <string name="progress_fetching_user_list">Obteniendo la lista de usuarios…</string>
@@ -14,11 +13,9 @@
     <string name="menu_sort_by_updated_time">Por fecha de actualización</string>
     <string name="menu_sort_by_install_time">Por fecha de instalación</string>
     <string name="menu_search">Buscar</string>
-    <string name="menu_contact">Contacte con el desarrollador</string>
     <string name="menu_sort">Ordenar</string>
     <string name="menu_save">Guardar</string>
     <string name="menu_apply_template">Aplicar plantilla</string>
-    <string name="menu_show_detail">Mostrar detalles</string>
     <string name="menu_select_all">Seleccionar todo</string>
     <string name="menu_select_inverse">Seleccionar lo inverso</string>
     <string name="menu_copy_info">Copiar información</string>
@@ -40,7 +37,6 @@
     <string name="app_view_item_not_modified">No modificado</string>
     <string name="system_app">Aplicación del sistema</string>
     <string name="permissions_view_summary">Liste las aplicaciones con permiso y adminístrelas fácilmente.</string>
-    <string name="permissions_view_preset">Combinación predefinida</string>
     <string name="permissions_view_all">Todos</string>
     <plurals name="permissions_view_item_summary">
         <item quantity="one">%1$d aplicación</item>
@@ -129,7 +125,6 @@
     <string name="backup_restore_backup_summary">Restaure la configuración para &lt;b&gt;aplicaciones instaladas&lt;/b&gt;.&lt;br&gt; Para &lt;b&gt;aplicaciones que aún no están instaladas&lt;/b&gt;, la configuración se restaurará automáticamente (se debe habilitar en \"Nueva aplicación\").</string>
     <string name="backup_open_backup">Abrir archivo de copia de seguridad</string>
     <string name="backup_open_backup_summary">Ver el contenido de la copia de seguridad.</string>
-    <string name="backup_preview">Vista previa de la copia de seguridad</string>
     <string name="backup_not_installed">%1$s (no instalado)</string>
     <string name="backup_notification_restored">Copia de seguridad restaurada para %1$s..</string>
     <string name="backup_notification_restoring">Restaurando copia de seguridad…</string>
@@ -151,10 +146,6 @@
     <string name="settings_translate">Traducir</string>
     <string name="settings_translate_summary">Ayúdanos a traducir App Ops a su idioma</string>
     <string name="settings_appearance">Apariencia</string>
-    <string name="settings_theme_base">Tema base</string>
-    <string name="settings_theme_accent_color">Color del acento</string>
-    <string name="unlock_description">Elimine los anuncios y desbloquee las funciones adicionales.</string>
-    <string name="remove_ads">Quitar anuncios</string>
     <string name="bug_report_dialog_title">Algo está mal</string>
     <string name="bug_report_dialog_message">Puede enviarnos un mensaje de error por correo para ayudarnos a resolver el problema.</string>
     <string name="bug_report_dialog_view_stacktrace">Ver el stacktrace</string>
@@ -163,21 +154,12 @@
     <string name="user_name_fallback">Usuario</string>
     <string name="worker_service_notification_channel_label">Estado del trabajo</string>
     <string name="worker_service_notification_title">Trabajando…</string>
-    <string name="toast_cannot_load_help">No se puede cargar la ayuda.</string>
     <string name="dpm_mode">Modo de administración delegada del dispositivo</string>
     <string name="shizuku_mode_error_adb_no_update_permission">ADB sólo tiene permiso para obtener aplicaciones pero no para actualizarlas. &lt;br&gt;Por favor, intenta buscar una opción como Permitir permiso de modificación en las Opciones de desarrollador del sistema. &lt;p&gt;&lt;small&gt;Por ejemplo, en MIUI, la opción es depuración USB (opciones de seguridad).&lt;/small&gt;</string>
     <string name="button_learn_more">Aprenda más</string>
     <string name="menu_badge_early_access">Acceso anticipado</string>
     <string name="settings_more">Más</string>
     <string name="settings_integrations">Integraciones</string>
-    <string name="settings_theme_brown">Marrón</string>
-    <string name="settings_theme_orange">Naranja</string>
-    <string name="settings_theme_green">Verde</string>
-    <string name="settings_theme_cyan">Cian</string>
-    <string name="settings_theme_purple">Púrpura</string>
-    <string name="settings_theme_teal">Verde azulado</string>
-    <string name="settings_theme_pink">Rosado</string>
-    <string name="settings_theme_blue">Azul</string>
     <string name="settings_translation_contributors">Colaboradores</string>
     <string name="usage_monitor_microphone">el micrófono</string>
     <string name="usage_monitor_camera">la cámara</string>
@@ -267,7 +249,6 @@
     <string name="auto_recovery_notification_title">Recuperando configuraciones…</string>
     <string name="auto_recovery_notification_channel_label">Recuperación automática del estado</string>
     <string name="auto_recovery">Recuperación automática</string>
-    <string name="settings_translate_summary_percentage">" (%s está traducido)"</string>
     <string name="backup_review_action_restore_apps_to_user">Restaurar a %s</string>
     <string name="backup_review_action_dont_restore">No restaurar</string>
     <plurals name="backup_review_templates_title">
@@ -293,14 +274,11 @@
     <string name="monitors_notification_title">Usando %s</string>
     <string name="monitors_service_description">Usado por \"Comportamiento con las nuevas aplicaciones\", \"Monitor del portapapeles\", \"Monitor de uso\" e \"Historial de uso\".</string>
     <string name="monitors_service_label">Servicio de monitorización</string>
-    <string name="ad_view_other_apps">Mira otras aplicaciones desarrolladas por nosotros</string>
-    <string name="ad">Anuncios</string>
     <string name="full_version">Versión completa</string>
     <string name="unlock_full_version">Desbloquear la versión completa</string>
     <string name="settings_crash_report_summary">Esto nos ayudará a encontrar los problemas más rápido</string>
     <string name="settings_crash_report_title">Enviar informe de errores</string>
     <string name="dpm_mode_error_no_multi_user_support">Parece que la aplicación de administración que está usando no soporta multiusuario. &lt;p&gt;La forma más simple es instalar esta aplicación en el perfil de trabajo. O puedes cambiar al modo Shizuku.</string>
-    <string name="settings_analytics_title">Enviar datos de uso</string>
     <string name="settings_send_data_summary">Usamos Visual Studio App Center (de Microsoft).
 \n
 \nSegún el código fuente del SDK del App Center, sólo la versión de la aplicación, la versión del sistema, el modelo del dispositivo, el tamaño de la pantalla, el idioma, la zona horaria y la información del portador, serán recopilados y enviados.
@@ -311,10 +289,6 @@
 \nEsta opción es para prevenir un mal funcionamiento cuando intentas cambiar las configuraciones relacionadas con el almacenamiento.</string>
     <string name="settings_black_night_theme_summary">Usar negro absoluto cuando el modo de oscuro está habilitado</string>
     <string name="settings_black_night_theme">Tema negro</string>
-    <string name="settings_theme_blue_grey">Gris azulado</string>
-    <string name="settings_theme_deep_blue">Azul oscuro</string>
-    <string name="settings_theme_colored_appbar">Barra de aplicación de color</string>
-    <string name="settings_theme_white_appbar">Barra de aplicación blanca</string>
     <string name="settings_reselect_working_mode_summary">Seleccione el modo de trabajo la próxima vez que abra la página de inicio</string>
     <string name="settings_reselect_working_mode_title">Vuelve a seleccionar el modo de trabajo</string>
     <string name="apply_template_dialog_create">Crear una nueva plantilla…</string>
@@ -363,7 +337,6 @@
     <string name="op_mode_default_description">\"Predeterminado\" significa controlado por los ajustes que se pueden encontrar en &lt;b&gt;&lt;a href=%1$s&gt;configuración del sistema&lt;/a&gt;&lt;/b&gt; o &lt;b&gt;&lt;a href=%2$s&gt;información de la aplicación&lt;/a&gt;&lt;/b&gt;.</string>
     <string name="permissions_view">Vista de los permisos</string>
     <string name="apps_view">Vista de las aplicaciones</string>
-    <string name="menu_disabled_first">Desactivados primero</string>
     <string name="dpm_mode_error_operation_not_supported">Esta operación no está soportada por la aplicación de administración que está usando.</string>
     <string name="dpm_mode_error_admin_not_setup">Puede que la configuración de la aplicación de administración no se haya completado correctamente, por favor intenta reabrir la aplicación de administración o reiniciar el dispositivo.&lt;p&gt;Si este problema ocurre repetidamente, por favor pide ayuda al desarrollador de la aplicación de administración.</string>
     <string name="storage_isolation_requires_enhance_mode">Tenga en cuenta que \"%1$s\" debe ejecutarse en \"modo mejorado\".</string>

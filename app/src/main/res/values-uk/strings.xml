@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="working_mode_button_switch">Перемкнутися на інший робочий режим</string>
-    <string name="working_mode_button_download">Завантажити</string>
     <string name="dpm_mode_error_no_permission">Відсутні необхідні дозволи, торкніться \"Оновити\" та спробуйте знову.</string>
     <string name="progress_requesting_authorization">Запит авторизації…</string>
     <string name="progress_checking_availability">Перевірка доступності…</string>
@@ -15,11 +14,9 @@
     <string name="menu_sort_by_updated_time">За часом оновлення</string>
     <string name="menu_sort_by_install_time">За часом установлення</string>
     <string name="menu_search">Пошук</string>
-    <string name="menu_contact">Зв\'язатися з розробником</string>
     <string name="menu_sort">Сортувати</string>
     <string name="menu_save">Зберегти</string>
     <string name="menu_apply_template">Застосувати шаблон</string>
-    <string name="menu_show_detail">Показати деталі</string>
     <string name="menu_select_all">Обрати все</string>
     <string name="menu_select_inverse">Інвертувати виділення</string>
     <string name="menu_copy_info">Копіювати інформацію</string>
@@ -132,7 +129,6 @@
     <string name="backup_restore_backup">Відновити з файлу резервної копії</string>
     <string name="backup_open_backup">Відкрити файл резервної копії</string>
     <string name="backup_open_backup_summary">Перегляд вмісту збереженого файлу резервної копії.</string>
-    <string name="backup_preview">Передогляд резервування</string>
     <string name="backup_not_installed">%1$s (не встановлено)</string>
     <string name="backup_notification_restored">Резервну копію відновлено для %1$s.</string>
     <string name="backup_notification_restoring">Відновлення з резервної копії…</string>
@@ -149,10 +145,7 @@
     <string name="settings_translate">Перекласти</string>
     <string name="settings_translate_summary">Допоможіть нам перекласти App Ops Вашою мовою</string>
     <string name="settings_appearance">Вигляд</string>
-    <string name="settings_theme_base">Основна тема</string>
     <string name="settings_integrations">Інтеграції</string>
-    <string name="unlock_description">Прибирає рекламу та розблоковує додаткові фнкції.</string>
-    <string name="remove_ads">Прибрати рекламу</string>
     <string name="bug_report_dialog_title">Щось пішо не так</string>
     <string name="bug_report_dialog_message">Ви можете надіслати нам повідомлення з помилкою електронною поштою, щоб допомогти нам у розв\'язанні цієї проблеми.</string>
     <string name="bug_report_mail_message">За можливості, будь ласка, опишіть ситуацію, за якої трапилася помилка.</string>
@@ -164,7 +157,6 @@
     <string name="worker_service_notification_title">Опрацювання…</string>
     <string name="cannot_open_browser_dialog_title">Не вдалося запустити оглядач</string>
     <string name="storage_isolation_not_running">Не вдалося отримати конфігурацію з \"%s\".</string>
-    <string name="toast_cannot_load_help">Не вдалося завантажити довідку.</string>
     <string name="working_mode_root_removed_description">Минулі версії App Ops неправильно слідкували за поведінкою системи. Наприклад, починаючи з Android 10, після того, як ви змінили дозвіл місцезнаходження із системи, зміни в App Ops не примінялися. &lt;p&gt;Багато людей думають, що root всемогутній, але по факту, root лише надає можливість запускати команди в світі Linux. Щоб увійти у світ Android, потрібно обовʼязково запустити щось по типу \"мостика\". \"Shizuku\" бере на себе цю частину роботи. Перехід на \"Shizuku\" може знизити використання ресурсів.</string>
     <string name="shizuku_mode_shizuku_not_running">(Shizuku не запущено)</string>
     <string name="shizuku_mode_over_root">Режим Shizuku (запущено через root)</string>

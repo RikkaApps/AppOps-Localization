@@ -4,8 +4,6 @@
     <string name="toast_options_has_been_moved">Niektóre opcje zostały usunięte.</string>
     <string name="full_version">Pełna wersja</string>
     <string name="unlock_full_version">Odblokuj pełną wersję</string>
-    <string name="remove_ads">Usuń reklamy</string>
-    <string name="unlock_description">Usuń reklamy i odblokuj dodatkowe funkcje.</string>
     <string name="settings_language">Język</string>
     <string name="settings">Ustawienia</string>
     <string name="all_op_title">Wszystkie uprawnienia</string>
@@ -31,7 +29,6 @@
     <string name="menu_app_info">Informacje o aplikacji</string>
     <string name="progress_checking_availability">Sprawdzam dostępność…</string>
     <string name="dpm_mode_error_outdated_admin_ignore">Zignoruj błąd</string>
-    <string name="working_mode_button_download">Pobierz</string>
     <string name="working_mode_button_continue">Kontynuuj</string>
     <string name="working_mode_button_retry">Ponów</string>
     <string name="shizuku_mode_over_root">Tryb Shizuku (uruchamiane za pomocą roota)</string>
@@ -62,7 +59,6 @@
     <string name="menu_reset">Resetowanie</string>
     <string name="progress_fetching_user_list">Pobieram listę użytkowników…</string>
     <string name="dpm_mode_error_no_permission">Brak niezbędnych uprawnień, dotknij Odśwież, aby spróbować ponownie.</string>
-    <string name="menu_contact">Kontakt z Deweloperem</string>
     <string name="menu_options">Opcje</string>
     <string name="dpm_mode_error_no_multi_user_support">Wygląda na to, że aplikacja administratora, której używasz, nie obsługuje wielu użytkowników. &lt;p&gt;Najprostszym sposobem jest zainstalowanie tej aplikacji w profilu. Możesz też przełączyć się na tryb Shizuku.</string>
     <string name="dpm_mode_error_operation_not_supported">Ta operacja nie jest obsługiwana przez aplikację, której używasz.</string>
@@ -70,7 +66,6 @@
     <string name="menu_show_app_info_in">Pokaż informacje o aplikacji w…</string>
     <string name="menu_sort">Sortuj</string>
     <string name="menu_apply_template">Zastosuj szablon</string>
-    <string name="menu_show_detail">Pokaż szczegóły</string>
     <string name="menu_select_all">Wybierz wszystko</string>
     <string name="menu_select_inverse">Wybierz odwrotność</string>
     <string name="menu_copy_info">Kopiuj informacje</string>

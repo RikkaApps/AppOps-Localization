@@ -3,7 +3,6 @@
     <string name="menu_badge_full_version">Tamamı</string>
     <string name="quotation_marks">\"%s\"</string>
     <string name="comma">", "</string>
-    <string name="toast_cannot_load_help">Yardım yüklenemiyor.</string>
     <string name="toast_options_has_been_moved">Bazı seçenekler taşındı.</string>
     <string name="storage_isolation_install">\"%1$s\" uygulaması (bizim tarafından geliştirilen) daha gelişmiş kontrol sağlayabilir.</string>
     <string name="storage_isolation_not_running">Yapılandırma \"%s\" tarafınca alınamıyor.</string>
@@ -25,15 +24,10 @@
     <string name="bug_report_dialog_view_stacktrace">Stacktrace\'i görüntüle</string>
     <string name="bug_report_dialog_message">Sorunu çözmemize yardımcı olmak için bize e-posta yoluyla bir hata iletisi gönderebilirsiniz.</string>
     <string name="bug_report_dialog_title">Bir sorun var</string>
-    <string name="ad_view_other_apps">Bizim geliştirdiğimiz diğer uygulamalara göz atın</string>
-    <string name="ad">REKLAM</string>
     <string name="full_version">Tam sürüm</string>
     <string name="unlock_full_version">Tam sürümün kilidini aç</string>
-    <string name="remove_ads">Reklamları kaldır</string>
-    <string name="unlock_description">Reklamları kaldırın ve ek özelliklerin kilidini açın.</string>
     <string name="settings_crash_report_summary">Bu, sorunları daha hızlı bulmamıza yardımcı olacaktır</string>
     <string name="settings_crash_report_title">Hata raporu gönder</string>
-    <string name="settings_analytics_title">Kullanım verilerini gönder</string>
     <string name="settings_send_data_summary">(Microsoft\'un) Visual Studio App Center \'ı kullanıyoruz.
 \n
 \nApp Center SDK\'nın kaynak koduna göre; sadece uygulama sürümü, sistem sürümü, cihaz modeli, ekran boyutu, dil, saat dilimi ve taşıyıcı bilgileri toplanacak ve gönderilecektir.
@@ -46,20 +40,6 @@
     <string name="settings_integrations">Entegrasyonlar</string>
     <string name="settings_black_night_theme_summary">Karanlık mod etkinleştirildiğinde saf siyah kullanın</string>
     <string name="settings_black_night_theme">Siyah tema</string>
-    <string name="settings_theme_blue_grey">Mavi-Gri</string>
-    <string name="settings_theme_brown">Kahverengi</string>
-    <string name="settings_theme_orange">Turuncu</string>
-    <string name="settings_theme_green">Yeşil</string>
-    <string name="settings_theme_cyan">Camgöbeği</string>
-    <string name="settings_theme_purple">Mor</string>
-    <string name="settings_theme_teal">Turkuaz</string>
-    <string name="settings_theme_pink">Pempe</string>
-    <string name="settings_theme_deep_blue">Koyu Mavi</string>
-    <string name="settings_theme_blue">Mavi</string>
-    <string name="settings_theme_colored_appbar">Renkli uygulama çubuğu</string>
-    <string name="settings_theme_white_appbar">Beyaz uygulama çubuğu</string>
-    <string name="settings_theme_accent_color">Vurgu rengi</string>
-    <string name="settings_theme_base">Ana tema</string>
     <string name="settings_appearance">Görünüm</string>
     <string name="settings_translation_contributors">Katkıda bulunanlar</string>
     <string name="settings_translate_summary">App Ops\'u kendi dilinize çevirmemize yardımcı olun</string>
@@ -84,7 +64,6 @@
     <string name="backup_notification_restoring">Yedek geri yükleniyor…</string>
     <string name="backup_notification_restored">Yedekleme %1$s için geri yüklendi.</string>
     <string name="backup_not_installed">%1$s (yüklü değil)</string>
-    <string name="backup_preview">Yedek önizlemesi</string>
     <string name="backup_open_backup_summary">Kayıtlı yedekleme dosyasının içeriğini görüntüleyin.</string>
     <string name="backup_open_backup">Yedekleme dosyasını aç</string>
     <string name="backup_restore_backup_summary">&lt;b&gt;Yüklü uygulamalar&lt;/b&gt; için ayarları geri yükleyin. &lt;br&gt;&lt;b&gt;Henüz yüklenmemiş uygulamalar&lt;/b&gt; için yapılandırma otomatik olarak geri yüklenir (Yeni uygulamada etkinleştirilmesi gerekir).</string>
@@ -217,7 +196,6 @@
         <item quantity="other">%1$d tane uygulama</item>
     </plurals>
     <string name="permissions_view_all">Tümü</string>
-    <string name="permissions_view_preset">Önayarlı kombinasyon</string>
     <string name="permissions_view_summary">Uygulamaları izine göre listeleyin ve onları açık bir şekilde yönetin.</string>
     <string name="apps_view">Uygulamalar görünümü</string>
     <string name="permissions_view">İzinler görünümü</string>
@@ -232,7 +210,6 @@
     <string name="button_authorize">Yetkilendir</string>
     <string name="button_discard">Geri al</string>
     <string name="menu_badge_early_access">Erken erişim</string>
-    <string name="menu_disabled_first">Önce devre dışı bırakılan</string>
     <string name="menu_about">Hakkında</string>
     <string name="menu_users">Kullanıcılar</string>
     <string name="menu_delete">Sil</string>
@@ -245,11 +222,9 @@
     <string name="menu_copy_info">Bilgileri kopyala</string>
     <string name="menu_select_inverse">Tersini seç</string>
     <string name="menu_select_all">Tümünü seç</string>
-    <string name="menu_show_detail">Ayrıntıları göster</string>
     <string name="menu_apply_template">Şablonu uygula</string>
     <string name="menu_save">Kaydet</string>
     <string name="menu_sort">Sırala</string>
-    <string name="menu_contact">Geliştiriciyle iletişim kurun</string>
     <string name="menu_search">Ara</string>
     <string name="menu_sort_by_install_time">Yüklenme tarihine göre</string>
     <string name="menu_sort_by_updated_time">Güncelleme zamanına göre</string>
@@ -289,14 +264,12 @@
     <string name="shizuku_mode_over_root">Shizuku modu (root üzerinden çalıştı)</string>
     <string name="shizuku_mode">Shizuku modu</string>
     <string name="working_mode_button_open">Aç \"%s\"</string>
-    <string name="working_mode_button_download">İndir</string>
     <string name="working_mode_button_switch">Başka bir çalışma moduna geçiş yap</string>
     <string name="working_mode_button_continue">Devam et</string>
     <string name="working_mode_button_retry">Yeniden dene</string>
     <string name="working_mode_choice">Bir çalışma modu seçin:</string>
     <string name="working_mode_title">Çalışma modu: %s</string>
     <string name="translators">İlker Binzet (ilker.binzet@gmail.com)</string>
-    <string name="settings_translate_summary_percentage">" (%s kadar çeviri yapıldı)"</string>
     <string name="op_mode_unspecified">Henüz ayarlanmadı</string>
     <string name="op_mode_onetime">Her zaman sor</string>
     <string name="op_mode_ignore_description_runtime">Uygulama için iznini \"sağla\", ancak uygulama boş veri alacak veya işlem gerçekleştirilmeyecek</string>

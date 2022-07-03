@@ -18,7 +18,6 @@
     <string name="working_mode_root_removed">Mode root telah dihapus</string>
     <string name="working_mode_button_open">Buka %s</string>
     <string name="working_mode_button_download_format">Unduh %s</string>
-    <string name="working_mode_button_download">Unduh</string>
     <string name="working_mode_button_switch">Beralih ke mode kerja lain</string>
     <string name="working_mode_button_continue">Lanjut</string>
     <string name="working_mode_button_retry">Coba kembali</string>

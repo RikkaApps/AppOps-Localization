@@ -6,12 +6,10 @@
     <string name="menu_sort_by_updated_time">根據更新時間</string>
     <string name="menu_sort_by_install_time">根據安裝時間</string>
     <string name="menu_search">搜尋</string>
-    <string name="menu_contact">連絡開發者</string>
     <string name="user_name_fallback">用戶</string>
     <string name="menu_sort">排列</string>
     <string name="menu_save">儲存</string>
     <string name="menu_apply_template">套用模版</string>
-    <string name="menu_show_detail">顯示詳情</string>
     <string name="menu_select_all">全選</string>
     <string name="menu_select_inverse">反選</string>
     <string name="menu_copy_info">複製信息</string>
@@ -40,7 +38,6 @@
     <string name="op_mode_unknown">未知 (%1$d)</string>
     <string name="reset_settings_dialog_title">重設為系統預設？</string>
     <string name="reset_settings_dialog_message">這將使該程式的權限重置為系統預設狀態。</string>
-    <string name="unlock_description">去除廣告和解鎖高級功能。</string>
     <string name="permissions_view_summary">根據權限排列程式，更清晰地管理權限。</string>
     <string name="new_app_behavior">新程式行為</string>
     <string name="new_app_behavior_summary">新程式安裝後的行為，如展示通知或自動套用模版。</string>
@@ -58,12 +55,10 @@
     <string name="progress_working">正在進行 （第 %1$d 個 共 %2$d 個）…</string>
     <string name="send_to_developer">發送給開發者</string>
     <string name="menu_about">關於</string>
-    <string name="remove_ads">移除廣告</string>
     <string name="menu_users">用戶</string>
     <string name="settings_translate">翻譯</string>
     <string name="settings_translate_summary">幫助我們翻譯 App Ops 到您的語言</string>
     <string name="settings_translation_contributors">貢獻者</string>
-    <string name="working_mode_button_download">下載</string>
     <string name="unlock_full_version">解鎖完整版</string>
     <string name="full_version">完整版</string>
     <string name="template">模版</string>
@@ -92,7 +87,6 @@
     <string name="backup_restore_backup_summary"><![CDATA[爲<b>已安裝的應用程式</b>恢復設置。<br>對<b>尚未安裝的應用程式</b>，配置將會在安裝自動恢復（需要在「新應用程式」中開啓對應選項）。]]></string>
     <string name="backup_open_backup">打開備份檔案</string>
     <string name="backup_open_backup_summary"><![CDATA[查看已儲存的備份檔案內容。]]></string>
-    <string name="backup_preview">備份預覽</string>
     <string name="backup_not_installed">%1$s（未安裝）</string>
     <string name="monitors_service_label">監聽服務</string>
     <string name="monitors_service_description">被「新程式行為」，「剪貼簿監視器」，「使用情況監視器」，「使用情況歷史」所使用。</string>
@@ -108,8 +102,6 @@
     <string name="new_app_behavior_settings_apply_template_summary">如果恢復備份被開啓，該選項只在備份不存在時有效</string>
     <string name="menu_changelog">變更日誌</string>
     <string name="menu_help">幫助和支持</string>
-    <string name="settings_theme_base">基礎主題</string>
-    <string name="settings_theme_accent_color">強調色</string>
     <string name="menu_sort_by_app_name">根據應用程式名稱</string>
     <string name="menu_show_framework">顯示系統框架應用程式</string>
     <string name="settings_language">語言</string>
@@ -134,11 +126,9 @@
     <string name="menu_show_app_info_in">顯示程式資訊…</string>
     <string name="settings_black_night_theme">黑色主題</string>
     <string name="settings_black_night_theme_summary">當深色模式啟用時使用純黑色</string>
-    <string name="toast_cannot_load_help">無法載入幫助。</string>
     <string name="multi_selection_tip">您可以通過點選左側圖示或長按進入多選模式以快速操作。</string>
     <string name="op_summary_controlled_by_other">由「%s」控制</string>
     <string name="op_mode_default_description"><![CDATA[「預設」表示受<b><a href="%1$s">系統設定</a></b>或<b><a href="%2$s">應用程式資訊</a></b>中的設定控制。]]></string>
-    <string name="permissions_view_preset">預設組合</string>
     <string name="permissions_view_all">全部</string>
     <plurals name="permissions_view_item_summary">
         <item quantity="other">共 %1$d 個應用程式</item>
@@ -171,7 +161,6 @@
     <string name="no_files_app_dialog_open_settings">開啟設定</string>
     <string name="no_files_app_open_failed">無法開啟檔案應用的應用程式詳情。</string>
     <string name="op_summary_control_others">僅用於控制其他</string>
-    <string name="menu_disabled_first">已禁用優先</string>
     <string name="op_run_in_background_description"><![CDATA[不同級別下此應用程式會受到不同限制，越高的限制級別效果越好，但可能會影響越多應用程式的行為。]]></string>
     <string name="op_run_in_background_description_26"><![CDATA[這個應用程式的目標 API 級別是 %1$d（Android 8.0，26 以上）。此應用程式至少受到 Android 8 級別的限制，你只可以修改是否受到 Android 9+ 級別的限制。]]></string>
     <string name="op_run_in_background_description_learn_more"><![CDATA[<b><a href="%1$s">瞭解更多技術資訊</a></b>]]></string>
@@ -240,27 +229,12 @@
 \n根據 App Center SDK 的原始碼，只有應用程式版本，系統版本，裝置型號，螢幕尺寸，語言，時區，運營商資訊會被收集和傳送。
 \n
 \n一個隨機生成的安裝 ID 被用於區分不同的裝置。</string>
-    <string name="settings_analytics_title">傳送使用資料</string>
     <string name="settings_crash_report_title">傳送錯誤報告</string>
     <string name="settings_crash_report_summary">這將幫助我們更快地發現問題</string>
-    <string name="ad">廣告</string>
-    <string name="ad_view_other_apps">看看其他由我們開發的應用程式</string>
     <string name="dpm_mode_error_admin_not_setup"><![CDATA[管理員程式的設定可能未正確完成，請嘗試重新開啟管理員程式或重新啟動裝置。<p>如果此問題重複出現，請向管理員程式的開發人員尋求幫助。]]></string>
     <string name="dpm_mode_error_no_interact_across_users_permission"><![CDATA[在此工作模式下，要獲得多使用者支援，您還需要使用 adb 授予另一個權限。<b><a href="%1$s">閱讀幫助</a></b>瞭解如何操作。<p>或者您可以簡單地將此應用程式安裝至工作資料。]]></string>
     <string name="dpm_mode_error_no_multi_user_support"><![CDATA[您正在使用的管理程式似乎不支援多使用者。<p>最簡單的方法是將此應用程式安裝到工作資料中。或者，您可以切換到 Shizuku 模式。]]></string>
     <string name="dpm_mode_error_operation_not_supported"><![CDATA[此操作不被您正在使用的管理員程序支持。]]></string>
-    <string name="settings_theme_white_appbar">白色應用欄</string>
-    <string name="settings_theme_colored_appbar">彩色應用欄</string>
-    <string name="settings_theme_blue">藍色</string>
-    <string name="settings_theme_deep_blue">深藍色</string>
-    <string name="settings_theme_pink">粉色</string>
-    <string name="settings_theme_teal">藍綠色</string>
-    <string name="settings_theme_purple">紫色</string>
-    <string name="settings_theme_cyan">青色</string>
-    <string name="settings_theme_green">綠色</string>
-    <string name="settings_theme_orange">橙色</string>
-    <string name="settings_theme_brown">棕色</string>
-    <string name="settings_theme_blue_grey">藍灰色</string>
     <string name="menu_badge_full_version">@string/full_version</string>
     <string name="apps_view">應用程式檢視</string>
     <string name="permissions_view">權限檢視</string>

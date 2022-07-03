@@ -49,7 +49,6 @@
     <string name="working_mode_root_removed">Root modus is verwijderd</string>
     <string name="working_mode_button_open">Open %s</string>
     <string name="working_mode_button_download_format">Download %s</string>
-    <string name="working_mode_button_download">Download</string>
     <string name="working_mode_button_switch">Kies een andere werkmodus</string>
     <string name="working_mode_button_continue">Volgende</string>
     <string name="working_mode_button_retry">Probeer opnieuw</string>

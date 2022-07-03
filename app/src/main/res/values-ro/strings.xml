@@ -18,7 +18,6 @@
     <string name="working_mode_root_removed">Modul root a fost eliminat</string>
     <string name="working_mode_button_open">Deschide %s</string>
     <string name="working_mode_button_download_format">Descarcă %s</string>
-    <string name="working_mode_button_download">Descarcă</string>
     <string name="working_mode_button_switch">Schimbă modul de lucru</string>
     <string name="working_mode_button_continue">Continuă</string>
     <string name="working_mode_button_retry">Încearcă din nou</string>

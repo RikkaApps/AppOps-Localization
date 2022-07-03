@@ -7,7 +7,6 @@
     <string name="working_mode_root_removed">Root-ի ռեժիմը ջնջվեց</string>
     <string name="working_mode_button_open">Բացել «%s»-ը</string>
     <string name="working_mode_button_retry">Ընտրել նորից</string>
-    <string name="working_mode_button_download">Ներբեռնել</string>
     <string name="working_mode_button_switch">Ընտրել ուրիշ աշխատելու ձև</string>
     <string name="working_mode_button_continue">Շարունակել</string>
     <string name="working_mode_choice">Ընտրեք աշխատանքի ձև.</string>

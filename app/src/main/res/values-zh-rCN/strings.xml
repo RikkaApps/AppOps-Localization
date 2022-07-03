@@ -6,12 +6,10 @@
     <string name="menu_sort_by_updated_time">根据更新时间</string>
     <string name="menu_sort_by_install_time">根据安装时间</string>
     <string name="menu_search">搜索</string>
-    <string name="menu_contact">联系开发者</string>
     <string name="user_name_fallback">用户</string>
     <string name="menu_sort">排序</string>
     <string name="menu_save">保存</string>
     <string name="menu_apply_template">套用模版</string>
-    <string name="menu_show_detail">显示详情</string>
     <string name="menu_select_all">全选</string>
     <string name="menu_select_inverse">反选</string>
     <string name="menu_copy_info">复制信息</string>
@@ -40,7 +38,6 @@
     <string name="op_mode_unknown">未知（%1$d）</string>
     <string name="reset_settings_dialog_title">重设为系统默认？</string>
     <string name="reset_settings_dialog_message">这将使该应用的权限重置为系统默认状态。</string>
-    <string name="unlock_description">去除广告和解锁高级功能。</string>
     <string name="permissions_view_summary">根据权限分组应用，更清晰地管理权限。</string>
     <string name="new_app_behavior">新应用行为</string>
     <string name="new_app_behavior_summary">新应用安装后的行为，如展示通知或自动套用模版。</string>
@@ -58,12 +55,10 @@
     <string name="progress_working">正在进行 （第 %1$d 个 共 %2$d 个）…</string>
     <string name="send_to_developer">发送给开发者</string>
     <string name="menu_about">关于</string>
-    <string name="remove_ads">移除广告</string>
     <string name="menu_users">用户</string>
     <string name="settings_translate">翻译</string>
     <string name="settings_translate_summary">帮助我们翻译 App Ops 到您的语言</string>
     <string name="settings_translation_contributors">贡献者</string>
-    <string name="working_mode_button_download">下载</string>
     <string name="unlock_full_version">解锁完整版</string>
     <string name="full_version">完整版</string>
     <string name="template">模版</string>
@@ -92,7 +87,6 @@
     <string name="backup_restore_backup_summary"><![CDATA[为<b>已安装的应用</b>恢复设置。<br>对<b>尚未安装的应用</b>，配置将会在安装自动恢复（需要在“新应用”中开启对应选项）。]]></string>
     <string name="backup_open_backup">打开备份文件</string>
     <string name="backup_open_backup_summary"><![CDATA[查看已保存的备份文件内容。]]></string>
-    <string name="backup_preview">备份预览</string>
     <string name="backup_not_installed">%1$s（未安装）</string>
     <string name="monitors_service_label">监听服务</string>
     <string name="monitors_service_description">被“新应用行为”、“剪贴板监视器”、“使用情况监视器”、“使用情况历史” 所使用。</string>
@@ -108,8 +102,6 @@
     <string name="new_app_behavior_settings_apply_template_summary">如果恢复备份被开启，该选项只在备份不存在时有效</string>
     <string name="menu_changelog">变更日志</string>
     <string name="menu_help">帮助和支持</string>
-    <string name="settings_theme_base">基础主题</string>
-    <string name="settings_theme_accent_color">强调色</string>
     <string name="menu_sort_by_app_name">根据应用名称</string>
     <string name="menu_show_framework">显示系统框架应用</string>
     <string name="settings_language">语言</string>
@@ -134,11 +126,9 @@
     <string name="menu_show_app_info_in">显示应用信息…</string>
     <string name="settings_black_night_theme">黑色主题</string>
     <string name="settings_black_night_theme_summary">当深色模式启用时使用纯黑色</string>
-    <string name="toast_cannot_load_help">无法载入帮助。</string>
     <string name="multi_selection_tip">您可以通过点击左侧图标或长按进入多选模式以快速操作。</string>
     <string name="op_summary_controlled_by_other">由「%s」控制</string>
     <string name="op_mode_default_description"><![CDATA[“默认”表示受<b><a href="%1$s">系统设置</a></b>或<b><a href="%2$s">应用信息</a></b>中的设置控制。]]></string>
-    <string name="permissions_view_preset">预设组合</string>
     <string name="permissions_view_all">全部</string>
     <plurals name="permissions_view_item_summary">
         <item quantity="other">共 %1$d 个应用</item>
@@ -171,7 +161,6 @@
     <string name="no_files_app_dialog_open_settings">打开设置</string>
     <string name="no_files_app_open_failed">无法打开文件应用的应用详情。</string>
     <string name="op_summary_control_others">仅用于控制其他</string>
-    <string name="menu_disabled_first">已禁用优先</string>
     <string name="op_run_in_background_description"><![CDATA[不同级别下此应用会受到不同限制，越高的限制级别效果越好，但可能会影响越多应用的行为。]]></string>
     <string name="op_run_in_background_description_26"><![CDATA[这个应用的目标 API 级别是 %1$d（Android 8.0，26 以上）。此应用至少受到 Android 8 级别的限制，你只可以修改是否受到 Android 9+ 级别的限制。]]></string>
     <string name="op_run_in_background_description_learn_more"><![CDATA[<b><a href="%1$s">了解更多技术信息</a></b>]]></string>
@@ -236,27 +225,12 @@
     <string name="settings_reselect_working_mode_summary">下次打开主页时重新选择工作模式</string>
     <string name="settings_more">更多</string>
     <string name="settings_send_data_summary">我们使用 Visual Studio App Center（来自 Microsoft）。\n\n根据 App Center SDK 源代码，只有应用版本、系统版本、设备型号、屏幕尺寸、语言、时区、运营商信息会被收集和发送。\n\n一个随机生成的安装 ID 被用于区分不同的设备。</string>
-    <string name="settings_analytics_title">发送使用数据</string>
     <string name="settings_crash_report_title">发送错误报告</string>
     <string name="settings_crash_report_summary">这将帮助我们更快地发现问题</string>
-    <string name="ad">广告</string>
-    <string name="ad_view_other_apps">看看其他由我们开发的应用</string>
     <string name="dpm_mode_error_admin_not_setup"><![CDATA[管理员应用的设置可能未正确完成，请尝试重新打开管理员应用或重新启动设备。<p>如果此问题重复出现，请向管理员应用的开发者寻求帮助。]]></string>
     <string name="dpm_mode_error_no_interact_across_users_permission"><![CDATA[在此工作模式下，要获得多用户支持，您还需要使用 adb 授予另一个权限。<b><a href="%1$s">阅读帮助</a></b>了解如何操作。<p>或者您可以简单地将此应用安装至工作资料。]]></string>
     <string name="dpm_mode_error_no_multi_user_support"><![CDATA[您正在使用的管理应用似乎不支持多用户。<p>最简单的方法是将此应用安装到工作资料中。或者，您可以切换到 Shizuku 模式。]]></string>
     <string name="dpm_mode_error_operation_not_supported"><![CDATA[此操作不被您正在使用的管理员应用支持。]]></string>
-    <string name="settings_theme_white_appbar">白色应用栏</string>
-    <string name="settings_theme_colored_appbar">彩色应用栏</string>
-    <string name="settings_theme_blue">蓝色</string>
-    <string name="settings_theme_deep_blue">深蓝色</string>
-    <string name="settings_theme_pink">粉色</string>
-    <string name="settings_theme_teal">蓝绿色</string>
-    <string name="settings_theme_purple">紫色</string>
-    <string name="settings_theme_cyan">青色</string>
-    <string name="settings_theme_green">绿色</string>
-    <string name="settings_theme_orange">橙色</string>
-    <string name="settings_theme_brown">棕色</string>
-    <string name="settings_theme_blue_grey">蓝灰色</string>
     <string name="menu_badge_full_version">@string/full_version</string>
     <string name="apps_view">应用视图</string>
     <string name="permissions_view">权限视图</string>

@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="translators">cyanidial_aqua, lassemacchiato</string>
-    <string name="working_mode_button_download">Herunterladen</string>
     <string name="shizuku_mode_error_adb_no_update_permission">ADB konnte appops nur lesen, aber nicht schreiben. &lt;br&gt;Bitte nach einer Option wie \"Bearbeitung von Berechtigungen erlauben\" in den \"Entwickleroptionen\" des Systems suchen. &lt;p&gt;&lt;small&gt;Zum Beispiel, heißt die Option in MIUI \"USB-Debugging (Sicherheitsoptionen)\".&lt;/small&gt;</string>
     <string name="progress_requesting_authorization">beantrage Autorisierung…</string>
     <string name="progress_checking_availability">Überprüfe Verfügbarkeit…</string>
@@ -15,11 +14,9 @@
     <string name="menu_sort_by_updated_time">Nach Aktualisierungszeit</string>
     <string name="menu_sort_by_install_time">Nach Installationszeit</string>
     <string name="menu_search">Suchen</string>
-    <string name="menu_contact">Entwickler kontaktieren</string>
     <string name="menu_sort">Sortieren</string>
     <string name="menu_save">Speichern</string>
     <string name="menu_apply_template">Vorlage anwenden</string>
-    <string name="menu_show_detail">Details anzeigen</string>
     <string name="menu_select_all">Alles auswählen</string>
     <string name="menu_select_inverse">Auswahl umkehren</string>
     <string name="menu_copy_info">Info kopieren</string>
@@ -119,7 +116,6 @@
     <string name="backup_restore_backup_summary">Einstellungen für &lt;b&gt;installierte Apps&lt;/b&gt; wiederherstellen.&lt;br&gt;Für Apps, die &lt;b&gt;noch nicht installiert&lt;/b&gt; sind, wird die Konfiguration automatisch wiederhergestellt (muss in Einstellungen &gt; \"Neue App\" aktiviert sein).</string>
     <string name="backup_open_backup">Sicherungsdatei öffnen</string>
     <string name="backup_open_backup_summary">Inhalt der gespeicherten Sicherungsdatei ansehen.</string>
-    <string name="backup_preview">Sicherungsvorschau</string>
     <string name="backup_not_installed">%1$s (nicht installiert)</string>
     <string name="backup_notification_restored">Sicherung für %1$s wiederhergestellt.</string>
     <string name="backup_notification_restoring">Sicherung wird wiederhergestellt…</string>
@@ -141,21 +137,16 @@
     <string name="settings_translate">Übersetzen</string>
     <string name="settings_translate_summary">Hilf, App Ops in deine Sprache zu übersetzen</string>
     <string name="settings_appearance">Aussehen</string>
-    <string name="settings_theme_base">Hauptdesign</string>
-    <string name="settings_theme_accent_color">Akzentfarbe</string>
     <string name="settings_integrations">Integrationen</string>
     <string name="settings_integrations_storage_isolation_summary">\"%s\" (erfordert Root) ist eine App, die Speicherisolationsfunktionen bereitstellen kann.
 \n
 \nDurch das Einschalten dieser Option, kannst du korrekte Informationen erhalten und falsche Operationen verhindern, wenn du versuchst, Konfigurationen von speicherbezogenen App-Ops-Einstellungen zu ändern. Wenn sie nicht installiert ist, hat diese Option keine Auswirkung.</string>
-    <string name="unlock_description">Werbung entfernen und zusätzliche Funktionen freischalten.</string>
-    <string name="remove_ads">Werbung entfernen</string>
     <string name="bug_report_dialog_title">Etwas stimmt nicht</string>
     <string name="bug_report_dialog_message">Du kannst uns einen Fehlerbericht per E-Mail schicken, damit wir das Problem leichter lösen können.</string>
     <string name="bug_report_dialog_view_stacktrace">Stacktrace anzeigen</string>
     <string name="bug_report_mail_message">Wenn möglich, beschreibe bitte die Situation, als der Fehler auftrat.</string>
     <string name="send_to_developer">An Entwickler senden</string>
     <string name="user_name_fallback">Benutzer</string>
-    <string name="toast_cannot_load_help">Hilfe kann nicht geladen werden.</string>
     <string name="shizuku_mode_description">+ Funktioniert sowohl für gerootete, als auch für ungerootete Geräte &lt;br&gt;+ Sehr schnell, mit unbedeutendem Ressourcenverbrauch &lt;br&gt;+ Genieße volle Funktionalität &lt;br&gt;- Benötigt die Installation einer Open-Source-App (Shizuku) &lt;br&gt;- Für ungerootete Geräte ist es notwendig, Shizuku nach jedem Neustart mittels ADB über einen Computer zu starten (nicht erforderlich für Android 11)</string>
     <plurals name="backup_review_apps_title">
         <item quantity="one">%1$d App von %2$s</item>
@@ -175,10 +166,6 @@
     </plurals>
     <string name="usage_history">Nutzungsverlauf</string>
     <string name="op_mode_ignore">Ignorieren</string>
-    <string name="settings_theme_blue">Blau</string>
-    <string name="settings_theme_teal">Blaugrün</string>
-    <string name="settings_theme_green">Grün</string>
-    <string name="settings_theme_purple">Lila</string>
     <string name="settings_crash_report_title">Fehlerbericht senden</string>
     <string name="backup_review_action_restore_templates_add">Als neue Vorlagen wiederherstellen</string>
     <string name="requirement_android_version">Benötigte Android-Version: %s</string>
@@ -189,7 +176,6 @@
     <string name="template_edit">Vorlage bearbeiten</string>
     <string name="shizuku_mode_shizuku_not_running">(Shizuku wird nicht ausgeführt)</string>
     <string name="shizuku_mode_description_rooted">+ Volle Funktionalität genießen &lt;br&gt;&lt;br&gt;- Erfordert die Installation von Sui (ein Magisk-Modul) oder Shizuku (eine App), beide sind quelloffen</string>
-    <string name="ad">WERBUNG</string>
     <string name="shizuku_mode_error_manager_app_not_installed">Bitte installiere zuerst Shizuku. &lt;p&gt;Shizuku ist ein Open-Source-Projekt, welches seit 2017 existiert (siehe %s auf Github). Es ist so konzipiert, dass mehrere Apps, die Root oder ADB benötigen, davon profitieren. Nicht nur diese App, sondern auch einige Apps von anderen Entwicklern benutzen Shizuku. &lt;p&gt;Mit Shizuku wird diese App extrem schnell und erhält zusätzliche interessante Funktionen. Der Akku- bzw. Performance-Einfluss von Shizuku selbst ist unbedeutend (null, wenn nicht genutzt). &lt;p&gt;Wie in der Unix-Philosophie sollte ein Programm stets nur eine Aufgabe erfüllen. Shizuku und diese App folgen dieser Philosophie. In Wahrheit ist \"Alles inklusive\" eher das, was \"schlechte Apps\" tendenziell machen.</string>
     <string name="progress_format">%1$d/%2$d</string>
     <string name="quotation_marks">\"%s\"</string>
@@ -291,8 +277,6 @@
     <string name="monitors_notification_title">%s in Benutzung</string>
     <string name="monitors_notification_channel_label">Ausführungsstatus</string>
     <string name="full_version">Vollversion</string>
-    <string name="ad_view_other_apps">Sieh dir andere von uns entwickelte Apps an</string>
-    <string name="settings_analytics_title">Nutzungsdaten senden</string>
     <string name="settings_more">Mehr</string>
     <string name="settings_black_night_theme_summary">Reines Schwarz verwenden, wenn dunkles Design aktiviert ist</string>
     <string name="settings_black_night_theme">Schwarzes Design</string>
@@ -326,7 +310,6 @@
     <string name="op_mode_onetime">Jedes Mal fragen</string>
     <string name="shared_user_id_tip">Die Gemeinsame Benutzer-ID dieser App ist %s und Apps mit derselben Gemeinsamen Benutzer-ID teilen die meisten Berechtigungen.</string>
     <string name="permissions_view_all">Alle</string>
-    <string name="permissions_view_preset">Vorgabe-Kombination</string>
     <string name="apps_view">App-Ansicht</string>
     <string name="button_learn_more">Mehr erfahren</string>
     <string name="button_authorize">Autorisieren</string>
@@ -335,7 +318,6 @@
     <string name="menu_working_mode">Arbeitsmodus</string>
     <string name="menu_set_as">Festlegen als</string>
     <string name="menu_last_used_first">Zuletzt benutzt zuerst</string>
-    <string name="menu_disabled_first">Deaktivierte zuerst</string>
     <string name="menu_more">Mehr Optionen</string>
     <string name="dpm_mode_error_outdated_admin_ignore">Dieses Problem ignorieren</string>
     <string name="shizuku_mode_error_version_too_low">Die Version vom installierten Shizuku ist zu niedrig, bitte lade die aktuelle Version herunter (%s oder oben).</string>
@@ -346,16 +328,7 @@
     <string name="shizuku_mode">Shizuku-Modus</string>
     <string name="working_mode_root_removed">Root-Modus wurde entfernt</string>
     <string name="working_mode_button_open">%s öffnen</string>
-    <string name="settings_theme_brown">Braun</string>
-    <string name="settings_theme_blue_grey">Blaugrau</string>
     <string name="working_mode_button_download_format">%s herunterladen</string>
-    <string name="settings_theme_orange">Orange</string>
-    <string name="settings_theme_cyan">Türkis</string>
-    <string name="settings_theme_deep_blue">Dunkelblau</string>
-    <string name="settings_theme_pink">Rosa</string>
-    <string name="settings_theme_white_appbar">Weiße App-Leiste</string>
-    <string name="settings_theme_colored_appbar">Farbige App-Leiste</string>
-    <string name="settings_translate_summary_percentage">" (%s sind übersetzt)"</string>
     <string name="backup_error_io_exception">Etwas ist beim Schreiben/Lesen der Datei schiefgelaufen.</string>
     <string name="backup_error_broken">Diese Datei könnte beschädigt sein.</string>
     <string name="backup_error_newer_version">Diese Datei wurde möglicherweise durch eine neuere App-Version erstellt. Bitte aktualisiere die App und versuche es erneut.</string>

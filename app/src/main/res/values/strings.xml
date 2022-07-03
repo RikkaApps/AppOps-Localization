@@ -9,7 +9,6 @@
     <string name="working_mode_button_retry">Retry</string>
     <string name="working_mode_button_continue">Continue</string>
     <string name="working_mode_button_switch">Switch to another working mode</string>
-    <string name="working_mode_button_download">Download</string>
     <string name="working_mode_button_download_format">Download %s</string>
     <string name="working_mode_button_open">Open %s</string>
     <string name="working_mode_root_removed">Root mode has been removed</string>
@@ -105,11 +104,9 @@ Cannot connect to the admin app %1$s.
     <string name="menu_sort_by_updated_time">By update time</string>
     <string name="menu_sort_by_install_time">By installation time</string>
     <string name="menu_search">Search</string>
-    <string name="menu_contact">Contact developer</string>
     <string name="menu_sort">Sort</string>
     <string name="menu_save">Save</string>
     <string name="menu_apply_template">Apply template</string>
-    <string name="menu_show_detail">Show detail</string>
     <string name="menu_select_all">Select all</string>
     <string name="menu_select_inverse">Select inverse</string>
     <string name="menu_copy_info">Copy info</string>
@@ -121,7 +118,6 @@ Cannot connect to the admin app %1$s.
     <string name="menu_view_options">View options</string>
     <string name="menu_options">Options</string>
     <string name="menu_delete">Delete</string>
-    <string name="menu_disabled_first">Disabled first</string>
     <string name="menu_last_used_first">Last used first</string>
     <string name="menu_users">Users</string>
     <string name="menu_about">About</string>
@@ -149,7 +145,6 @@ Cannot connect to the admin app %1$s.
 
     <string name="permissions_view">Permissions view</string>
     <string name="permissions_view_summary">List apps by permission and manage them clearly.</string>
-    <string name="permissions_view_preset">Preset combination</string>
     <string name="permissions_view_all">All</string>
     <plurals name="permissions_view_item_summary">
         <item quantity="one">%1$d app</item>
@@ -333,7 +328,6 @@ This app does not request for \"%s\", but some other requested permissions are c
     <string name="backup_restore_backup_summary"><![CDATA[Restore settings for <b>installed apps</b>.<br>To <b>apps not yet installed</b>, the configuration will be restored automatically (require enabled in "New app").]]></string>
     <string name="backup_open_backup">Open backup file</string>
     <string name="backup_open_backup_summary"><![CDATA[View the content of saved backup file.]]></string>
-    <string name="backup_preview">Backup preview</string>
     <string name="backup_not_installed">%1$s (not installed)</string>
     <string name="backup_notification_restored">Backup restored for %1$s.</string>
     <string name="backup_notification_restoring">Restoring backup…</string>
@@ -388,23 +382,8 @@ This app does not request for \"%s\", but some other requested permissions are c
     <string name="settings_language">Language</string>
     <string name="settings_translate">Translate</string>
     <string name="settings_translate_summary">Help us translate App Ops to your own language</string>
-    <string name="settings_translate_summary_percentage">" (%s are translated)"</string>
     <string name="settings_translation_contributors">Contributors</string>
     <string name="settings_appearance">Appearance</string>
-    <string name="settings_theme_base">Base theme</string>
-    <string name="settings_theme_accent_color">Accent color</string>
-    <string name="settings_theme_white_appbar">White app bar</string>
-    <string name="settings_theme_colored_appbar">Colored app bar</string>
-    <string name="settings_theme_blue">Blue</string>
-    <string name="settings_theme_deep_blue">Deep Blue</string>
-    <string name="settings_theme_pink">Pink</string>
-    <string name="settings_theme_teal">Teal</string>
-    <string name="settings_theme_purple">Purple</string>
-    <string name="settings_theme_cyan">Cyan</string>
-    <string name="settings_theme_green">Green</string>
-    <string name="settings_theme_orange">Orange</string>
-    <string name="settings_theme_brown">Brown</string>
-    <string name="settings_theme_blue_grey">Blue Grey</string>
     <string name="settings_black_night_theme">Black theme</string>
     <string name="settings_black_night_theme_summary">Use pure black when dark mode is enabled</string>
     <string name="settings_use_system_color">Use system theme color</string>
@@ -413,16 +392,11 @@ This app does not request for \"%s\", but some other requested permissions are c
     <string name="settings_integrations_storage_isolation_summary">\"%s\" is a root-required app from us. It provides more advanced control over storage.\n\nThis option is to prevent misoperation when you try to change storage-related configurations.</string>
     <string name="settings_more">More</string>
     <string name="settings_send_data_summary">We use Visual Studio App Center (from Microsoft).\n\nAccording to the source code of App Center SDK, only app version, system version, device model, screen size, language, time zone, and carrier information will be collected and send.\n\nA randomly generated install ID is used to distinguish between different devices.</string>
-    <string name="settings_analytics_title">Send usage data</string>
     <string name="settings_crash_report_title">Send bug report</string>
     <string name="settings_crash_report_summary">This will help us find problems faster</string>
 
-    <string name="unlock_description">Remove ads and unlock additional features.</string>
-    <string name="remove_ads">Remove ads</string>
     <string name="unlock_full_version">Unlock full version</string>
     <string name="full_version">Full version</string>
-    <string name="ad">AD</string>
-    <string name="ad_view_other_apps">Check out other apps developed by us</string>
 
     <string name="bug_report_dialog_title">Something is wrong</string>
     <string name="bug_report_dialog_message">You can send an error message to us by mail to help us solve the problem.</string>
@@ -466,7 +440,6 @@ This app does not request for \"%s\", but some other requested permissions are c
     <string name="storage_isolation_requires_enhance_mode"><![CDATA[Note, \"%1$s\" needs to be run under \"Enhanced mode\".]]></string>
 
     <string name="toast_options_has_been_moved">Some options have been moved.</string>
-    <string name="toast_cannot_load_help">Can\'t load help.</string>
 
     <string name="manufacturer_restriction_dialog_title">Restrictions from manufacturers</string>
     <string name="manufacturer_restriction_dialog_message"><![CDATA[

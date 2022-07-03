@@ -1,7 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="menu_show_detail">詳細を表示</string>
-    <string name="working_mode_button_download">ダウンロード</string>
     <string name="shizuku_mode_error_adb_no_update_permission">ADBにはget appopsだけがありますが、update appopsの許可はありません。&lt;br&gt;システムの開発者向けオプションで「変更許可」などのオプションを探してみてください。&lt;p&gt;&lt;small&gt;例えば、MIUIでは、USBデバッグ（セキュリティオプション）というオプションがあります。&lt;/small&gt;</string>
     <string name="progress_requesting_authorization">承認を要求します…</string>
     <string name="progress_checking_availability">可用性を確認中…</string>
@@ -15,7 +13,6 @@
     <string name="menu_sort_by_updated_time">最終更新時間</string>
     <string name="menu_sort_by_install_time">インストール時間</string>
     <string name="menu_search">検索</string>
-    <string name="menu_contact">デベロッパーに連絡</string>
     <string name="menu_sort">並べ替え</string>
     <string name="menu_save">保存</string>
     <string name="menu_apply_template">テンプレートを適用</string>
@@ -90,7 +87,6 @@
     <string name="backup_restore_backup">バックアップファイルからの復元</string>
     <string name="backup_open_backup">バックアップファイルを開く</string>
     <string name="backup_open_backup_summary">保存したバックアップのコンテンツをチェック。</string>
-    <string name="backup_preview">バックアッププレビュー</string>
     <string name="backup_not_installed">%1$s （未インストール）</string>
     <string name="backup_notification_restored">%1$s のバックアップを復元しました。</string>
     <string name="backup_notification_restoring">バックアップを復元中…</string>
@@ -103,10 +99,6 @@
     <string name="settings_language">言語</string>
     <string name="settings_translate">翻訳</string>
     <string name="settings_appearance">外観</string>
-    <string name="settings_theme_base">テーマ</string>
-    <string name="settings_theme_accent_color">アクセントカラー</string>
-    <string name="unlock_description">広告を除去し、追加機能のロックを解除する。</string>
-    <string name="remove_ads">広告を除去</string>
     <string name="bug_report_dialog_title">何かが間違っている</string>
     <string name="send_to_developer">デベロッパーに送信</string>
     <string name="user_name_fallback">ユーザー</string>
@@ -222,7 +214,6 @@
     <plurals name="permissions_view_item_summary_controlled_by_other">
         <item quantity="other">%2$dのアプリは、%1$sで制御されています</item>
     </plurals>
-    <string name="permissions_view_preset">プリセットの組み合わせ</string>
     <plurals name="permissions_view_item_summary">
         <item quantity="other">%1$dのアプリ</item>
     </plurals>
