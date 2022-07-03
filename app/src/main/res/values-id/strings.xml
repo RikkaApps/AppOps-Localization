@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="dpm_mode">Mode Admin Perangkat yang Didelegasikan</string>
     <string name="shizuku_mode_error_adb_no_update_permission">ADB hanya memiliki izin get appops tetapi tidak ada izin pembaruan appops. &lt;br&gt;Silakan coba cari opsi seperti Izinkan untuk modifikasi izin di opsi Pengembang sistem. &lt;p&gt;&lt;small&gt;Misalnya, di MIUI, opsinya adalah USB debugging (opsi keamanan).&lt;/small&gt;</string>
     <string name="shizuku_mode_error_version_too_low">Versi Shizuku yang terpasang terlalu rendah, silakan unduh versi terbaru Shizuzku (%s atau diatasnya).</string>
     <string name="shizuku_mode_error_not_running">Shizuku tidak berjalan atau ada kesalahan lain. &lt;br&gt;Jika Shizuku sudah berjalan, coba hentikan paksa aplikasi ini.</string>

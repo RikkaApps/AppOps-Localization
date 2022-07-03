@@ -28,7 +28,6 @@
     <string name="menu_show_system">Pokaż aplikacje systemowe</string>
     <string name="menu_app_info">Informacje o aplikacji</string>
     <string name="progress_checking_availability">Sprawdzam dostępność…</string>
-    <string name="dpm_mode_error_outdated_admin_ignore">Zignoruj błąd</string>
     <string name="working_mode_button_continue">Kontynuuj</string>
     <string name="working_mode_button_retry">Ponów</string>
     <string name="shizuku_mode_over_root">Tryb Shizuku (uruchamiane za pomocą roota)</string>
@@ -50,16 +49,11 @@
     <string name="shizuku_mode_error_not_running">Shizuku nie działa lub występują inne błędy. &lt;br&gt;Jeśli Shizuku jest uruchomione, spróbuj wymusić zatrzymanie tej aplikacji.</string>
     <string name="shizuku_mode_error_version_too_low">Wersja zainstalowanego Shizuku jest przestarzała, pobierz najnowszą wersję Shizuzku (%s lub nowszą).</string>
     <string name="shizuku_mode_error_adb_no_update_permission">ADB ma tylko aplikacje, ale nie ma uprawnień do aktualizacji. &lt;br&gt;Spróbuj poszukać opcji takiej jak Zezwól na modyfikację uprawnień w opcjach programisty systemu. &lt;p&gt;&lt;small&gt;Na przykład w MIUI opcją jest debugowanie USB (opcje bezpieczeństwa).&lt;/small&gt;</string>
-    <string name="dpm_mode">Delegowanie urządzenia do trybu administratora</string>
-    <string name="dpm_mode_error_admin_not_setup">Konfiguracja aplikacji administratora może nie zostać zakończona poprawnie, spróbuj ponownie otworzyć aplikację administratora lub ponownie uruchomić urządzenie.&lt;p&gt;Jeśli ten problem występuje wielokrotnie, poproś dewelopera aplikacji o pomoc.</string>
     <string name="progress_fetching_app_list">Pobieram listę aplikacji…</string>
     <string name="progress_working">Pracuję (%1$d z %2$d)…</string>
     <string name="menu_reset">Resetowanie</string>
     <string name="progress_fetching_user_list">Pobieram listę użytkowników…</string>
-    <string name="dpm_mode_error_no_permission">Brak niezbędnych uprawnień, dotknij Odśwież, aby spróbować ponownie.</string>
     <string name="menu_options">Opcje</string>
-    <string name="dpm_mode_error_no_multi_user_support">Wygląda na to, że aplikacja administratora, której używasz, nie obsługuje wielu użytkowników. &lt;p&gt;Najprostszym sposobem jest zainstalowanie tej aplikacji w profilu. Możesz też przełączyć się na tryb Shizuku.</string>
-    <string name="dpm_mode_error_operation_not_supported">Ta operacja nie jest obsługiwana przez aplikację, której używasz.</string>
     <string name="progress_requesting_authorization">Prośba o autoryzację…</string>
     <string name="menu_show_app_info_in">Pokaż informacje o aplikacji w…</string>
     <string name="menu_sort">Sortuj</string>
@@ -91,12 +85,6 @@
     <string name="new_app_behavior_settings_apply_template">Zastosuj szablon automatycznie</string>
     <string name="shizuku_mode_description">+ Działa zarówno na urządzeniach root, jak i na urządzeniach innych niż root &lt;br&gt;+ Bardzo szybki, przy znikomym zużyciu zasobów &lt;br&gt;+ Ciesz się pełną funkcjonalnością &lt;br&gt;&lt;br&gt;- Wymaga zainstalowania aplikacji typu open source (Shizuku) &lt;br&gt;- Na inne urządzenia bez root, przy każdym ponownym uruchomieniu wymagane jest uruchomienie Shizuku za pomocą adb z komputerem &lt;br&gt;- W przypadku urządzeń z systemem Android 11 lub nowszym Shizuku można uruchomić bez komputera</string>
     <string name="shizuku_mode_error_manager_app_not_installed">Proszę najpierw zainstalować Shizuku. &lt;p&gt;Shizuku to projekt open-source, który rozpoczął się w 2017 roku (zobacz %s na GitHub). Został zaprojektowany z myślą o wielu aplikacjach, które wymagają roota lub adb. Nie tylko ta aplikacja, ale także niektóre aplikacje innych programistów używają Shizuku. &lt;p&gt;Dzięki Shizuku ta aplikacja uzyska niewiarygodnie dużą szybkość i ciekawsze funkcje. W przypadku samego Shizuku zużycie baterii lub wydajności jest znikome (zero, gdy nie jest używane). &lt;p&gt;Podobnie jak filozofia Uniksa, jeden program powinien wykonywać tylko jedną pracę. Shizuku i ta aplikacja realizują tę filozofię. W rzeczywistości wszystko wbudowane jest bardziej podobne do tego, co lubią robić „złe aplikacje”.</string>
-    <string name="dpm_mode_error_no_get_appops_permission">Musisz również użyć adb, aby udzielić niezbędnych uprawnień. &lt;p&gt;&lt;b&gt;&lt;a href=appops-client://help/dpm_mode&gt;Przeczytaj pomoc&lt;/a&gt;&lt;/b&gt;, aby dowiedzieć się, jak to zrobić.</string>
-    <string name="dpm_mode_description">+ Działa na urządzeniach bez root &lt;br&gt;+ Jednorazowa konfiguracja &lt;br&gt;&lt;br&gt;- Wymaga połączenia z komputerem (użyj adb) &lt;br&gt;- Wymaga zainstalowania określonej aplikacji innej firmy &lt;br&gt;- Wymaga Androida 9 lub nowszego</string>
-    <string name="dpm_mode_error_no_interact_across_users_permission">W tym trybie pracy, aby uzyskać wsparcie dla wielu użytkowników, musisz również użyć adb, aby nadać inne uprawnienia. &lt;b&gt;&lt;a href=%1$s&gt;Przeczytaj pomoc&lt;/a&gt;&lt;/b&gt;, aby dowiedzieć się, jak to zrobić .&lt;p&gt;Możesz też po prostu zainstalować tę aplikację do swojego profilu.</string>
-    <string name="dpm_mode_error_app_not_installed">„Aby korzystać z trybu delegowanego administratora urządzeń, musisz zainstalować inną aplikację i przejść przez skomplikowany proces konfiguracji (wymaga adb z więcej niż jednym wierszem polecenia). Proces konfiguracji wystarczy wykonać tylko raz. &lt;p&gt;&lt;b&gt;&lt;a href=appops-client://help/dpm_mode&gt;Przeczytaj pomoc&lt;/a&gt;&lt;/b&gt;, aby dowiedzieć się, jak to zrobić.</string>
-    <string name="dpm_mode_error_outdated_admin">Obecna aplikacja administratora, %1$s, nie obsługuje jeszcze niektórych krytycznych funkcji. Zaktualizuj aplikację administratora lub poproś programistę aplikacji o wprowadzenie zmian. &lt;p&gt;&lt;b&gt;Bez tych funkcji w systemie Android 10 lub nowszym czasami Twoje ustawienia mogą nie działać&lt;/b&gt;. Nawet w starszych systemach te funkcje są nadal potrzebne w rzadkich przypadkach. &lt;p&gt;Kiedy bieżąca wersja została wydana, znane aplikacje administracyjne z niezbędną obsługą (może być konieczne ponowne uruchomienie tej aplikacji po uaktualnieniu aplikacji administratora): &lt;br&gt;%2$s</string>
-    <string name="dpm_mode_error_timeout">Nie można połączyć się z aplikacją administratora %1$s. &lt;p&gt;Połączenie (w języku technicznym nazywane powiązaną usługą) może zostać zablokowane przez Twój system. Jest bardzo możliwe, że producenci tacy jak OnePlus, Xiaomi, Huawei, Samsung ograniczają usługi związane (nawet jeśli aplikacja spełnia standard Androida). &lt;p&gt;Spróbuj wyłączyć te ograniczenia (ograniczenia zachowania w tle) zarówno dla tej aplikacji, jak i aplikacji administratora %1$s. Możesz odwołać się do %2$s.</string>
     <string name="new_app_behavior_settings_restore_backup_summary">Kopia zapasowa może pochodzić z poprzedniej konfiguracji lub z ręcznie utworzonego pliku kopii zapasowej</string>
     <string name="new_app_behavior_settings_apply_template_summary">Jeśli włączona jest opcja „Przywróć kopię zapasową”, ta opcja będzie działać tylko wtedy, gdy kopia zapasowa nie istnieje</string>
     <string name="op_name_CAMERA">aparat</string>

@@ -11,8 +11,6 @@
     <string name="cannot_open_browser_dialog_title">Tarayıcı başlatılamıyor</string>
     <string name="worker_service_notification_title">Çalışıyor…</string>
     <string name="worker_service_notification_channel_label">İş durumu</string>
-    <string name="user_name_work_profile">İş profili</string>
-    <string name="user_name_owner">Birincil kullanıcı</string>
     <string name="user_name_fallback">Kullanıcı</string>
     <string name="monitors_notification_channel_label">Çalışma durumu</string>
     <string name="monitors_notification_summary">Bildirim seçenekleri için dokunun.</string>
@@ -237,9 +235,6 @@
     <string name="progress_fetching_user_list">Kullanıcı listesi getiriliyor…</string>
     <string name="progress_checking_availability">Kullanılabilirliği kontrol ediliyor…</string>
     <string name="progress_requesting_authorization">Yetkilendirme isteniyor…</string>
-    <string name="dpm_mode_error_no_get_appops_permission">Ayrıca gerekli izni almak için adb kullanmanız gerekir. Bunu nasıl yapacağınızı öğrenmek için &lt;p&gt;&lt;b&gt;&lt;a href=appops-client://help/dpm_mode&gt;Yardımı okuyun&lt;/a&gt;&lt;/b&gt;.</string>
-    <string name="dpm_mode_error_no_permission">Gerekli izinler eksik, yeniden denemek için Yenile\'ye dokunun.</string>
-    <string name="dpm_mode_error_app_not_installed">Yetkilendirilmiş Cihaz Yöneticisi modunu kullanmak için başka bir uygulama yüklemeniz ve karmaşık bir kurulum sürecinden geçmeniz gerekir (birden fazla komut satırı ile adb gerektirir). Kurulum işleminin yalnızca bir kez yapılması gerekir. Bunu nasıl yapacağınızı öğrenmek için &lt;p&gt;&lt;b&gt;&lt;a href=appops-client://help/dpm_mode&gt;Yardımı okuyun&lt;/a&gt;&lt;/b&gt;.</string>
     <string name="your_working_mode">Sizin çalışma modunuz: %s</string>
     <string name="your_android_version">Sizin Android sürümünüz: %s</string>
     <string name="requirement_working_mode">Gereken çalışma modu: %s</string>
@@ -247,12 +242,6 @@
     <string name="requirements">Gereksinimler</string>
     <string name="do_not_show_again_dialog_message">Bu ipucuyu bir daha görmek istemediğine emin misin\?</string>
     <string name="do_not_show_again">Bir daha gösterme</string>
-    <string name="dpm_mode_error_operation_not_supported">Bu işlem kullandığınız yönetici uygulaması tarafından desteklenmez.</string>
-    <string name="dpm_mode_error_no_multi_user_support">Kullandığınız yönetici uygulaması çoklu kullanıcıyı desteklemiyor gibi görünüyor. &lt;p&gt;En basit yolu iş profiline bu uygulamayı yüklemektir. Ya da Shizuku moduna geçebilirsiniz.</string>
-    <string name="dpm_mode_error_no_interact_across_users_permission">Bu çalışma modu altında; çoklu kullanıcı desteği için, başka bir izin vermek üzere adb kullanmanız da gerekir. &lt;b&gt;&lt;a href=%1$s&gt;Yardımı oku&lt;/a&gt;&lt;/b&gt; bunu nasıl yapacağınızı öğrenin.&lt;p&gt;Veya bu uygulamayı iş profiline yükleyebilirsiniz.</string>
-    <string name="dpm_mode_error_admin_not_setup">Yönetici uygulamasının kurulumu doğru şekilde tamamlanamayabilir, lütfen yönetici uygulamasını yeniden açmayı deneyin veya cihazı yeniden başlatın.&lt;p&gt;Bu sorun yeniden oluşursa, lütfen yönetici uygulamasının geliştiricisinden yardım isteyin.</string>
-    <string name="dpm_mode_description">+ Rootsuz cihazlarda çalışır &lt;br&gt;+ Tek seferlik kurulum &lt;br&gt;&lt;br&gt;- Bilgisayar bağlantısı gerektirir (adb kullanın) &lt;br&gt;- Belirli bir üçüncü taraf uygulama yüklemeyi gerektirir &lt;br&gt;- Android 9 veya üzeri gerektirir</string>
-    <string name="dpm_mode">Yetkilendirilmiş Cihaz Yöneticisi modu</string>
     <string name="shizuku_mode_error_adb_no_update_permission">ADB sadece appops izni aldırdı fakat hiç yeni appops izni yok. &lt;br&gt;Lütfen cihazınızın Geliştirici seçeneklerinde izinlerde değişiklik yapmaya izin ver gibi bir seçenek aramayı deneyin. &lt;p&gt;&lt;small&gt;Örneğin, MIUI\'de, USB Hata Ayıklama seçeneği (güvenlik seçenekleri).&lt;/small&gt;</string>
     <string name="shizuku_mode_error_version_too_low">Yüklü Shizuku sürümü çok düşük, Shizuku\'nun en yeni sürümünü indirin lütfen (%s veya üzeri).</string>
     <string name="shizuku_mode_error_not_running">Shizuku çalışmıyor ya da başka hatalar var. &lt;br&gt;Shizuku çalışıyorsa, lütfen bu uygulamayı zorla durdurmayı deneyin.</string>
@@ -313,7 +302,6 @@
     <string name="menu_working_mode">Çalışma modu</string>
     <string name="menu_set_as">Olarak ayarla</string>
     <string name="menu_last_used_first">Son kullanılan ilk</string>
-    <string name="dpm_mode_error_outdated_admin_ignore">Bu sorunu yoksayın</string>
     <string name="working_mode_button_download_format">%s İndir</string>
     <string name="op_desc_READ_CLIPBOARD">Android 10 veya üstü sürümlerde, uygulamalar panoyu yalnızca ön plandaysa okuyabilir.</string>
     <string name="op_desc_START_FOREGROUND">Kısacası, bir ön plan hizmeti reddedilemeyecek bir bildirimi olan bir arka plan hizmetidir. Bildirimin varlığından aktif olarak haberdar olabileceğiniz için, sistem ön plan hizmetlerinin hayatta kalmasını sağlayacaktır. &lt;p&gt; Bunun ön plan hizmetlerinin normal hizmetlere düşmesine neden olacağını reddet diyerek, bu uygulama davranışını bozabilir (müzik çalar arka plan, harita uygulaması konum güncellemesini durdurur). &lt;p&gt; &lt;b&gt; &lt;a href=https://developer.android.com/guide/components/services&gt; Android Geliştiricileri dokümanlarını görüntüleyin &lt;/a&gt; &lt;/b&gt;</string>

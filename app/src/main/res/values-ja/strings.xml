@@ -146,17 +146,8 @@
     <string name="shizuku_mode_error_manager_app_not_installed_rooted">「Sui」または「Shizuku」を先にインストールしてください。この2つのモジュールは同じAPIデザインを持つ双子の姉妹です。&lt;p&gt;「Sui」はMagiskのモジュールです。Magiskがインストールされている端末での使用を推奨します。&lt;p&gt;「Shizuku」は、スタンドアロンのAndroidアプリケーションです。</string>
     <string name="requirements">要求事項</string>
     <string name="shizuku_mode_error_user_denied_permission">このアプリにShizukuの使用を許可していません。&lt;br&gt;システム設定またはShizukuアプリで、このアプリに許可を与えてください。&lt;p&gt;MIUIを使用している場合、MIUIはAndroidのカスタムパーミッションメカニズムを破壊しているため、Shizukuアプリからのみパーミッションを付与することができます。</string>
-    <string name="dpm_mode_description">+ 非root デバイスで動作&lt;br&gt;+1回のセットアップ&lt;br&gt;&lt;br&gt;-コンピュータとの接続が必要（adbを使用)&lt;br&gt;-特定のサードパーティ製アプリのインストールが必要 &lt;br&gt;-Android 9以上が必要</string>
-    <string name="dpm_mode_error_admin_not_setup">管理アプリのセットアップが正しく完了していない可能性がありますので、管理アプリを再度開くか、端末を再起動してみてください。&lt;p&gt;この問題が繰り返し発生する場合は、管理アプリの開発者に問い合わせてください。</string>
-    <string name="dpm_mode_error_no_interact_across_users_permission">この作業モードでは、マルチユーザー対応のため、adbを使って別のパーミッションを付与する必要もあります。&lt;b&gt;&lt;a href=%1$s&gt;Read help&lt;/a&gt;&lt;/b&gt;でその方法を知ることができます。 &lt;p&gt;または、単純にこのアプリを作業用プロファイルにインストールすることもできます。</string>
-    <string name="dpm_mode_error_no_multi_user_support">使用している管理アプリがマルチユーザーに対応していないようです。&lt;p&gt;最も簡単な方法は、このアプリを仕事用のプロファイルにインストールすることです。または、Shizukuモードに切り替えることです。</string>
-    <string name="dpm_mode_error_app_not_installed">委任型デバイス管理モードを使用するためには、別のアプリをインストールし、複雑なセットアッププロセスを行う必要があります（1行以上のコマンドを含むadbが必要）。この設定作業は一度だけで済みます。&lt;p&gt;&lt;b&gt;&lt;a href=appops-client://help/dpm_mode&gt;Read help&lt;/a&gt;&lt;/b&gt;で、その方法を学ぶことができます。</string>
-    <string name="dpm_mode_error_no_permission">必要なパーミッションが見つからない場合は、「更新」をタップして再試行してください。</string>
-    <string name="dpm_mode_error_outdated_admin">現在の管理アプリ（%1$s）は、いくつかの重要な機能をまだサポートしていません。お使いの管理アプリをアップグレードするか、管理アプリの開発者に変更を依頼してください。&lt;p&gt;&lt;b&gt;これらの機能がないと、Android 10以上では、設定が実際には機能しない場合があります&lt;/b&gt;。古いシステムであっても、まれにそれらの機能が必要になることがあります。&lt;p&gt;現在のバージョンがリリースされたとき、必要なサポートを備えた既知の管理者アプリ（管理者アプリをアップグレードした後、このアプリを再起動する必要があるかもしれません）がありました。&lt;br&gt;%2$s</string>
     <string name="op_mode_ignore_description_others">アプリが空のデータを取得するか、操作が行われない</string>
     <string name="op_mode_default_description">\"デフォルト \"とは、&lt;b&gt;&lt;a href=%1$s&gt;システム設定&lt;/b&gt;&lt;/b&gt;や&lt;b&gt;&lt;a href=%2$s&gt;アプリ情報&lt;/b&gt;&lt;/b&gt;に記載されている設定で制御されていることを意味します。</string>
-    <string name="op_associated_with_runtime_dpm">「%1$s 」では、システムの制限のため、現在のステータスを正確に取得できません。</string>
-    <string name="op_associated_with_runtime_dpm_not_support">現在の管理用アプリ「%1$s」は、いくつかの重要な機能をまだサポートしていません。&lt;b&gt;設定が反映されない場合があります&lt;/b&gt;。&lt;p&gt;現在のバージョンがリリースされたときに、必要なサポートを備えた既知の管理者アプリ（管理者アプリをアップグレードした後、このアプリを再起動する必要があるかもしれません）。&lt;br&gt;%2$s</string>
     <string name="op_unknown_description">この許可は、純正のAndroidには含まれていません（端末メーカーが追加したものや、新しいAndroidのバージョンで追加されたもの）。ご注意ください。</string>
     <string name="op_run_in_background_description_26">このアプリの対象APIレベルは%1$d(Android 8.0, 26以上)となっています。このアプリは少なくともAndroid 8レベルの制限を受けていますので、Android 9以上の制限を実施するかどうかのみ選択できます。</string>
     <string name="op_run_in_background_description_learn_more">&lt;b&gt;&lt;a href=%1$s&gt;詳しい技術情報を知る&lt;/a&gt;&lt;/b&gt;</string>
@@ -221,11 +212,6 @@
     <string name="menu_badge_early_access">早期アクセス</string>
     <string name="menu_set_as">として設定します</string>
     <string name="menu_more">より多くのオプション</string>
-    <string name="dpm_mode_error_timeout">管理アプリ %1$s に接続できません。&lt;p&gt;この接続（技術的にはbound serviceと呼ばれます）は、システムによってブロックされている可能性があります。OnePlus、Xiaomi、Huawei、Samsungなどのメーカーがバウンドサービスを制限している可能性が高いです（アプリがAndroidの標準を満たしていても）。&lt;p&gt;本アプリと管理アプリ%1$sの両方で、これらの制限（バックグラウンド動作の制限）を無効にしてみてください。%2$sを参考にしてください。</string>
-    <string name="dpm_mode_error_outdated_admin_ignore">この問題を無視する</string>
-    <string name="dpm_mode_error_no_get_appops_permission">また、adbを使って必要なパーミッションを付与する必要があります。&lt;p&gt;&lt;b&gt;&lt;a href=appops-client://help/dpm_mode&gt;Read help&lt;/a&gt;&lt;/b&gt;でその方法を知ることができます。</string>
-    <string name="dpm_mode_error_operation_not_supported">この操作は、使用している管理アプリではサポートされていません。</string>
-    <string name="dpm_mode">Delegated Device Adminモード</string>
     <string name="shizuku_mode_error_version_too_low">現在インストールされているShizukuのバージョンが古すぎるため、最新版のShizukuをインストールしてください(バージョン%s以上)。</string>
     <string name="shizuku_mode_error_not_running">Shizukuが動作していないか何らかの問題が発生しています。&lt;br&gt;Shizukuが動作している場合、このアプリの強制終了をお試しください。</string>
     <string name="shizuku_mode_error_user_denied_permission_sui">このアプリにSuiの使用を許可していません。&lt;br&gt;このアプリにSuiでの使用を許可してください。</string>

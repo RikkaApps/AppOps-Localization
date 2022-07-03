@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="working_mode_button_switch">Перемкнутися на інший робочий режим</string>
-    <string name="dpm_mode_error_no_permission">Відсутні необхідні дозволи, торкніться \"Оновити\" та спробуйте знову.</string>
     <string name="progress_requesting_authorization">Запит авторизації…</string>
     <string name="progress_checking_availability">Перевірка доступності…</string>
     <string name="progress_fetching_user_list">Отримання списку користувачів…</string>
@@ -151,8 +150,6 @@
     <string name="bug_report_mail_message">За можливості, будь ласка, опишіть ситуацію, за якої трапилася помилка.</string>
     <string name="send_to_developer">Надіслати розробнику</string>
     <string name="user_name_fallback">Користувач</string>
-    <string name="user_name_owner">Первинний користувач</string>
-    <string name="user_name_work_profile">Робочий профіль</string>
     <string name="worker_service_notification_channel_label">Робочий статус</string>
     <string name="worker_service_notification_title">Опрацювання…</string>
     <string name="cannot_open_browser_dialog_title">Не вдалося запустити оглядач</string>

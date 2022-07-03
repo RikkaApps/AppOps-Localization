@@ -171,15 +171,6 @@
     <string name="working_mode_button_retry">Repetir</string>
     <string name="working_mode_choice">Escolha um modo de trabalho:</string>
     <string name="working_mode_title">Modo de trabalho: %s</string>
-    <string name="dpm_mode_error_no_get_appops_permission">Você também precisa usar o adb para conceder a permissão necessária. &lt;p&gt;&lt;b&gt;&lt;a href=appops-client://help/dpm_mode&gt;Leia a ajuda&lt;/a&gt;&lt;/b&gt; para saber como fazer isso.</string>
-    <string name="dpm_mode_error_no_permission">Sem as permissões necessárias, toque em Atualizar para tentar novamente.</string>
-    <string name="dpm_mode_error_app_not_installed">Para usar o modo Administrador de dispositivo delegado, você precisa instalar outro aplicativo e passar por um processo de configuração complicado (requer adb com mais de uma linha de comando). O processo de configuração só precisa ser feito uma vez. &lt;p&gt;&lt;b&gt;&lt;a href=appops-client://help/dpm_mode&gt;Leia a ajuda&lt;/a&gt; &lt;/b&gt; para saber como fazer isso.</string>
-    <string name="dpm_mode_error_operation_not_supported">Esta operação não é suportada pelo aplicativo de administrador que você está usando.</string>
-    <string name="dpm_mode_error_no_multi_user_support">Parece que o aplicativo de administrador que você está usando não oferece suporte a vários usuários. &lt;p&gt;A maneira mais simples é instalar este aplicativo no perfil de trabalho. Ou você pode mudar para o modo Shizuku.</string>
-    <string name="dpm_mode_error_no_interact_across_users_permission">Nesse modo de trabalho, para suporte a vários usuários, você também precisa usar o adb para conceder outra permissão. &lt;b&gt;&lt;a href=%1$s&gt;Leia a ajuda&lt;/a&gt;&lt;/b&gt;para saber como fazer isso. &lt;p&gt;Ou você pode simplesmente instalar este aplicativo no perfil de trabalho.</string>
-    <string name="dpm_mode_error_admin_not_setup">A configuração do aplicativo de administração não foi concluída corretamente, tente reabrir o aplicativo de administração ou reinicializar o dispositivo. &lt;p&gt;Se esse problema ocorrer repetidamente, peça ajuda ao desenvolvedor do aplicativo de administração.</string>
-    <string name="dpm_mode_description">+ Funciona em dispositivos não root &lt;br&gt;+ Configuração única &lt;br&gt;&lt;br&gt; - Requer conexão de computador (use adb) &lt;br&gt;- Requer a instalação de um aplicativo de terceiros específico &lt;br&gt;- Requer Android 9 ou acima</string>
-    <string name="dpm_mode">Modo de administrador de dispositivo delegado</string>
     <string name="shizuku_mode_error_version_too_low">A versão do Shizuku instalada é muito antiga, faça download da versão mais recente do Shizuku (%s ou superior).</string>
     <string name="shizuku_mode_error_not_running">Shizuku não está funcionando ou há outros erros. &lt;br&gt;Se o Shizuku estiver em execução, tente forçar a parada deste aplicativo.</string>
     <string name="shizuku_mode_error_user_denied_permission">Você não permitiu que este aplicativo usasse Shizuku. &lt;br&gt;Conceda permissão a este aplicativo nas configurações do sistema ou no aplicativo Shizuku. &lt;p&gt;Se você estiver usando MIUI, MIUI quebra o mecanismo de permissão personalizado do Android, você só pode conceder a permissão do aplicativo Shizuku.</string>
@@ -188,8 +179,6 @@
     <string name="shizuku_mode_error_manager_app_not_installed">Por favor, instale Shizuku primeiro. &lt;p&gt;Shizuku é um projeto de código aberto a partir de 2017 (ver %s no GitHub). Ele foi projetado para beneficiar vários aplicativos que requerem raiz ou adb. Não só este aplicativo, mas também alguns aplicativos de outros desenvolvedores estão usando Shizuku. &lt;p&gt;Com shizuku, este aplicativo terá incrivelmente alta velocidade e recursos mais interessantes. Para o próprio Shizuku, o consumo de bateria ou desempenho é insignificante (zero quando não utilizado). &lt;p&gt;Como a filosofia Unix, um programa só deve fazer um trabalho. Shizuku e este aplicativo perseguem essa filosofia. Na verdade, construir tudo é mais parecido com o que \"aplicativos ruins\" gostam de fazer.</string>
     <string name="shizuku_mode_description_rooted">Desfrute de todas as funcionalidades &lt;br&gt;&lt;br&gt;- Requer a instalação do Sui (um módulo Magisk) ou Shizuku (um aplicativo), ambos são de código aberto</string>
     <string name="working_mode_button_download_format">Baixar %s</string>
-    <string name="dpm_mode_error_outdated_admin">O aplicativo de administração atual, %1$s, ainda não oferece suporte a algumas funções críticas. Atualize seu aplicativo de administrador ou peça ao desenvolvedor do aplicativo de administrador para fazer alterações. &lt;p&gt;&lt;b&gt;Sem essas funções, no Android 10 ou superior, às vezes suas configurações podem não funcionar&lt;/b&gt;. Mesmo em sistemas mais antigos, essas funções ainda são necessárias em casos raros. &lt;p&gt;Quando a versão atual foi lançada, os aplicativos de administração conhecidos com o suporte necessário (pode ser necessário reiniciar este aplicativo após atualizar o aplicativo de administração): &lt;br&gt;%2$s</string>
-    <string name="dpm_mode_error_timeout">Não é possível conectar ao aplicativo de administração %1$s. &lt;p&gt;A conexão (chamada de serviço vinculado em técnico) pode ser bloqueada pelo seu sistema. É altamente possível que fabricantes como OnePlus, Xiaomi, Huawei, Samsung restrinjam o serviço vinculado (mesmo que o aplicativo atenda ao padrão do Android). &lt;p&gt;Tente desativar essas restrições (de comportamento em segundo plano) para este aplicativo e o aplicativo de administração %1$s. Você pode se referir a %2$s.</string>
     <string name="button_authorize">Autorizar</string>
     <string name="button_learn_more">Saber mais</string>
     <string name="menu_badge_full_version">Cheio</string>
@@ -197,7 +186,6 @@
     <string name="menu_set_as">Definir como</string>
     <string name="menu_working_mode">Modo de trabalho</string>
     <string name="menu_last_used_first">Usado pela última vez primeiro</string>
-    <string name="dpm_mode_error_outdated_admin_ignore">Ignore este problema</string>
     <string name="usage_history">Histórico de uso</string>
     <plurals name="backup_review_apps_title">
         <item quantity="one">%1$d app de %2$s</item>
@@ -214,8 +202,6 @@
     <string name="settings_black_night_theme_summary">Usar preto puro ao usar o tema escuro</string>
     <string name="close">Fechar</string>
     <string name="usage_monitor_microphone">microfone</string>
-    <string name="user_name_owner">Usuário primário</string>
-    <string name="user_name_work_profile">Perfil de trabalho</string>
     <string name="monitors_notification_channel_label">Status de execução</string>
     <string name="monitors_service_label">Monitorar serviço</string>
     <string name="unlock_full_version">Desbloquear versão completa</string>

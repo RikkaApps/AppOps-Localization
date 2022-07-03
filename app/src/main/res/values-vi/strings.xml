@@ -19,13 +19,6 @@
     <string name="shizuku_mode_error_not_running">Shizuku đang không chạy hoặc có các lỗi khác. &lt;br&gt;Nếu Shizuku đang chạy, hãy thử buộc dừng ứng dụng này.</string>
     <string name="shizuku_mode_error_version_too_low">Phiên bản Shizuku đã cài đặt quá thấp, vui lòng tải xuống phiên bản Shizuzku mới nhất (%s trở lên).</string>
     <string name="shizuku_mode_error_adb_no_update_permission">ADB chỉ có quyền nhận appops nhưng không có quyền cập nhật appops. &lt;br&gt;Vui lòng thử tìm một tùy chọn như Cho phép sửa đổi quyền trong tùy chọn Nhà phát triển của hệ thống. &lt;p&gt;&lt;small&gt;Ví dụ, trong MIUI, tùy chọn là gỡ lỗi USB (tùy chọn bảo mật).&lt;/small&gt;</string>
-    <string name="dpm_mode">Chế độ Quản trị viên Thiết bị được ủy quyền</string>
-    <string name="dpm_mode_error_no_interact_across_users_permission">Trong chế độ làm việc này, để hỗ trợ đa người dùng, bạn cũng cần sử dụng adb để cấp một quyền khác. &lt;b&gt;&lt;a href=%1$s&gt;Đọc trợ giúp&lt;/a&gt;&lt;/b&gt; để tìm hiểu cách thực hiện việc này. &lt;p&gt;Hoặc bạn có thể chỉ cần cài đặt ứng dụng này vào hồ sơ công việc.</string>
-    <string name="dpm_mode_error_operation_not_supported">Thao tác này không được hỗ trợ bởi ứng dụng quản trị bạn đang sử dụng.</string>
-    <string name="dpm_mode_error_no_permission">Thiếu các quyền cần thiết, nhấn vào Làm mới để thử lại.</string>
-    <string name="dpm_mode_error_no_get_appops_permission">Bạn cũng cần sử dụng adb để cấp quyền cần thiết. &lt;p&gt;&lt;b&gt;&lt;a href=appops-client://help/dpm_mode&gt;Đọc trợ giúp&lt;/a&gt;&lt;/b&gt; để tìm hiểu cách thực hiện việc này.</string>
-    <string name="dpm_mode_error_outdated_admin_ignore">Bỏ qua vấn đề này</string>
-    <string name="dpm_mode_error_timeout">Không thể kết nối với ứng dụng quản trị %1$s. &lt;p&gt;Kết nối (được gọi là dịch vụ ràng buộc trong kỹ thuật) có thể bị hệ thống của bạn chặn. Rất có thể các nhà sản xuất như OnePlus, Xiaomi, Huawei, Samsung hạn chế dịch vụ ràng buộc (ngay cả khi ứng dụng đáp ứng tiêu chuẩn của Android). &lt;p&gt;Vui lòng cố gắng tắt các hạn chế này (hạn chế về hành vi nền) cho cả ứng dụng này và ứng dụng quản trị %1$s. Bạn có thể tham khảo %2$s.</string>
     <string name="progress_requesting_authorization">Yêu cầu ủy quyền…</string>
     <string name="progress_checking_availability">Đang kiểm tra tính khả dụng…</string>
     <string name="progress_fetching_user_list">Đang tìm nạp danh sách người dùng…</string>
@@ -248,8 +241,6 @@
     <string name="monitors_notification_summary">Nhấn để xem các tùy chọn thông báo.</string>
     <string name="monitors_notification_channel_label">Trạng thái đang chạy</string>
     <string name="user_name_fallback">Người dùng</string>
-    <string name="user_name_owner">Người dùng chính</string>
-    <string name="user_name_work_profile">Hồ sơ công việc</string>
     <string name="worker_service_notification_channel_label">Trạng thái hoạt động</string>
     <string name="worker_service_notification_title">Đang làm việc…</string>
     <string name="cannot_open_browser_dialog_title">Không thể khởi động trình duyệt</string>
@@ -286,23 +277,16 @@
 \nLưu ý rằng bạn cũng sẽ được thông báo khi bạn đang cố sao chép hoặc dán (truy cập khay nhớ tạm bởi bạn hay ứng dụng đều giống nhau về mặt kỹ thuật).</string>
     <string name="menu_show_system">Hiện ứng dụng hệ thống</string>
     <string name="system_app_warning">Đây là một ứng dụng hệ thống, thay đổi cài đặt có thể gây ra sự cố nghiêm trọng.</string>
-    <string name="op_associated_with_runtime_dpm">Trong \"%1$s\", do giới hạn của hệ thống, không thể lấy chính xác trạng thái hiện tại.</string>
     <string name="include_system_apps_dialog_message">Các hoạt động không chính xác đối với các ứng dụng hệ thống quan trọng có thể gây ra sự cố không thể khắc phục được. Hãy thận trọng.
 \n
 \nCó một số báo cáo không thể khởi động được từ người dùng Samsung.</string>
-    <string name="dpm_mode_description">+ Hoạt động trên các thiết bị không có root &lt;br&gt;+ Thiết lập một lần &lt;br&gt;&lt;br&gt;- Yêu cầu kết nối máy tính (sử dụng adb) &lt;br&gt;- Yêu cầu cài đặt ứng dụng bên thứ ba cụ thể &lt;br&gt;- Yêu cầu Android 9 trở lên</string>
-    <string name="dpm_mode_error_admin_not_setup">Quá trình thiết lập ứng dụng quản trị có thể không được hoàn tất chính xác, vui lòng thử mở lại ứng dụng quản trị hoặc khởi động lại thiết bị.&lt;p&gt;Nếu sự cố này xảy ra nhiều lần, vui lòng yêu cầu nhà phát triển ứng dụng quản trị trợ giúp đỡ.</string>
     <string name="monitors_service_description">Được sử dụng bởi \"Hành vi ứng dụng mới\", \"Giám sát khay nhớ tạm\", \"Giám sát mức sử dụng\" và \"Lịch sử mức sử dụng\".</string>
-    <string name="dpm_mode_error_no_multi_user_support">Có vẻ như ứng dụng quản trị bạn đang sử dụng không hỗ trợ đa người dùng. &lt;p&gt;Cách đơn giản nhất là cài đặt ứng dụng này vào hồ sơ công việc. Hoặc bạn có thể chuyển sang chế độ Shizuku.</string>
-    <string name="dpm_mode_error_app_not_installed">Để sử dụng chế độ Quản trị Thiết bị được Ủy quyền, bạn cần cài đặt một ứng dụng khác và trải qua quá trình thiết lập phức tạp (yêu cầu adb có nhiều dòng lệnh). Quá trình thiết lập chỉ cần thực hiện một lần. &lt;p&gt;&lt;b&gt;&lt;a href=appops-client://help/dpm_mode&gt;Đọc trợ giúp&lt;/a&gt; &lt;/b&gt; để tìm hiểu cách thực hiện việc này.</string>
-    <string name="dpm_mode_error_outdated_admin">Ứng dụng quản trị hiện tại,%1$s, chưa hỗ trợ một số chức năng quan trọng. Vui lòng nâng cấp ứng dụng quản trị của bạn hoặc yêu cầu nhà phát triển ứng dụng quản trị thực hiện các thay đổi. &lt;p&gt;&lt;b&gt;Nếu không có những chức năng đó, trên Android 10 trở lên, đôi khi cài đặt của bạn có thể không thực sự hoạt động&lt;/b&gt;. Ngay cả trên các hệ thống cũ hơn, những chức năng đó vẫn cần thiết trong một số trường hợp hiếm hoi. &lt;p&gt;Khi phiên bản hiện tại được phát hành, các ứng dụng Quản trị viên đã biết với sự hỗ trợ cần thiết (bạn có thể phải khởi động lại ứng dụng này sau khi nâng cấp ứng dụng quản trị): &lt;br&gt;%2$s</string>
     <string name="menu_badge_full_version">Đầy đủ</string>
     <string name="permissions_view_summary">Liệt kê các ứng dụng theo quyền và quản lý chúng một cách rõ ràng.</string>
     <string name="multi_selection_tip">Bạn có thể nhấn vào biểu tượng trái hoặc nhấn và giữ để vào nhiều chế độ lựa chọn để thao tác nhanh chóng.</string>
     <string name="permission_group_storage">Bộ nhớ</string>
     <string name="op_mode_ignore_description_others">Ứng dụng sẽ nhận được dữ liệu trống hoặc hoạt động sẽ không được thực hiện</string>
     <string name="op_mode_default_description">\"Mặc định\" có nghĩa là được kiểm soát bởi các cài đặt có thể tìm thấy trong &lt;b&gt;&lt;a href=%1$s&gt;cài đặt hệ thống&lt;/a&gt;&lt;/b&gt; hoặc &lt;b&gt;&lt;a href=%2$s&gt;thông tin ứng dụng&lt;/a&gt;&lt;/b&gt;.</string>
-    <string name="op_associated_with_runtime_dpm_not_support">Ứng dụng quản trị hiện tại, %1$s, chưa hỗ trợ một số chức năng quan trọng. &lt;b&gt;Cài đặt của bạn có thể không có hiệu lực trong một số trường hợp&lt;/b&gt;. &lt;p&gt;Khi phiên bản hiện tại được phát hành, các ứng dụng Quản trị viên đã biết với sự hỗ trợ cần thiết (bạn có thể phải khởi động lại ứng dụng này sau khi nâng cấp ứng dụng quản trị):&lt;br&gt;%2$s</string>
     <string name="op_run_in_background_description">Ứng dụng này sẽ tuân theo các hạn chế khác nhau ở các cấp độ khác nhau. Cấp độ càng cao thì hiệu ứng càng tốt và càng có nhiều hành vi ứng dụng bị ảnh hưởng.</string>
     <string name="do_not_show_again_dialog_message">Bạn có chắc chắn không muốn xem lại mẹo này nữa không\?</string>
     <string name="clipboard_monitor_settings_toggle_summary">Nhận thông báo khi các ứng dụng đang truy cập khay nhớ tạm</string>

@@ -64,8 +64,6 @@
     <string name="progress_working">Arbetar (%1$d av %2$d).…</string>
     <string name="progress_checking_availability">Kollar tillgänglighet…</string>
     <string name="progress_requesting_authorization">Frågar efter godkännande…</string>
-    <string name="dpm_mode_error_outdated_admin_ignore">Ignorera detta problemet</string>
-    <string name="dpm_mode_error_no_permission">Saknar nödvändiga rättigheter, tryck ladda om för att försöka igen.</string>
     <string name="shizuku_mode_error_version_too_low">Den installerade versionen av Shizuku är för gammal, snälla ladda ner den senaste versionen av Shizuku (%s eller högre).</string>
     <string name="shizuku_mode_shizuku_not_running">(shizuku körs inte)</string>
     <string name="shizuku_mode_over_adb">Shizuku läge (startade via adb)</string>

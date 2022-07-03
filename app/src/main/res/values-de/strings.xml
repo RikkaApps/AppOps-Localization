@@ -182,17 +182,6 @@
     <string name="brackets">(%s)</string>
     <string name="shizuku_mode_error_user_denied_permission_sui">Du hast dieser App den Zugriff auf Sui verweigert. &lt;br&gt;Bitte gewähre der App diese Berechtigung in Sui.</string>
     <string name="shizuku_mode_error_user_denied_permission">Du hast dieser App den Zugriff auf Shizuku verweigert. &lt;br&gt;Bitte gewähre der App diese Berechtigung in den Systemeinstellungen oder der Skizuku-App. &lt;p&gt;Falls du MIUI benutzt, behindert MIUI den Mechanismus für benutzerdefinierte Berechtigungen, weswegen du die Berechtigung nur über die Shizuku-App erteilen kannst.</string>
-    <string name="dpm_mode">Delegierter Geräteadministrator-Modus</string>
-    <string name="dpm_mode_description">+ Funktioniert auf ungerooteten Geräten &lt;br&gt;+ Einmaliges Einrichten &lt;br&gt;&lt;br&gt;- Computerverbindung erforderlich (über ADB) &lt;br&gt;- Benötigt die Installation einer Drittanbieter-Anwendung &lt;br&gt;- Erfordert Android 9 oder höher</string>
-    <string name="dpm_mode_error_operation_not_supported">Diese Operation wird von der Admin-App, die du verwendest, nicht unterstützt.</string>
-    <string name="dpm_mode_error_admin_not_setup">Das Einrichten der Admin-App wurde möglicherweise nicht korrekt ausgeführt, bitte versuche die Admin-App neu zu öffnen oder starte das Gerät neu. &lt;p&gt;Wenn dieses Problem weiterhin besteht, wende dich bitte an den Entwickler der Admin-App.</string>
-    <string name="dpm_mode_error_no_interact_across_users_permission">In diesem Arbeitsmodus ist es für die Mehrbenutzerunterstützung erforderlich, eine weitere Berechtigung über ADB zu gewähren. &lt;b&gt;&lt;a href=%1$s&gt;Lies hier&lt;/a&gt;&lt;/b&gt;, um zu erfahren, wie dies geht. &lt;p&gt;Alternativ kannst du diese App auch im Arbeitsprofil installieren.</string>
-    <string name="dpm_mode_error_no_multi_user_support">Es scheint, als unterstütze die Admin-App, die du verwendest mehrere Benutzer nicht. &lt;p&gt;Der einfachste Weg dies zu beheben, ist es, diese App im Arbeitsprofil zu installieren. Alternativ kannst du auch zum Shizuku-Modus wechseln.</string>
-    <string name="dpm_mode_error_no_permission">Notwendige Berechtigungen fehlen, tippe Wiederholen um erneut zu versuchen.</string>
-    <string name="dpm_mode_error_app_not_installed">Um den delegierten Geräteadministrator-Modus zu verwenden, musst du eine zusätzliche Anwendung installieren und einen komplizierten Einrichtungprozess durchlaufen (benötigt ADB mit mehr als einer Zeile an Befehlen). Der Prozess muss nur einmal durchgeführt werden. &lt;p&gt;&lt;b&gt;&lt;a href=appops-client://help/dpm_mode&gt;Lies hier&lt;/a&gt;, um zu erfahren, wie dies geht.</string>
-    <string name="dpm_mode_error_no_get_appops_permission">Zusätzlich musst du die benötigte Berechtigung über ADB gewähren. &lt;p&gt;&lt;b&gt;&lt;a href=appops-client://help/dpm_mode&gt;Lies hier&lt;/a&gt;&lt;/b&gt;, um zu erfahren, wie dies geht.</string>
-    <string name="dpm_mode_error_outdated_admin">Die aktuelle Admin-App, %1$s, unterstützt einige kritische Funktionen (noch) nicht. Bitte aktualisiere deine Admin-App oder frag den Entwickler, ob er die Funktionen hinzufügen kann. &lt;p&gt;&lt;b&gt;Ohne diese Funktionen, ab Android 10 oder höher, funktionieren deine Einstellungen möglicherweise sonst nicht&lt;/b&gt;. Sogar auf älteren Systemen sind diese Funktionen in seltenen Fällen erforderlich. &lt;p&gt;Als die aktuelle Version veröffentlicht wurde, haben folgende Admin-Apps die erforderliche Unterstützung (du musst eventuell diese App neu starten, nachdem du die Admin-App aktualisiert hast): &lt;br&gt;%2$s</string>
-    <string name="dpm_mode_error_timeout">Verbindung zur Admin-App %1$s konnte nicht hergestellt werden. &lt;p&gt;Die Verbindung (im Technischen \"bound service\" genannt) wird eventuell von deinem System blockiert. Es ist sehr wahrscheinlich, dass Hersteller wie OnePlus, Xiaomi, Huawei oder Samsung Bound Services beschränken (selbst wenn die App den Android-Standard einhält). &lt;p&gt;Bitte versuche, diese Beschränkungen (Einschränkungen der Hintergrundaktivität) sowohl für diese App, als auch für die Admin-App %1$s zu deaktivieren. Du kannst dich nach %2$s richten.</string>
     <string name="op_mode_ignore_description_others">Die App wird leere Daten erhalten oder der Vorgang wird nicht durchgeführt</string>
     <string name="op_mode_deny_crash">Verweigern (könnte App abstürzen lassen)</string>
     <string name="op_associated_with_runtime_r">Auf Android 11 und höher erlaubt das System nur \"Standort\", \"Kamera\" und \"Mikrofon\" %1$s zu nutzen.</string>
@@ -223,8 +212,6 @@
     <string name="op_mode_ignore_description_runtime">\"Gewähre\" die Berechtigung für die App, aber die App wird leere Daten erhalten oder die Operation nicht durchgeführt</string>
     <string name="op_mode_unspecified">Unmodifiziert</string>
     <string name="op_mode_default_description">\"Standard\" heißt durch die Einstellungen in den &lt;b&gt;&lt;a href=%1$s&gt;Systemeinstellungen&lt;/a&gt;&lt;/b&gt; oder &lt;b&gt;&lt;a href=%2$s&gt;App-Info&lt;/a&gt;&lt;/b&gt; verwaltet.</string>
-    <string name="op_associated_with_runtime_dpm">Im \"%1$s\" kann der aktuelle Status aufgrund von Systemeinschränkungen nicht genau ermittelt werden.</string>
-    <string name="op_associated_with_runtime_dpm_not_support">Die aktuelle Admin-App, %1$s, unterstützt einige kritische Funktionen (noch) nicht. &lt;b&gt;Deine Einstellungen greifen möglicherweise in manchen Fällen nicht&lt;/b&gt;. &lt;p&gt;Als die aktuelle Version veröffentlicht wurde, hatten folgende Admin-Apps die erforderliche Unterstützung (du musst eventuell die App neu starten, nachdem du die Admin-App aktualisiert hast): &lt;br&gt;%2$s</string>
     <string name="op_unknown_description">Diese Berechtigung ist nicht in Stock-Android enthalten (durch deinen Gerätehersteller oder neuerer Android-Version hinzugefügt). Bitte sei vorsichtig.</string>
     <string name="monitors_service_label">Überwachungsdienst</string>
     <string name="clipboard_monitor_settings_toggle_summary">Werde benachrichtigt, wenn Apps die Zwischenablage lesen</string>
@@ -271,8 +258,6 @@
     <string name="auto_recovery_notification_channel_label">Status der automatischen Wiederherstellung</string>
     <string name="worker_service_notification_channel_label">Arbeitsstatus</string>
     <string name="worker_service_notification_title">In Arbeit…</string>
-    <string name="user_name_owner">Hauptnutzer</string>
-    <string name="user_name_work_profile">Arbeitsprofil</string>
     <string name="monitors_notification_title">%s in Benutzung</string>
     <string name="monitors_notification_channel_label">Ausführungsstatus</string>
     <string name="full_version">Vollversion</string>
@@ -318,7 +303,6 @@
     <string name="menu_set_as">Festlegen als</string>
     <string name="menu_last_used_first">Zuletzt benutzt zuerst</string>
     <string name="menu_more">Mehr Optionen</string>
-    <string name="dpm_mode_error_outdated_admin_ignore">Dieses Problem ignorieren</string>
     <string name="shizuku_mode_error_version_too_low">Die Version vom installierten Shizuku ist zu niedrig, bitte lade die aktuelle Version herunter (%s oder oben).</string>
     <string name="shizuku_mode_error_not_running">Shizuku wird nicht ausgeführt oder es sind andere Fehler aufgetreten. &lt;br&gt;Wenn Shizuku ausgeführt wird, versuche bitte, das Beenden der App zu erzwingen.</string>
     <string name="shizuku_mode_error_manager_app_not_installed_rooted">Bitte installiere zuerst Sui oder Shizuku. Sie sind Zwillingsschwestern, die das gleiche API-Design teilen. &lt;p&gt;Sui ist ein Magisk-Modul. Empfohlen für Geräte mit installiertem Magisk. &lt;p&gt;Shizuku ist eine eigenständige Android-App.</string>

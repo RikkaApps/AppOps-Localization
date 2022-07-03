@@ -154,7 +154,6 @@
     <string name="user_name_fallback">Usuario</string>
     <string name="worker_service_notification_channel_label">Estado del trabajo</string>
     <string name="worker_service_notification_title">Trabajando…</string>
-    <string name="dpm_mode">Modo de administración delegada del dispositivo</string>
     <string name="shizuku_mode_error_adb_no_update_permission">ADB sólo tiene permiso para obtener aplicaciones pero no para actualizarlas. &lt;br&gt;Por favor, intenta buscar una opción como Permitir permiso de modificación en las Opciones de desarrollador del sistema. &lt;p&gt;&lt;small&gt;Por ejemplo, en MIUI, la opción es depuración USB (opciones de seguridad).&lt;/small&gt;</string>
     <string name="button_learn_more">Aprenda más</string>
     <string name="menu_badge_early_access">Acceso anticipado</string>
@@ -169,7 +168,6 @@
     <string name="requirements">Requisitos</string>
     <string name="button_authorize">Autorizar</string>
     <string name="menu_badge_full_version">Completo</string>
-    <string name="dpm_mode_error_no_permission">Sin los permisos necesarios, pulse Refrescar para intentarlo de nuevo.</string>
     <string name="shizuku_mode_error_version_too_low">La versión de Shizuku instalada es demasiado antigua, por favor descargue la última versión de Shizuzku (%s o superior).</string>
     <string name="shizuku_mode_error_not_running">Shizuku no está funcionando o hay otros errores. &lt;br&gt;Si Shizuku está funcionando, por favor intenta forzar la detención de esta aplicación.</string>
     <string name="shizuku_mode_error_user_denied_permission">Has desautorizado esta aplicación para usar Shizuku. &lt;br&gt;Por favor, conceda el permiso a esta aplicación en la configuración del sistema o en la aplicación Shizuku. &lt;p&gt;Si está usando MIUI, MIUI interrumpe el mecanismo de permiso personalizado de Android, sólo puede conceder el permiso desde la aplicación Shizuku.</string>
@@ -188,17 +186,9 @@
     <string name="translators">—Peter Cuevas</string>
     <string name="backup_error_io_exception">Algo salió mal al leer/escribir el archivo.</string>
     <string name="backup_reading_file">Leyendo el archivo…</string>
-    <string name="dpm_mode_error_no_get_appops_permission">También tienes que usar adb para conceder el permiso necesario. &lt;p&gt;&lt;b&gt;&lt;a href=appops-cliente://help/dpm_mode&gt;Lee la ayuda&lt;/a&gt;&lt;/b&gt; para aprender a hacer esto.</string>
-    <string name="dpm_mode_error_app_not_installed">Para usar el modo de administración de dispositivos delegados, necesitas instalar otra aplicación y pasar por un complicado proceso de configuración (requiere adb con más de una línea de comandos). El proceso de configuración sólo necesita hacerse una vez. &lt;p&gt;&lt;b&gt;&lt;a href=appops-client://help/dpm_mode&gt;Lee la ayuda&lt;/a&gt;&lt;/b&gt; para aprender a hacer esto.</string>
-    <string name="dpm_mode_error_no_interact_across_users_permission">En este modo de trabajo, para el soporte multiusuario, también es necesario utilizar adb para conceder otro permiso. &lt;b&gt;&lt;a href=%1$s&gt;Lee la ayuda&lt;/a&gt;&lt;/b&gt; para aprender a hacer esto .&lt;p&gt;O simplemente puedes instalar esta aplicación en el perfil de trabajo.</string>
-    <string name="dpm_mode_description">+ Funciona en dispositivos sin root &lt;br&gt;+ Configuración de una sola vez &lt;br&gt;&lt;br&gt;- Requiere conexión a la computadora (use adb) &lt;br&gt;- Requiere instalar una aplicación específica de terceros &lt;br&gt;- Requiere Android 9 o superior</string>
-    <string name="dpm_mode_error_timeout">No puede conectarse a la aplicación de administración. &lt;p&gt;La conexión (llamada servicio de enlace en el apartado técnico) puede ser bloqueada por su sistema. Es muy posible que fabricantes como OnePlus, Xiaomi, Huawei, Samsung restrinjan el servicio vinculado (incluso si la aplicación cumple con el estándar de Android). &lt;p&gt;Por favor, intenta desactivar estas restricciones (restricciones de funcionamiento en segundo plano) tanto para esta aplicación como para la aplicación de administración %1$s. Puedes consultar en %2$s.</string>
-    <string name="dpm_mode_error_outdated_admin">La actual aplicación de administración, %1$s, aún no soporta algunas funciones críticas. Por favor, actualiza tu aplicación de administración o pide al desarrollador de la aplicación de administración que haga cambios. &lt;p&gt;&lt;b&gt;Sin esas funciones, en Android 10 o superior, a veces sus configuraciones pueden no funcionar realmente&lt;/b&gt;. Incluso en sistemas más antiguos, esas funciones siguen siendo necesarias en casos raros. &lt;p&gt;Cuando se lanzó la versión actual, las aplicaciones de administración conocidas con el soporte necesario (es posible que tenga que reiniciar esta aplicación después de actualizar la aplicación de administración): &lt;br&gt;%2$s</string>
     <string name="manufacturer_restriction_dialog_message">Muchos fabricantes (principalmente de China), incluyendo pero no limitándose a OnePlus, Xiaomi, Huawei, Samsung, restringen los comportamientos de fondo por defecto. &lt;p&gt;Las restricciones de los fabricantes suelen estar mal diseñadas. &lt;b&gt;Para la aplicación que sigue el estándar de Android, sus restricciones no ahorrarán más batería, sino que sólo romperán la función de la aplicación &lt;/b&gt;. Lo que es más ridículo es que estos fabricantes &lt;b&gt;normalmente tienen una \"lista de permisos\" por defecto que incluye aplicaciones de grandes empresas&lt;/b&gt;. Todo el ecosistema Android está profundamente afectado por ellos. &lt;p&gt;Para hacer que \"%1$s\" funcione, por favor deshabilite esas restricciones. Puedes referirte a %2$s. Y no te preocupes, no usa la CPU continuamente, la aplicación ni siquiera aparecerá en la lista de uso de la batería del sistema.</string>
     <string name="backup_create_backup_summary_system_components">Para evitar problemas irreparables, <b>los componentes del sistema no serán respaldados</b>.</string>
     <string name="op_added_by_others">Esta aplicación no requiere \"%s\", pero algunos otros permisos solicitados son controlados por ella.</string>
-    <string name="op_associated_with_runtime_dpm_not_support">La actual aplicación de administración, %1$s, aún no soporta algunas funciones críticas. &lt;b&gt;Su configuración puede no tener efecto en algunos casos&lt;/b&gt;. &lt;p&gt;Cuando la versión actual fue lanzada, las aplicaciones de administración conocidas con el soporte necesario (puede que tenga que reiniciar esta aplicación después de actualizar la aplicación de administración): &lt;br&gt;%2$s</string>
-    <string name="op_associated_with_runtime_dpm">Bajo \"%1$s\", debido a las limitaciones del sistema, el estado actual no puede ser obtenido con precisión.</string>
     <string name="op_associated_with_runtime_r">En Android 11 o superior, el sistema sólo permite usar \"ubicación\", \"cámara\" y \"micrófono\" para %1$s.</string>
     <string name="op_associated_with_runtime">Excepto por \"Ignorar\", las otras opciones son las mismas que las de la configuración de permisos del sistema.</string>
     <string name="op_mode_ignore_description_runtime">\"Conceder\" el permiso para la aplicación, pero la aplicación obtendrá datos vacíos o la operación no se realizará</string>
@@ -263,10 +253,7 @@
     <string name="op_mode_unspecified">Todavía no se ha establecido</string>
     <string name="op_mode_onetime">Preguntar siempre</string>
     <string name="op_mode_ignore">Ignorar</string>
-    <string name="dpm_mode_error_outdated_admin_ignore">Ignorar este problema</string>
     <string name="cannot_open_browser_dialog_title">No puede iniciar el navegador</string>
-    <string name="user_name_work_profile">Perfil de trabajo</string>
-    <string name="user_name_owner">El usuario principal</string>
     <string name="monitors_notification_channel_label">Estado de ejecución</string>
     <string name="monitors_notification_summary">Pulse para ver las opciones de la notificación.</string>
     <string name="monitors_notification_title">Usando %s</string>
@@ -276,7 +263,6 @@
     <string name="unlock_full_version">Desbloquear la versión completa</string>
     <string name="settings_crash_report_summary">Esto nos ayudará a encontrar los problemas más rápido</string>
     <string name="settings_crash_report_title">Enviar informe de errores</string>
-    <string name="dpm_mode_error_no_multi_user_support">Parece que la aplicación de administración que está usando no soporta multiusuario. &lt;p&gt;La forma más simple es instalar esta aplicación en el perfil de trabajo. O puedes cambiar al modo Shizuku.</string>
     <string name="settings_send_data_summary">Usamos Visual Studio App Center (de Microsoft).
 \n
 \nSegún el código fuente del SDK del App Center, sólo la versión de la aplicación, la versión del sistema, el modelo del dispositivo, el tamaño de la pantalla, el idioma, la zona horaria y la información del portador, serán recopilados y enviados.
@@ -335,8 +321,6 @@
     <string name="op_mode_default_description">\"Predeterminado\" significa controlado por los ajustes que se pueden encontrar en &lt;b&gt;&lt;a href=%1$s&gt;configuración del sistema&lt;/a&gt;&lt;/b&gt; o &lt;b&gt;&lt;a href=%2$s&gt;información de la aplicación&lt;/a&gt;&lt;/b&gt;.</string>
     <string name="permissions_view">Vista de los permisos</string>
     <string name="apps_view">Vista de las aplicaciones</string>
-    <string name="dpm_mode_error_operation_not_supported">Esta operación no está soportada por la aplicación de administración que está usando.</string>
-    <string name="dpm_mode_error_admin_not_setup">Puede que la configuración de la aplicación de administración no se haya completado correctamente, por favor intenta reabrir la aplicación de administración o reiniciar el dispositivo.&lt;p&gt;Si este problema ocurre repetidamente, por favor pide ayuda al desarrollador de la aplicación de administración.</string>
     <string name="storage_isolation_requires_enhance_mode">Tenga en cuenta que \"%1$s\" debe ejecutarse en \"modo mejorado\".</string>
     <string name="shared_user_id_tip">El ID de usuario compartido para esta aplicación es %s, y las aplicaciones con el mismo ID de usuario compartido comparten la mayoría de los permisos.</string>
     <string name="menu_set_as">Establecer como</string>

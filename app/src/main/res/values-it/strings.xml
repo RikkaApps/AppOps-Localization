@@ -96,7 +96,6 @@
     <string name="menu_sort_by_updated_time">Ordina per ultimo aggiornamento</string>
     <string name="menu_show_app_info_in">Mostra informazioni app in…</string>
     <string name="progress_requesting_authorization">Richiesta di autorizzazione…</string>
-    <string name="dpm_mode_error_outdated_admin_ignore">Ignora questo problema</string>
     <string name="shizuku_mode_error_user_denied_permission_sui">Non hai permesso a quest\'app di utilizzare Sui. &lt;br&gt;Per favore concedi il permesso a quest\'app in Sui.</string>
     <string name="shizuku_mode_error_manager_app_not_installed_rooted">Per favore installa Sui oppure Shizuku. Loro sono sorelle gemelle che condividono lo stesso design dell\'API. &lt;p&gt;Sui è un modulo Magisk. Raccomandato per dispositivi con Magisk installato.&lt;p&gt;Shizuku è un applicazione Android autonoma.</string>
     <string name="shizuku_mode_error_manager_app_not_installed">Per favore installa Shizuku prima &lt;p&gt;Shizuku è un proggetto open source partito il 2017 (guarda %s su GitHub). È ideato in modo da beneficiare di diverse applicazioni che richiedono root oppure adb. Non solo quest\'app, ma anche altre applicazioni da altri sviluppatori che usano Shizuku.&lt;p&gt;Con Shizuku, quest\'applicazione diventerà incredibilmente veloce e avrà molte caratteristiche interessanti. Per Shizuku stesso, il consumo di batteria o la richiesta di prestazioni sono irrisorie (zero consumi quando non usata). &lt;p&gt;Come la filosofia di Unix, un solo programma dovrebbe fare solo un lavoro. Shizuku e quest\'app vogliono seguire questa filosofia. In effetti, tutto incorporato è meglio di ciò che piace fare alle \"app cattive\".</string>
@@ -141,11 +140,7 @@
     <string name="shizuku_mode_error_user_denied_permission">Hai impedito a quest\'app di usare Shizuku. &lt;br&gt;Per favore concedi il permesso a quest\'app nelle impostazioni di sistema o nell\'app Shizuku. &lt;p&gt;Se stai usando MIUI, poiché MIUI rompe il meccanismo dei permessi personalizzati di Android, puoi solo garantire il permesso dall\'app Shizuku.</string>
     <string name="shizuku_mode_error_not_running">Shizuku non è in esecuzione o ci sono altri errori. &lt;br&gt;Se Shizuku è in esecuzione, per favore prova a forzare l\'arresto di quest\'app.</string>
     <string name="shizuku_mode_error_version_too_low">La versione installata di Shizuku è troppo bassa, per favore scarica l\'ultima versione di Shizuku (%s or above).</string>
-    <string name="dpm_mode">Modalità Amministratore del Dispositivo Delegato</string>
     <string name="template_default_title_copy">%s - Copia</string>
-    <string name="dpm_mode_error_admin_not_setup">La configurazione dell\'app di amministrazione potrebbe non essere completata correttamente, prova a riaprire l\'app di amministrazione o riavvia il dispositivo.&lt;p&gt;Se questo problema si verifica ripetutamente, per favore chiedi aiuto allo sviluppatore dell\'app di amministrazione.</string>
-    <string name="dpm_mode_error_no_interact_across_users_permission">In questa modalità di lavoro, per il supporto multiutente, è necessario utilizzare anche ADB per concedere un\'altra autorizzazione. &lt;b&gt;&lt;a href=%1$s&gt;Leggi la guida&lt;/a&gt;&lt;/b&gt; per imparare a farlo.&lt;p&gt;Oppure puoi semplicemente installare questa app nel profilo di lavoro.</string>
-    <string name="dpm_mode_error_app_not_installed">Per utilizzare la modalità di amministrazione del dispositivo delegato, è necessario installare un\'altra app e passare attraverso un complicato processo di configurazione (richiede ADB con più di una riga di comando). Il processo di installazione deve essere eseguito solo una volta. &lt;p&gt;&lt;b&gt;&lt;a href=appops-client://help/dpm_mode&gt;Leggi la guida&lt;/a&gt;&lt;/b&gt; per imparare a farlo.</string>
     <string name="progress_format">%1$d/%2$d</string>
     <string name="quotation_marks">\"%s\"</string>
     <string name="brackets">(%s)</string>
@@ -153,7 +148,6 @@
     <string name="close">Chiudere</string>
     <string name="comma">", "</string>
     <string name="usage_monitor_notification_title">\"%1$s\" sta usando %2$s</string>
-    <string name="dpm_mode_error_outdated_admin">L\'attuale app di amministrazione, %1$s, non supporta ancora alcune funzioni critiche. Per favore aggiorna la tua app di amministrazione o chiedi allo sviluppatore dell\'app di amministrazione di apportare modifiche. &lt;p&gt;&lt;b&gt;Senza queste funzioni, su Android 10 o versioni successive, a volte le tue impostazioni potrebbero non funzionare correttamente&lt;/b&gt;. Anche sui sistemi più vecchi, queste funzioni sono ancora necessarie in rari casi. &lt;p&gt;Quando è stata rilasciata la versione corrente, le app di amministrazione note con il supporto necessario (potrebbe essere necessario riavviare questa app dopo aver aggiornato l\'app di amministrazione): &lt;br&gt;%2$s</string>
     <string name="permissions_view">Vista delle autorizzazioni</string>
     <string name="usage_monitor_microphone">microfono</string>
     <string name="template_dialog_delete_message">Sei sicuro di voler eliminare questo modello\?</string>
@@ -183,8 +177,6 @@
     <string name="backup_reading_file">Lettura file…</string>
     <string name="worker_service_notification_title">Lavorando…</string>
     <string name="backup_review_action_restore_templates_add">Ripristina come nuovi modelli</string>
-    <string name="user_name_owner">Utente principale</string>
-    <string name="user_name_work_profile">Profilo di lavoro</string>
     <string name="worker_service_notification_channel_label">Stato del lavoro</string>
     <string name="backup_error_not_backup">Questo file non è un file di backup.</string>
     <string name="monitors_notification_title">Usando %s</string>
@@ -279,9 +271,7 @@
     <string name="op_summary_unknown">Dal produttore del dispositivo o dal sistema Android più recente</string>
     <string name="op_added_by_others">Questa app non richiede \"%s\", ma alcune altre autorizzazioni richieste sono controllate da essa.</string>
     <string name="op_summary_controlled_by_other">Controllato da \"%s\"</string>
-    <string name="op_associated_with_runtime_dpm_not_support">L\'attuale app di amministrazione, %1$s, non supporta ancora alcune funzioni critiche. &lt;b&gt;Le tue impostazioni potrebbero non avere effetto in alcuni casi&lt;/b&gt;. &lt;p&gt;Quando è stata rilasciata la versione corrente, le app di amministrazione conosciute con il supporto necessario (potrebbe essere necessario riavviare questa app dopo aver aggiornato l\'app di amministrazione): &lt;br&gt;%2$s</string>
     <string name="op_associated_with_runtime_dpm_unable_to_confirm">incapace di confermare</string>
-    <string name="op_associated_with_runtime_dpm">Sotto \"%1$s\", a causa di limitazioni del sistema, lo stato attuale non può essere ottenuto con precisione.</string>
     <string name="op_associated_with_runtime">Fatta eccezione per \"Ignora\", le altre opzioni sono le stesse delle impostazioni dei permessi di sistema.</string>
     <string name="op_associated_with_runtime_r">Su Android 11 o versioni successive, il sistema consente solo a \"posizione\", \"fotocamera\" e \"microfono\" di utilizzare %1$s.</string>
     <string name="op_run_in_background_mode_none">Nessuna restrizione</string>
@@ -303,12 +293,6 @@
     <string name="button_learn_more">Per saperne di più</string>
     <string name="menu_last_used_first">L\'ultimo usato per primo</string>
     <string name="menu_changelog">Registro delle modifiche</string>
-    <string name="dpm_mode_error_timeout">Impossibile connettersi all\'app di amministrazione %1$s. &lt;p&gt;La connessione (chiamata servizio vincolato in tecnica) potrebbe essere bloccata dal tuo sistema. È altamente possibile che produttori come OnePlus, Xiaomi, Huawei e Samsung limitino il servizio vincolato (anche se l\'app soddisfa gli standard di Android). &lt;p&gt;Prova a disabilitare queste restrizioni (restrizioni del comportamento in background) sia per questa app che per l\'app di amministrazione %1$s. Puoi fare riferimento a %2$s.</string>
-    <string name="dpm_mode_error_no_permission">Mancano le autorizzazioni necessarie, tocca Aggiorna per riprovare.</string>
-    <string name="dpm_mode_error_no_get_appops_permission">Devi anche usare ADB per concedere l\'autorizzazione necessaria. &lt;p&gt;&lt;b&gt;&lt;a href=appops-client://help/dpm_mode&gt;Leggi la guida&lt;/a&gt;&lt;/b&gt; per imparare a farlo.</string>
-    <string name="dpm_mode_error_operation_not_supported">Questa operazione non è supportata dall\'app di amministrazione che stai utilizzando.</string>
-    <string name="dpm_mode_error_no_multi_user_support">Sembra che l\'app di amministrazione che stai utilizzando non supporti il multiutente. &lt;p&gt;Il modo più semplice è installare questa app nel profilo di lavoro. Oppure puoi passare alla modalità Shizuku.</string>
-    <string name="dpm_mode_description">+ Funziona sui dispositivi senza root &lt;br&gt;+ Configura solo una volta &lt;br&gt;&lt;br&gt;- Richiede la connessione al computer (usando ADB) &lt;br&gt;- Richiede l\'installazione di una specifica app di terze parti &lt;br&gt;- Richiede Android 9 o maggiore</string>
     <string name="shizuku_mode_error_adb_no_update_permission">ADB ha solo ottenuto la visibilità degli appops, ma nessun permesso di aggiornamento per gli appops. &lt;br&gt;Per favore prova a cercare un opzione come \"Permetti la modifica dei permessi\" nelle Opzioni Sviluppatore del sistema. &lt;p&gt;&lt;small&gt;Per esempio, in MIUI, l\'opzione è \"USB debugging (opzioni di sicurezza)\".&lt;/small&gt;</string>
     <string name="settings_translation_contributors">Contributori</string>
     <string name="settings_reselect_working_mode_summary">Seleziona la modalità di lavoro la prossima volta che apri la home page</string>

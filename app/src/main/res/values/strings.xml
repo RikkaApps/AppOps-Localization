@@ -55,39 +55,6 @@ You have disallowed this app to use Sui.
 <br>Please try looking for a option like "Allow modify permission" in system\'s "Developer options".
 <p><small>For example, in MIUI, the option is "USB debugging (security options)".</small>]]></string>
 
-    <string name="dpm_mode">Delegated Device Admin mode</string>
-    <string name="dpm_mode_description"><![CDATA[
-+ Works on non-root devices
-<br>+ One-time setup
-<br><br>- Requires computer connection (use adb)
-<br>- Requires to install a specific third-party app
-<br>- Requires Android 9 or above
-    ]]></string>
-    <string name="dpm_mode_error_admin_not_setup"><![CDATA[The setup of the admin app may not be completed correctly, please try reopen the admin app or reboot the device.<p>If this problem occurs repeatedly, please ask the developer of the admin app for help.]]></string>
-    <string name="dpm_mode_error_no_interact_across_users_permission"><![CDATA[Under this working mode, for multi-user support, you also need to use adb to grant another permission.
-<b><a href="%1$s">Read help</a></b> to learn how to do this
-.<p>Or you can simply install this app into the work profile.]]></string>
-    <string name="dpm_mode_error_no_multi_user_support"><![CDATA[It seems that the admin app you are using does not support multi-user.
-<p>The simplest way is to install this app into the work profile. Or you can switch to Shizuku mode.]]></string>
-    <string name="dpm_mode_error_operation_not_supported"><![CDATA[This operation is not supported by the admin app you are using.]]></string>
-    <string name="dpm_mode_error_app_not_installed"><![CDATA[To use Delegated Device Admin mode, you need to install another app and go through a complicated setup process (requires adb with more than one line of command). The setup process only needs to be done once.
-<p><b><a href="appops-client://help/dpm_mode">Read help</a></b> to learn how to do this.]]></string>
-    <string name="dpm_mode_error_no_permission"><![CDATA[Missing necessary permissions, tap Refresh to try again.]]></string>
-    <string name="dpm_mode_error_no_get_appops_permission"><![CDATA[You also need to use adb to grant the necessary permission.
-<p><b><a href="appops-client://help/dpm_mode">Read help</a></b> to learn how to do this.]]></string>
-    <string name="dpm_mode_error_outdated_admin"><![CDATA[
-The current admin app, %1$s, haven\'t supported some critical functions yet. Please upgrade your admin app or ask the developer of the admin app to make changes.
-<p><b>Without those functions, on Android 10 or above, sometimes your settings may not actually work</b>. Even on older systems, those functions are still necessary in rare cases.
-<p>When the current version was released, the known Admin apps with the necessary support (you may have to restart this app after upgrading the admin app):
-<br>%2$s
-]]></string>
-    <string name="dpm_mode_error_outdated_admin_ignore">Ignore this problem</string>
-    <string name="dpm_mode_error_timeout"><![CDATA[
-Cannot connect to the admin app %1$s.
-<p>The connection (called bound service in technical) may be blocked by your system. It is highly possible that manufacturers like OnePlus, Xiaomi, Huawei, Samsung restrict bound service (even if the app does meet Android\'s standard).
-<p>Please try to disable these restrictions (background behavior restrictions) for both this app and the admin app %1$s. You can refer to %2$s.
-]]></string>
-
     <string name="progress_requesting_authorization">Requesting for authorization…</string>
     <string name="progress_checking_availability">Checking availability…</string>
     <string name="progress_fetching_user_list">Fetching user list…</string>
@@ -175,7 +142,6 @@ Cannot connect to the admin app %1$s.
     <string name="op_mode_ignore">Ignore</string>
     <string name="op_mode_ignore_description_others">The app will get empty data or the operation will not be performed</string>
     <string name="op_mode_ignore_description_runtime">\"Grant\" the permission for the app, but the app will get empty data or the operation will not be performed</string>
-    <string name="op_mode_ignore_may_not_work_under_dpm_mode">Under %1$s, \"%2$s\" may not work</string>
     <string name="op_mode_deny">Deny</string>
     <string name="op_mode_deny_crash">Deny (may crash the app)</string>
     <string name="op_mode_default">Default</string>
@@ -192,12 +158,6 @@ Cannot connect to the admin app %1$s.
     <string name="op_associated_with_runtime_r">On Android 11 or above, the system only allows \"location\", \"camera\" and \"microphone\" to use %1$s.</string>
 
     <!--%1$s -> Delegated Device Admin mode-->
-    <string name="op_associated_with_runtime_dpm">Under \"%1$s\", due to system limitations, the current status cannot be accurately obtained.</string>
-    <string name="op_associated_with_runtime_dpm_not_support"><![CDATA[
-The current admin app, %1$s, haven\'t support some critical functions yet. <b>Your settings may not take effect in some cases</b>.
-<p>When the current version was released, the known Admin apps with the necessary support (you may have to restart this app after upgrading the admin app):
-<br>%2$s
-]]></string>
     <string name="op_associated_with_runtime_dpm_unable_to_confirm">unable to confirm</string>
 
     <string name="op_added_by_others"><![CDATA[
@@ -412,8 +372,6 @@ This app does not request for \"%s\", but some other requested permissions are c
     <string name="monitors_notification_channel_label">Running status</string>
 
     <string name="user_name_fallback">User</string>
-    <string name="user_name_owner">Primary user</string>
-    <string name="user_name_work_profile">Work profile</string>
 
     <string name="worker_service_notification_channel_label">Work status</string>
     <string name="worker_service_notification_title">Working…</string>

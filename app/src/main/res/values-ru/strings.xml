@@ -2,10 +2,6 @@
 <resources>
     <string name="working_mode_button_switch">Переход в другой режим работы</string>
     <string name="shizuku_mode_error_adb_no_update_permission">ADB только получает разрешения, но не управляет ими.&lt;br&gt;Пожалуйста, попробуйте найти «Управление разрешениями» в системном меню «Для разработчиков».&lt;p&gt;&lt;small&gt;Например, в MIUI это «Отладка по USB (параметры безопасности)».&lt;/small&gt;</string>
-    <string name="dpm_mode">Режим администратора устройства</string>
-    <string name="dpm_mode_error_app_not_installed">Чтобы использовать режим администратора устройства, необходимо установить другое приложение и выполнить сложный процесс установки (требуется adb и требуется несколько команд). Процесс установки необходимо выполнить только один раз.&lt;p&gt;&lt;b&gt;&lt;a href=appops-client://help/dpm_mode&gt;Прочитать FAQ&lt;/a&gt;&lt;/b&gt; для изучения.</string>
-    <string name="dpm_mode_error_no_permission">Если отсутствует необходимое разрешение, нажмите кнопку Обновить, чтобы повторить попытку.</string>
-    <string name="dpm_mode_error_no_get_appops_permission">Вам также необходимо использовать adb для предоставления необходимого разрешения.&lt;p&gt;&lt;b&gt;&lt;a href=appops-client://help/dpm_mode&gt;Читать FAQ&lt;/a&gt;&lt;/b&gt; для изучения.</string>
     <string name="progress_requesting_authorization">Запрос авторизации…</string>
     <string name="progress_checking_availability">Проверка доступа…</string>
     <string name="progress_fetching_user_list">Получение списка пользователей…</string>
@@ -169,8 +165,6 @@
     <string name="bug_report_mail_message">По возможности опишите ситуацию, в которой произошла ошибка.</string>
     <string name="send_to_developer">Сообщить разработчику</string>
     <string name="user_name_fallback">Пользователь</string>
-    <string name="user_name_owner">Основной профиль</string>
-    <string name="user_name_work_profile">Рабочий профиль</string>
     <string name="worker_service_notification_channel_label">Статус работы</string>
     <string name="worker_service_notification_title">Работа…</string>
     <string name="storage_isolation_not_running">Не удается получить конфигурацию из «%s».</string>
@@ -187,12 +181,6 @@
     <string name="shizuku_mode_description">+ Работает с устройствами без и с root правами &lt;br&gt;+ Очень быстр, незначительное потребление ресурсов &lt;br&gt;+ Доступна вся функциональность &lt;br&gt;&lt;br&gt;- Требуется установить open-source приложение (Shizuku) &lt;br&gt;- Для устройств без root прав после каждой перезагрузки придется запускать Shizuku с помощью adb на компьютере &lt;br&gt;- Для устройств на Android 11 и выше Shizuku может запускаться без компьютера</string>
     <string name="shizuku_mode_error_manager_app_not_installed">Пожалуйста, сперва установите Shizuku. &lt;p&gt;Shizuku – это проект с открытым исходным кодом, зародившийся в 2017 году (см. %s на GitHub). Он служит опорой разным программам, которым нужны root права или adb. Не только это, но и некоторые другие приложения от сторонних разработчиков используют Shizuku. &lt;p&gt;С Shizuku это приложение получит немыслимо высокую скорость работы и немало интересных функций. Сам Shizuku потребляет ничтожно малые ресурсы процессора и батареи (когда не используется, не потребляет их вовсе). &lt;p&gt;Исходя из философии Unix, одна программа должна выполнять только одну работу. Shizuku и это приложение придерживаются данной философии. По сути, делать комбайн «всё в одном» значит повторять за «плохими» приложениями.</string>
     <string name="shizuku_mode_error_user_denied_permission">Вы запретили этому приложению использовать Shizuku. &lt;br&gt;Пожалуйста, предоставьте ему разрешение в системных настройках или из приложения Shizuku. &lt;p&gt;Если вы сидите на MIUI, эта оболочка ломает механизм выдачи сторонних разрешений на Android, и вам удастся управлять ими только из приложения Shizuku.</string>
-    <string name="dpm_mode_error_outdated_admin_ignore">Игнорировать эту проблему</string>
-    <string name="dpm_mode_description">+ Работает на устройствах без root прав &lt;br&gt;+ Разовая настройка &lt;br&gt;&lt;br&gt;- Требует подключение к компьютеру (через adb) &lt;br&gt;- Требует установки определенного стороннего приложения &lt;br&gt;- Требует Android 9 и выше</string>
-    <string name="dpm_mode_error_no_interact_across_users_permission">Из-под рабочего профиля (для поддержки многопрофильности) вам также необходимо выдать другое разрешение через adb. &lt;b&gt;&lt;a href=%1$s&gt;Прочитайте инструкцию&lt;/a&gt;&lt;/b&gt;, как это делается.&lt;p&gt;Или же просто установите это приложение из-под рабочего профиля.</string>
-    <string name="dpm_mode_error_no_multi_user_support">Похоже, что приложение-администратор, которым вы пользуетесь, не поддерживает многопрофильность. &lt;p&gt;Самое простое решение – установить это приложение из-под рабочего профиля. Или переключиться в режим Shizuku.</string>
-    <string name="dpm_mode_error_timeout">Не удается подключиться к приложению-администратору %1$s. &lt;p&gt;Соединение (или «bound service» на техническом языке) может блокироваться вашей системой. Вполне возможно, что такие производители, как OnePlus, Xiaomi, Huawei, Samsung ограничивают bound service (даже если приложение соответствует стандартам Android). &lt;p&gt;Попробуйте снять эти ограничения (на фоновую активность) как для данного приложения, так и для приложения-администратора %1$s. Вы можете обратиться в %2$s.</string>
-    <string name="dpm_mode_error_outdated_admin">Используемое приложение-администратор (%1$s) ещё не поддерживает некоторые важные функции. Пожалуйста, обновите его или попросите разработчика внести изменения. &lt;p&gt;&lt;b&gt;Без этих функций (на Android 10 и выше) время от времени ваши настройки не будут применяться&lt;/b&gt;. Даже на старых системах эти функции все ещё необходимы в редких случаях. &lt;p&gt;На момент выхода этой версии известными приложениями-администраторами с необходимой поддержкой были (возможно, вам придется перезапустить приложение после перехода на другое): &lt;br&gt;%2$s</string>
     <string name="settings_send_data_summary">Мы используем Центр приложений Visual Studio (от Microsoft).
 \n
 \nСогласно исходному коду App Center SDK, будет собираться и отправляться только версия приложения, версия системы, модель устройства, информация о размере экрана, языке, часовом поясе и операторе связи.
@@ -217,7 +205,6 @@
 \n
 \nОт пользователей Samsung поступало несколько сообщений о невозможности дальнейшей загрузки устройств.</string>
     <string name="op_unknown_description">Это разрешение отсутствует в базовом Android (добавлено производителем вашего устройства или появилось в свежей версии ОС Android). Пожалуйста, будьте осторожны.</string>
-    <string name="op_associated_with_runtime_dpm_not_support">Используемое приложение-администратор (%1$s) ещё не поддерживает некоторые важные функции. &lt;b&gt;Ваши настройки могут не примениться в ряде случаев. &lt;p&gt;На момент выхода этой версии известными приложениями-администраторами с необходимой поддержкой были (возможно, вам придется перезапустить приложение после перехода на другое): &lt;br&gt;%2$s</string>
     <string name="clipboard_monitor_settings_toggle_summary">Оповещать, когда приложения обращаются к буферу обмена</string>
     <string name="clipboard_monitor_settings_excluded_system_apps_summary">Не включать для системных приложений, независимо от предустановок</string>
     <string name="clipboard_monitor_denied_access">В <b>%2$s</b> буфера обмена отказано для %1$s.</string>
@@ -248,8 +235,6 @@
     <string name="shizuku_mode_error_user_denied_permission_sui">Вы запретили этому приложению использовать Sui. &lt;br&gt;Пожалуйста, предоставьте ему разрешение в самом Sui.</string>
     <string name="shizuku_mode_error_not_running">Shizuku не запущен или наблюдаются другие ошибки. &lt;br&gt;Если Shizuku всё-таки запущен, попробуйте принудительно остановить это приложение.</string>
     <string name="shizuku_mode_error_version_too_low">Установленная версия Shizuku утратила актуальность, пожалуйста, обновитесь до последней версии Shizuku (%s или новее).</string>
-    <string name="dpm_mode_error_admin_not_setup">Возможно, что установка приложения-администратора прошла не по плану, пожалуйста, попробуйте перезапустить его или перезагрузить устройство.&lt;p&gt;Если неполадки продолжают возникать, обратитесь за помощью к разработчику приложения-администратора.</string>
-    <string name="dpm_mode_error_operation_not_supported">Эта операция не поддерживается приложением-администратором, которым вы пользуетесь.</string>
     <string name="menu_help">Справка и поддержка</string>
     <string name="menu_last_used_first">Сначала недавно запрошенные</string>
     <string name="menu_set_as">Переключить на</string>
@@ -271,7 +256,6 @@
     <string name="op_summary_unknown">От производителя устройства или из более свежей ОС Android</string>
     <string name="op_associated_with_runtime_dpm_unable_to_confirm">не удается подтвердить</string>
     <string name="op_associated_with_runtime">За исключением «Игнорировать», все остальные параметры те же самые, что и в системных настройках разрешений.</string>
-    <string name="op_associated_with_runtime_dpm">Из-за системных ограничений на «%1$s» нельзя точно запросить текущее состояние.</string>
     <string name="op_added_by_others">Это приложение не запрашивает «%s», однако часть других запрошенных разрешений от него зависит.</string>
     <string name="op_summary_controlled_by_other">Зависит от параметра «%s»</string>
     <string name="clipboard_monitor_access">«%1$s» замечено в <b>%2$s</b> буфера обмена.</string>
@@ -459,7 +443,6 @@
     <string name="op_desc_READ_CLIPBOARD">На Android 10 и выше приложения могут читать буфер обмена только в активном режиме.</string>
     <string name="op_desc_READ_DEVICE_IDENTIFIERS">По умолчанию на Android 10 и выше ни у одного из пользовательских приложений нет разрешения на просмотр идентификаторов устройства (IMEI, MEID, IMSI, номер SIM-карты и серийный номер).</string>
     <string name="op_desc_ACCESS_MEDIA_LOCATION">Позволяет приложению узнавать пути расположения медиафайлов (через Media Store).</string>
-    <string name="op_mode_ignore_may_not_work_under_dpm_mode">Под %1$s, \"%2$s\" может не работать</string>
     <string name="settings_use_system_color">Использовать системную палитру</string>
     <string name="op_name_MANAGE_EXTERNAL_STORAGE">Управлять всеми файлами</string>
 </resources>

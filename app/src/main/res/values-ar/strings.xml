@@ -137,8 +137,6 @@
     <string name="worker_service_notification_channel_label">حالة العمل</string>
     <string name="worker_service_notification_title">يعمل…</string>
     <string name="cannot_open_browser_dialog_title">لا يمكن بدء المتصفح</string>
-    <string name="user_name_owner">المستخدم الأساسي</string>
-    <string name="user_name_work_profile">الملف الشخصي للعمل</string>
     <string name="shizuku_mode_error_manager_app_not_installed">الرجاء تثبيت Shizuku أولاً. &lt;p&gt;يعد Shizuku مشروعًا مفتوح المصدر يبدأ من عام 2017 (راجع %s في GitHub). إنه مصمم لإفادة العديد من التطبيقات التي تتطلب الجذر أو adb. ليس هذا التطبيق فقط ,ولكن أيضًا بعض التطبيقات من مطورين آخرين تستخدم Shizuku. &lt;p&gt;مع Shizuku ,سيحصل هذا التطبيق على سرعة عالية بشكل لا يصدق وميزات أكثر إثارة. بالنسبة إلى Shizuku نفسها ,فإن استهلاك البطارية أو الأداء ضئيل (صفر عند عدم استخدامها). &lt;p&gt; مثل فلسفة Unix ,يجب أن يقوم برنامج واحد بعمل واحد فقط. يتبع Shizuku وهذا التطبيق هذه الفلسفة. في الواقع ,كل شيء مدمج يشبه إلى حد كبير ما تحب أن تفعله \"التطبيقات السيئة\".</string>
     <string name="monitors_notification_title">باستخدام %s</string>
     <string name="monitors_notification_summary">انقر للحصول على الإعداد الاشعارات.</string>
@@ -154,7 +152,6 @@
     <string name="shizuku_mode_error_user_denied_permission">لقد منعت هذا التطبيق من استخدام Shizuku. &lt;br&gt; يرجى منح الإذن لهذا التطبيق في إعدادات النظام أو تطبيق Shizuku. &lt;p&gt; إذا كنت تستخدم MIUI ,فإن MIUI يكسر آلية الأذونات المخصصة لنظام Android ,فلا يمكنك منح الإذن إلا من تطبيق Shizuku.</string>
     <string name="settings_black_night_theme_summary">استخدم اللون الأسود الخالص عند تمكين الوضع الداكن</string>
     <string name="settings_integrations">تكاملات</string>
-    <string name="dpm_mode_error_no_permission">في حالة فقدان الأذونات الضرورية ، انقر فوق \"تحديث\" للمحاولة مرة أخرى.</string>
     <string name="template_edit">تحرير القالب</string>
     <string name="settings_black_night_theme">ثـِيم أسود</string>
     <string name="op_mode_default_description">تعني كلمة \"افتراضي\" التحكم من خلال الإعدادات التي يمكن العثور عليها في &lt;b&gt;&lt;a href=%1$s&gt;اعدادات النظام&lt;/a&gt;&lt;/b&gt; or &lt;b&gt;&lt;a href=%2$s&gt;معلومات التطبيق&lt;/a&gt;&lt;/b&gt;.</string>
@@ -202,7 +199,6 @@
     <string name="storage_isolation_authorization">\"%1$s\" تم تنصيبه. عند تمكين العزل ، لا يجب تغيير الإعدادات هنا ، وإلا فستكون هناك مشكلات.&lt;br&gt;للحصول على التكوين من \"%1$s\", الرجاء منح الإذن.</string>
     <string name="storage_isolation_not_running">لا يمكن الحصول على التكوين من \"%s\".</string>
     <string name="storage_isolation_install">يمكن أن يوفر التطبيق \"%1$s\" (الذي طورناه) تحكمًا أكثر تقدمًا.</string>
-    <string name="dpm_mode_error_outdated_admin">تطبيق المسؤول الحالي, %1$s, لم تدعم بعض الوظائف الهامة حتى الآن. يرجى ترقية تطبيق المسؤول أو مطالبة مطور تطبيق المسؤول بإجراء تغييرات. &lt;p&gt;&lt;b&gt;بدون هذه الوظائف ، في Android 10 أو أعلى ، قد لا تعمل إعداداتك في بعض الأحيان&lt;/b&gt;. حتى في الأنظمة القديمة ، لا تزال هذه الوظائف ضرورية في حالات نادرة. &lt;p&gt;عندما تم إصدار الإصدار الحالي ، فإن تطبيقات المسؤول المعروفة مع الدعم اللازم (قد تضطر إلى إعادة تشغيل هذا التطبيق بعد ترقية تطبيق المسؤول): &lt;br&gt;%2$s</string>
     <string name="op_associated_with_runtime_r">في نظام Android 11 أو أعلى ، يسمح النظام باستخدام \"الموقع\" و \"الكاميرا\" و \"الميكروفون\" فقط لاستخدام %1$s.</string>
     <string name="auto_recovery">الاسترداد التلقائي</string>
     <string name="auto_recovery_notification_channel_label">حالة الاسترداد التلقائي</string>
@@ -215,7 +211,6 @@
 \n
 \n الطريقة الوحيدة هي إعادة التعيين مرة أخرى بعد النظام. سترى إشعارًا عند عمل الاسترداد التلقائي.</string>
     <string name="auto_recovery_settings_start_now_title">ابدأ في التعافي الآن</string>
-    <string name="op_associated_with_runtime_dpm_not_support">تطبيق المسؤول الحالي, %1$s, لم تدعم بعض الوظائف الهامة حتى الآن. &lt;b&gt;قد لا تصبح إعداداتك نافذة المفعول في بعض الحالات&lt;/b&gt;. &lt;p&gt;عندما تم إصدار الإصدار الحالي ، فإن تطبيقات المسؤول المعروفة مع الدعم اللازم (قد تضطر إلى إعادة تشغيل هذا التطبيق بعد ترقية تطبيق المسؤول): &lt;br&gt;%2$s</string>
     <string name="backup_error_newer_version">يمكن إنشاء هذا الملف بواسطة إصدار أحدث من التطبيق ، يرجى ترقية التطبيق والمحاولة مرة أخرى.</string>
     <string name="close">أغـلق</string>
     <string name="usage_monitor_settings_toggle">تفعيل مراقبة الاستخدام</string>
@@ -257,7 +252,6 @@
     <string name="op_summary_controlled_by_other">يتحكم فيه\"%s\"</string>
     <string name="op_associated_with_runtime_dpm_unable_to_confirm">غير قادر على التأكيد</string>
     <string name="op_added_by_others">لا يطلب هذا التطبيق \"%s\" ، ولكن يتم التحكم في بعض الأذونات الأخرى المطلوبة.</string>
-    <string name="op_associated_with_runtime_dpm">ضمن \"%1$s\" ، نظرًا لقيود النظام ، لا يمكن الحصول على الحالة الحالية بدقة.</string>
     <string name="op_associated_with_runtime">باستثناء \"تجاهل\" ، فإن الخيارات الأخرى هي نفسها الموجودة في إعدادات أذونات النظام.</string>
     <string name="op_run_in_background_mode_none">لا قيود</string>
     <string name="op_run_in_background_mode_basic">قيود أساسية</string>
@@ -284,9 +278,6 @@
     <string name="menu_sort_by_app_name">حسب اسم التطبيق</string>
     <string name="menu_more">المزيد من الخيارات</string>
     <string name="menu_show_app_info_in">إظهار معلومات التطبيق في…</string>
-    <string name="dpm_mode_error_timeout">لا يمكن الاتصال بتطبيق المسؤول %1$s. &lt;p&gt;قد يتم حظر الاتصال (يسمى الخدمة المقيدة من الناحية الفنية) من قبل النظام الخاص بك. من المحتمل جدًا أن تقوم الشركات المصنعة مثل OnePlus و Xiaomi و Huawei و Samsung بتقييد الخدمة المقيدة (حتى لو كان التطبيق يفي بمعايير Android). &lt;p&gt;يرجى محاولة تعطيل هذه القيود (قيود سلوك الخلفية) لكل من هذا التطبيق وتطبيق المسؤول %1$s. يمكنك الرجوع إلى %2$s.</string>
-    <string name="dpm_mode_error_outdated_admin_ignore">تجاهل هذه المشكلة</string>
-    <string name="dpm_mode">وضع مسؤول الجهاز المفوض</string>
     <string name="shizuku_mode_error_adb_no_update_permission">ADB لديه فقط appops ولكن لا يوجد إذن appops للتحديث. &lt;br&gt; يرجى محاولة البحث عن خيار مثل السماح بإذن التعديل في خيارات مطوري النظام. &lt;p&gt;&lt;small&gt; على سبيل المثال ,في MIUI ,الخيار هو تصحيح أخطاء USB (خيارات الأمان). &lt;/ small&gt;</string>
     <string name="shizuku_mode_error_not_running">Shizuku لا يعمل أو أن هناك أخطاء أخرى. &lt;br&gt; إذا كان Shizuku قيد التشغيل ,يرجى محاولة فرض إيقاف هذا التطبيق.</string>
     <string name="shizuku_mode_error_version_too_low">إصدار Shizuku المثبت منخفض جدًا ,يرجى تنزيل أحدث إصدار من Shizuzku (%s أو أعلى).</string>
@@ -333,13 +324,6 @@
     <string name="template_edit_title">لقب</string>
     <string name="working_mode_button_continue">استمر</string>
     <string name="working_mode_button_switch">قم بالتبديل إلى وضع عمل آخر</string>
-    <string name="dpm_mode_error_no_multi_user_support">يبدو أن تطبيق المسؤول الذي تستخدمه لا يدعم تعدد المستخدمين. &lt;p&gt;إن أبسط طريقة هي تثبيت هذا التطبيق في الملف الشخصي للعمل. أو يمكنك التبديل إلى وضع Shizuku.</string>
-    <string name="dpm_mode_error_app_not_installed">لاستخدام وضع مسؤول الجهاز المفوض ، تحتاج إلى تثبيت تطبيق آخر والمضي في عملية إعداد معقدة (يتطلب adb بأكثر من سطر واحد من الأوامر). يجب أن تتم عملية الإعداد مرة واحدة فقط. &lt;p&gt;&lt;b&gt;&lt;a href=appops-client://help/dpm_mode&gt;قراءة مساعدة&lt;/a&gt;&lt;/b&gt; لمعرفة كيفية القيام بذلك.</string>
-    <string name="dpm_mode_error_no_get_appops_permission">تحتاج أيضًا إلى استخدام adb لمنح الإذن اللازم. &lt;p&gt;&lt;b&gt;&lt;a href=appops-client://help/dpm_mode&gt;قراءة مساعدة&lt;/a&gt;&lt;/b&gt; لمعرفة كيفية القيام بذلك.</string>
-    <string name="dpm_mode_error_operation_not_supported">لا يدعم تطبيق المسؤول الذي تستخدمه هذه العملية.</string>
-    <string name="dpm_mode_error_no_interact_across_users_permission">في ظل وضع العمل هذا ، للحصول على دعم متعدد المستخدمين ، تحتاج أيضًا إلى استخدام adb لمنح إذنًا آخر. &lt;b&gt;&lt;a href=%1$s&gt;قراءة مساعدة&lt;/a&gt;&lt;/b&gt; لمعرفة كيفية القيام بذلك .&lt;p&gt;أو يمكنك ببساطة تثبيت هذا التطبيق في الملف الشخصي للعمل.</string>
-    <string name="dpm_mode_error_admin_not_setup">قد لا يكتمل إعداد تطبيق المسؤول بشكل صحيح ، يرجى محاولة إعادة فتح تطبيق المسؤول أو إعادة تشغيل الجهاز.&lt;p&gt;في حالة تكرار هذه المشكلة ، يرجى مطالبة مطور التطبيق المسؤول للحصول على المساعدة.</string>
-    <string name="dpm_mode_description">+ يعمل على الأجهزة غير الجذر &lt;br&gt;+ اعداد لمرة واحدة &lt;br&gt;&lt;br&gt;- يتطلب اتصال الكمبيوتر (استخدم ADB) &lt;br&gt;- يتطلب تثبيت تطبيق محدد تابع لجهة خارجية &lt;br&gt;- يتطلب أندرويد 9 أو أعلى</string>
     <string name="include_system_apps_dialog_message">يمكن أن تتسبب العمليات غير الصحيحة لتطبيقات النظام المهمة في حدوث مشكلات لا رجعة فيها. كن حذرا.
 \n
 \n هناك العديد غير قادر على تشغيل التقارير من مستخدمي Samsung.</string>

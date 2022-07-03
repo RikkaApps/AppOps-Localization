@@ -28,7 +28,6 @@
     <string name="op_mode_ignore">忽略</string>
     <string name="op_mode_ignore_description_others">应用会得到空数据或操作不被执行</string>
     <string name="op_mode_ignore_description_runtime">“授予”应用权限，但是应用会得到空数据或操作不会被执行</string>
-    <string name="op_mode_ignore_may_not_work_under_dpm_mode">在%1$s下，“%2$s”可能无效</string>
     <string name="op_mode_deny">拒绝</string>
     <string name="op_mode_deny_crash">拒绝（可能让应用崩溃）</string>
     <string name="op_mode_default">默认</string>
@@ -178,11 +177,6 @@
     <string name="settings_integrations">集成</string>
     <string name="settings_integrations_storage_isolation_summary">“%s”是我们的一个需要 root 的应用，它提供更多对于存储的高级控制。\n\n此选项可防止您尝试更改与存储相关的配置时误操作。</string>
     <string name="working_mode_button_switch">切换到其他工作模式</string>
-    <string name="dpm_mode_error_app_not_installed"><![CDATA[要使用托管设备管理员模式，你需要安装其他应用并经历复杂的的设置过程（需要使用 adb 且不止需要一条指令）。设置过程只需进行一次。<p><b><a href="appops-client://help/dpm_mode">阅读帮助</a></b>了解如何操作。]]></string>
-    <string name="dpm_mode_error_no_permission"><![CDATA[缺失必要的权限，点击刷新重试。]]></string>
-    <string name="dpm_mode_error_no_get_appops_permission"><![CDATA[还需要使用 adb 授予必要的权限。<p><b><a href="appops-client://help/dpm_mode">阅读帮助</a></b>了解如何操作。]]></string>
-    <string name="user_name_owner">主用户</string>
-    <string name="user_name_work_profile">工作资料</string>
     <string name="op_unknown_description"><![CDATA[此权限不包含于原生 Android（由你的设备制造商添加或是在新版本 Android 添加）。请谨慎。]]></string>
     <string name="op_summary_unknown">来自设备制造商或是新版本 Android 系统</string>
     <plurals name="include_system_apps_dialog_title">
@@ -193,14 +187,6 @@
     <string name="include_system_app_button_dialog_do_not_skip">不要跳过</string>
     <string name="apply_template_dialog_create">创建新的模板…</string>
     <string name="cannot_open_browser_dialog_title">无法启动浏览器</string>
-    <string name="dpm_mode">托管设备管理员模式</string>
-    <string name="dpm_mode_description"><![CDATA[
-+ 可在无 root 设备上工作
-<br>+ 一次性设置
-<br><br>- 需要连接电脑（使用 adb）
-<br>- 需要安装特定的第三方应用
-<br>- 需要 Android 9 以上
-    ]]></string>
     <string name="shizuku_mode">Shizuku 模式</string>
     <string name="shizuku_mode_description"><![CDATA[
 + 在 root 和非 root 设备上均可工作
@@ -227,10 +213,6 @@
     <string name="settings_send_data_summary">上述功能使用 Microsoft 提供的 Visual Studio App Center。收集的信息是匿名的，我们无法追溯到独立的设备或用户。\n请参阅隐私政策以了解更多。</string>
     <string name="settings_crash_report_title">发送错误报告</string>
     <string name="settings_crash_report_summary">这将帮助我们更快地发现问题</string>
-    <string name="dpm_mode_error_admin_not_setup"><![CDATA[管理员应用的设置可能未正确完成，请尝试重新打开管理员应用或重新启动设备。<p>如果此问题重复出现，请向管理员应用的开发者寻求帮助。]]></string>
-    <string name="dpm_mode_error_no_interact_across_users_permission"><![CDATA[在此工作模式下，要获得多用户支持，您还需要使用 adb 授予另一个权限。<b><a href="%1$s">阅读帮助</a></b>了解如何操作。<p>或者您可以简单地将此应用安装至工作资料。]]></string>
-    <string name="dpm_mode_error_no_multi_user_support"><![CDATA[您正在使用的管理应用似乎不支持多用户。<p>最简单的方法是将此应用安装到工作资料中。或者，您可以切换到 Shizuku 模式。]]></string>
-    <string name="dpm_mode_error_operation_not_supported"><![CDATA[此操作不被您正在使用的管理员应用支持。]]></string>
     <string name="menu_badge_full_version">@string/full_version</string>
     <string name="apps_view">应用视图</string>
     <string name="permissions_view">权限视图</string>
@@ -287,27 +269,9 @@
     <string name="auto_recovery_settings_start_now_summary">可能有没有被考虑到的情况</string>
     <string name="brackets">（%s）</string>
     <string name="op_associated_with_runtime">除了“忽略”，其他选项与系统权限设置中的相同。</string>
-    <string name="op_associated_with_runtime_dpm">在“%1$s”下，由于系统限制，无法准确地取得当前状态。</string>
     <string name="op_associated_with_runtime_dpm_unable_to_confirm">无法确认</string>
     <string name="op_associated_with_runtime_r">在 Android 11 或更高版本上，系统仅允许“位置”、“摄像头”和“麦克风”使用%s。</string>
-    <string name="dpm_mode_error_outdated_admin"><![CDATA[
-目前的管理员应用 %1$s 尚未支持某些关键的功能。请升级您的管理员应用或要求管理员应用的开发者做出改变。
-<p><b>如果没有那些功能，在 Android 10 以上，您的部分设置可能实际上不起作用</b>。即使在较旧的系统上，在极少数情况下，这些功能仍然是必需的。
-<p>当前版本发布时，已知的具有必要支持的管理员应用（升级管理员应用后，您可能需要重新启动此应用）：
-<br>%2$s
-]]></string>
-    <string name="dpm_mode_error_outdated_admin_ignore">忽略这个问题</string>
-    <string name="op_associated_with_runtime_dpm_not_support"><![CDATA[
-当前的管理员应用 %1$s 尚未支持某些关键的功能。<b>您的设置在某些情况下可能不会生效</b>。
-<p>当前版本发布时，已知的具有必要支持的管理员应用（升级管理员应用后，您可能需要重新启动此应用）：
-<br>%2$s
-]]></string>
     <string name="menu_working_mode">工作模式</string>
-    <string name="dpm_mode_error_timeout"><![CDATA[
-无法连接到管理员应用 %1$s。
-<p>系统可能阻止了该连接（在技术上称为绑定服务）。一加，小米，华为，三星等制造商极有可能限制绑定服务（即使应用确实符合 Android 的标准）。
-<p>请尝试为此应用和管理员应用 %1$s 禁用这些限制（后台行为限制）。您可以参考 %2$s。
-]]></string>
     <string name="backup_create_backup_summary_system_components"><![CDATA[为了避免无法挽回的问题，<b>系统组件将不会被备份</b>。]]></string>
     <string name="backup_creating_backup">创建备份中…</string>
     <string name="backup_writing_file">写入文件中…</string>

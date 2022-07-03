@@ -2,7 +2,6 @@
 <resources>
     <string name="translators">mollyman, Younes-L, vincenziojovanoski</string>
     <string name="shizuku_mode_error_adb_no_update_permission">ADB a seulement obtenu app ops mais aucune mise a jour de permission d\'app ops.&lt;br&gt;Essayez de chercher une option comme \" Autoriser la modification des permissions \" dans les \" Options du développeur \" du système.&lt;p&gt;&lt;small&gt;Par exemple, dans MIUI, l\'option est \"Débogage USB (options de sécurité)\".&lt;/small&gt;</string>
-    <string name="dpm_mode_error_no_permission">Permission nécessaire manquante, cliquez sur rafraichir pour essayer de nouveau.</string>
     <string name="progress_requesting_authorization">Demande d\'autorisation......</string>
     <string name="progress_checking_availability">Vérification de la disponibilité…</string>
     <string name="progress_fetching_user_list">Recherche de la liste des utilisateurs…</string>
