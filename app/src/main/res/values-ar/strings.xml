@@ -126,7 +126,6 @@
     <string name="usage_monitor_notification_text">يشمل %1$s.</string>
     <string name="button_discard">تجاهل</string>
     <string name="usage_monitor_microphone">ميكروفون</string>
-    <string name="toast_options_has_been_moved">تم نقل بعض الخيارات.</string>
     <string name="storage_isolation_requires_enhance_mode">ملاحظة ، يجب تشغيل \"%1$s\" ضمن \"الوضع المحسن\".</string>
     <string name="storage_isolation_enabled">يتحكم فيها \"%s\".&lt;br&gt;لا يجب تغيير الإعدادات هنا ، وإلا فستكون هناك مشاكل.</string>
     <string name="auto_recovery_settings_ignore_summary">إذا كنت متأكدًا من أن نظامك لا يعاني من هذه المشكلة (على سبيل المثال ، Pixel أو AOSP-like ROMs) ، فقم بتمكين هذا الخيار حتى لا يتم فرض خيار الاسترداد التلقائي</string>

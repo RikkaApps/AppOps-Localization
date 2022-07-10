@@ -324,7 +324,6 @@
     <string name="monitors_notification_summary">Нажмите для настройки уведомлений.</string>
     <string name="monitors_notification_channel_label">Текущий статус</string>
     <string name="cannot_open_browser_dialog_title">Не удается открыть браузер</string>
-    <string name="toast_options_has_been_moved">Некоторые опции были перенесены.</string>
     <string name="auto_recovery_settings_start_now_title">Начать восстановление прямо сейчас</string>
     <string name="auto_recovery_settings_start_now_summary">Полезно в ситуациях, когда изменения не были отслежены</string>
     <string name="manufacturer_restriction_dialog_title">Ограничения со стороны производителей</string>

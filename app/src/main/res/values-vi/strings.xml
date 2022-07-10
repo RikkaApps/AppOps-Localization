@@ -259,7 +259,6 @@
     <string name="storage_isolation_not_running">Không thể lấy cấu hình từ \"%s\".</string>
     <string name="storage_isolation_install">Ứng dụng \"%1$s\" (phát triển bởi chúng tôi) có thể cung cấp khả năng kiểm soát nâng cao hơn.</string>
     <string name="storage_isolation_requires_enhance_mode">Lưu ý, \"%1$s\" cần được chạy trong \"Chế độ nâng cao\".</string>
-    <string name="toast_options_has_been_moved">Một số tùy chọn đã được di chuyển.</string>
     <string name="manufacturer_restriction_dialog_title">Hạn chế từ nhà sản xuất</string>
     <string name="manufacturer_restriction_dialog_ignore">Không hiển thị cho \"%s\"</string>
     <string name="close">Đóng</string>

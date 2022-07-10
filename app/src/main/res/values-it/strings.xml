@@ -152,7 +152,6 @@
     <string name="usage_monitor_microphone">microfono</string>
     <string name="template_dialog_delete_message">Sei sicuro di voler eliminare questo modello\?</string>
     <string name="manufacturer_restriction_dialog_title">Restrizioni da parte dei produttori</string>
-    <string name="toast_options_has_been_moved">Alcune opzioni sono state spostate.</string>
     <string name="template_edit_dialog_not_saved_message">Hai apportato delle modifiche, salvarle\?</string>
     <string name="storage_isolation_requires_enhance_mode">Nota, \"%1$s\" deve essere eseguito in \"Modalità avanzata\".</string>
     <string name="storage_isolation_enabled">Controllato da \"%s\".&lt;br&gt;Non dovresti modificare le impostazioni qui, altrimenti potrebbero esserci problemi.</string>

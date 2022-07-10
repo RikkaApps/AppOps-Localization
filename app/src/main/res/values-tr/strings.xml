@@ -3,7 +3,6 @@
     <string name="menu_badge_full_version">Tamamı</string>
     <string name="quotation_marks">\"%s\"</string>
     <string name="comma">", "</string>
-    <string name="toast_options_has_been_moved">Bazı seçenekler taşındı.</string>
     <string name="storage_isolation_install">\"%1$s\" uygulaması (bizim tarafından geliştirilen) daha gelişmiş kontrol sağlayabilir.</string>
     <string name="storage_isolation_not_running">Yapılandırma \"%s\" tarafınca alınamıyor.</string>
     <string name="storage_isolation_enabled">\"%s\" tarafından kontrol ediliyor. &lt;br&gt;Burada ayarları değiştirmemeniz gerekir, yoksa sorunlar olacaktır.</string>

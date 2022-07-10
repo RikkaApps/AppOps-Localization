@@ -205,7 +205,6 @@
     <string name="backup_error_newer_version">Este archivo pudo haber sido creado para una versión más reciente de la aplicación, por favor actualiza la aplicación e inténtalo de nuevo.</string>
     <string name="backup_error_legacy_backup">Nota, las copias de seguridad creadas antes de %s no se soportan debido a la falta de información necesaria.</string>
     <string name="backup_review_description_from_newer_version">La parte (si existe) que sólo existe en la nueva versión del sistema no puede ser vista o restaurada.</string>
-    <string name="toast_options_has_been_moved">Se han cambiado algunas opciones.</string>
     <string name="manufacturer_restriction_dialog_title">Restricciones de los fabricantes</string>
     <string name="manufacturer_restriction_dialog_ignore">No mostrar para \"%s\"</string>
     <string name="storage_isolation_not_running">No se puede obtener la configuración de \"%s\".</string>

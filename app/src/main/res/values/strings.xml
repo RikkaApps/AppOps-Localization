@@ -398,8 +398,6 @@ This app does not request for \"%s\", but some other requested permissions are c
     <string name="storage_isolation_install"><![CDATA[\"%1$s\" app (developed by us) can provide more advanced control.]]></string>
     <string name="storage_isolation_requires_enhance_mode"><![CDATA[Note, \"%1$s\" needs to be run under \"Enhanced mode\".]]></string>
 
-    <string name="toast_options_has_been_moved">Some options have been moved.</string>
-
     <string name="manufacturer_restriction_dialog_title">Restrictions from manufacturers</string>
     <string name="manufacturer_restriction_dialog_message"><![CDATA[
 Many manufacturers (mainly from mainland China), including but not limited to OnePlus, Xiaomi, Huawei, Samsung, restrict the background behaviors by default.

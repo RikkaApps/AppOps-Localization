@@ -236,7 +236,6 @@
     <string name="manufacturer_restriction_dialog_message">Viele Hersteller (hauptsächlich vom chinesischen Festland) einschließlich nicht beschränkt auf OnePlus, Xiaomi, Huawei und Samsung beschränken standardmäßig die Hintergrundaktivität. &lt;p&gt;Die Einschränkungen sind in der Regel schlecht entworfen. &lt;b&gt;Da die App den Android-Standard einhält, werden ihre Einschränkungen nicht mehr Akku sparen, sondern nur die Funktion der App unterbrechen.&lt;/b&gt; Noch absurder ist, dass diese Hersteller &lt;b&gt;meistens eine Standard \"Erlauben-Liste\" haben, die Apps großer Firmen enthält&lt;/b&gt;. Das gesamte Android-Ökosystem wird von ihnen zutiefst verletzt. &lt;p&gt;Um \"%1$s\" zum Laufen zu bringen, deaktiviere bitte diese Einschränkungen. Verwende dazu \"%2$s\". Und keine Sorge, sie belastet die CPU nicht ununterbrochen, die App wird nicht einmal in der Akkustatistik des Systems erscheinen.</string>
     <string name="usage_monitor_microphone">Mikrofon</string>
     <string name="usage_monitor_camera">Kamera</string>
-    <string name="toast_options_has_been_moved">Einige Optionen wurden verschoben.</string>
     <string name="manufacturer_restriction_dialog_title">Einschränkungen durch Gerätehersteller</string>
     <string name="storage_isolation_requires_enhance_mode">Beachte, dass \"%1$s\" im \"Enhanced mode\" laufen muss.</string>
     <string name="storage_isolation_not_running">Kann die Konfiguration nicht von \"%s\" abrufen.</string>

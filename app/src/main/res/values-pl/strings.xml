@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="close">Zamknij</string>
-    <string name="toast_options_has_been_moved">Niektóre opcje zostały usunięte.</string>
     <string name="full_version">Pełna wersja</string>
     <string name="unlock_full_version">Odblokuj pełną wersję</string>
     <string name="settings_language">Język</string>

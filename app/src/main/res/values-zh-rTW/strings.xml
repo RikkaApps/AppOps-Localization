@@ -216,7 +216,6 @@
     <string name="menu_badge_full_version">@string/full_version</string>
     <string name="apps_view">應用程式檢視</string>
     <string name="permissions_view">權限檢視</string>
-    <string name="toast_options_has_been_moved">一些選項搬家了。</string>
     <string name="menu_badge_early_access">搶先體驗</string>
     <string name="clipboard_monitor">剪貼簿監視器</string>
     <string name="clipboard_monitor_settings_toggle">啟用剪貼簿監視器</string>

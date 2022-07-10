@@ -216,7 +216,6 @@
     <string name="menu_badge_full_version">@string/full_version</string>
     <string name="apps_view">应用视图</string>
     <string name="permissions_view">权限视图</string>
-    <string name="toast_options_has_been_moved">一些选项搬家了。</string>
     <string name="menu_badge_early_access">抢先体验</string>
     <string name="clipboard_monitor">剪贴板监视器</string>
     <string name="clipboard_monitor_access"><![CDATA[%1$s <b>%2$s</b>了剪贴板。]]></string>
