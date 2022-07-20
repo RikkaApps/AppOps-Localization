@@ -49,7 +49,7 @@
     <string name="menu_delete">Xoá</string>
     <string name="menu_last_used_first">Lần sử dụng cuối đầu tiên</string>
     <string name="menu_users">Người dùng</string>
-    <string name="menu_about">Về</string>
+    <string name="menu_about">Giới thiệu</string>
     <string name="menu_set_as">Đặt làm</string>
     <string name="menu_working_mode">Chế độ làm việc</string>
     <string name="menu_badge_early_access">Truy cập sớm</string>
@@ -421,5 +421,7 @@
     <string name="op_name_WRITE_MEDIA_AUDIO">viết bộ sưu tập nhạc của bạn</string>
     <string name="op_name_READ_MEDIA_IMAGES">đọc bộ sưu tập ảnh của bạn</string>
     <string name="op_desc_WAKE_LOCK">Trên Android gốc, WAKE_LOCK chỉ được sử dụng để thống kê và không có tác dụng thực tế. &lt;b&gt;&lt;a href=https://github.com/aosp-mirror/platform_frameworks_base/blob/oreo-release/services/core/java/com/android/server/power/Notifier.java#L191-L193&gt;Xem mã liên quan &lt;/a&gt;&lt;/b&gt;&lt;p&gt;Nếu bạn muốn hạn chế ứng dụng chạy trong nền, vui lòng sửa đổi trực tiếp tùy chọn \"Chạy trong nền\" (yêu cầu Android 7.0 trở lên).</string>
-
+    <string name="privacy_policy">Chính sách bảo mật</string>
+    <string name="settings_request_to_delete_data">Xoá dữ liệu</string>
+    <string name="settings_use_system_color">Sử dụng màu theo hệ thống</string>
 </resources>
