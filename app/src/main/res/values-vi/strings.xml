@@ -23,7 +23,7 @@
     <string name="progress_checking_availability">Đang kiểm tra tính khả dụng…</string>
     <string name="progress_fetching_user_list">Đang tìm nạp danh sách người dùng…</string>
     <string name="progress_fetching_app_list">Đang tìm nạp danh sách ứng dụng…</string>
-    <string name="progress_working">Đang hoạt động (%1$d của %2$d)…</string>
+    <string name="progress_working">Đang khởi động (%1$d của %2$d)…</string>
     <string name="menu_reset">Đặt lại</string>
     <string name="menu_app_info">Thông tin ứng dụng</string>
     <string name="menu_show_app_info_in">Hiện thông tin ứng dụng trong…</string>
