@@ -137,6 +137,8 @@ You have disallowed this app to use Sui.
     <string name="permission_group_microphone">Microphone</string>
     <string name="permission_group_storage">Storage</string>
     <string name="permission_group_other">Other</string>
+    <string name="permission_group_clipboard">Clipboard</string>
+    <string name="permission_group_device_identifiers">Device identifiers</string>
 
     <string name="op_mode_allow">Allow</string>
     <string name="op_mode_ignore">Ignore</string>
@@ -406,6 +408,14 @@ Many manufacturers (mainly from mainland China), including but not limited to On
     <string name="manufacturer_restriction_dialog_ignore">Don\'t show for \"%s\"</string>
 
     <string name="close">Close</string>
+
+    <string name="usage_history_fetching">Fetching usage history…</string>
+    <string name="usage_history_in_the_past_24h">In the past 24 hours</string>
+    <string name="usage_history_over_all_access_count">%1$d apps have accessed sensitive permissions for %2$d times</string>
+    <plurals name="usage_history_access_times">
+        <item quantity="one">%1$d time</item>
+        <item quantity="other">%1$d times</item>
+    </plurals>
 
     <!-- comma, used to build strings like "A, B, C"-->
     <string name="comma">", "</string>

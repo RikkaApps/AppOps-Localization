@@ -330,6 +330,14 @@
 <p>Shizuku 是一个独立的 Android 应用。
 ]]></string>
     <string name="settings_use_system_color">使用系统主题颜色</string>
+    <string name="permission_group_clipboard">剪贴板</string>
+    <string name="permission_group_device_identifiers">设备识别码</string>
+    <string name="usage_history_fetching">正在获取使用情况历史…</string>
+    <string name="usage_history_in_the_past_24h">在过去的 24 小时内</string>
+    <string name="usage_history_over_all_access_count">%1$d 个应用使用了 %2$d 次敏感权限</string>
+    <plurals name="usage_history_access_times">
+        <item quantity="other">%1$d 次</item>
+    </plurals>
     <string name="op_desc_READ_CLIPBOARD">在 Android 10 或以上，应用仅在处于前台时能够读取剪贴板。</string>
     <string name="op_desc_START_FOREGROUND">简而言之，前台服务是一个带有无法消除通知的后台服务。因为您可以主动获知它的存在，系统会保证前台服务存活。&lt;p&gt;拒绝该项会导致前台服务退回到普通服务，这可能会破坏应用行为（比如音乐播放器在后台停止，地图应用停止位置更新）。&lt;p&gt;&lt;b&gt;&lt;a href=https://developer.android.com/guide/components/services&gt;在 Android Developers 查看文档&lt;/a&gt;&lt;/b&gt;</string>
     <string name="op_desc_WAKE_LOCK">在原生 Android 上，WAKE_LOCK 只被用于统计而没有实际作用。&lt;b&gt;&lt;a href=https://github.com/aosp-mirror/platform_frameworks_base/blob/oreo-release/services/core/java/com/android/server/power/Notifier.java#L191-L193&gt;查看相关代码&lt;/a&gt;&lt;/b&gt;&lt;p&gt;如果你希望限制应用后台运行，请直接修改“在后台运行”选项（需要 Android 7.0 以上）。</string>
