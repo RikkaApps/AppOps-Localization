@@ -416,6 +416,12 @@ Many manufacturers (mainly from mainland China), including but not limited to On
         <item quantity="one">%1$d time</item>
         <item quantity="other">%1$d times</item>
     </plurals>
+    <plurals name="usage_history_and_more_apps">
+        <item quantity="one">and %1$d more app</item>
+        <item quantity="other">and %1$d more apps</item>
+    </plurals>
+    <string name="usage_history_access_in_the_background">Access in the background</string>
+    <string name="usage_history_access_rejected">Rejected</string>
 
     <!-- comma, used to build strings like "A, B, C"-->
     <string name="comma">", "</string>
