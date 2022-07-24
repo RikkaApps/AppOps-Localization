@@ -422,6 +422,8 @@ Many manufacturers (mainly from mainland China), including but not limited to On
     </plurals>
     <string name="usage_history_access_in_the_background">Access in the background</string>
     <string name="usage_history_access_rejected">Rejected</string>
+    <string name="usage_history_timeline_today">Today</string>
+    <string name="usage_history_timeline_yesterday">Yesterday</string>
 
     <!-- comma, used to build strings like "A, B, C"-->
     <string name="comma">", "</string>
