@@ -41,7 +41,7 @@
     <string name="send_to_developer">Naar de ontwikkelaar sturen</string>
     <string name="user_name_fallback">Gebruiker</string>
     <string name="template_default_title">Ongetiteld</string>
-    <string name="working_mode_title">Werkmodus</string>
+    <string name="working_mode_title">Werkmodus: %s</string>
     <string name="shizuku_mode_shizuku_not_running">(Shizuku staat niet aan)</string>
     <string name="shizuku_mode_over_adb">Shizuku modus (gestart via adb)</string>
     <string name="shizuku_mode_over_root">Shizuku modus (gestart via Root)</string>
