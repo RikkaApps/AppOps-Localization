@@ -424,6 +424,8 @@ Many manufacturers (mainly from mainland China), including but not limited to On
     <string name="usage_history_access_rejected">Rejected</string>
     <string name="usage_history_timeline_today">Today</string>
     <string name="usage_history_timeline_yesterday">Yesterday</string>
+    <string name="usage_history_system_version_too_low_title">Android version incompatible</string>
+    <string name="usage_history_system_version_too_low_message">Usage history requires %1$s, your devices runs %2$s.</string>
 
     <!-- comma, used to build strings like "A, B, C"-->
     <string name="comma">", "</string>
