@@ -189,11 +189,9 @@
     <string name="settings_integrations_storage_isolation_summary">\"%s\" هو تطبيق مطلوب من الجذر منا. يوفر تحكمًا أكثر تقدمًا في التخزين.
 \n
 \nهذا الخيار هو منع التشغيل الخاطئ عند محاولة تغيير التكوينات المتعلقة بالتخزين.</string>
-    <string name="settings_send_data_summary">نحن نستخدم Visual Studio App Center (من Microsoft).
-\n
-\n وفقًا لشفرة المصدر الخاصة بـ App Center SDK ، سيتم جمع وإرسال معلومات إصدار التطبيق وإصدار النظام وطراز الجهاز وحجم الشاشة واللغة والمنطقة الزمنية ومعلومات الناقل فقط.
-\n
-\n يتم استخدام معرف التثبيت الذي تم إنشاؤه عشوائيًا للتمييز بين الأجهزة المختلفة.</string>
+    <string name="settings_send_data_summary">نحن نستخدم Visual Studio App Center (من Microsoft)
+\nوفقًا لشفرة المصدر الخاصة بـ App Center SDK ، سيتم جمع وإرسال معلومات إصدار التطبيق وإصدار النظام وطراز الجهاز وحجم الشاشة واللغة والمنطقة الزمنية ومعلومات الناقل فقط.
+\nيتم استخدام معرف التثبيت الذي تم إنشاؤه عشوائيًا للتمييز بين الأجهزة المختلفة.</string>
     <string name="monitors_service_description">تُستخدم بواسطة \"سلوك التطبيق الجديد\" و \"شاشة الحافظة\" و \"مراقبة الاستخدام\" و \"سجل الاستخدام\".</string>
     <string name="storage_isolation_authorization">\"%1$s\" تم تنصيبه. عند تمكين العزل ، لا يجب تغيير الإعدادات هنا ، وإلا فستكون هناك مشكلات.&lt;br&gt;للحصول على التكوين من \"%1$s\", الرجاء منح الإذن.</string>
     <string name="storage_isolation_not_running">لا يمكن الحصول على التكوين من \"%s\".</string>
@@ -455,5 +453,39 @@
     <string name="op_desc_WAKE_LOCK">في نظام Android ، يُستخدم WAKE_LOCK إيقاظ القفل فقط للإحصاءات وليس له أي تأثير عملي. &lt;b&gt;&lt;a href=https://github.com/aosp-mirror/platform_frameworks_base/blob/oreo-release/services/core/java/com/android/server/power/Notifier.java#L191-L193&gt;عرض التعليمات البرمجية ذات الصلة&lt;/a&gt;&lt;/b&gt;&lt;p&gt;إذا كنت تريد تقييد تشغيل التطبيق في الخلفية ، فيرجى تعديل خيار \"تشغيل في الخلفية\" مباشرةً (يتطلب Android 7.0 أو أعلى).</string>
     <string name="op_desc_START_FOREGROUND">باختصار ، الخدمة الأمامية هي خدمة في الخلفية مع إشعار لا يمكن رفضه. نظرًا لأنه يمكنك أن تدرك بنشاط وجوده من الإشعار ، سيضمن النظام بقاء الخدمات الأمامية.&lt;p&gt;سيؤدي رفض ذلك إلى عودة الخدمات المقدمة إلى الخدمات العادية ، وقد يؤدي ذلك إلى تعطيل سلوك التطبيق (مثل توقف مشغل الموسيقى في الخلفية ، وتوقف تطبيق الخريطة عن تحديث الموقع).&lt;p&gt;&lt;b&gt;&lt;a href=https://developer.android.com/guide/components/services&gt;اعرض الوثائق على Android Developers&lt;/a&gt;&lt;/b&gt;</string>
     <string name="op_desc_READ_DEVICE_IDENTIFIERS">في نظام Android 10 أو إصدار أحدث ، بشكل افتراضي ، لا تملك أي تطبيقات مستخدم إذنًا لقراءة معرّفات الجهاز (IMEI و MEID و IMSI ورقم بطاقة SIM والتسلسل للجهاز).</string>
-
+    <string name="usage_history_system_version_too_low_title">إصدار Android غير متوافق</string>
+    <string name="usage_history_system_version_too_low_message">يتطلب سجل الاستخدام %1$s ، تعمل أجهزتك %2$s.</string>
+    <plurals name="usage_history_and_more_apps">
+        <item quantity="zero">و%1$d تطبيق واحد آخر</item>
+        <item quantity="one">و %1$d تطبيقًا آخر</item>
+        <item quantity="two">و %1$d تطبيقان آخران</item>
+        <item quantity="few">و %1$d تطبيقًا آخر</item>
+        <item quantity="many">و %1$d تطبيقًا آخر</item>
+        <item quantity="other">و %1$d تطبيقًا آخر</item>
+    </plurals>
+    <string name="usage_history_access_in_the_background">الوصول في الخلفية</string>
+    <string name="usage_history_access_rejected">مرفوض</string>
+    <string name="settings_request_to_delete_data">حذف البيانات</string>
+    <string name="settings_request_to_delete_data_summary">قم بحظر البيانات الصادرة بشكل دائم من هذا المثيل وحذف البيانات المجمعة</string>
+    <string name="privacy_policy">سياسة الخصوصية</string>
+    <string name="usage_history_timeline_today">اليوم</string>
+    <string name="usage_history_timeline_yesterday">في الامس</string>
+    <string name="op_name_MANAGE_EXTERNAL_STORAGE">إدارة جميع الملفات</string>
+    <string name="working_mode_dpm_removed">تمت إزالة وضع مسؤول الجهاز المفوض</string>
+    <string name="working_mode_dpm_removed_description">نظرًا لمتطلبات سياسة Google Play الجديدة ، يجب إزالة وضع مسؤول الجهاز المفوض قبل 2022-07-12. &lt;p&gt; إذا كنت بحاجة إلى استخدام وضع مسؤول الجهاز المفوض ، فالرجاء تنزيل الإصدار الأقدم من التطبيق من موقعنا على الويب.</string>
+    <string name="permission_group_clipboard">الحافظة</string>
+    <string name="permission_group_device_identifiers">معرفات id الجهاز</string>
+    <string name="settings_use_system_color">استخدم لون سمة النظام</string>
+    <string name="usage_history_fetching">إحضار سجل الاستخدام…</string>
+    <string name="usage_history_in_the_past_24h">في الـ 24 ساعة الماضية</string>
+    <string name="usage_history_over_all_access_count">حصل %1$d تطبيقًا على أذونات حساسة لمدة %2$d مرة</string>
+    <plurals name="usage_history_access_times">
+        <item quantity="zero">%1$d مرة</item>
+        <item quantity="one">%1$d مرات</item>
+        <item quantity="two">%1$d مرات</item>
+        <item quantity="few">%1$d مرة</item>
+        <item quantity="many">%1$d مرات</item>
+        <item quantity="other">%1$d مرة</item>
+    </plurals>
+    <string name="comma">", "</string>
 </resources>
