@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="template">نموذج</string>
-    <string name="translators">tajf0000, aali022, moha5000</string>
+    <string name="translators">io_2020,tajf0000, aali022, moha5000</string>
     <string name="progress_requesting_authorization">طلب التفويض…</string>
     <string name="progress_checking_availability">التحقق من الجاهزية…</string>
     <string name="progress_fetching_user_list">إحضار قائمة المستخدمين…</string>
@@ -30,7 +30,7 @@
     <string name="system_app">تطبيق النظام</string>
     <string name="permissions_view_summary">عرض التطبيقات بواسطة الأذونات وإدارتها بشكل واضح</string>
     <string name="permissions_view_all">الكل</string>
-    <string name="system_app_warning">هذا تطبيق نظام، غيّر الإعداد قد يؤدي إلى مشاكل حقيقية.</string>
+    <string name="system_app_warning">هذا تطبيق نظام ، قد يؤدي تغيير الإعدادات إلى مشاكل خطيرة.</string>
     <string name="app_name_multi_user">%1$s (%2$s)</string>
     <string name="permission_group_body_sensor">مستشعر الجسم</string>
     <string name="permission_group_phone">الهاتف</string>
@@ -94,8 +94,8 @@
     <string name="send_to_developer">أرسل إلى المطور</string>
     <string name="user_name_fallback">المستخدم</string>
     <string name="working_mode_button_retry">أعد المحاولة</string>
-    <string name="working_mode_choice">اختر طريقة العمل:</string>
-    <string name="working_mode_title">: %sنمط العمل</string>
+    <string name="working_mode_choice">اختر وضع العمل:</string>
+    <string name="working_mode_title">وضع العمل: %s</string>
     <plurals name="app_view_item_modified">
         <item quantity="zero">تم تعديل عنصر %d</item>
         <item quantity="one">تم تعديل عنصر %d</item>
