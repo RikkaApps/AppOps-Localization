@@ -455,5 +455,6 @@
 由於一個新的 Google Play 政策要求，託管裝置管理員模式需要在 2022-07-12 前被移除。
 <p>如果您需要使用託管裝置管理員模式，請從我們的網站下載舊版本。]]></string>
     <string name="error_unable_to_start_remote_service"><![CDATA[無法啟動服務。]]></string>
+    <string name="something_went_wrong">出現了問題</string>
 
 </resources>
