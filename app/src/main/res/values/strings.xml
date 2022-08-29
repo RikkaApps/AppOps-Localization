@@ -54,6 +54,7 @@ You have disallowed this app to use Sui.
     <string name="shizuku_mode_error_adb_no_update_permission"><![CDATA[ADB only have get appops but no update appops permission.
 <br>Please try looking for a option like "Allow modify permission" in system\'s "Developer options".
 <p><small>For example, in MIUI, the option is "USB debugging (security options)".</small>]]></string>
+    <string name="error_unable_to_start_remote_service"><![CDATA[Unable to start service.]]></string>
 
     <string name="progress_requesting_authorization">Requesting for authorization…</string>
     <string name="progress_checking_availability">Checking availability…</string>
