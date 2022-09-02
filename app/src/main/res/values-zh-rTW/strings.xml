@@ -456,5 +456,10 @@
 <p>如果您需要使用託管裝置管理員模式，請從我們的網站下載舊版本。]]></string>
     <string name="error_unable_to_start_remote_service"><![CDATA[無法啟動服務。]]></string>
     <string name="something_went_wrong">出現了問題</string>
+    <string name="ignore_for_now">暫時忽略</string>
+    <string name="error_license_about_to_invalid">長時間未驗證購買</string>
+    <string name="error_license_about_to_invalid_message"><![CDATA[
+為了避免欺詐，購買需要定期驗證。<p>驗證過程是自動完成的。請不要禁止應用程式訪問網路。
+    ]]></string>
 
 </resources>
