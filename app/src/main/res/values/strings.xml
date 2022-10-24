@@ -55,6 +55,7 @@ You have disallowed this app to use Sui.
 <br>Please try looking for a option like "Allow modify permission" in system\'s "Developer options".
 <p><small>For example, in MIUI, the option is "USB debugging (security options)".</small>]]></string>
     <string name="error_unable_to_start_remote_service"><![CDATA[Unable to start service.]]></string>
+    <string name="error_unable_to_start_remote_service_solution"><![CDATA[Force stop the app and try again.]]></string>
     <string name="error_license_about_to_invalid">Purchase has not been verified for a long time</string>
     <string name="error_license_about_to_invalid_message"><![CDATA[
 To avoid fraud, the purchase requires regular verification.<p>The verification process is done automatically. Please do not block the app from accessing the network.]]></string>
