@@ -555,5 +555,7 @@ Many manufacturers (mainly from mainland China), including but not limited to On
     <string name="op_desc_READ_CLIPBOARD"><![CDATA[On Android 10 or above, apps can read clipboard only if in the foreground.]]></string>
     <string name="op_desc_ACCESS_MEDIA_LOCATION"><![CDATA[Allow the app to read locations from media files (via Media Store).]]></string>
     <string name="op_desc_READ_DEVICE_IDENTIFIERS"><![CDATA[On Android 10 or above, by default, any user apps have no permission to read the device identifiers (IMEI, MEID, IMSI, SIM card number and device serial).]]></string>
+    <string name="op_name_special_SENSORS">Sensors</string>
+    <string name="op_desc_special_SENSORS">Sensors that can be used without the user\'s approval, such as accelerometers, gravity sensors, etc.</string>
 
 </resources>

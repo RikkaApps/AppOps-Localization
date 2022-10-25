@@ -462,5 +462,7 @@
 為了避免欺詐，購買需要定期驗證。<p>驗證過程是自動完成的。請不要禁止應用程式訪問網路。
     ]]></string>
     <string name="error_unable_to_start_remote_service_solution"><![CDATA[強行停止應用程式後重試。]]></string>
+    <string name="op_name_special_SENSORS">傳感器</string>
+    <string name="op_desc_special_SENSORS">無需使用者同意即可使用的感測器，如加速度計、重力傳感器等。</string>
 
 </resources>

@@ -462,5 +462,7 @@
     <string name="error_license_about_to_invalid">长时间未验证购买</string>
     <string name="error_license_about_to_invalid_message"><![CDATA[为了避免欺诈，购买需要定期验证。<p>验证过程是自动完成的。请不要禁止应用访问网络。]]></string>
     <string name="error_unable_to_start_remote_service_solution"><![CDATA[强行停止应用后重试。]]></string>
+    <string name="op_name_special_SENSORS">传感器</string>
+    <string name="op_desc_special_SENSORS">无需用户同意即可使用的传感器，如加速度计、重力传感器等。</string>
 
 </resources>
