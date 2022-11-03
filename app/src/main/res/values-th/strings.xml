@@ -2,4 +2,16 @@
 <resources>
     <string name="working_mode_title">โหมดการทำงาน: %s</string>
     <string name="translators">altinat</string>
+    <string name="working_mode_choice">เลือกโหมดการทำงาน:</string>
+    <string name="working_mode_button_retry">ลองอีกครั้ง</string>
+    <string name="working_mode_button_continue">ดำเนินการต่อ</string>
+    <string name="working_mode_button_switch">สลับไปเป็นโหมดการทำงานอื่น</string>
+    <string name="working_mode_button_download_format">ดาวน์โหลด %s</string>
+    <string name="working_mode_button_open">เปิด %s</string>
+    <string name="shizuku_mode">โหมด Shizuku</string>
+    <string name="shizuku_mode_over_root">โหมด Shizuku (เริ่มผ่านรูท)</string>
+    <string name="shizuku_mode_over_adb">โหมด Shizuku (เริ่มผ่าน adb)</string>
+    <string name="shizuku_mode_shizuku_not_running">(Shizuku ไม่ได้กำลังทำงาน)</string>
+    <string name="working_mode_dpm_removed">โหมดผู้ดูแลอุปกรณ์แบบสิทธิ์รับมอบอำนาจได้ถูกนำออก</string>
+    <string name="working_mode_dpm_removed_description">เนื่องจากข้อกำหนดนโยบายใหม่ของ Google Play โหมดผู้ดูแลอุปกรณ์แบบสิทธิ์รับมอบอำนาจจำเป็นต้องถูกนำออกก่อน 2022-12-07 &lt;p&gt;หากต้องการใช้โหมดผู้ดูแลอุปกรณ์แบบสิทธิ์รับมอบอำนาจต่อไป กรุณาดาวน์โหลดแอปเวอร์ชั่นเก่าได้ในเว็บไซต์ของเรา</string>
 </resources>
