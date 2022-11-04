@@ -403,7 +403,18 @@
     <string name="op_name_ASSIST_STRUCTURE">yardım yapısı</string>
     <string name="op_desc_READ_DEVICE_IDENTIFIERS">Android 10 veya sonraki sürümlerde, varsayılan olarak herhangi bir kullanıcı uygulamasının cihaz tanımlayıcılarını (IMEI, MEID, IMSI, SIM kart numarası ve cihaz serisi) okuma izni yoktur.</string>
     <string name="working_mode_dpm_removed">Yetkili Cihaz Yöneticisi modu silindi</string>
-    <string name="working_mode_dpm_removed_description">Yeni Google Play politikasından dolayı, Yetkili Cihaz Yöneticisi modu 12/07/2022 tarihinden önce silinmesi gereklidir. &lt;p&gt;Eğer Yetkili Cihaz Yöneticisi modunu kullanmanız gerekiyorsa, lütfen web sitemizden uygulamanın eski bir sürümünü indirin.</string>
-    <string name="shizuku_mode_description_rooted">"+ Tam işlevselliğin keyfini çıkarın &lt;br&gt;&lt;br&gt;-  Sui (bir Magisk modülü) veya Shizuku (uygulama) indirmeyi gerektirir, ikisi de açık kaynaklıdır"</string>
+    <string name="working_mode_dpm_removed_description">Yeni Google Play şartlarından ötürü Yetkili Cihaz Yöneticisi modu 12/07/2022\'den önce silinmelidir. &lt;p&gt;Eğer Yetkili Cihaz Yöneticisi modunu kullanmanız lazımsa, lütfen web sitemizden Shizuku\'nun eski bir sürümünü indirin.</string>
+    <string name="shizuku_mode_description_rooted">"+ Tam işlevselliğin keyfini çıkarın &lt;br&gt;&lt;br&gt;-  Sui (bir Magisk modülü) veya Shizuku\'yu indirmeyi gerektirir, ikisi de açık kaynaklıdır"</string>
     <string name="shizuku_mode_error_manager_app_not_installed_rooted">"Lütfen öncelikle Sui veya Shizuku  indirin. Onlar aynı API tasarımını kullanan kardeşlerdir.  &lt;p&gt;Sui bir magisk modülüdür. Magisk ile rootlanmış cihazlar için önerilir. &lt;p&gt;Shizuku ise bir Android uygulamasıdır."</string>
+    <string name="error_unable_to_start_remote_service_solution">Uygulamayı kapat ve tekrar dene.</string>
+    <string name="shared_user_id_tip">Bu uygulamanın Paylaşılan kullanıcı kimliği %s\'dir ve aynı Paylaşılan kullanıcı kimliğine sahip uygulamalar izinlerin çoğunu paylaşır.</string>
+    <string name="error_unable_to_start_remote_service">Hizmet başlatılamıyor</string>
+    <string name="error_license_about_to_invalid">Satın alma uzun süredir doğrulanmadı</string>
+    <string name="error_license_about_to_invalid_message">Sahtekarlığı önlemek için satın alma işlemi düzenli doğrulama gerektirir.&lt;p&gt;Doğrulama işlemi otomatik olarak yapılır. Lütfen uygulamanın ağa erişmesini engellemeyin.</string>
+    <string name="something_went_wrong">Bir şeyler yanlış gitti</string>
+    <string name="permission_group_device_identifiers">Cihaz belirleyicileri</string>
+    <string name="permission_group_clipboard">Pano</string>
+    <string name="op_mode_ignore_description_others">Uygulama boş veri alacak veya işlem gerçekleştirilmeyecek</string>
+    <string name="shizuku_mode_error_user_denied_permission_sui">"Bu uygulamanın Sui\'yi kullanmasına izin vermediniz.  &lt;br&gt;Lütfen Sui\'deki bu uygulamaya izin verin."</string>
+    <string name="op_added_by_others">Bu uygulama \"%s\" için istekte bulunmaz, ancak istenen diğer bazı izinler onun tarafından kontrol edilir.</string>
 </resources>
