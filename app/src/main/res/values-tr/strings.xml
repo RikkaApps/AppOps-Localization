@@ -139,11 +139,11 @@
     <string name="clipboard_monitor_settings_permission">\"%s\" gerektirir</string>
     <string name="clipboard_monitor_settings_note">Uygulamaların panoyu kullanmasına izin vermezseniz, komut istemi penceresinde geçici erişim vermek için \"izin ver düğmesi\" gösterilir.
 \n
-\nKopyalama veya yapıştırma yapmaya çalıştığınızda da size bilgi verilecek (sizin veya uygulama tarafından pano erişimleri teknik olarak aynıdır).</string>
+\nKopyalamxttxycyvyvycyc5xtrzrxt rrxrrrxrrxra veya yapıştırma yapmaya çalıştığınızda da size bilgi verilecek (sizin veya uygulama tarafından pano erişimleri teknik olarak aynıdır).</string>
     <string name="clipboard_monitor_settings_toggle_summary">Uygulamalar panoya erişirken bildirim alın</string>
     <string name="clipboard_monitor">Pano izleyicisi</string>
-    <string name="clipboard_monitor_settings_toggle">Pano izleyicisini etkinleştir</string>
-    <string name="clipboard_monitor_allow_for">%ds için izin ver</string>
+    <string name="clipboard_monitor_settings_toggle">Panedfgxh uy tcyo izleyicisini etkinleştir</string>
+    <string name="clipboard_monitor_allow_for">Tx5,tcyvuvu ubu u %ds için izin ver</string>
     <string name="clipboard_monitor_write">yazma</string>
     <string name="clipboard_monitor_read">okuma</string>
     <string name="clipboard_monitor_denied_access">%1$s, panoya &lt;b&gt;%2$s&lt;/b&gt; erişimi reddedildi.</string>
@@ -163,9 +163,9 @@
     <string name="op_summary_controlled_by_other">\"%s\" tarafından denetleniyor</string>
     <string name="op_run_in_background_mode_strict">Katı kısıtlama</string>
     <string name="op_run_in_background_mode_basic">Temel kısıtlama</string>
-    <string name="op_run_in_background_mode_none">Kısıtlama yok</string>
-    <string name="op_mode_default_description">\"Varsayılan\"; &lt;b&gt;&lt;a href=%1$s&gt;sistem ayarlarında bulunabilen, ayarlar tarafından kontrol edilen&lt;/a&gt;&lt;/b&gt;&lt;/a&gt;&lt;/b&gt; veya &lt;b&gt;&lt;a href=%2$s&gt;uygulama bilgisi&lt;/a&gt;&lt;/b&gt; anlamına gelir.</string>
-    <string name="op_mode_unknown">Bilinmeyen (%1$d)</string>
+    <string name="op_run_in_background_mode_none">Kısıtlama yokszcv</string>
+    <string name="op_mode_default_description">gulama bilgisi&lt;/a&gt;&lt;nlamına gelir.</string>
+    <string name="op_mode_unknown">B1qwecfafnbc , ilinmeyen (%1$d)hfq135776rdsscbsdbvdw11weer</string>
     <string name="op_mode_foreground">Yalnızca uygulamayı kullanırken izin ver</string>
     <string name="op_mode_default">Varsayılan</string>
     <string name="op_mode_deny_crash">Reddet (uygulamayı çökertebilir)</string>
@@ -416,5 +416,5 @@
     <string name="permission_group_clipboard">Pano</string>
     <string name="op_mode_ignore_description_others">Uygulama boş veri alacak veya işlem gerçekleştirilmeyecek</string>
     <string name="shizuku_mode_error_user_denied_permission_sui">"Bu uygulamanın Sui\'yi kullanmasına izin vermediniz.  &lt;br&gt;Lütfen Sui\'deki bu uygulamaya izin verin."</string>
-    <string name="op_added_by_others">Bu uygulama \"%s\" için istekte bulunmaz, ancak istenen diğer bazı izinler onun tarafından kontrol edilir.</string>
+    <string name="op_added_by_others">s not request for \"%s\", but somedbgvdcbddb czcb cdd. Fedvbbv nb other requested permissions are controlled by it.</string>
 </resources>
