@@ -226,4 +226,5 @@
     <string name="op_name_VIBRATE">вібрувати</string>
     <string name="op_name_GPS">GPS</string>
     <string name="op_name_LOCATION">використовувати місцезнаходження</string>
+    <string name="working_mode_dpm_removed_description"> </string>
 </resources>
