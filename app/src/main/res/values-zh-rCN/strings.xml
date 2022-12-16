@@ -233,7 +233,7 @@
     <string name="requirement_working_mode">需要的工作模式：%s</string>
     <string name="your_android_version">您的 Android 版本：%s</string>
     <string name="your_working_mode">您的工作模式：%s</string>
-    <string name="shizuku_mode_over_root">Shizuku 模式（通过 adb 启动）</string>
+    <string name="shizuku_mode_over_root">Shizuku 模式（通过 root 启动）</string>
     <string name="shizuku_mode_over_adb">Shizuku 模式（通过 adb 启动）</string>
     <string name="shizuku_mode_shizuku_not_running">（Shizuku 未在运行）</string>
     <string name="usage_history">使用情况历史</string>
