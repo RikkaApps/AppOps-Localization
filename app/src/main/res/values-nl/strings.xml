@@ -84,4 +84,6 @@
     <string name="op_name_READ_CONTACTS">contacten lezen</string>
     <string name="op_name_VIBRATE">Trillen</string>
     <string name="op_name_GPS">GPS</string>
+    <string name="working_mode_dpm_removed">De gedelegeerde apparaatbeheermodus is verwijderd</string>
+    <string name="shizuku_mode">Mode</string>
 </resources>
