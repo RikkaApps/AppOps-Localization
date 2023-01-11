@@ -38,7 +38,7 @@
         <item quantity="other">%d елементи змінено</item>
     </plurals>
     <string name="app_view_item_not_modified">Без змін</string>
-    <string name="system_app">Системна програма</string>
+    <string name="system_app">Системний застосунок</string>
     <string name="permissions_view_summary">Розміщення програм за дозволами та зрозуміле керування ними.</string>
     <string name="permissions_view_all">Усе</string>
     <plurals name="permissions_view_item_summary">
@@ -47,7 +47,7 @@
         <item quantity="many">%1$d програми</item>
         <item quantity="other">%1$d програми</item>
     </plurals>
-    <string name="system_app_warning">Це системна програма, зміна її налаштувань може спричинити серйозні проблеми.</string>
+    <string name="system_app_warning">Це системний застосунок, внесення змін у його налаштування може призвести до серйозних проблем.</string>
     <string name="app_name_multi_user">%1$s (%2$s)</string>
     <string name="permission_group_body_sensor">Сенсори тіла</string>
     <string name="permission_group_phone">Телефон</string>
@@ -96,10 +96,10 @@
     <string name="template_edit_title">Назва</string>
     <string name="template_edit_dialog_not_saved_message">Ви зробили деякі зміни, зберегти\?</string>
     <plurals name="include_system_apps_dialog_title">
-        <item quantity="one">Включати %d системну програму</item>
-        <item quantity="few">Включати %d системних програм</item>
-        <item quantity="many">Включати %d системні програми</item>
-        <item quantity="other">Включати %d системні програми</item>
+        <item quantity="one">Включаючи %d системний застосунок</item>
+        <item quantity="few">Включаючи %d системні застосунки</item>
+        <item quantity="many"></item>
+        <item quantity="other"></item>
     </plurals>
     <string name="include_system_apps_dialog_button_skip">Пропускати системні програми</string>
     <string name="include_system_app_button_dialog_do_not_skip">Не пропускати</string>
@@ -161,7 +161,7 @@
     <string name="working_mode_button_open">Відкрити %s</string>
     <string name="working_mode_button_download_format">Завантажити %s</string>
     <string name="working_mode_button_continue">Продовжити</string>
-    <string name="translators">vitalitk</string>
+    <string name="translators">Назва перекладача</string>
     <string name="working_mode_title">Режим роботи: %s</string>
     <string name="working_mode_choice">Оберіть режим роботи:</string>
     <string name="working_mode_button_retry">Повторити</string>
@@ -226,5 +226,15 @@
     <string name="op_name_VIBRATE">вібрувати</string>
     <string name="op_name_GPS">GPS</string>
     <string name="op_name_LOCATION">використовувати місцезнаходження</string>
-    <string name="working_mode_dpm_removed_description"> </string>
+    <string name="working_mode_dpm_removed_description">Відповідно до нової вимоги політики Google Play, режим уповноваженого адміністратора пристрою потребує видалення до 12 липня 2022 року. &lt;p&gt;Якщо вам потрібно використовувати режим уповноваженого адміністратора пристрою, завантажте старішу версію програми з нашого веб-сайту.</string>
+    <string name="shizuku_mode_error_manager_app_not_installed">Спочатку встановіть Shizuku. &lt;p&gt;Shizuku — це проект із відкритим початковим кодом, який бере свій початок з 2017 року (див. %s на GitHub). Він створений для роботи деяких застосунків, які потребують root або adb. Shizuku використовує не лише цей застосунок, а й деякі застосунки інших розробників. &lt;p&gt;З Shizuku ця програма отримає неймовірно високу швидкість і більше цікавих функцій. Для самого Shizuku, споживання батареї або продуктивності є незначними (нуль, якщо не використовується). &lt;p&gt;Як і у філософії Unix, одна програма має виконувати лише одну роботу. Shizuku та цей застосунок слідують цій філософії. Фактично, вбудоване все більше схоже на те, що люблять робити «погані програми».</string>
+    <string name="working_mode_dpm_removed">Режим уповноваженого адміністратора пристрою вилучено</string>
+    <string name="error_license_about_to_invalid_message">Щоб уникнути шахрайства, покупка потребує регулярної перевірки.&lt;p&gt;Процес перевірки здійснюється автоматично. Будь ласка, не блокуйте програмі доступ до Інтернет-мережі.</string>
+    <string name="shizuku_mode_description">+ Працює як з root-правами, так і з нерутованими пристроями &lt;br&gt;+ Дуже швидко, з незначним споживанням ресурсів &lt;br&gt;+ Насолоджуйтесь повною функціональністю &lt;br&gt;&lt;br&gt;- Потребує встановлення додаткового застосунку з відкритим кодом (Shizuku) &lt;br&gt;- Для нерутованих пристроїв, кожного разу, перезавантажуючи пристрій, потрібно запускати Shizuku за допомогою adb з комп’ютера &lt;br&gt;- Для пристроїв під керуванням Android 11 або новішої версії, Shizuku можна запускати без комп’ютера</string>
+    <string name="shizuku_mode_description_rooted">+ Насолоджуйтесь повною функціональністю &lt;br&gt;&lt;br&gt;- Потребує встановлення Sui (модуль Magisk) або Shizuku (додаток), обидва мають відкритий початковий код</string>
+    <string name="shizuku_mode_error_manager_app_not_installed_rooted">Спочатку встановіть Sui або Shizuku. Вони є сестрами-близнюками, які мають однаковий дизайн API. &lt;p&gt;Sui — це модуль Magisk. Рекомендовано для пристроїв із встановленим Magisk. &lt;p&gt;Shizuku — це окремий застосунок для Android.</string>
+    <string name="shizuku_mode_error_user_denied_permission_sui">Ви заборонили цьому застосунку використовувати Sui. &lt;br&gt; Будь ласка, надайте дозвіл застосунку в Sui.</string>
+    <string name="shizuku_mode_error_user_denied_permission">Ви заборонили цьому застосунку використовувати Shizuku. &lt;br&gt;Будь ласка, надайте дозвіл у системних налаштуваннях або, безпосередньо, у застосунку Shizuku. &lt;p&gt;Для користувачів MIUI — MIUI порушує спеціальний механізм дозволів Android, тому Ви зможете надати дозвіл лише у застосунку Shizuku.</string>
+    <string name="shizuku_mode_error_not_running">Shizuku не працює або виникли якісь інші помилки. &lt;br&gt;Якщо Shizuku працює, спробуйте його примусово зупинити.</string>
+    <string name="shizuku_mode_error_version_too_low">Версія встановленого Shizuku занизька, завантажте останню версію Shizuku (%s або вище).</string>
 </resources>
