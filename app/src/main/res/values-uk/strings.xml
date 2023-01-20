@@ -49,7 +49,6 @@
     </plurals>
     <string name="system_app_warning">Це системний застосунок, внесення змін у його налаштування може призвести до серйозних проблем.</string>
     <string name="app_name_multi_user">%1$s (%2$s)</string>
-    <string name="permission_group_body_sensor">Сенсори тіла</string>
     <string name="permission_group_phone">Телефон</string>
     <string name="permission_group_sms">СМС</string>
     <string name="permission_group_contacts">Контакти</string>

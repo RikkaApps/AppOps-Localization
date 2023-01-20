@@ -36,7 +36,6 @@
     <string name="permissions_view_summary">Afficher les applications par permission et les organiser proprement.</string>
     <string name="system_app_warning">Il s\'agit d\'une application système, le changement de configuration peut causer de sérieux problèmes.</string>
     <string name="app_name_multi_user">%1$s (%2$s)</string>
-    <string name="permission_group_body_sensor">Capteur corporel</string>
     <string name="permission_group_phone">Téléphone</string>
     <string name="permission_group_sms">SMS</string>
     <string name="permission_group_contacts">Contacts</string>

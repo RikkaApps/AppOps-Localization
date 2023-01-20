@@ -45,7 +45,6 @@
     <string name="system_app_warning">Dies ist eine System-App, eine Änderung der Einstellung könnte ernsthafte Probleme verursachen.</string>
     <string name="multi_selection_tip">Du kannst das Icon links antippen oder gedrückt halten, um mehrere Einträge auszuwählen, sodass du schneller arbeiten kannst.</string>
     <string name="app_name_multi_user">%1$s (%2$s)</string>
-    <string name="permission_group_body_sensor">Körpersensor</string>
     <string name="permission_group_phone">Telefon</string>
     <string name="permission_group_sms">SMS</string>
     <string name="permission_group_contacts">Kontakte</string>

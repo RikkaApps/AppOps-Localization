@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="translators">ted111712 및 &lt;a href=https://github.com/MCPE-PC&gt;MCPE_PC&lt;/a&gt;</string>
-    <string name="permission_group_body_sensor">신체 센서</string>
     <string name="menu_reset">초기화</string>
     <string name="menu_app_info">앱 정보</string>
     <string name="menu_show_system">시스템 앱 보여주기</string>

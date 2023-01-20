@@ -56,7 +56,6 @@
     <string name="system_app_warning">Это системное приложение, изменение настроек может вызвать серьёзные проблемы.</string>
     <string name="multi_selection_tip">Вы можете нажать на значок в левом углу или при длительном нажатие, чтобы войти в режим множественного выбора, для быстрой работы.</string>
     <string name="app_name_multi_user">%1$s (%2$s)</string>
-    <string name="permission_group_body_sensor">Нательный датчик</string>
     <string name="permission_group_phone">Телефон</string>
     <string name="permission_group_sms">СМС</string>
     <string name="permission_group_contacts">Контакты</string>

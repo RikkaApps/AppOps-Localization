@@ -49,7 +49,6 @@
     <string name="system_app_warning">Esta es una aplicación del sistema, cambiar las opciones puede causar problemas graves.</string>
     <string name="multi_selection_tip">Puede tocar el icono de la izquierda o mantenerlo pulsado para entrar en el modo de selección múltiple para hacerlo rápidamente.</string>
     <string name="app_name_multi_user">%1$s (%2$s)</string>
-    <string name="permission_group_body_sensor">Sensor corporal</string>
     <string name="permission_group_phone">Teléfono</string>
     <string name="permission_group_sms">SMS</string>
     <string name="permission_group_contacts">Contactos</string>

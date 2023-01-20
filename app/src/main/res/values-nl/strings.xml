@@ -14,7 +14,6 @@
     <string name="menu_apply_template">Sjabloon toepassen</string>
     <string name="menu_users">Gebruikers</string>
     <string name="app_detail_version">Versie %1$s</string>
-    <string name="permission_group_body_sensor">Lichaam sensor</string>
     <string name="permission_group_phone">Telefoon</string>
     <string name="permission_group_sms">SMS</string>
     <string name="permission_group_contacts">Contacten</string>

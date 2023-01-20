@@ -61,7 +61,6 @@
     <string name="system_app_warning">Este aplicativo pertence ao sistema, alterar a configuração pode causar sérios problemas.</string>
     <string name="multi_selection_tip">Você pode tocar no ícone à esquerda ou pressionar para entrar no modo multisseleção e trabalhar mais rápido.</string>
     <string name="app_name_multi_user">%1$s (%2$s)</string>
-    <string name="permission_group_body_sensor">Sensor corporal</string>
     <string name="permission_group_phone">Telefone</string>
     <string name="permission_group_sms">SMS</string>
     <string name="permission_group_contacts">Contatos</string>

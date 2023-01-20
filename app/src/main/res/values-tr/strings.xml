@@ -180,7 +180,6 @@
     <string name="permission_group_contacts">Kişiler</string>
     <string name="permission_group_sms">SMS</string>
     <string name="permission_group_phone">Telefon</string>
-    <string name="permission_group_body_sensor">Vücut sensörü</string>
     <string name="app_name_multi_user">%1$s (%2$s)</string>
     <string name="multi_selection_tip">Birden çok seçim yapabilmek için soldaki izin simgelerine uzunca basıp bırakın.</string>
     <string name="system_app_warning">Bu bir sistem uygulamasıdır, ayarları değiştirmek ciddi sorunlara neden olabilir.</string>

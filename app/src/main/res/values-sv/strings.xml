@@ -23,7 +23,6 @@
     <string name="permission_group_contacts">Kontakter</string>
     <string name="permission_group_sms">SMS</string>
     <string name="permission_group_phone">Telefon</string>
-    <string name="permission_group_body_sensor">Kropp sensor</string>
     <string name="multi_selection_tip">Du kan trycka på ikonen åt vänster eller trycka länge för att gå in i flera markeringsläge för att arbeta snabbt.</string>
     <string name="system_app_warning">Detta är en system app, ändringar kan orsaka allvarliga problem.</string>
     <plurals name="permissions_view_item_summary_controlled_by_other">

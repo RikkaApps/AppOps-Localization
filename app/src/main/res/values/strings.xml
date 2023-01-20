@@ -133,7 +133,9 @@ To avoid fraud, the purchase requires regular verification.<p>The verification p
     <!-- %1$s -> app name, %2$s -> user name (example: ExampleApp (Primary user)) -->
     <string name="app_name_multi_user">%1$s (%2$s)</string>
 
-    <string name="permission_group_body_sensor">Body sensor</string>
+    <!-- permgrouplab_activityRecognition in AOSP-->
+    <string name="permission_group_activity_recognition">Physical activity</string>
+    <string name="permission_group_sensors">Sensors</string>
     <string name="permission_group_phone">Phone</string>
     <string name="permission_group_sms">SMS</string>
     <string name="permission_group_contacts">Contacts</string>

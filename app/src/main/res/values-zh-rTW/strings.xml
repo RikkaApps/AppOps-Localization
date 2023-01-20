@@ -14,7 +14,8 @@
     <string name="menu_select_inverse">反選</string>
     <string name="menu_copy_info">複製信息</string>
     <string name="app_detail_version">版本 %1$s</string>
-    <string name="permission_group_body_sensor">身體傳感器</string>
+    <string name="permission_group_activity_recognition">體能活動</string>
+    <string name="permission_group_sensors">傳感器</string>
     <string name="permission_group_phone">電話</string>
     <string name="permission_group_sms">簡訊</string>
     <string name="permission_group_contacts">通訊錄</string>

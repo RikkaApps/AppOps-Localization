@@ -36,7 +36,8 @@
     <string name="permissions_view_summary">アプリを権限グループで表示して、明確に管理します。</string>
     <string name="system_app_warning">このアプリはシステムアプリケーションであり、設定を変更すると重大な問題が発生する可能性があります。</string>
     <string name="app_name_multi_user">%1$s (%2$s)</string>
-    <string name="permission_group_body_sensor">ボディセンサー</string>
+    <string name="permission_group_activity_recognition">身体活動</string>
+    <string name="permission_group_sensors">センサー</string>
     <string name="permission_group_phone">電話</string>
     <string name="permission_group_sms">SMS</string>
     <string name="permission_group_contacts">連絡先</string>
