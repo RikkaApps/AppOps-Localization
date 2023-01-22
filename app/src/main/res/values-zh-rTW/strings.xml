@@ -465,5 +465,6 @@
     <string name="error_unable_to_start_remote_service_solution"><![CDATA[強行停止應用程式後重試。]]></string>
     <string name="op_name_special_SENSORS">傳感器</string>
     <string name="op_desc_special_SENSORS">無需使用者同意即可使用的感測器，如加速度計、重力傳感器等。</string>
+    <string name="core_app_warning">該應用程式可能是 Android 系統的核心元件，請務必謹慎操作。</string>
 
 </resources>

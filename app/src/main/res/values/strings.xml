@@ -127,6 +127,7 @@ To avoid fraud, the purchase requires regular verification.<p>The verification p
     </plurals>
 
     <string name="system_app_warning">This is a system application, changing settings may causes serious problems.</string>
+    <string name="core_app_warning">This application could be a core component of the Android system, caution must be exercised.</string>
     <string name="multi_selection_tip">You can tap the icon left or long press to enter multiple selection mode to operate quickly.</string>
     <string name="shared_user_id_tip">The Shared user ID for this application is %s, and applications with the same Shared user ID share most of the permissions.</string>
 
