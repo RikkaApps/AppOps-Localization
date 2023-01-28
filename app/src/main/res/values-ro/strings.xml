@@ -20,4 +20,16 @@
     <string name="working_mode_button_retry">Încearcă din nou</string>
     <string name="working_mode_choice">Alegeți un mod de lucru:</string>
     <string name="working_mode_title">Mod de lucru: %s</string>
+    <string name="error_unable_to_start_remote_service">Nu se poate porni serviciul.</string>
+    <string name="working_mode_dpm_removed">Modul delegat de administrare a dispozitivului a fost eliminat</string>
+    <string name="working_mode_dpm_removed_description">Din cauza unei noi cerințe de politică Google Play, modul de administrare a dispozitivului delegat trebuie să fie eliminat înainte de 12.07.2022. &lt;p&gt;Dacă trebuie să utilizezi modul Delegated Device Admin, descarcă versiunea mai veche a aplicației de pe site-ul nostru web.</string>
+    <string name="error_license_about_to_invalid">Achiziția nu a fost verificată de mult timp</string>
+    <string name="error_license_about_to_invalid_message">Pentru a evita frauda, achiziția necesită o verificare regulată.&lt;p&gt;Procesul de verificare se face automat. Nu bloca accesul aplicației în rețea.</string>
+    <string name="something_went_wrong">Ceva n-a mers bine</string>
+    <string name="progress_requesting_authorization">Se cere autorizare…</string>
+    <string name="menu_reset">Resetare</string>
+    <string name="error_unable_to_start_remote_service_solution">Oprește forțat aplicația și încearcă din nou.</string>
+    <string name="progress_checking_availability">Verificarea disponibilității…</string>
+    <string name="progress_fetching_user_list">Se preia lista de utilizatori…</string>
+    <string name="menu_app_info">Informații aplicație</string>
 </resources>
