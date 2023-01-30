@@ -18,7 +18,7 @@
     <string name="working_mode_button_switch">Schimbă modul de lucru</string>
     <string name="working_mode_button_continue">Continuă</string>
     <string name="working_mode_button_retry">Încearcă din nou</string>
-    <string name="working_mode_choice">Alegeți un mod de lucru:</string>
+    <string name="working_mode_choice">Alege un mod de lucru:</string>
     <string name="working_mode_title">Mod de lucru: %s</string>
     <string name="error_unable_to_start_remote_service">Nu se poate porni serviciul.</string>
     <string name="working_mode_dpm_removed">Modul delegat de administrare a dispozitivului a fost eliminat</string>
