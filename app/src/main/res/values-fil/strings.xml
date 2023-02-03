@@ -1,2 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources></resources>
+<resources>
+    <string name="working_mode_button_open">Buksan ang %s</string>
+    <string name="working_mode_button_download_format">I-download ang %s</string>
+    <string name="working_mode_button_switch">Lumipat sa ibang mode ng pagtatrabaho</string>
+    <string name="working_mode_button_continue">Tumuloy</string>
+    <string name="working_mode_button_retry">Subukan ulit</string>
+    <string name="working_mode_choice">Pumili ng mode sa pagtatrabaho:</string>
+    <string name="working_mode_title">Mode sa pagtatrabaho: %s</string>
+    <string name="translators">\@Cyndaquissshhh (Hosted Weblate)/@IverCoder (GitHub)</string>
+</resources>
