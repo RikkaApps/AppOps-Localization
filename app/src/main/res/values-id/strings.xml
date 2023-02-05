@@ -21,4 +21,9 @@
     <string name="working_mode_choice">Pilih mode kerja:</string>
     <string name="working_mode_title">Bekerja dalam mode: %s</string>
     <string name="translators">Ian P</string>
+    <string name="error_unable_to_start_remote_service">Gagal memulai perangkat.</string>
+    <string name="error_license_about_to_invalid">Pembelian belum diverifikasi untuk waktu yang lama.</string>
+    <string name="working_mode_dpm_removed">Mode Admin Perangkat yang didelegasikan telah dihapus</string>
+    <string name="working_mode_dpm_removed_description">Karena persyaratan kebijakan Google Play yang baru, mode Admin Perangkat yang Didelegasikan harus dihapus sebelum 12-07-2022. &lt;p&gt;Jika Anda perlu menggunakan mode Admin Perangkat yang terdelegasikan, unduh versi lama dari situs web kami.</string>
+    <string name="error_unable_to_start_remote_service_solution">Hentikan paksa aplikasi dan coba lagi.</string>
 </resources>
