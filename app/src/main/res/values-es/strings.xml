@@ -427,4 +427,15 @@
     <string name="op_name_WRITE_MEDIA_VIDEO">escribir en tu colección de videos</string>
     <string name="op_name_READ_MEDIA_VIDEO">leer tu colección de videos</string>
     <string name="op_name_WRITE_MEDIA_AUDIO">escribir en tu colección de música</string>
+    <string name="error_unable_to_start_remote_service">No se ha podido iniciar el servicio.</string>
+    <string name="error_unable_to_start_remote_service_solution">Detén la aplicación e inténtalo otra vez.</string>
+    <string name="error_license_about_to_invalid">Tu compra lleva mucho tiempo sin verificarse</string>
+    <string name="something_went_wrong">Algo ha salido mal</string>
+    <string name="permission_group_activity_recognition">Actividad física</string>
+    <string name="permission_group_sensors">Sensores</string>
+    <string name="error_license_about_to_invalid_message">Para evitar el fraude, la compra requiere verificación periódica.&lt;p&gt;El proceso de verificación se realiza de forma automática. Por favor, no impida a la aplicación el acceso a la red.</string>
+    <string name="core_app_warning">Esta aplicación puede ser un componente básico del sistema Android, debe tener precaución.</string>
+    <string name="settings_use_system_color">Usar color del tema del sistema</string>
+    <string name="permission_group_clipboard">Portapapeles</string>
+    <string name="permission_group_device_identifiers">Identificadores del dispositivo</string>
 </resources>
