@@ -188,7 +188,6 @@
     <string name="backup_restore">Restabilire</string>
     <string name="backup_create_backup">Crează un nou fișier de rezervă</string>
     <string name="op_reject_time">refuzată %1$s</string>
-    <string name="shizuku_mode_error_adb_no_update_permission"></string>
     <string name="op_never_used">(niciodată folosită)</string>
     <string name="progress_fetching_app_list">Se preia lista de aplicațiilor…</string>
     <string name="progress_working">Funcționare (%1$d din %2$d)…</string>
