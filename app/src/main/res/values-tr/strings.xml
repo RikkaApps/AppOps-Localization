@@ -18,18 +18,15 @@
     <string name="monitors_service_label">İzleyici hizmeti</string>
     <string name="send_to_developer">Geliştiriciye gönder</string>
     <string name="bug_report_mail_message">Mümkünse, lütfen hatanın oluştuğu durumu açıklayın.</string>
-    <string name="bug_report_dialog_view_stacktrace">Stacktrace\'i görüntüle</string>
+    <string name="bug_report_dialog_view_stacktrace">Stacktrace’i görüntüle</string>
     <string name="bug_report_dialog_message">Sorunu çözmemize yardımcı olmak için bize e-posta yoluyla bir hata iletisi gönderebilirsiniz.</string>
     <string name="bug_report_dialog_title">Bir sorun var</string>
     <string name="full_version">Tam sürüm</string>
     <string name="unlock_full_version">Tam sürümün kilidini aç</string>
     <string name="settings_crash_report_summary">Bu, sorunları daha hızlı bulmamıza yardımcı olacaktır</string>
     <string name="settings_crash_report_title">Hata raporu gönder</string>
-    <string name="settings_send_data_summary">(Microsoft\'un) Visual Studio App Center \'ı kullanıyoruz.
-\n
-\nApp Center SDK\'nın kaynak koduna göre; sadece uygulama sürümü, sistem sürümü, cihaz modeli, ekran boyutu, dil, saat dilimi ve taşıyıcı bilgileri toplanacak ve gönderilecektir.
-\n
-\nRastgele oluşturulan bir yükleme kimliği, farklı aygıtları ayırt etmek için kullanılır.</string>
+    <string name="settings_send_data_summary">Yukarıdaki özellikler, Microsoft tarafından sağlanan Visual Studio Uygulama Merkezi’ni kullanır. Toplanan bilgiler anonimdir ve bağımsız bir cihaza veya kullanıcıya kadar izleyemeyiz.
+\nDaha fazlası için Gizlilik Politikasına bakın.</string>
     <string name="settings_more">Daha fazla</string>
     <string name="settings_integrations_storage_isolation_summary">\"%s\" bizden root gerektiren bir uygulamadır. Depolama üzerinde daha gelişmiş denetim sağlar.
 \n
@@ -39,7 +36,7 @@
     <string name="settings_black_night_theme">Siyah tema</string>
     <string name="settings_appearance">Görünüm</string>
     <string name="settings_translation_contributors">Katkıda bulunanlar</string>
-    <string name="settings_translate_summary">App Ops\'u kendi dilinize çevirmemize yardımcı olun</string>
+    <string name="settings_translate_summary">App Ops’u kendi dilinize çevirmemize yardımcı olun</string>
     <string name="settings_translate">Çevir</string>
     <string name="settings_language">Dil</string>
     <string name="settings_reselect_working_mode_summary">Bir sonraki açılış ana sayfasında çalışma modunu seç</string>
@@ -158,14 +155,14 @@
     <string name="op_run_in_background_description_26">Bu uygulamanın hedef API düzeyi: %1$d (Android 8.0, 26 veya üzeri). Bu uygulama en az Android 8 seviye kısıtlaması ile sınırlandırılmıştır, bu nedenle yalnızca Android 9+ kısıtlamasını uygulayıp uygulamamayı seçebilirsiniz.</string>
     <string name="op_run_in_background_description">Bu uygulama farklı düzeylerde farklı kısıtlamalara tabi olacaktır. Yüksek düzey daha iyi etki ve daha fazla uygulama davranışı etkilenebilir.</string>
     <string name="op_summary_unknown">Cihaz üreticisinden veya daha yeni Android sisteminden</string>
-    <string name="op_unknown_description">Bu izin stok Android\'e dahil değildir (cihazınızın üreticisi tarafından eklenir veya daha yeni Android sürümüne eklenir). Lütfen dikkatli olun.</string>
+    <string name="op_unknown_description">Bu izin stok Android’e dahil değildir (cihazınızın üreticisi tarafından eklenir veya daha yeni Android sürümüne eklenir). Lütfen dikkatli olun.</string>
     <string name="op_summary_control_others">Yalnızca diğerlerini denetlemek için kullanılır</string>
     <string name="op_summary_controlled_by_other">\"%s\" tarafından denetleniyor</string>
     <string name="op_run_in_background_mode_strict">Katı kısıtlama</string>
     <string name="op_run_in_background_mode_basic">Temel kısıtlama</string>
-    <string name="op_run_in_background_mode_none">Kısıtlama yokszcv</string>
-    <string name="op_mode_default_description">gulama bilgisi&lt;/a&gt;&lt;nlamına gelir.</string>
-    <string name="op_mode_unknown">B1qwecfafnbc , ilinmeyen (%1$d)hfq135776rdsscbsdbvdw11weer</string>
+    <string name="op_run_in_background_mode_none">Kısıtlama yok</string>
+    <string name="op_mode_default_description">“Varsayılan” &lt;b&gt;&lt;a href=%1$s&gt;sistem ayarları&lt;/a&gt;&lt;/b&gt; veya &lt;b&gt;&lt;a href=%2$s&gt;uygulama bilgisi&lt;/a&gt;&lt;/b&gt; içerisinde bulunan ayarlar tarafından kontrol edilen anlamına gelir.</string>
+    <string name="op_mode_unknown">Bilinmeyen (%1$d)</string>
     <string name="op_mode_foreground">Yalnızca uygulamayı kullanırken izin ver</string>
     <string name="op_mode_default">Varsayılan</string>
     <string name="op_mode_deny_crash">Reddet (uygulamayı çökertebilir)</string>
@@ -238,32 +235,33 @@
     <string name="requirement_working_mode">Gereken çalışma modu: %s</string>
     <string name="requirement_android_version">Gereken Android sürümü: %s</string>
     <string name="requirements">Gereksinimler</string>
-    <string name="do_not_show_again_dialog_message">Bu ipucuyu bir daha görmek istemediğine emin misin\?</string>
+    <string name="do_not_show_again_dialog_message">Bu ipucunu bir daha görmek istemediğine emin misin\?</string>
     <string name="do_not_show_again">Bir daha gösterme</string>
-    <string name="shizuku_mode_error_adb_no_update_permission">ADB sadece appops izni aldırdı fakat hiç yeni appops izni yok. &lt;br&gt;Lütfen cihazınızın Geliştirici seçeneklerinde izinlerde değişiklik yapmaya izin ver gibi bir seçenek aramayı deneyin. &lt;p&gt;&lt;small&gt;Örneğin, MIUI\'de, USB Hata Ayıklama seçeneği (güvenlik seçenekleri).&lt;/small&gt;</string>
-    <string name="shizuku_mode_error_version_too_low">Yüklü Shizuku sürümü çok düşük, Shizuku\'nun en yeni sürümünü indirin lütfen (%s veya üzeri).</string>
+    <string name="shizuku_mode_error_adb_no_update_permission">ADB yalnızca uygulama izinlerini alabilir, ne yazık ki uygulama izinlerini güncelleme yetkisine sahip değildir. &lt;br&gt;Lütfen sistemin geliştirici seçeneklerinde \"İzinlerin değiştirilmesini kabul et\" gibi bir seçenek arayın. &lt;p&gt;&lt;small&gt;Örneğin, MIUI’de bu seçenek USB hata ayıklama kısmındadır (güvenlik seçenekleri).&lt;/small&gt;</string>
+    <string name="shizuku_mode_error_version_too_low">Kurulu Shizuku sürümü çok düşük, lütfen Shizuzku’nun en son sürümünü (%s veya üzeri) indirin.</string>
     <string name="shizuku_mode_error_not_running">Shizuku çalışmıyor ya da başka hatalar var. &lt;br&gt;Shizuku çalışıyorsa, lütfen bu uygulamayı zorla durdurmayı deneyin.</string>
-    <string name="shizuku_mode_error_user_denied_permission">Bu uygulamanın Shizuku\'yu kullanmasına izin vermediniz. &lt;br&gt;Lütfen sistem ayarlarında veya Shizuku uygulamasında, bu uygulamaya izin verin. &lt;p&gt;MIUI kullanıyorsanız; MIUI, Android\'in özel izin mekanizmasını bozar, yalnızca Shizuku uygulamasından izin verebilirsiniz.</string>
-    <string name="shizuku_mode_error_manager_app_not_installed">Lütfen önce Shizuku\'yu yükleyin. &lt;p&gt;Shizuku, 2017\'den başlayarak açık kaynaklı bir projedir (GitHub\'da %s bölümüne bakın). Root veya adb gerektiren birden fazla uygulamadan yararlanmak için hazırlanmıştır. Sadece bu uygulama değil, aynı zamanda diğer geliştiricilerin bazı uygulamaları Shizuku kullanıyor. &lt;p&gt;Shizuku ile, bu uygulama inanılmaz yüksek hız ve daha ilgi çekici özellikler alacak. Bizzat Shizuku için, pil veya performans tüketimi göz ardı edilebilir (kullanılmadığında sıfır). &lt;p&gt;Unix felsefesi gibi, bir program sadece bir iş yapmalıdır. Shizuku ve bu uygulama bu felsefeyi takip ediyor. Aslında, gömülü olan her şey daha çok \"zararlı uygulamalar\" ın yapmakta olduğu şeyler gibidir.</string>
-    <string name="shizuku_mode_description">+ Hem rootlu hem de rootsuz cihazlarda çalışır &lt;br&gt;+ Çok hızlı, göz ardı edilebilir kaynak tüketimiyle &lt;br&gt;+ Tüm fonksiyonellikten faydalanın &lt;br&gt;&lt;br&gt;- Bir açık kaynaklı uygulama (Shizuku) yüklemeniz gerekir &lt;br&gt;- Rootsuz cihazlar için, her yeniden başlatma işlemine, Shizuku\'yu bilgisayar ile adb kullanarak başlatmak gerekir (Android 11 için gerekli değildir) &lt;br&gt;&lt;br&gt;Shizuku etkin olmasa bile ayarlarınızı kaybetmeyeceksiniz.</string>
+    <string name="shizuku_mode_error_user_denied_permission">Bu uygulamanın Shizuku’yu kullanmasına izin vermediniz. &lt;br&gt;Lütfen sistem ayarlarından veya Shizuku uygulamasından bu uygulamaya izin verin. &lt;p&gt;MIUI kullanıyorsanız; MIUI, Android’in özel izin mekanizmasını bozar, yalnızca Shizuku uygulamasından izin verebilirsiniz.</string>
+    <string name="shizuku_mode_error_manager_app_not_installed">Lütfen önce Shizuku’yu yükleyin. &lt;p&gt;Shizuku, 2017’de başlayan açık kaynaklı bir projedir (GitHub’da %s bölümüne bakın). Root veya adb gerektiren birçok uygulamadan yararlanmak için hazırlanmıştır. Sadece bu uygulama değil, aynı zamanda diğer geliştiricilerin bazı uygulamaları da Shizuku kullanıyor. &lt;p&gt;Shizuku ile bu uygulama inanılmaz derecede yüksek hıza ve daha ilgi çekici özelliklere sahip olacak. Shizuku’nun kendisi için pil veya performans tüketimi önemsizdir (kullanılmadığında sıfırdır). &lt;p&gt;Unix felsefesi gibi, bir program sadece bir iş yapmalıdır. Shizuku ve bu uygulama bu felsefeyi takip ediyor. Aslında, yerleşik her şey daha çok “kötü uygulamaların” yapmaktan hoşlandığı şeye benzer.</string>
+    <string name="shizuku_mode_description">+ Hem rootlu hem de rootsuz cihazlarda çalışır &lt;br&gt;+ Çok hızlı, göz ardı edilebilir kaynak tüketimiyle &lt;br&gt;+ Tam işlevselliğin keyfini çıkarın &lt;br&gt;&lt;br&gt;- Bir açık kaynaklı uygulama (Shizuku) yüklemeyi gerektirir &lt;br&gt;- Rootsuz cihazlar için, cihaz her yeniden başlatıldığında, Shizuku’yu bilgisayar ile adb kullanarak başlatmak gerekir &lt;br&gt;- Android 11 ve üzerinde, Shizuku bilgisayar olmadan başlatılabilir</string>
     <string name="shizuku_mode_shizuku_not_running">(Shizuku çalışmıyor)</string>
-    <string name="shizuku_mode_over_adb">Shizuku modu (adb üzerinden çalıştı)</string>
-    <string name="shizuku_mode_over_root">Shizuku modu (root üzerinden çalıştı)</string>
-    <string name="shizuku_mode">Shizuku modu</string>
-    <string name="working_mode_button_open">Aç \"%s\"</string>
-    <string name="working_mode_button_switch">Başka bir çalışma moduna geçiş yap</string>
+    <string name="shizuku_mode_over_adb">Shizuku yöntemi (adb üzerinden başlatılır)</string>
+    <string name="shizuku_mode_over_root">Shizuku yöntemi (root ile başlatılır)</string>
+    <string name="shizuku_mode">Shizuku yöntemi</string>
+    <string name="working_mode_button_open">Aç %s</string>
+    <string name="working_mode_button_switch">Başka bir çalışma yöntemine geçiş yap</string>
     <string name="working_mode_button_continue">Devam et</string>
     <string name="working_mode_button_retry">Yeniden dene</string>
-    <string name="working_mode_choice">Bir çalışma modu seçin:</string>
-    <string name="working_mode_title">Çalışma modu: %s</string>
-    <string name="translators">İlker Binzet (ilker.binzet@gmail.com)</string>
+    <string name="working_mode_choice">Bir çalışma yöntemi seçin:</string>
+    <string name="working_mode_title">Çalışma yöntemi : %s</string>
+    <string name="translators">İlker Binzet (ilker.binzet@gmail.com)
+\ncroxz900</string>
     <string name="op_mode_unspecified">Henüz ayarlanmadı</string>
     <string name="op_mode_onetime">Her zaman sor</string>
     <string name="op_mode_ignore_description_runtime">Uygulama için iznini \"sağla\", ancak uygulama boş veri alacak veya işlem gerçekleştirilmeyecek</string>
     <string name="op_mode_ignore">Yoksay</string>
     <string name="close">Kapat</string>
     <string name="manufacturer_restriction_dialog_title">Üreticilerin kısıtlamaları</string>
-    <string name="auto_recovery_settings_ignore_summary">Sisteminizde bu sorunun bulunmadığından eminseniz (ör. Piksel veya AOSP benzeri ROM\'lar), otomatik kurtarma seçeneğinin uygulanmaması için bu seçeneği etkinleştirin.</string>
+    <string name="auto_recovery_settings_ignore_summary">Sisteminizde bu sorunun bulunmadığından eminseniz (ör. Piksel veya AOSP benzeri ROM’lar), otomatik kurtarma seçeneğinin uygulanmaması için bu seçeneği etkinleştirin</string>
     <string name="auto_recovery_settings_start_now_title">Şimdi kurtarmaya başlayın</string>
     <string name="auto_recovery_settings_toggle_title">Otomatik kurtarmayı etkinleştir</string>
     <string name="auto_recovery_notification_waiting_text">Lütfen \"%1$s\" kurulumunu bitirin.</string>
@@ -296,14 +294,14 @@
     <string name="clipboard_monitor_settings_excluded_system_apps">Hariç tutulan sistem uygulamaları</string>
     <string name="op_associated_with_runtime_dpm_unable_to_confirm">onaylayamıyor</string>
     <string name="op_associated_with_runtime_r">Android 11 veya sonraki sürümlerde, sistem sadece \"konum\", \"kamera\" ve \"mikrofon\" un %1$s. kullanılması için izin verir.</string>
-    <string name="op_associated_with_runtime">\"Yoksay\" dışında, diğer seçenekler sistem izin ayarlarındakilerle aynıdır.</string>
+    <string name="op_associated_with_runtime">“Yoksay” haricindeki diğer seçenekler sistem izin ayarlarındakilerle aynıdır.</string>
     <string name="menu_working_mode">Çalışma modu</string>
     <string name="menu_set_as">Olarak ayarla</string>
     <string name="menu_last_used_first">Son kullanılan ilk</string>
     <string name="working_mode_button_download_format">%s İndir</string>
     <string name="op_desc_READ_CLIPBOARD">Android 10 veya üstü sürümlerde, uygulamalar panoyu yalnızca ön plandaysa okuyabilir.</string>
     <string name="op_desc_START_FOREGROUND">Kısacası, bir ön plan hizmeti reddedilemeyecek bir bildirimi olan bir arka plan hizmetidir. Bildirimin varlığından aktif olarak haberdar olabileceğiniz için, sistem ön plan hizmetlerinin hayatta kalmasını sağlayacaktır. &lt;p&gt; Bunun ön plan hizmetlerinin normal hizmetlere düşmesine neden olacağını reddet diyerek, bu uygulama davranışını bozabilir (müzik çalar arka plan, harita uygulaması konum güncellemesini durdurur). &lt;p&gt; &lt;b&gt; &lt;a href=https://developer.android.com/guide/components/services&gt; Android Geliştiricileri dokümanlarını görüntüleyin &lt;/a&gt; &lt;/b&gt;</string>
-    <string name="op_desc_WAKE_LOCK">Stok Android\'de, WAKE_LOCK sadece istatistikler için kullanılır ve herhangi bir etkisi yoktur. &lt;b&gt; &lt;a href=https://github.com/aosp-mirror/platform_frameworks_base/blob/oreo-release/services/core/java/com/android/server/power/Notifier.java#L191-L193&gt; İlgili kodu görüntüle&lt;/a&gt; &lt;/b&gt; &lt;p&gt; Uygulamanın arka planda çalışmasını kısıtlamak istiyorsanız, lütfen \"Arka planda çalıştır\" seçeneğini değiştirin (Android 7.0 veya üstü gerekir).</string>
+    <string name="op_desc_WAKE_LOCK">Stok Android’de, WAKE_LOCK sadece istatistikler için kullanılır ve herhangi bir etkisi yoktur. &lt;b&gt; &lt;a href=https://github.com/aosp-mirror/platform_frameworks_base/blob/oreo-release/services/core/java/com/android/server/power/Notifier.java#L191-L193&gt; İlgili kodu görüntüle&lt;/a&gt; &lt;/b&gt; &lt;p&gt; Uygulamanın arka planda çalışmasını kısıtlamak istiyorsanız, lütfen “Arka planda çalıştır” seçeneğini değiştirin (Android 7.0 veya üstü gerekir).</string>
     <string name="op_name_QUERY_ALL_PACKAGES">tüm paketleri sorgula</string>
     <string name="op_name_ACCESS_MEDIA_LOCATION">medya konumuna eriş</string>
     <string name="op_name_READ_DEVICE_IDENTIFIERS">cihaz tanımlayıcılarını oku</string>
@@ -330,9 +328,9 @@
     <string name="op_name_LOCK_APP">uygulamayı kilitle</string>
     <string name="op_name_SU">root erişimi edin</string>
     <string name="op_name_DATA_CONNECT_CHANGE">hücresel verileri aç/kapat</string>
-    <string name="op_name_NFC_CHANGE">NFC\'i aç/kapat</string>
+    <string name="op_name_NFC_CHANGE">NFC’yi aç/kapat</string>
     <string name="op_name_BOOT_COMPLETED">açılışta başlat</string>
-    <string name="op_name_BLUETOOTH_CHANGE">Bluetooth\'u aç/kapat</string>
+    <string name="op_name_BLUETOOTH_CHANGE">Bluetooth’u aç/kapat</string>
     <string name="op_name_WIFI_CHANGE">Kablosuz ağ durumunu değiştir</string>
     <string name="op_name_RUN_IN_BACKGROUND">arka planda çalıştır</string>
     <string name="op_name_GET_ACCOUNTS">cihaz hesaplarını al</string>
@@ -401,19 +399,67 @@
     <string name="op_desc_ACCESS_MEDIA_LOCATION">Uygulamanın medya dosyalarından (Media Store aracılığıyla) konumları okumasına izin verin.</string>
     <string name="op_name_ASSIST_STRUCTURE">yardım yapısı</string>
     <string name="op_desc_READ_DEVICE_IDENTIFIERS">Android 10 veya sonraki sürümlerde, varsayılan olarak herhangi bir kullanıcı uygulamasının cihaz tanımlayıcılarını (IMEI, MEID, IMSI, SIM kart numarası ve cihaz serisi) okuma izni yoktur.</string>
-    <string name="working_mode_dpm_removed">Yetkili Cihaz Yöneticisi modu silindi</string>
-    <string name="working_mode_dpm_removed_description">Yeni Google Play şartlarından ötürü Yetkili Cihaz Yöneticisi modu 12/07/2022\'den önce silinmelidir. &lt;p&gt;Eğer Yetkili Cihaz Yöneticisi modunu kullanmanız lazımsa, lütfen web sitemizden Shizuku\'nun eski bir sürümünü indirin.</string>
-    <string name="shizuku_mode_description_rooted">"+ Tam işlevselliğin keyfini çıkarın &lt;br&gt;&lt;br&gt;-  Sui (bir Magisk modülü) veya Shizuku\'yu indirmeyi gerektirir, ikisi de açık kaynaklıdır"</string>
-    <string name="shizuku_mode_error_manager_app_not_installed_rooted">"Lütfen öncelikle Sui veya Shizuku  indirin. Onlar aynı API tasarımını kullanan kardeşlerdir.  &lt;p&gt;Sui bir magisk modülüdür. Magisk ile rootlanmış cihazlar için önerilir. &lt;p&gt;Shizuku ise bir Android uygulamasıdır."</string>
-    <string name="error_unable_to_start_remote_service_solution">Uygulamayı kapat ve tekrar dene.</string>
-    <string name="shared_user_id_tip">Bu uygulamanın Paylaşılan kullanıcı kimliği %s\'dir ve aynı Paylaşılan kullanıcı kimliğine sahip uygulamalar izinlerin çoğunu paylaşır.</string>
-    <string name="error_unable_to_start_remote_service">Hizmet başlatılamıyor</string>
-    <string name="error_license_about_to_invalid">Satın alma uzun süredir doğrulanmadı</string>
+    <string name="working_mode_dpm_removed">Yetkili Cihaz Yöneticisi yöntemi kaldırıldı</string>
+    <string name="working_mode_dpm_removed_description">Yeni Google Play politikaları sebebiyle Yetkili Cihaz Yöneticisi yönteminin 12/07/2022 tarihinden önce kaldırılması gerekiyor. &lt;p&gt;Eğer Yetkili Cihaz Yöneticisi yöntemini kullanmanız gerekiyorsa, lütfen web sitemizden uygulamanın eski bir sürümünü indirin.</string>
+    <string name="shizuku_mode_description_rooted">+ Tam işlevselliğin keyfini çıkarın &lt;br&gt;&lt;br&gt;- Sui (bir Magisk modülü) veya Shizuku’yu indirmeyi gerektirir, ikisi de açık kaynaklıdır</string>
+    <string name="shizuku_mode_error_manager_app_not_installed_rooted">Lütfen öncelikle Sui veya Shizuku indirin. Onlar aynı API tasarımını kullanan kardeşlerdir. &lt;p&gt;Sui bir magisk modülüdür. Magisk ile rootlanmış cihazlar için önerilir. &lt;p&gt;Shizuku ise bağımsız bir Android uygulamasıdır.</string>
+    <string name="error_unable_to_start_remote_service_solution">Uygulamayı zorla durdurun ve tekrar deneyin.</string>
+    <string name="shared_user_id_tip">Bu uygulamanın Paylaşılan kullanıcı kimliği %s’dir ve aynı Paylaşılan kullanıcı kimliğine sahip uygulamalar izinlerin çoğunu paylaşır.</string>
+    <string name="error_unable_to_start_remote_service">Hizmet başlatılamıyor.</string>
+    <string name="error_license_about_to_invalid">Satın alma işlemi uzun süredir doğrulanmadı</string>
     <string name="error_license_about_to_invalid_message">Sahtekarlığı önlemek için satın alma işlemi düzenli doğrulama gerektirir.&lt;p&gt;Doğrulama işlemi otomatik olarak yapılır. Lütfen uygulamanın ağa erişmesini engellemeyin.</string>
     <string name="something_went_wrong">Bir şeyler yanlış gitti</string>
-    <string name="permission_group_device_identifiers">Cihaz belirleyicileri</string>
+    <string name="permission_group_device_identifiers">Cihaz tanımlayıcıları</string>
     <string name="permission_group_clipboard">Pano</string>
     <string name="op_mode_ignore_description_others">Uygulama boş veri alacak veya işlem gerçekleştirilmeyecek</string>
-    <string name="shizuku_mode_error_user_denied_permission_sui">"Bu uygulamanın Sui\'yi kullanmasına izin vermediniz.  &lt;br&gt;Lütfen Sui\'deki bu uygulamaya izin verin."</string>
+    <string name="shizuku_mode_error_user_denied_permission_sui">Bu uygulamanın Sui’yi kullanmasına izin vermediniz. &lt;br&gt;Lütfen Sui’den bu uygulamaya izin verin.</string>
     <string name="op_added_by_others">s not request for \"%s\", but somedbgvdcbddb czcb cdd. Fedvbbv nb other requested permissions are controlled by it.</string>
+    <plurals name="usage_history_and_more_apps">
+        <item quantity="one">ve %1$d uygulama daha</item>
+        <item quantity="other">ve %1$d uygulama daha</item>
+    </plurals>
+    <string name="usage_history_access_in_the_background">Arka planda erişim</string>
+    <string name="usage_history_access_rejected">Reddedildi</string>
+    <string name="usage_history_timeline_today">Bugün</string>
+    <string name="usage_history_timeline_yesterday">Dün</string>
+    <string name="usage_history_system_version_too_low_title">Android sürümü uyumsuz</string>
+    <string name="usage_history_system_version_too_low_message">Kullanım geçmişi %1$s gerektiriyor, cihazınız %2$s çalıştırıyor.</string>
+    <string name="core_app_warning">Bu uygulama Android sisteminin temel bir bileşeni olabilir, dikkatli olunmalıdır.</string>
+    <string name="settings_use_system_color">Sistemin tema rengini kullan</string>
+    <string name="auto_recovery_settings_toggle_summary">Gerekli olduğunda önceki \"Yoksay\" ayarını otomatik olarak kurtar</string>
+    <string name="auto_recovery_settings_start_now_summary">Dikkate alınmamış durumlar olabilir</string>
+    <string name="auto_recovery_settings_ignore_title">Bu \"sorunu\" görmezden gelin</string>
+    <string name="storage_isolation_requires_enhance_mode">Not, \"%1$s\" \"Gelişmiş mod\" altında çalıştırılmalıdır.</string>
+    <string name="usage_history_fetching">Kullanım geçmişi getiriliyor…</string>
+    <string name="usage_history_in_the_past_24h">Son 24 saat içinde</string>
+    <string name="brackets">(%s)</string>
+    <string name="progress_format">%1$d/%2$d</string>
+    <string name="ignore_for_now">Şimdilik yoksay</string>
+    <string name="backup_error_open_output">Dosya yazılamıyor.</string>
+    <string name="manufacturer_restriction_dialog_ignore">\"%s\" için gösterme</string>
+    <string name="op_name_MANAGE_EXTERNAL_STORAGE">tüm dosyaları yönet</string>
+    <plurals name="backup_review_apps_title">
+        <item quantity="one">%2$s uygulamadan %1$d tanesi</item>
+        <item quantity="other">%2$s uygulamadan %1$d tanesi</item>
+    </plurals>
+    <string name="backup_review_description_from_newer_version">Yalnızca sistemin yeni sürümünde bulunan kısım (eğer varsa) görüntülenemez veya geri yüklenemez.</string>
+    <string name="backup_error_legacy_backup">Not, %s’den önce oluşturulan yedeklemeler, gerekli bilgilerin olmamasından dolayı desteklenmez.</string>
+    <string name="settings_request_to_delete_data">Verileri sil</string>
+    <string name="settings_request_to_delete_data_summary">Bu örnekten giden verileri kalıcı olarak engelleyin ve toplanmış tüm verileri silin</string>
+    <string name="manufacturer_restriction_dialog_message">OnePlus, Xiaomi, Huawei, Samsung da dahil (çoğunlukla Çin menşeli) birçok üretici varsayılan olarak arka plan etkinliklerini kısıtlar. &lt;p&gt;Üreticilerin bu kısıtlamaları genellikle yetersiz tasarlanmıştır. &lt;b&gt;Uygulamalar Android’in standardını takip ettiğinden, kısıtlanmaları daha fazla pil tasarrufu sağlamaz, aksine yalnızca uygulamaların işlevini bozar&lt;/b&gt;. Daha da saçma olanı, bu üreticilerin &lt;b&gt;genellikle büyük şirketlerin uygulamalarını içeren varsayılan bir “izin verilenler listesine” sahip olmalarıdır&lt;/b&gt;. Tüm Android ekosistemi onlar tarafından derinden yaralanmış durumda. &lt;p&gt;\"%1$s\"nin çalışması için lütfen bu kısıtlamaları devre dışı bırakın. %2$s’e başvurabilirsiniz. Ve endişelenmeyin, CPU’yu sürekli kullanmaz, uygulama sistemin pil kullanım listesinde bile görünmez.</string>
+    <plurals name="usage_history_access_times">
+        <item quantity="one">%1$d kez</item>
+        <item quantity="other">%1$d kez</item>
+    </plurals>
+    <string name="op_name_special_SENSORS">Sensörler</string>
+    <string name="op_desc_special_SENSORS">İvmeölçerler, yerçekimi sensörleri vb. gibi kullanıcının onayı olmadan kullanılabilen sensörler.</string>
+    <string name="auto_recovery_settings_note">Android 10’dan itibaren, belirli sebeplerden dolayı “Yoksay” ayarlarınızdan bazıları sistem tarafından sıfırlanır.
+\n
+\nMIUI gibi fazlaca modifiye edilmiş sistemlerde, özellikle bu sistemlerin eski sürümlerinde, bu hatayla karşılaşmanız normaldir.
+\n
+\nTek seçenek, sistem sıfırlandıktan sonra onları geri yüklemektir. Otomatik kurtarma çalıştığında bir bildirim göreceksiniz.</string>
+    <string name="privacy_policy">Gizlilik Politikası</string>
+    <string name="usage_history_over_all_access_count">%1$d uygulama, %2$d kez hassas izinlere erişti</string>
+    <string name="permission_group_sensors">Sensörler</string>
+    <string name="permission_group_activity_recognition">Fiziksel aktivite</string>
 </resources>
