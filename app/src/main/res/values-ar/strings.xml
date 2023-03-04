@@ -332,7 +332,11 @@
         <item quantity="other">تطبيقات %2$d , يتحكم فيه %1$s</item>
     </plurals>
     <plurals name="include_system_apps_dialog_title">
-        <item quantity="zero">تضمين تطبيق النظام %d</item>
+        <item quantity="zero">‭‮‬‪‏‎‍‌—‐–‐’“  …“\t\t
+\n
+\n
+\n 
+\nتضمين تطبيق النظام %d</item>
         <item quantity="one">تضمين تطبيق النظام %d</item>
         <item quantity="two">تضمين تطبيق النظام %d</item>
         <item quantity="few">قم بتضمين %d من تطبيقات النظام</item>
