@@ -560,5 +560,7 @@ Many manufacturers (mainly from mainland China), including but not limited to On
     <string name="op_desc_READ_DEVICE_IDENTIFIERS"><![CDATA[On Android 10 or above, by default, any user apps have no permission to read the device identifiers (IMEI, MEID, IMSI, SIM card number and device serial).]]></string>
     <string name="op_name_special_SENSORS">Sensors</string>
     <string name="op_desc_special_SENSORS">Sensors that can be used without the user\'s approval, such as accelerometers, gravity sensors, etc.</string>
+    <string name="op_desc_TOAST_WINDOW_30"><![CDATA[On Android 11 or above, if the target API of the app is 30 or above, this permission has no effect and will be hidden.]]></string>
+    <string name="op_desc_TOAST_WINDOW_app_30"><![CDATA[On Android 11 or above, this permission will have no effect after this app upgrading its target API to 30 or above.]]></string>
 
 </resources>

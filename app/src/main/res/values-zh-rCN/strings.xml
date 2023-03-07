@@ -465,5 +465,7 @@
     <string name="op_name_special_SENSORS">传感器</string>
     <string name="op_desc_special_SENSORS">无需用户同意即可使用的传感器，如加速度计、重力传感器等。</string>
     <string name="core_app_warning">该应用可能是 Android 系统的核心组件，请务必谨慎操作。</string>
+    <string name="op_desc_TOAST_WINDOW_30"><![CDATA[在 Android 11 或以上版本，如果应用的目标 API 是 30 或以上，此权限无效且会被隐藏。]]></string>
+    <string name="op_desc_TOAST_WINDOW_app_30"><![CDATA[在 Android 11 或以上版本，在此应用将其目标 API 到 30 或以上之后，此权限无效且会被隐藏。]]></string>
 
 </resources>
