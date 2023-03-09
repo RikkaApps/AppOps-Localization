@@ -465,7 +465,9 @@
     <string name="op_name_special_SENSORS">传感器</string>
     <string name="op_desc_special_SENSORS">无需用户同意即可使用的传感器，如加速度计、重力传感器等。</string>
     <string name="core_app_warning">该应用可能是 Android 系统的核心组件，请务必谨慎操作。</string>
-    <string name="op_desc_TOAST_WINDOW_30"><![CDATA[在 Android 11 或以上版本，如果应用的目标 API 是 30 或以上，此权限无效且会被隐藏。]]></string>
-    <string name="op_desc_TOAST_WINDOW_app_30"><![CDATA[在 Android 11 或以上版本，在此应用将其目标 API 到 30 或以上之后，此权限无效且会被隐藏。]]></string>
+    <string name="op_desc_TOAST_WINDOW_30"><![CDATA[您的设备运行 Android 11 或更高版本，对于目标 API 为 30 或以上的应用，toasts 是通过 SystemUI 而不是应用本身显示的。]]></string>
+    <string name="op_desc_TOAST_WINDOW_30_app_30"><![CDATA[该应用的目标 API 是 30 或以上，因此针对此应用修改此权限没有实际效果。<p>要控制此应用是否可以显示 Toast 只能修改 SystemUI 的权限，但是会影响系统及所有此类应用。]]></string>
+    <string name="op_desc_TOAST_WINDOW_30_app_pre_30"><![CDATA[该应用的目标 API 是 29 或以下，因此针对此应用修改此权限有效。]]></string>
+    <string name="op_desc_TOAST_WINDOW_30_systemui"><![CDATA[修改此权限将影响系统及所有目标 API 是 30 或以上的应用。]]></string>
 
 </resources>

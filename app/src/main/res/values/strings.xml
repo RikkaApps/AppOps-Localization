@@ -560,7 +560,9 @@ Many manufacturers (mainly from mainland China), including but not limited to On
     <string name="op_desc_READ_DEVICE_IDENTIFIERS"><![CDATA[On Android 10 or above, by default, any user apps have no permission to read the device identifiers (IMEI, MEID, IMSI, SIM card number and device serial).]]></string>
     <string name="op_name_special_SENSORS">Sensors</string>
     <string name="op_desc_special_SENSORS">Sensors that can be used without the user\'s approval, such as accelerometers, gravity sensors, etc.</string>
-    <string name="op_desc_TOAST_WINDOW_30"><![CDATA[On Android 11 or above, if the target API of the app is 30 or above, this permission has no effect and will be hidden.]]></string>
-    <string name="op_desc_TOAST_WINDOW_app_30"><![CDATA[On Android 11 or above, this permission will have no effect after this app upgrading its target API to 30 or above.]]></string>
+    <string name="op_desc_TOAST_WINDOW_30"><![CDATA[Your device runs Android 11 or above, for apps targeting API 30+, Toast is shown through SystemUI rather than the app itself.]]></string>
+    <string name="op_desc_TOAST_WINDOW_30_app_30"><![CDATA[The app targets API 30 or above, so modifying this permission for this app has no practical effect. <p>To control whether this app can display Toast, you can only modify the permission of SystemUI, but it will affect the system and all such apps.]]></string>
+    <string name="op_desc_TOAST_WINDOW_30_app_pre_30"><![CDATA[The app targets API 29 or below, so modifying this permission for this app will work.]]></string>
+    <string name="op_desc_TOAST_WINDOW_30_systemui"><![CDATA[Modifying this permission will affect the system and all apps targeting API 30 or above.]]></string>
 
 </resources>
