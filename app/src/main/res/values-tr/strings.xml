@@ -254,7 +254,7 @@
     <string name="working_mode_choice">Bir çalışma yöntemi seçin:</string>
     <string name="working_mode_title">Çalışma yöntemi : %s</string>
     <string name="translators">İlker Binzet (ilker.binzet@gmail.com)
-\ncroxz900</string>
+\ncroxz900 (croxz.900@gmail.com)</string>
     <string name="op_mode_unspecified">Henüz ayarlanmadı</string>
     <string name="op_mode_onetime">Her zaman sor</string>
     <string name="op_mode_ignore_description_runtime">Uygulama için iznini \"sağla\", ancak uygulama boş veri alacak veya işlem gerçekleştirilmeyecek</string>
@@ -462,4 +462,8 @@
     <string name="usage_history_over_all_access_count">%1$d uygulama, %2$d kez hassas izinlere erişti</string>
     <string name="permission_group_sensors">Sensörler</string>
     <string name="permission_group_activity_recognition">Fiziksel aktivite</string>
+    <string name="op_desc_TOAST_WINDOW_30_systemui">Bu iznin değiştirilmesi, sistemi ve API 30 veya üstünü hedefleyen tüm uygulamaları etkileyecektir.</string>
+    <string name="op_desc_TOAST_WINDOW_30_app_pre_30">Uygulama API 29 veya altını hedefliyor, bu nedenle bu uygulama için bu iznin değiştirilmesi işe yarayacaktır.</string>
+    <string name="op_desc_TOAST_WINDOW_30_app_30">Uygulama API 30 veya üstünü hedefliyor, dolayısıyla bu uygulama için bu izni değiştirmenin bir etkisi olmayacaktır. &lt;p&gt;Bu uygulamanın uyarı mesajını gösterip gösteremeyeceğini kontrol etmek için yalnızca sistem arayüzünün iznini değiştirebilirsiniz, ancak bu işlem tüm sistemi ve bu tür tüm uygulamaları etkiler.</string>
+    <string name="op_desc_TOAST_WINDOW_30">Cihazınız Android 11 veya üzeri, API 30 hedefleyen uygulamalar için uyarı mesajı, uygulamanın kendisi yerine sistem arayüzü aracılığıyla gösterilir.</string>
 </resources>
