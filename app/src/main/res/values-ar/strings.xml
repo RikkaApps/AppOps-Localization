@@ -92,7 +92,7 @@
     <string name="bug_report_mail_message">إذا أمكن ، يرجى وصف الموقف الذي حدث فيه الخطأ.</string>
     <string name="send_to_developer">أرسل إلى المطور</string>
     <string name="user_name_fallback">المستخدم</string>
-    <string name="working_mode_button_retry">أعد المحاولة</string>
+    <string name="working_mode_button_retry">إعادة المحاولة</string>
     <string name="working_mode_choice">اختر وضع العمل:</string>
     <string name="working_mode_title">وضع العمل: %s</string>
     <plurals name="app_view_item_modified">
@@ -498,4 +498,8 @@
     <string name="permission_group_activity_recognition">النشاط البدني</string>
     <string name="ignore_for_now">تجاهل الآن</string>
     <string name="op_desc_special_SENSORS">أجهزة الاستشعار التي يمكن استخدامها دون موافقة المستخدم ، مثل مقاييس التسارع ، وأجهزة استشعار الجاذبية ، وما إلى ذلك.</string>
+    <string name="op_desc_TOAST_WINDOW_30_systemui">سيؤثر تعديل هذا الإذن على النظام وجميع التطبيقات التي تستهدف API 30 أو أعلى.</string>
+    <string name="op_desc_TOAST_WINDOW_30_app_pre_30">يستهدف التطبيق API 29 أو أقل ، لذا سيعمل تعديل هذا الإذن لهذا التطبيق.</string>
+    <string name="op_desc_TOAST_WINDOW_30_app_30">يستهدف التطبيق API 30 أو أعلى ، لذا فإن تعديل هذا الإذن لهذا التطبيق ليس له أي تأثير عملي. &lt;p&gt; للتحكم في ما إذا كان هذا التطبيق يمكنه عرض Toast أم لا ، يمكنك فقط تعديل إذن SystemUI ، ولكنه سيؤثر على النظام وجميع هذه التطبيقات.</string>
+    <string name="op_desc_TOAST_WINDOW_30">يعمل جهازك بنظام Android 11 أو أعلى ، بالنسبة للتطبيقات التي تستهدف API 30+ ، يتم عرض Toast من خلال SystemUI بدلاً من التطبيق نفسه.</string>
 </resources>
