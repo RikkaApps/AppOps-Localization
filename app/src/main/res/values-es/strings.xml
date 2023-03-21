@@ -182,7 +182,7 @@
     <string name="working_mode_button_retry">Reintentar</string>
     <string name="working_mode_choice">Elige un modo de trabajo:</string>
     <string name="working_mode_title">Modo de trabajo: %s</string>
-    <string name="translators">—Peter Cuevas</string>
+    <string name="translators">—Peter Cuevas, NoelFeijooIglesias</string>
     <string name="backup_error_io_exception">Algo salió mal al leer/escribir el archivo.</string>
     <string name="backup_reading_file">Leyendo el archivo…</string>
     <string name="manufacturer_restriction_dialog_message">Muchos fabricantes (principalmente de China), incluyendo pero no limitándose a OnePlus, Xiaomi, Huawei, Samsung, restringen los comportamientos de fondo por defecto. &lt;p&gt;Las restricciones de los fabricantes suelen estar mal diseñadas. &lt;b&gt;Para la aplicación que sigue el estándar de Android, sus restricciones no ahorrarán más batería, sino que sólo romperán la función de la aplicación &lt;/b&gt;. Lo que es más ridículo es que estos fabricantes &lt;b&gt;normalmente tienen una \"lista de permisos\" por defecto que incluye aplicaciones de grandes empresas&lt;/b&gt;. Todo el ecosistema Android está profundamente afectado por ellos. &lt;p&gt;Para hacer que \"%1$s\" funcione, por favor deshabilite esas restricciones. Puedes referirte a %2$s. Y no te preocupes, no usa la CPU continuamente, la aplicación ni siquiera aparecerá en la lista de uso de la batería del sistema.</string>
@@ -261,11 +261,7 @@
     <string name="unlock_full_version">Desbloquear la versión completa</string>
     <string name="settings_crash_report_summary">Esto nos ayudará a encontrar los problemas más rápido</string>
     <string name="settings_crash_report_title">Enviar informe de errores</string>
-    <string name="settings_send_data_summary">Usamos Visual Studio App Center (de Microsoft).
-\n
-\nSegún el código fuente del SDK del App Center, sólo la versión de la aplicación, la versión del sistema, el modelo del dispositivo, el tamaño de la pantalla, el idioma, la zona horaria y la información del portador, serán recopilados y enviados.
-\n
-\nSe utiliza una identificación de instalación generada aleatoriamente para distinguir entre los diferentes dispositivos.</string>
+    <string name="settings_send_data_summary">Las características anteriores utilizan el Centro de aplicaciones de Visual Studio proporcionado por Microsoft. La información recopilada es anónima y no podemos rastrearla hasta un dispositivo o usuario independiente. Consulte la Política de privacidad para obtener más información.</string>
     <string name="settings_integrations_storage_isolation_summary">\"%s\" es una aplicación necesaria para la root de nosotros. Proporciona un control más avanzado sobre el almacenamiento.
 \n
 \nEsta opción es para prevenir un mal funcionamiento cuando intentas cambiar las configuraciones relacionadas con el almacenamiento.</string>
@@ -438,4 +434,36 @@
     <string name="settings_use_system_color">Usar color del tema del sistema</string>
     <string name="permission_group_clipboard">Portapapeles</string>
     <string name="permission_group_device_identifiers">Identificadores del dispositivo</string>
+    <string name="op_desc_TOAST_WINDOW_30_systemui">La modificación de este permiso afectará el sistema y todas las aplicaciones dirigidas a API 30 o superior.</string>
+    <string name="op_desc_TOAST_WINDOW_30_app_pre_30">La aplicación apunta a API 29 o inferior, por lo que la modificación de este permiso para esta aplicación funcionará.</string>
+    <string name="op_desc_TOAST_WINDOW_30_app_30">La aplicación apunta a API 30 o superior, por lo que modificar este permiso para esta aplicación no tiene ningún efecto práctico. &lt;p&gt;Para controlar si esta aplicación puede mostrar Toast, solo puede modificar el permiso de SystemUI, pero afectará al sistema y a todas esas aplicaciones.</string>
+    <string name="op_desc_TOAST_WINDOW_30">Su dispositivo ejecuta Android 11 o superior, para aplicaciones con API 30+, Toast se muestra a través de SystemUI en lugar de la aplicación en sí.</string>
+    <string name="op_desc_special_SENSORS">Sensores que se pueden utilizar sin la aprobación del usuario, como acelerómetros, sensores de gravedad, etc.</string>
+    <string name="op_name_special_SENSORS">Sensores</string>
+    <string name="op_name_MANAGE_EXTERNAL_STORAGE">administrar todos los archivos</string>
+    <string name="ignore_for_now">Ignorar por el momento</string>
+    <string name="usage_history_system_version_too_low_message">El historial de uso requiere %1$s, sus dispositivos ejecutan %2$s.</string>
+    <string name="usage_history_system_version_too_low_title">Versión de Android incompatible</string>
+    <string name="usage_history_timeline_yesterday">Ayer</string>
+    <string name="usage_history_timeline_today">Hoy</string>
+    <string name="usage_history_access_rejected">Rechazado/a</string>
+    <string name="usage_history_access_in_the_background">Acceso en segundo plano</string>
+    <plurals name="usage_history_and_more_apps">
+        <item quantity="one">Y %1$d mas app</item>
+        <item quantity="many">Y %1$d mas apps</item>
+        <item quantity="other">Y %1$d mas apps</item>
+    </plurals>
+    <plurals name="usage_history_access_times">
+        <item quantity="one">%1$d vez</item>
+        <item quantity="many">%1$d veces</item>
+        <item quantity="other">%1$d veces</item>
+    </plurals>
+    <string name="usage_history_over_all_access_count">%1$d aplicaciones han accedido a permisos confidenciales %2$d veces</string>
+    <string name="usage_history_in_the_past_24h">Las últimas 24 horas</string>
+    <string name="usage_history_fetching">Obteniendo historial de uso…</string>
+    <string name="privacy_policy">Política de privacidad</string>
+    <string name="settings_request_to_delete_data_summary">Bloquee permanentemente los datos salientes de esta instancia y elimine los datos recopilados</string>
+    <string name="settings_request_to_delete_data">Borrar información</string>
+    <string name="working_mode_dpm_removed_description">Debido a un nuevo requisito de la política de Google Play, el modo Administrador delegado de dispositivos debe eliminarse antes del 2022-07-12. &lt;p&gt;Si necesita usar el modo Administrador delegado de dispositivos, descargue una versión anterior de la aplicación desde nuestro sitio web.</string>
+    <string name="working_mode_dpm_removed">Se eliminó el modo de administrador delegado de dispositivos</string>
 </resources>
