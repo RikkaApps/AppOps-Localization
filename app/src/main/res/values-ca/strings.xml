@@ -1,4 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="translators">NoelFeijooIglesias</string>
+    <string name="shizuku_mode">Mode Shizuku</string>
+    <string name="working_mode_dpm_removed">S\'ha eliminat el mode d\'administració del dispositiu delegat</string>
+    <string name="working_mode_button_switch">Canvia a un altre mode de treball</string>
+    <string name="working_mode_button_continue">Continua</string>
+    <string name="working_mode_button_retry">Torna-ho a provar</string>
+    <string name="working_mode_choice">Trieu un mode de treball:</string>
+    <string name="working_mode_title">Mode de treball: %s</string>
+    <string name="usage_history_access_rejected">Rebutjada</string>
 </resources>
