@@ -545,7 +545,7 @@ Many manufacturers (mainly from mainland China), including but not limited to On
     <string name="op_name_WRITE_MEDIA_IMAGES">write your photo collection</string>
     <string name="op_name_ACCESS_ACCESSIBILITY" translatable="false">access accessibility service</string>
     <string name="op_name_READ_DEVICE_IDENTIFIERS">read device identifiers</string>
-    <string name="op_name_ACCESS_MEDIA_LOCATION">access media location</string>
+    <string name="op_name_ACCESS_MEDIA_LOCATION">read location information from media files</string>
     <string name="op_name_QUERY_ALL_PACKAGES">query all packages</string>
     <string name="op_name_MANAGE_EXTERNAL_STORAGE">manage all files</string>
     <string name="op_name_INTERACT_ACROSS_PROFILES" translatable="false">interact across profiles</string>

@@ -354,7 +354,7 @@
     <string name="op_desc_ACCESS_MEDIA_LOCATION"><![CDATA[允许应用从媒体文件读取位置信息（通过媒体存储）。]]></string>
     <string name="op_name_QUERY_ALL_PACKAGES">查询所有软件包</string>
     <string name="op_name_MANAGE_EXTERNAL_STORAGE">管理所有文件</string>
-    <string name="op_name_ACCESS_MEDIA_LOCATION">访问媒体位置</string>
+    <string name="op_name_ACCESS_MEDIA_LOCATION">从媒体文件中读取位置信息</string>
     <string name="op_name_READ_DEVICE_IDENTIFIERS">读取设备识别码</string>
     <string name="op_name_WRITE_MEDIA_IMAGES">写入你的照片收藏</string>
     <string name="op_name_READ_MEDIA_IMAGES">读取你的照片收藏</string>
