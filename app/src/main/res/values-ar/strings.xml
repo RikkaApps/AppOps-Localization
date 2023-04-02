@@ -5,7 +5,7 @@
     <string name="progress_requesting_authorization">طلب التفويض…</string>
     <string name="progress_checking_availability">التحقق من الجاهزية…</string>
     <string name="progress_fetching_user_list">إحضار قائمة المستخدمين…</string>
-    <string name="progress_fetching_app_list">إحضار قائمة التطبيقات…</string>
+    <string name="progress_fetching_app_list">جارٍ إحضار قائمة التطبيقات…</string>
     <string name="progress_working">جاري العمل على (%1$d من %2$d)…</string>
     <string name="menu_reset">إعادة</string>
     <string name="menu_app_info">معلومات التطبيق</string>
@@ -24,11 +24,11 @@
     <string name="menu_options">الخيارات</string>
     <string name="menu_delete">حذف</string>
     <string name="menu_users">المستخدمون</string>
-    <string name="menu_about">عن</string>
+    <string name="menu_about">حول التطبيق</string>
     <string name="app_detail_version">إصدار %1$s</string>
     <string name="app_view_item_not_modified">غير معدل</string>
     <string name="system_app">تطبيق النظام</string>
-    <string name="permissions_view_summary">عرض التطبيقات بواسطة الأذونات وإدارتها بشكل واضح</string>
+    <string name="permissions_view_summary">قائمة التطبيقات بالإذن وإدارتها بوضوح.</string>
     <string name="permissions_view_all">الكل</string>
     <string name="system_app_warning">هذا تطبيق نظام ، قد يؤدي تغيير الإعدادات إلى مشاكل خطيرة.</string>
     <string name="app_name_multi_user">%1$s (%2$s)</string>
@@ -98,26 +98,26 @@
     <plurals name="app_view_item_modified">
         <item quantity="zero">تم تعديل عنصر %d</item>
         <item quantity="one">تم تعديل عنصر %d</item>
-        <item quantity="two"/>
-        <item quantity="few"/>
+        <item quantity="two">تم تعديل %d عنصر</item>
+        <item quantity="few">تم تعديل %d عنصر</item>
         <item quantity="many">تم تعديل %d عنصر</item>
-        <item quantity="other"/>
+        <item quantity="other">تم تعديل %d عنصر</item>
     </plurals>
     <plurals name="permissions_view_item_summary">
         <item quantity="zero">%1$d تطبيق</item>
         <item quantity="one">%1$d تطبيق</item>
-        <item quantity="two"/>
-        <item quantity="few"/>
+        <item quantity="two">%1$d تطبيق</item>
+        <item quantity="few">%1$d تطبيق</item>
         <item quantity="many">%1$d تطبيقات</item>
-        <item quantity="other"/>
+        <item quantity="other">%1$d تطبيقات</item>
     </plurals>
     <plurals name="backup_review_templates_title">
         <item quantity="zero">%1$d نموذج</item>
         <item quantity="one">%1$d قالب</item>
-        <item quantity="two"/>
-        <item quantity="few"/>
+        <item quantity="two">%1$d نموذج</item>
+        <item quantity="few">%1$d نموذج</item>
         <item quantity="many">%1$d قوالب</item>
-        <item quantity="other"/>
+        <item quantity="other">%1$d نموذج</item>
     </plurals>
     <string name="usage_history">سجل الاستخدام</string>
     <string name="apps_view">عرض التطبيقات</string>
@@ -125,7 +125,7 @@
     <string name="usage_monitor_notification_text">يشمل %1$s.</string>
     <string name="button_discard">تجاهل</string>
     <string name="usage_monitor_microphone">ميكروفون</string>
-    <string name="storage_isolation_requires_enhance_mode">ملاحظة ، يجب تشغيل \"%1$s\" ضمن \"الوضع المحسن\".</string>
+    <string name="storage_isolation_requires_enhance_mode">لاحظ أنه يجب تشغيل \"%1$s\" ضمن \"الوضع المحسن\".</string>
     <string name="storage_isolation_enabled">يتحكم فيها \"%s\".&lt;br&gt;لا يجب تغيير الإعدادات هنا ، وإلا فستكون هناك مشاكل.</string>
     <string name="auto_recovery_settings_ignore_summary">إذا كنت متأكدًا من أن نظامك لا يعاني من هذه المشكلة (على سبيل المثال ، Pixel أو AOSP-like ROMs) ، فقم بتمكين هذا الخيار حتى لا يتم فرض خيار الاسترداد التلقائي</string>
     <string name="shizuku_mode_description">+ يعمل كلاً من الأجهزة الجذر وغير الجذر &lt;br&gt;+ سريع جدًا, مع استهلاك ضئيل للموارد &lt;br&gt;+ تمتع بالوظائف الكاملة &lt;br&gt;&lt;br&gt;- يتطلب تثبيت تطبيق مفتوح المصدر (Shizuku) &lt;br&gt;- من أجل الأجهزة التي لا تحتوي على جذر, في كل مرة تتم فيها إعادة التشغيل, يلزم بدء Shizuku باستخدام adb مع الكمبيوتر &lt;br&gt;- بالنسبة للأجهزة التي تعمل بنظام Android 11 أو أعلى, يمكن بدء Shizuku بدون كمبيوتر</string>
@@ -140,7 +140,7 @@
     <string name="monitors_notification_summary">انقر للحصول على الإعداد الاشعارات.</string>
     <string name="monitors_notification_channel_label">حالة التشغيل</string>
     <string name="monitors_service_label">خدمة المراقبة</string>
-    <string name="bug_report_dialog_view_stacktrace">مشاهدة ملف Stacktrace</string>
+    <string name="bug_report_dialog_view_stacktrace">مشاهدة ملف تتبع المكدس</string>
     <string name="unlock_full_version">فتح النسخة الكاملة</string>
     <string name="full_version">النسخة الكاملة</string>
     <string name="settings_crash_report_summary">سيساعدنا هذا في إيجاد المشاكل بشكل أسرع</string>
@@ -161,12 +161,12 @@
     <string name="template_menu_set_as_default">تعيين كافتراضي</string>
     <string name="usage_monitor_notification_title">\"%1$s\" يستخدم %2$s</string>
     <plurals name="template_item_summary">
-        <item quantity="zero">غرض %1$d</item>
+        <item quantity="zero">عنصر %1$d</item>
         <item quantity="one">عنصر %1$d</item>
-        <item quantity="two"/>
-        <item quantity="few"/>
+        <item quantity="two">عناصر %1$d</item>
+        <item quantity="few">عناصر %1$d</item>
         <item quantity="many">عناصر %1$d</item>
-        <item quantity="other"/>
+        <item quantity="other">عناصر %1$d</item>
     </plurals>
     <string name="template_default_title">بدون عنوان</string>
     <string name="template_create">إنشاء نموذج…</string>
@@ -266,15 +266,15 @@
     <string name="button_learn_more">يتعلم أكثر</string>
     <string name="menu_badge_full_version">ممتلىء</string>
     <string name="menu_badge_early_access">الوصول المبكر</string>
-    <string name="menu_working_mode">نمط العمل</string>
+    <string name="menu_working_mode">وضـع العـمل</string>
     <string name="menu_set_as">تعيين كـ</string>
     <string name="menu_last_used_first">آخر استخدام أولا</string>
     <string name="menu_show_framework">إظهار تطبيقات إطار النظام</string>
-    <string name="menu_changelog">التغيير</string>
+    <string name="menu_changelog">سجل التغييرات</string>
     <string name="menu_sort_by_app_name">حسب اسم التطبيق</string>
     <string name="menu_more">المزيد من الخيارات</string>
     <string name="menu_show_app_info_in">إظهار معلومات التطبيق في…</string>
-    <string name="shizuku_mode_error_adb_no_update_permission">ADB لديه فقط appops ولكن لا يوجد إذن appops للتحديث. &lt;br&gt; يرجى محاولة البحث عن خيار مثل السماح بإذن التعديل في خيارات مطوري النظام. &lt;p&gt;&lt;small&gt; على سبيل المثال ,في MIUI ,الخيار هو تصحيح أخطاء USB (خيارات الأمان). &lt;/ small&gt;</string>
+    <string name="shizuku_mode_error_adb_no_update_permission">لديه ADB فقط App Ops ولكن لا يوجد إذن تحديث. &lt;br&gt; يرجى محاولة البحث عن خيار مثل السماح بإذن التعديل في خيارات مطوري النظام. &lt;p&gt;&lt;small&gt; على سبيل المثال ، في MIUI ، الخيار هو تصحيح أخطاء USB (خيارات الأمان). &lt;/small&gt;</string>
     <string name="shizuku_mode_error_not_running">Shizuku لا يعمل أو أن هناك أخطاء أخرى. &lt;br&gt; إذا كان Shizuku قيد التشغيل ,يرجى محاولة فرض إيقاف هذا التطبيق.</string>
     <string name="shizuku_mode_error_version_too_low">إصدار Shizuku المثبت منخفض جدًا ,يرجى تنزيل أحدث إصدار من Shizuzku (%s أو أعلى).</string>
     <string name="shizuku_mode_error_user_denied_permission_sui">لقد منعت هذا التطبيق من استخدام Sui. &lt;br&gt; يرجى منح الإذن لهذا التطبيق في Sui.</string>
@@ -282,17 +282,17 @@
     <string name="shizuku_mode_description_rooted">+ تمتع بالوظائف الكاملة &lt;br&gt;&lt;br&gt;- يتطلب تثبيت Sui (وحدة Magisk) أو Shizuku (تطبيق) ، وكلاهما مفتوح المصدر</string>
     <string name="shizuku_mode_shizuku_not_running">(Shizuku ليس قيد التشغيل)</string>
     <string name="manufacturer_restriction_dialog_ignore">لا تظهر لـ \"%s\"</string>
-    <string name="shizuku_mode_over_root">Shizuku وضـع (بدأ عن طريق Root)</string>
-    <string name="shizuku_mode_over_adb">Shizuku وضـع (بدأ عبر adb)</string>
-    <string name="shizuku_mode">Shizuku وضـع</string>
+    <string name="shizuku_mode_over_root">وضـع Shizuku (بدأ عن طريق Root)</string>
+    <string name="shizuku_mode_over_adb">وضـع Shizuku (بدأ عبر adb)</string>
+    <string name="shizuku_mode">وضـع Shizuku</string>
     <string name="working_mode_button_open">افتح %s</string>
     <string name="working_mode_button_download_format">التحميلات %s</string>
     <string name="settings_translation_contributors">المساهمون</string>
     <string name="settings_behavior">سلوك</string>
-    <string name="settings_reselect_working_mode_title">أعد تحديد وضع العمل</string>
+    <string name="settings_reselect_working_mode_title">إعادة تحديد وضع العمل</string>
     <string name="always_shown_op_header">سيتم دائمًا عرض الإذن المحدد (العملية) ، بغض النظر عما إذا كان الإذن قد تم استخدامه أو يمكن استخدامه.</string>
     <string name="no_files_app_dialog_title">تعذر بدء تشغيل تطبيق الملفات</string>
-    <string name="backup_error_io_exception">حدث خطأ ما عند read/write الملف.</string>
+    <string name="backup_error_io_exception">حدث خطأ ما عند قراءة/كتابة الملف.</string>
     <string name="backup_error_broken">قد يكون هذا الملف تالفًا.</string>
     <string name="backup_error_open_input">لا يمكن فتح الملف.</string>
     <string name="backup_error_open_output">لا يمكن كتابة الملف.</string>
@@ -316,7 +316,7 @@
     <string name="new_app_behavior_notification_channel_label">تم تثبيت التطبيق الجديد</string>
     <string name="include_system_apps_dialog_button_skip">تخطي تطبيقات النظام</string>
     <string name="include_system_app_button_dialog_do_not_skip">لا تخطي</string>
-    <string name="template_edit_dialog_not_saved_message">لقد أجريت بعض التغييرات ، حفظ؟</string>
+    <string name="template_edit_dialog_not_saved_message">لقد قمت ببعض التغييرات، حفظ؟</string>
     <string name="template_edit_title">لقب</string>
     <string name="working_mode_button_continue">استمر</string>
     <string name="working_mode_button_switch">قم بالتبديل إلى وضع عمل آخر</string>
@@ -424,7 +424,7 @@
     <string name="op_name_GPS">GPS</string>
     <string name="op_name_FINE_LOCATION">مكان لطيف</string>
     <string name="op_name_COARSE_LOCATION">مكان خشن</string>
-    <string name="op_name_QUERY_ALL_PACKAGES">الاستعلام عن كافة الحزم</string>
+    <string name="op_name_QUERY_ALL_PACKAGES">الاستعلام عن جميع الحزم</string>
     <string name="op_name_LOCATION">استخدام الموقع</string>
     <string name="op_desc_READ_CLIPBOARD">في Android 10 أو أعلى ، يمكن للتطبيقات قراءة الحافظة فقط إذا كانت في المقدمة.</string>
     <string name="op_desc_ACCESS_MEDIA_LOCATION">اسمح للتطبيق بقراءة المواقع من ملفات الوسائط (عبر متجر الوسائط).</string>
@@ -448,7 +448,7 @@
     <string name="op_name_ACTIVITY_RECOGNITION">التعرف على النشاط البدني</string>
     <string name="op_name_READ_MEDIA_AUDIO">قراءة مجموعتك الموسيقية</string>
     <string name="op_name_READ_DEVICE_IDENTIFIERS">قراءة id معرفات الجهاز</string>
-    <string name="op_name_ACCESS_MEDIA_LOCATION">الوصول إلى موقع الوسائط</string>
+    <string name="op_name_ACCESS_MEDIA_LOCATION">قراءة معلومات الموقع من ملفات الوسائط</string>
     <string name="op_desc_WAKE_LOCK">في نظام Android ، يُستخدم WAKE_LOCK إيقاظ القفل فقط للإحصاءات وليس له أي تأثير عملي. &lt;b&gt;&lt;a href=https://github.com/aosp-mirror/platform_frameworks_base/blob/oreo-release/services/core/java/com/android/server/power/Notifier.java#L191-L193&gt;عرض التعليمات البرمجية ذات الصلة&lt;/a&gt;&lt;/b&gt;&lt;p&gt;إذا كنت تريد تقييد تشغيل التطبيق في الخلفية ، فيرجى تعديل خيار \"تشغيل في الخلفية\" مباشرةً (يتطلب Android 7.0 أو أعلى).</string>
     <string name="op_desc_START_FOREGROUND">باختصار ، الخدمة الأمامية هي خدمة في الخلفية مع إشعار لا يمكن رفضه. نظرًا لأنه يمكنك أن تدرك بنشاط وجوده من الإشعار ، سيضمن النظام بقاء الخدمات الأمامية.&lt;p&gt;سيؤدي رفض ذلك إلى عودة الخدمات المقدمة إلى الخدمات العادية ، وقد يؤدي ذلك إلى تعطيل سلوك التطبيق (مثل توقف مشغل الموسيقى في الخلفية ، وتوقف تطبيق الخريطة عن تحديث الموقع).&lt;p&gt;&lt;b&gt;&lt;a href=https://developer.android.com/guide/components/services&gt;اعرض الوثائق على Android Developers&lt;/a&gt;&lt;/b&gt;</string>
     <string name="op_desc_READ_DEVICE_IDENTIFIERS">في نظام Android 10 أو إصدار أحدث ، بشكل افتراضي ، لا تملك أي تطبيقات مستخدم إذنًا لقراءة معرّفات الجهاز (IMEI و MEID و IMSI ورقم بطاقة SIM والتسلسل للجهاز).</string>
@@ -502,4 +502,6 @@
     <string name="op_desc_TOAST_WINDOW_30_app_pre_30">يستهدف التطبيق API 29 أو أقل ، لذا سيعمل تعديل هذا الإذن لهذا التطبيق.</string>
     <string name="op_desc_TOAST_WINDOW_30_app_30">يستهدف التطبيق API 30 أو أعلى ، لذا فإن تعديل هذا الإذن لهذا التطبيق ليس له أي تأثير عملي. &lt;p&gt; للتحكم في ما إذا كان هذا التطبيق يمكنه عرض Toast أم لا ، يمكنك فقط تعديل إذن SystemUI ، ولكنه سيؤثر على النظام وجميع هذه التطبيقات.</string>
     <string name="op_desc_TOAST_WINDOW_30">يعمل جهازك بنظام Android 11 أو أعلى ، بالنسبة للتطبيقات التي تستهدف API 30+ ، يتم عرض Toast من خلال SystemUI بدلاً من التطبيق نفسه.</string>
+    <string name="storage_permission_30">جهازك يعمل بنظام Android 11 أو إصدار أحدث ، يسمح نظام Android لجميع التطبيقات بكتابة الملفات في مجلدات قياسية &lt;b&gt;بدون أي أذونات &lt;/b&gt;.&lt;p&gt; وهذا يعني أنه بغض النظر عن كيفية تعديل الإذن (سواء في هذا التطبيق أو في النظام) ، يمكن للتطبيق دائمًا كتابة الملفات إلى المجلد القياسي.&lt;p&gt;* يشير المجلد القياسي إلى سلسلة من المجلدات التي يحددها النظام مثل DCIM والصور والتنزيل وما إلى ذلك.</string>
+    <string name="op_desc_WRITE_EXTERNAL_STORAGE_30">يعمل جهازك بنظام Android 11 أو إصدار أحدث ، ويمكن للتطبيقات إنشاء ملفات في مجلدات قياسية <b> بدون أي أذونات </b>.</string>
 </resources>
