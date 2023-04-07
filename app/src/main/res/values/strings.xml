@@ -306,6 +306,7 @@ This app does not request for \"%s\", but some other requested permissions are c
     <string name="backup_reading_file">Reading file…</string>
     <string name="backup_parsing_backup">Parsing backup…</string>
     <string name="backup_restoring_backup">Restoring backup…</string>
+    <string name="backup_include_system_components_summary"><![CDATA[Include system components, i.e. apps whose uid is less than 10000, into the backup. Do it at your own risk.]]></string>
 
     <string name="backup_review">Review the backup</string>
     <string name="backup_review_description">This backup was created on %1$s running %2$s.</string>
