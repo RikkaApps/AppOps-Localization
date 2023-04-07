@@ -342,6 +342,10 @@
     <plurals name="usage_history_and_more_apps">
         <item quantity="other">以及其他 %1$d 個應用程式</item>
     </plurals>
+    <string name="backup_include_system_components_summary"><![CDATA[將系統元件（即 uid 小於 10000 的應用程式）包含到備份中。風險自負。]]></string>
+    <plurals name="packages_selector_dialog_status_format_for_multi">
+        <item quantity="other">已選擇 %d 個應用程式</item>
+    </plurals>
     <string name="usage_history_access_in_the_background">在背景存取</string>
     <string name="usage_history_access_rejected">已拒絕</string>
     <string name="usage_history_timeline_today">今天</string>

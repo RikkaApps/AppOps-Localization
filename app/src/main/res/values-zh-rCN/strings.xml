@@ -349,7 +349,9 @@
     <string name="usage_history_system_version_too_low_title">Android 版本不兼容</string>
     <string name="usage_history_system_version_too_low_message">使用情况历史需要 %1$s，您的设备运行 %2$s。</string>
     <string name="backup_include_system_components_summary"><![CDATA[将系统组件（即 uid 小于 10000 的应用）包含到备份中。风险自负。]]></string>
-
+    <plurals name="packages_selector_dialog_status_format_for_multi">
+        <item quantity="other">已选择 %d 个应用</item>
+    </plurals>
     <string name="op_desc_READ_CLIPBOARD">在 Android 10 或以上，应用仅在处于前台时能够读取剪贴板。</string>
     <string name="op_desc_START_FOREGROUND">简而言之，前台服务是一个带有无法消除通知的后台服务。因为您可以主动获知它的存在，系统会保证前台服务存活。&lt;p&gt;拒绝该项会导致前台服务退回到普通服务，这可能会破坏应用行为（比如音乐播放器在后台停止，地图应用停止位置更新）。&lt;p&gt;&lt;b&gt;&lt;a href=https://developer.android.com/guide/components/services&gt;在 Android Developers 查看文档&lt;/a&gt;&lt;/b&gt;</string>
     <string name="op_desc_WAKE_LOCK">在原生 Android 上，WAKE_LOCK 只被用于统计而没有实际作用。&lt;b&gt;&lt;a href=https://github.com/aosp-mirror/platform_frameworks_base/blob/oreo-release/services/core/java/com/android/server/power/Notifier.java#L191-L193&gt;查看相关代码&lt;/a&gt;&lt;/b&gt;&lt;p&gt;如果你希望限制应用后台运行，请直接修改“在后台运行”选项（需要 Android 7.0 以上）。</string>

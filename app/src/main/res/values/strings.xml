@@ -446,6 +446,11 @@ Many manufacturers (mainly from mainland China), including but not limited to On
     <!-- used to build strings like "1/100"-->
     <string name="progress_format">%1$d/%2$d</string>
 
+    <plurals name="packages_selector_dialog_status_format_for_multi">
+        <item quantity="one">Selected %d app</item>
+        <item quantity="other">Selected %d apps</item>
+    </plurals>
+
     <string name="ignore_for_now">Ignore for now</string>
 
     <string name="op_name_LOCATION">use location</string>
