@@ -188,9 +188,8 @@
     <string name="settings_integrations_storage_isolation_summary">\"%s\" هو تطبيق مطلوب من الجذر منا. يوفر تحكمًا أكثر تقدمًا في التخزين.
 \n
 \nهذا الخيار هو منع التشغيل الخاطئ عند محاولة تغيير التكوينات المتعلقة بالتخزين.</string>
-    <string name="settings_send_data_summary">نحن نستخدم Visual Studio App Center (من Microsoft)
-\nوفقًا لشفرة المصدر الخاصة بـ App Center SDK ، سيتم جمع وإرسال معلومات إصدار التطبيق وإصدار النظام وطراز الجهاز وحجم الشاشة واللغة والمنطقة الزمنية ومعلومات الناقل فقط.
-\nيتم استخدام معرف التثبيت الذي تم إنشاؤه عشوائيًا للتمييز بين الأجهزة المختلفة.</string>
+    <string name="settings_send_data_summary">تستخدم الميزات المذكورة أعلاه مركز تطبيقات Visual Studio الذي توفره Microsoft. المعلومات التي تم جمعها مجهولة المصدر ولا يمكننا تتبعها مرة أخرى إلى جهاز أو مستخدم مستقل.
+\n انظر سياسة الخصوصية للمزيد.</string>
     <string name="monitors_service_description">تُستخدم بواسطة \"سلوك التطبيق الجديد\" و \"شاشة الحافظة\" و \"مراقبة الاستخدام\" و \"سجل الاستخدام\".</string>
     <string name="storage_isolation_authorization">\"%1$s\" تم تنصيبه. عند تمكين العزل ، لا يجب تغيير الإعدادات هنا ، وإلا فستكون هناك مشكلات.&lt;br&gt;للحصول على التكوين من \"%1$s\", الرجاء منح الإذن.</string>
     <string name="storage_isolation_not_running">لا يمكن الحصول على التكوين من \"%s\".</string>
@@ -471,7 +470,7 @@
     <string name="usage_history_timeline_yesterday">في الامس</string>
     <string name="op_name_MANAGE_EXTERNAL_STORAGE">إدارة جميع الملفات</string>
     <string name="working_mode_dpm_removed">تمت إزالة وضع مسؤول الجهاز المفوض</string>
-    <string name="working_mode_dpm_removed_description">نظرًا لمتطلبات سياسة Google Play الجديدة ، يجب إزالة وضع مسؤول الجهاز المفوض قبل 2022-07-12. &lt;p&gt; إذا كنت بحاجة إلى استخدام وضع مسؤول الجهاز المفوض ، فالرجاء تنزيل الإصدار الأقدم من التطبيق من موقعنا على الويب.</string>
+    <string name="working_mode_dpm_removed_description">نظرًا لمتطلبات سياسة Google Play الجديدة ، يجب إزالة وضع مسؤول الجهاز المفوض قبل 2022-07-12. &lt;p&gt;إذا كنت بحاجة إلى استخدام وضع مسؤول الجهاز المفوض ، فالرجاء تنزيل الإصدار الأقدم من التطبيق من موقعنا على الويب.</string>
     <string name="permission_group_clipboard">الحافظة</string>
     <string name="permission_group_device_identifiers">معرفات id الجهاز</string>
     <string name="settings_use_system_color">استخدم لون سمة النظام</string>
@@ -502,5 +501,14 @@
     <string name="op_desc_TOAST_WINDOW_30_app_pre_30">يستهدف التطبيق API 29 أو أقل ، لذا سيعمل تعديل هذا الإذن لهذا التطبيق.</string>
     <string name="op_desc_TOAST_WINDOW_30_app_30">يستهدف التطبيق API 30 أو أعلى ، لذا فإن تعديل هذا الإذن لهذا التطبيق ليس له أي تأثير عملي. &lt;p&gt; للتحكم في ما إذا كان هذا التطبيق يمكنه عرض Toast أم لا ، يمكنك فقط تعديل إذن SystemUI ، ولكنه سيؤثر على النظام وجميع هذه التطبيقات.</string>
     <string name="op_desc_TOAST_WINDOW_30">يعمل جهازك بنظام Android 11 أو أعلى ، بالنسبة للتطبيقات التي تستهدف API 30+ ، يتم عرض Toast من خلال SystemUI بدلاً من التطبيق نفسه.</string>
-    <string name="storage_permission_29">جهازك يعمل بنظام Android 11 أو إصدار أحدث ، يسمح نظام Android لجميع التطبيقات بكتابة الملفات في مجلدات قياسية &lt;b&gt;بدون أي أذونات &lt;/b&gt;.&lt;p&gt; وهذا يعني أنه بغض النظر عن كيفية تعديل الإذن (سواء في هذا التطبيق أو في النظام) ، يمكن للتطبيق دائمًا كتابة الملفات إلى المجلد القياسي.&lt;p&gt;* يشير المجلد القياسي إلى سلسلة من المجلدات التي يحددها النظام مثل DCIM والصور والتنزيل وما إلى ذلك.</string>
+    <string name="storage_permission_29">يعمل جهازك بنظام Android 10 أو إصدار أحدث ، يسمح نظام Android للتطبيقات المؤهلة بكتابة الملفات في مجلدات قياسية&lt;b&gt;بدون أي أذونات&lt;/b&gt;.&lt;p&gt; وهذا يعني أنه بغض النظر عن كيفية تعديل الإذن (سواء في هذا التطبيق أو في النظام) ، يمكن للتطبيق دائمًا كتابة الملفات إلى المجلد القياسي. (لا يزال الإذن مطلوبًا لتعديل الملفات التي تم إنشاؤها بواسطة تطبيقات أخرى)&lt;p&gt;* يشير المجلد القياسي إلى سلسلة من المجلدات المحددة بواسطة النظام مثل DCIM والصور والتنزيل وما إلى ذلك.&lt;br&gt;* التطبيقات المؤهلة هي التطبيقات التي تستهدف API 30 أو أعلى ، أو الهدف API 29 وقمنا بتكييف مساحة التخزين.</string>
+    <plurals name="packages_selector_dialog_status_format_for_multi">
+        <item quantity="zero">تم تحديد %d تطبيقًا</item>
+        <item quantity="one">تم تحديد تطبيق واحد %d</item>
+        <item quantity="two">التطبيق المحدد %d</item>
+        <item quantity="few">تم تحديد %d تطبيقًا</item>
+        <item quantity="many">تم تحديد %d تطبيقًا</item>
+        <item quantity="other">تم تحديد %d تطبيقًا</item>
+    </plurals>
+    <string name="backup_include_system_components_summary">قم بتضمين مكونات النظام ، أي التطبيقات التي يقل رقم تعريفها عن 10000 ، في النسخة الاحتياطية. تفعل ذلك على مسؤوليتك الخاصة.</string>
 </resources>
