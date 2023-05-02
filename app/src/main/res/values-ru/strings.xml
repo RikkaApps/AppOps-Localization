@@ -54,7 +54,7 @@
         <item quantity="other">%2$d приложений контролируются %1$s</item>
     </plurals>
     <string name="system_app_warning">Это системное приложение, изменение настроек может вызвать серьёзные проблемы.</string>
-    <string name="multi_selection_tip">Вы можете нажимать на значки разрешений слева, чтобы войти в режим множественного выбора, или использовать длительное нажатие, для быстрой работы.</string>
+    <string name="multi_selection_tip">Нажимайте на значки разрешений слева, чтобы войти в режим множественного выбора, или используйте длительное нажатие для быстрой работы.</string>
     <string name="app_name_multi_user">%1$s (%2$s)</string>
     <string name="permission_group_phone">Телефон</string>
     <string name="permission_group_sms">СМС</string>
@@ -419,7 +419,7 @@
     <string name="op_name_FINE_LOCATION">точное местоположение</string>
     <string name="op_name_COARSE_LOCATION">приблизительное местоположение</string>
     <string name="op_name_LOCATION">использование местоположения</string>
-    <string name="op_desc_START_FOREGROUND">Если вкратце, то активный сервис – это фоновая служба с уведомлением, которое нельзя смахнуть. Поскольку вы можете созерцать его существование в уведомлении, система обеспечит «выживаемость» таким активным сервисам.&lt;p&gt;Без уведомления активные сервисы откатываются до обычных, что может сломать поведение приложения (например, музыкальный плеер остановится, будучи свернутым, карты перестанут обновлять геоданные).&lt;p&gt;&lt;b&gt;&lt;a href=https://developer.android.com/guide/components/services&gt;Посмотреть документацию на Android Developers&lt;/a&gt;&lt;/b&gt;</string>
+    <string name="op_desc_START_FOREGROUND">Если вкратце, то активная служба – это фоновая служба с уведомлением, которое нельзя смахнуть. Поскольку вы можете созерцать ее существование в уведомлении, система обеспечит «выживаемость» таким активным службам.&lt;p&gt;Без уведомления активные службы откатываются до обычных, что может сломать поведение приложения (например, музыкальный плеер остановится, будучи свернутым, карты перестанут обновлять геоданные).&lt;p&gt;&lt;b&gt;&lt;a href=https://developer.android.com/guide/components/services&gt;Посмотреть документацию на Android Developers&lt;/a&gt;&lt;/b&gt;</string>
     <string name="op_desc_WAKE_LOCK">На стоковом Android, WAKE_LOCK используется лишь в статистических целях и не несёт практического значения. &lt;b&gt;&lt;a href=https://github.com/aosp-mirror/platform_frameworks_base/blob/oreo-release/services/core/java/com/android/server/power/Notifier.java#L191-L193&gt;Посмотреть связанный с ним код&lt;/a&gt;&lt;/b&gt;&lt;p&gt;Если вы хотите ограничить работу приложения в фоновом режиме, пожалуйста, переключите саму опцию «Работа в фоновом режиме» (требуется Android 7.0 и выше).</string>
     <string name="op_name_QUERY_ALL_PACKAGES">запрос всех пакетов</string>
     <string name="op_name_ACCESS_MEDIA_LOCATION">доступ к расположению медиаконтента</string>
@@ -434,7 +434,7 @@
     <string name="op_name_ACTIVITY_RECOGNITION">распознание физической активности</string>
     <string name="op_name_USE_BIOMETRIC">использование биометрического оборудования</string>
     <string name="op_name_REQUEST_DELETE_PACKAGES">запросы на удаление пакетов</string>
-    <string name="op_name_START_FOREGROUND">запуск активного сервиса</string>
+    <string name="op_name_START_FOREGROUND">запуск активной службы</string>
     <string name="op_desc_READ_CLIPBOARD">На Android 10 и выше приложения могут читать буфер обмена только в активном режиме.</string>
     <string name="op_desc_READ_DEVICE_IDENTIFIERS">По умолчанию на Android 10 и выше ни у одного из пользовательских приложений нет разрешения на просмотр идентификаторов устройства (IMEI, MEID, IMSI, номер SIM-карты и серийный номер).</string>
     <string name="op_desc_ACCESS_MEDIA_LOCATION">Позволяет приложению узнавать пути расположения медиафайлов (через Media Store).</string>
@@ -477,4 +477,9 @@
     <string name="something_went_wrong">Что-то пошло не так</string>
     <string name="permission_group_activity_recognition">Физическая активность</string>
     <string name="permission_group_sensors">Сенсоры</string>
+    <string name="op_desc_TOAST_WINDOW_30">Ваше устройство работает под управлением Android 11 или более поздней версии. Для приложений, ориентированных на API 30+, всплывающее уведомление отображается через SystemUI, а не само приложение.</string>
+    <string name="op_desc_TOAST_WINDOW_30_app_30">Приложение предназначено для API 30 или выше, поэтому изменение этого разрешения для этого приложения не имеет практического эффекта. &lt;p&gt;Чтобы контролировать, может ли это приложение отображать всплывающее уведомление, вы можете изменить только разрешение SystemUI, но это повлияет на систему и все подобные приложения.</string>
+    <string name="op_desc_TOAST_WINDOW_30_app_pre_30">Приложение предназначено для API 29 или более ранней версии, поэтому изменение этого разрешения для этого приложения будет работать.</string>
+    <string name="op_desc_TOAST_WINDOW_30_systemui">Изменение этого разрешения повлияет на систему и все приложения, ориентированные на API 30 или более поздней версии.</string>
+    <string name="storage_permission_29">Ваше устройство работает под управлением Android 10 или более поздней версии, система позволяет соответствующим приложениям записывать файлы в стандартные папки &lt;b&gt;без каких-либо разрешений&lt;/b&gt;.&lt;p&gt;Это означает, что независимо от того, как вы изменяете разрешение (будь то в этом приложении или в системе) приложение всегда может записывать файлы в стандартную папку. (Разрешение по-прежнему требуется для изменения файлов, созданных другими приложениями)&lt;p&gt;* Стандартная папка — это набор системных папок, таких как DCIM, Pictures, Download и т. д.&lt;br&gt;* Подходящие приложения — это приложения, предназначенные для API 30. или выше, или целевой API 29, приспособленые к Scoped Storage.</string>
 </resources>
