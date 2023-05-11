@@ -427,4 +427,11 @@
     <string name="op_name_READ_MEDIA_AUDIO">Meine Musiksammlung lesen</string>
     <string name="op_name_MANAGE_IPSEC_TUNNELS">IPsec-Tunnel erstellen und verwalten</string>
     <string name="op_name_BIND_ACCESSIBILITY_SERVICE">Bedienungshilfe verwenden</string>
+    <string name="error_unable_to_start_remote_service">Dienst kann nicht gestartet werden.</string>
+    <string name="error_license_about_to_invalid">Kauf wurde lange Zeit nicht verifiziert</string>
+    <string name="working_mode_dpm_removed_description">Aufgrund einer neuen Google Play-Richtlinie muss der Modus \"Delegierte Geräteverwaltung\" vor dem 2022-07-12 entfernt werden. &lt;p&gt;Wenn Sie den Modus \"Delegierte Geräteverwaltung\" verwenden müssen, laden Sie bitte eine ältere Version der App von unserer Website herunter.</string>
+    <string name="error_license_about_to_invalid_message">Um Betrug zu verhindern, muss der Kauf regelmäßig verifiziert werden. &lt;p&gt; Der Verigikationsprozess wird automatisch durchgeführt. Bitte stellen sie eine Verbindung der App zum Internet sicher.</string>
+    <string name="something_went_wrong">Etwas ist schief gelaufen</string>
+    <string name="error_unable_to_start_remote_service_solution">Beenden der App erzwingen und erneut versuchen.</string>
+    <string name="working_mode_dpm_removed">Der Modus \"Delegierte Geräteverwaltung\" wurde entfernt</string>
 </resources>
