@@ -210,4 +210,6 @@
     <string name="permission_group_phone">Telefon</string>
     <string name="permission_group_sms">SMS</string>
     <string name="do_not_show_again">Nu se afișează din nou</string>
+    <string name="template_edit_title_for_create">Crează șablonul</string>
+    <string name="template_edit">Editează șablonul</string>
 </resources>
