@@ -167,7 +167,7 @@
     <string name="worker_service_notification_channel_label">Статус работы</string>
     <string name="worker_service_notification_title">Работа…</string>
     <string name="storage_isolation_not_running">Не удается получить конфигурацию из «%s».</string>
-    <string name="translators">WANTES, anton.galyshev, ruvlad</string>
+    <string name="translators">WANTES, anton.galyshev, ruvlad, tommynok</string>
     <string name="working_mode_title">Режим работы: %s</string>
     <string name="working_mode_choice">Выберите режим работы:</string>
     <string name="working_mode_button_retry">Повторить</string>
