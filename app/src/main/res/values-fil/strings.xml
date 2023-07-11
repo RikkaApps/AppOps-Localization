@@ -8,4 +8,19 @@
     <string name="working_mode_choice">Pumili ng mode sa pagtatrabaho:</string>
     <string name="working_mode_title">Mode sa pagtatrabaho: %s</string>
     <string name="translators">\@Cyndaquissshhh (Hosted Weblate)/@IverCoder (GitHub)</string>
+    <string name="progress_requesting_authorization">Requesting para sa authorization…</string>
+    <string name="working_mode_dpm_removed_description">Kasi sa may bagong \"Google Play\" policy requirement, ang \"Delegated Device Admin mode\" kailangan naka patay bago 2022-07-12. &lt;p&gt;Kung kailangan mo gamitin ang DDA, download mo ang older version ng app sa website namin.</string>
+    <string name="shizuku_mode">Mode ng Shizuku</string>
+    <string name="shizuku_mode_over_root">Mode ng Shizuku (started via root)</string>
+    <string name="shizuku_mode_over_adb">Mode ng Shizuku (started via adb)</string>
+    <string name="shizuku_mode_shizuku_not_running">(Hindi tumatakbo ang Shizuku)</string>
+    <string name="shizuku_mode_description">+Gumagana sa may root at hindi root devices &lt;br&gt;+ Super mabilis, at hindi gumagamit ng madaming resources &lt;br&gt;+ Enjoy full functionality &lt;br&gt;&lt;br&gt;- Kailangan ang Shizuku para mag run ang App Ops &lt;br&gt;- Para sa mga devices na may walang root, kailangan mag start Shizuku gamit ng ADB with computer &lt;br&gt;- Para sa mga devices gamit Android 11 or above, puwede mag start Shizuku ng walang computer</string>
+    <string name="shizuku_mode_description_rooted">+ Enjoy full functionality &lt;br&gt;&lt;br&gt;- Kailangan mag install Sui (a Magisk module) or Shizuku (application na puwede i-download sa Google Play Store), open source ang mga applications</string>
+    <string name="working_mode_dpm_removed">Natangal na ang Delegated Device Admin mode</string>
+    <string name="error_unable_to_start_remote_service_solution">Paki force stop ang app and try again.</string>
+    <string name="error_unable_to_start_remote_service">Hindi maka start ang service.</string>
+    <string name="error_license_about_to_invalid">Hindi naka verify ang purchase ng matagal</string>
+    <string name="something_went_wrong">Something went wrong</string>
+    <string name="progress_checking_availability"></string>
+    <string name="menu_badge_early_access">Early Access</string>
 </resources>
