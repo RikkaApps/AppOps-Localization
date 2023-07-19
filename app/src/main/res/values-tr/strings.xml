@@ -3,17 +3,17 @@
     <string name="menu_badge_full_version">Tamamı</string>
     <string name="quotation_marks">\"%s\"</string>
     <string name="comma">", "</string>
-    <string name="storage_isolation_install">\"%1$s\" uygulaması (bizim tarafından geliştirilen) daha gelişmiş kontrol sağlayabilir.</string>
-    <string name="storage_isolation_not_running">Yapılandırma \"%s\" tarafınca alınamıyor.</string>
+    <string name="storage_isolation_install">\"%1$s\" uygulaması (biz tarafından geliştirilmiştir) daha gelişmiş kontrol sağlayabilir.</string>
+    <string name="storage_isolation_not_running">Yapılandırma \"%s\"dan alınamıyor.</string>
     <string name="storage_isolation_enabled">\"%s\" tarafından kontrol ediliyor. &lt;br&gt;Burada ayarları değiştirmemeniz gerekir, yoksa sorunlar olacaktır.</string>
-    <string name="storage_isolation_authorization">\"%1$s\" yüklendi. Isolation etkinleştirildiğinde, burada ayarları değiştirmemeniz gerekir veya sorunlar olacaktır. &lt;br&gt;Yapılandırmayı \"%1$s\"dan almak için lütfen izin verin.</string>
+    <string name="storage_isolation_authorization">\"%1$s\" yüklendi. İzolasyon etkinleştirildiğinde, burada ayarları değiştirmemeniz gerekir yoksa sorunlar olacaktır. &lt;br&gt;Yapılandırmayı \"%1$s\"dan almak için lütfen izin verin.</string>
     <string name="cannot_open_browser_dialog_title">Tarayıcı başlatılamıyor</string>
     <string name="worker_service_notification_title">Çalışıyor…</string>
-    <string name="worker_service_notification_channel_label">İş durumu</string>
+    <string name="worker_service_notification_channel_label">Çalışma durumu</string>
     <string name="user_name_fallback">Kullanıcı</string>
     <string name="monitors_notification_channel_label">Çalışma durumu</string>
     <string name="monitors_notification_summary">Bildirim seçenekleri için dokunun.</string>
-    <string name="monitors_notification_title">%s tarafından kullanılıyor</string>
+    <string name="monitors_notification_title">%s kullanılıyor</string>
     <string name="monitors_service_description">\"Yeni uygulama davranışı\", \"Pano izleyicisi\", \"Kullanım izleyicisi\" ve \"Kullanım geçmişi\" tarafından kullanılır.</string>
     <string name="monitors_service_label">İzleyici hizmeti</string>
     <string name="send_to_developer">Geliştiriciye gönder</string>
@@ -28,7 +28,7 @@
     <string name="settings_send_data_summary">Yukarıdaki özellikler, Microsoft tarafından sağlanan Visual Studio Uygulama Merkezi’ni kullanır. Toplanan bilgiler anonimdir ve bağımsız bir cihaza veya kullanıcıya kadar izleyemeyiz.
 \nDaha fazlası için Gizlilik Politikasına bakın.</string>
     <string name="settings_more">Daha fazla</string>
-    <string name="settings_integrations_storage_isolation_summary">\"%s\" bizden root gerektiren bir uygulamadır. Depolama üzerinde daha gelişmiş denetim sağlar.
+    <string name="settings_integrations_storage_isolation_summary">\"%s\" bizim geliştirdiğimiz root gerektiren bir uygulamadır. Depolama üzerinde daha gelişmiş denetim sağlar.
 \n
 \nBu seçenek, depolamayla ilgili yapılandırmaları değiştirmeye çalıştığınızda hatalı çalışmayı önlemek içindir.</string>
     <string name="settings_integrations">Entegrasyonlar</string>
@@ -82,7 +82,7 @@
     <string name="new_app_behavior_notification_apply_template_failed">Şablon uygulanamadı.</string>
     <string name="new_app_behavior_notification_applying_template">Şablon uygulanıyor…</string>
     <string name="new_app_behavior_notification_applied_template">%1$s için şablon uygulandı.</string>
-    <string name="new_app_behavior_notification_app_installed">%1$s yüklü</string>
+    <string name="new_app_behavior_notification_app_installed">%1$s yüklendi</string>
     <string name="new_app_behavior_notification_tap_to_open">Uygulamayı açmak için dokunun.</string>
     <string name="new_app_behavior_notification_tap_to_set">Bu uygulamanın iznini ayarlamak için dokunun.</string>
     <string name="new_app_behavior_summary">Yeni uygulama yüklendiğinde, örneğin bir bildirim göstermek veya şablonu otomatik olarak uygulamak gibi davranışlar.</string>
@@ -90,9 +90,9 @@
     <string name="apply_template_dialog_create">Yeni şablon oluştur…</string>
     <string name="include_system_app_button_dialog_do_not_skip">Atlama</string>
     <string name="include_system_apps_dialog_button_skip">Sistem uygulamalarını atla</string>
-    <string name="include_system_apps_dialog_message">Önemli sistem uygulamalarına yönelik hatalı işlemler geri dönüşü olmayan sorunlara neden olabilir. Dikkatli ol.
+    <string name="include_system_apps_dialog_message">Önemli sistem uygulamalarına yönelik hatalı işlemler geri dönüşü olmayan sorunlara neden olabilir. Dikkatli olunuz.
 \n
-\nSamsung kullanıcılarından birkaçı cihazı boot yapamadığı ile ilgili raporları mevcut.</string>
+\nSamsung cihazlarda, cihazın açılmama sorunu görülebilmektedir.</string>
     <plurals name="include_system_apps_dialog_title">
         <item quantity="one">%d tane sistem uygulamasını dahil et</item>
         <item quantity="other">%d tane sistem uygulamasını dahil et</item>
@@ -113,7 +113,7 @@
     <string name="template_create">Şablon oluştur…</string>
     <string name="template_default">Varsayılan</string>
     <string name="template_description">İzinleri hızlı bir şekilde uygulamak için şablonlar oluşturursunuz. &lt;p&gt;\"%1$s\" içinde \"%2$s\" etkinleştirilmişse, varsayılan şablon (üç noktalı menü - %3$s) ayarlamanız gerekecek.</string>
-    <string name="template_summary">İzinler ayarı listesini önceden tanımlayın ve tek bir dokunuşla uygulayın.</string>
+    <string name="template_summary">Ayarlanmış izinler listesini önceden tanımlayın ve tek bir dokunuşla uygulayın.</string>
     <string name="template">Şablon</string>
     <string name="usage_history">Kullanım geçmişi</string>
     <string name="usage_monitor_notification_text">%1$s içerir.</string>
@@ -131,16 +131,16 @@
     <string name="clipboard_monitor_settings_window_position_bottom">Ekranın alt kısmı</string>
     <string name="clipboard_monitor_settings_window_position_top">Ekranın üst kısmı</string>
     <string name="clipboard_monitor_settings_window_position">Komut istemi pencere konumu</string>
-    <string name="clipboard_monitor_settings_permission_summary">Etkileşimli pencereyi görüntülemek için bu izin bir zorunluluktur
+    <string name="clipboard_monitor_settings_permission_summary">Etkileşimli pencereyi görüntülemek için bu izin zorunludur
 \nSistemin izin sayfasını açmak için dokunun</string>
     <string name="clipboard_monitor_settings_permission">\"%s\" gerektirir</string>
     <string name="clipboard_monitor_settings_note">Uygulamaların panoyu kullanmasına izin vermezseniz, komut istemi penceresinde geçici erişim vermek için \"izin ver düğmesi\" gösterilir.
 \n
-\nKopyalamxttxycyvyvycyc5xtrzrxt rrxrrrxrrxra veya yapıştırma yapmaya çalıştığınızda da size bilgi verilecek (sizin veya uygulama tarafından pano erişimleri teknik olarak aynıdır).</string>
+\nKopyalama veya yapıştırma yapmaya çalıştığınızda da size bilgi verilecek (sizin veya uygulamanın panoya erişmesi teknik olarak aynıdır).</string>
     <string name="clipboard_monitor_settings_toggle_summary">Uygulamalar panoya erişirken bildirim alın</string>
     <string name="clipboard_monitor">Pano izleyicisi</string>
-    <string name="clipboard_monitor_settings_toggle">Panedfgxh uy tcyo izleyicisini etkinleştir</string>
-    <string name="clipboard_monitor_allow_for">Tx5,tcyvuvu ubu u %ds için izin ver</string>
+    <string name="clipboard_monitor_settings_toggle">Pano izleyicisini etkinleştir</string>
+    <string name="clipboard_monitor_allow_for">%dsn için izin ver</string>
     <string name="clipboard_monitor_write">yazma</string>
     <string name="clipboard_monitor_read">okuma</string>
     <string name="clipboard_monitor_denied_access">%1$s, panoya &lt;b&gt;%2$s&lt;/b&gt; erişimi reddedildi.</string>
@@ -150,14 +150,14 @@
     <string name="op_never_used">(hiç kullanılmamış)</string>
     <string name="op_reject_time">%1$s reddedildi</string>
     <string name="op_allow_time">%1$s izin verildi</string>
-    <string name="menu_show_framework">Sistem framework uygulamalarını göster</string>
+    <string name="menu_show_framework">Sistem çerçevesi uygulamalarını göster</string>
     <string name="op_run_in_background_description_learn_more">&lt;b&gt;&lt;a href=%1$s&gt;Daha fazla teknik bilgi edinin&lt;/a&gt;&lt;/b&gt;</string>
     <string name="op_run_in_background_description_26">Bu uygulamanın hedef API düzeyi: %1$d (Android 8.0, 26 veya üzeri). Bu uygulama en az Android 8 seviye kısıtlaması ile sınırlandırılmıştır, bu nedenle yalnızca Android 9+ kısıtlamasını uygulayıp uygulamamayı seçebilirsiniz.</string>
     <string name="op_run_in_background_description">Bu uygulama farklı düzeylerde farklı kısıtlamalara tabi olacaktır. Yüksek düzey daha iyi etki ve daha fazla uygulama davranışı etkilenebilir.</string>
     <string name="op_summary_unknown">Cihaz üreticisinden veya daha yeni Android sisteminden</string>
-    <string name="op_unknown_description">Bu izin stok Android’e dahil değildir (cihazınızın üreticisi tarafından eklenir veya daha yeni Android sürümüne eklenir). Lütfen dikkatli olun.</string>
-    <string name="op_summary_control_others">Yalnızca diğerlerini denetlemek için kullanılır</string>
-    <string name="op_summary_controlled_by_other">\"%s\" tarafından denetleniyor</string>
+    <string name="op_unknown_description">Bu izin stok Android’e dahil değildir (cihazınızın üreticisi tarafından veya daha yeni Android sürümleri için eklenmiştir). Lütfen dikkatli olun.</string>
+    <string name="op_summary_control_others">Yalnızca diğer izinleri kontrol etmek için kullanılır</string>
+    <string name="op_summary_controlled_by_other">\"%s\" tarafından kontrol ediliyor</string>
     <string name="op_run_in_background_mode_strict">Katı kısıtlama</string>
     <string name="op_run_in_background_mode_basic">Temel kısıtlama</string>
     <string name="op_run_in_background_mode_none">Kısıtlama yok</string>
@@ -181,15 +181,15 @@
     <string name="multi_selection_tip">Birden çok seçim yapabilmek için soldaki izin simgelerine uzunca basıp bırakın.</string>
     <string name="system_app_warning">Bu bir sistem uygulamasıdır, ayarları değiştirmek ciddi sorunlara neden olabilir.</string>
     <plurals name="permissions_view_item_summary_controlled_by_other">
-        <item quantity="one">%1$s ile denetlenen %2$d tane uygulama</item>
-        <item quantity="other">%1$s ile denetlenen %2$d tane uygulama</item>
+        <item quantity="one">%2$d uygulama, %1$s ile kontrol ediliyor</item>
+        <item quantity="other">%2$d uygulama, %1$s ile kontrol ediliyor</item>
     </plurals>
     <plurals name="permissions_view_item_summary">
         <item quantity="one">%1$d tane uygulama</item>
         <item quantity="other">%1$d tane uygulama</item>
     </plurals>
     <string name="permissions_view_all">Tümü</string>
-    <string name="permissions_view_summary">Uygulamaları izine göre listeleyin ve onları açık bir şekilde yönetin.</string>
+    <string name="permissions_view_summary">Uygulamaları izinlere göre listeleyin ve onları kolayca yönetin.</string>
     <string name="apps_view">Uygulamalar görünümü</string>
     <string name="permissions_view">İzinler görünümü</string>
     <string name="system_app">Sistem uygulaması</string>
@@ -244,24 +244,24 @@
     <string name="shizuku_mode_error_manager_app_not_installed">Lütfen önce Shizuku’yu yükleyin. &lt;p&gt;Shizuku, 2017’de başlayan açık kaynaklı bir projedir (GitHub’da %s bölümüne bakın). Root veya adb gerektiren birçok uygulamadan yararlanmak için hazırlanmıştır. Sadece bu uygulama değil, aynı zamanda diğer geliştiricilerin bazı uygulamaları da Shizuku kullanıyor. &lt;p&gt;Shizuku ile bu uygulama inanılmaz derecede yüksek hıza ve daha ilgi çekici özelliklere sahip olacak. Shizuku’nun kendisi için pil veya performans tüketimi önemsizdir (kullanılmadığında sıfırdır). &lt;p&gt;Unix felsefesi gibi, bir program sadece bir iş yapmalıdır. Shizuku ve bu uygulama bu felsefeyi takip ediyor. Aslında, yerleşik her şey daha çok “kötü uygulamaların” yapmaktan hoşlandığı şeye benzer.</string>
     <string name="shizuku_mode_description">+ Hem rootlu hem de rootsuz cihazlarda çalışır &lt;br&gt;+ Çok hızlı, göz ardı edilebilir kaynak tüketimiyle &lt;br&gt;+ Tam işlevselliğin keyfini çıkarın &lt;br&gt;&lt;br&gt;- Bir açık kaynaklı uygulama (Shizuku) yüklemeyi gerektirir &lt;br&gt;- Rootsuz cihazlar için, cihaz her yeniden başlatıldığında, Shizuku’yu bilgisayar ile adb kullanarak başlatmak gerekir &lt;br&gt;- Android 11 ve üzerinde, Shizuku bilgisayar olmadan başlatılabilir</string>
     <string name="shizuku_mode_shizuku_not_running">(Shizuku çalışmıyor)</string>
-    <string name="shizuku_mode_over_adb">Shizuku yöntemi (adb üzerinden başlatılır)</string>
-    <string name="shizuku_mode_over_root">Shizuku yöntemi (root ile başlatılır)</string>
+    <string name="shizuku_mode_over_adb">Shizuku yöntemi (adb üzerinden başlatılmış)</string>
+    <string name="shizuku_mode_over_root">Shizuku yöntemi (root ile başlatılmış)</string>
     <string name="shizuku_mode">Shizuku yöntemi</string>
-    <string name="working_mode_button_open">Aç %s</string>
+    <string name="working_mode_button_open">%s’i aç</string>
     <string name="working_mode_button_switch">Başka bir çalışma yöntemine geçiş yap</string>
     <string name="working_mode_button_continue">Devam et</string>
     <string name="working_mode_button_retry">Yeniden dene</string>
     <string name="working_mode_choice">Bir çalışma yöntemi seçin:</string>
     <string name="working_mode_title">Çalışma yöntemi : %s</string>
-    <string name="translators">İlker Binzet (ilker.binzet@gmail.com)
-\ncroxz900 (croxz.900@gmail.com)</string>
+    <string name="translators">Buğra Güngöz (gungozb@gmail.com)
+\nİlker Binzet (ilker.binzet@gmail.com)</string>
     <string name="op_mode_unspecified">Henüz ayarlanmadı</string>
     <string name="op_mode_onetime">Her zaman sor</string>
-    <string name="op_mode_ignore_description_runtime">Uygulama için iznini \"sağla\", ancak uygulama boş veri alacak veya işlem gerçekleştirilmeyecek</string>
+    <string name="op_mode_ignore_description_runtime">Uygulama için gerekli izni \"sağla\", ancak uygulama boş veri alacak veya işlem gerçekleştirilmeyecek</string>
     <string name="op_mode_ignore">Yoksay</string>
     <string name="close">Kapat</string>
     <string name="manufacturer_restriction_dialog_title">Üreticilerin kısıtlamaları</string>
-    <string name="auto_recovery_settings_ignore_summary">Sisteminizde bu sorunun bulunmadığından eminseniz (ör. Piksel veya AOSP benzeri ROM’lar), otomatik kurtarma seçeneğinin uygulanmaması için bu seçeneği etkinleştirin</string>
+    <string name="auto_recovery_settings_ignore_summary">Sisteminizde bu sorunun bulunmadığından eminseniz (ör. Pixel veya AOSP benzeri ROM’lar), otomatik kurtarma seçeneğinin uygulanmaması için bu seçeneği etkinleştirin</string>
     <string name="auto_recovery_settings_start_now_title">Şimdi kurtarmaya başlayın</string>
     <string name="auto_recovery_settings_toggle_title">Otomatik kurtarmayı etkinleştir</string>
     <string name="auto_recovery_notification_waiting_text">Lütfen \"%1$s\" kurulumunu bitirin.</string>
@@ -270,19 +270,19 @@
     <string name="auto_recovery_notification_channel_label">Otomatik kurtarma durumu</string>
     <string name="auto_recovery">Otomatik kurtarma</string>
     <string name="backup_error_io_exception">Dosyayı okurken/yazarken bir şeyler ters gitti.</string>
-    <string name="backup_error_open_input">Dosyayı açamıyor.</string>
+    <string name="backup_error_open_input">Dosya açılamıyor.</string>
     <string name="backup_error_broken">Bu dosya bozulmuş olabilir.</string>
-    <string name="backup_error_newer_version">Bu dosya, uygulamanın daha yeni bir sürümüyle oluşturulabilir, lütfen uygulamayı güncelleyin ve tekrar deneyin.</string>
+    <string name="backup_error_newer_version">Bu dosya, uygulamanın daha yeni bir sürümüyle oluşturulmuş olabilir, lütfen uygulamayı güncelleyin ve tekrar deneyin.</string>
     <string name="backup_error_not_backup">Bu dosya bir yedekleme dosyası değildir.</string>
     <string name="backup_review_action_restore_templates_replace">Tüm şablonları temizleyin ve geri yükleyin</string>
     <string name="backup_review_action_restore_templates_add">Yeni şablonlar olarak geri yükle</string>
-    <string name="backup_review_action_restore_apps_to_user">Geri yükle %s</string>
+    <string name="backup_review_action_restore_apps_to_user">%s için geri yükle</string>
     <string name="backup_review_action_dont_restore">Geri yükleme</string>
     <plurals name="backup_review_templates_title">
         <item quantity="one">%1$d şablon</item>
-        <item quantity="other">%1$d şablonlar</item>
+        <item quantity="other">%1$d şablon</item>
     </plurals>
-    <string name="backup_review_description">Bu yedekleme %1$s çalışan %2$s oluşturuldu %2$s.</string>
+    <string name="backup_review_description">Bu yedek %2$s sürümlü %1$s cihazında oluşturulmuştur.</string>
     <string name="backup_review">Yedeği inceleyin</string>
     <string name="backup_restoring_backup">Yedek geri yükleniyor…</string>
     <string name="backup_parsing_backup">Yedek ayrıştırılıyor…</string>
@@ -292,18 +292,18 @@
     <string name="backup_create_backup_summary_system_components">Onarılamaz sorunları önlemek için, <b>sistem bileşenleri yedeklenmeyecektir</b>.</string>
     <string name="clipboard_monitor_settings_excluded_system_apps_summary">Tek tek seçeneklerden bağımsız olarak tüm sistem uygulamalarını hariç tutun</string>
     <string name="clipboard_monitor_settings_excluded_system_apps">Hariç tutulan sistem uygulamaları</string>
-    <string name="op_associated_with_runtime_dpm_unable_to_confirm">onaylayamıyor</string>
-    <string name="op_associated_with_runtime_r">Android 11 veya sonraki sürümlerde, sistem sadece \"konum\", \"kamera\" ve \"mikrofon\" un %1$s. kullanılması için izin verir.</string>
+    <string name="op_associated_with_runtime_dpm_unable_to_confirm">onaylanamıyor</string>
+    <string name="op_associated_with_runtime_r">Android 11 veya üzerinde, sistem sadece \"konum\", \"kamera\" ve \"mikrofon\"un %1$s kullanılması için izin verir.</string>
     <string name="op_associated_with_runtime">“Yoksay” haricindeki diğer seçenekler sistem izin ayarlarındakilerle aynıdır.</string>
     <string name="menu_working_mode">Çalışma modu</string>
     <string name="menu_set_as">Olarak ayarla</string>
     <string name="menu_last_used_first">Son kullanılan ilk</string>
-    <string name="working_mode_button_download_format">%s İndir</string>
+    <string name="working_mode_button_download_format">%s’i indir</string>
     <string name="op_desc_READ_CLIPBOARD">Android 10 veya üstü sürümlerde, uygulamalar panoyu yalnızca ön plandaysa okuyabilir.</string>
     <string name="op_desc_START_FOREGROUND">Kısacası, bir ön plan hizmeti reddedilemeyecek bir bildirimi olan bir arka plan hizmetidir. Bildirimin varlığından aktif olarak haberdar olabileceğiniz için, sistem ön plan hizmetlerinin hayatta kalmasını sağlayacaktır. &lt;p&gt; Bunun ön plan hizmetlerinin normal hizmetlere düşmesine neden olacağını reddet diyerek, bu uygulama davranışını bozabilir (müzik çalar arka plan, harita uygulaması konum güncellemesini durdurur). &lt;p&gt; &lt;b&gt; &lt;a href=https://developer.android.com/guide/components/services&gt; Android Geliştiricileri dokümanlarını görüntüleyin &lt;/a&gt; &lt;/b&gt;</string>
     <string name="op_desc_WAKE_LOCK">Stok Android’de, WAKE_LOCK sadece istatistikler için kullanılır ve herhangi bir etkisi yoktur. &lt;b&gt; &lt;a href=https://github.com/aosp-mirror/platform_frameworks_base/blob/oreo-release/services/core/java/com/android/server/power/Notifier.java#L191-L193&gt; İlgili kodu görüntüle&lt;/a&gt; &lt;/b&gt; &lt;p&gt; Uygulamanın arka planda çalışmasını kısıtlamak istiyorsanız, lütfen “Arka planda çalıştır” seçeneğini değiştirin (Android 7.0 veya üstü gerekir).</string>
     <string name="op_name_QUERY_ALL_PACKAGES">tüm paketleri sorgula</string>
-    <string name="op_name_ACCESS_MEDIA_LOCATION">medya konumuna eriş</string>
+    <string name="op_name_ACCESS_MEDIA_LOCATION">konum bilgilerini medya dosyalarından oku</string>
     <string name="op_name_READ_DEVICE_IDENTIFIERS">cihaz tanımlayıcılarını oku</string>
     <string name="op_name_WRITE_MEDIA_IMAGES">fotoğraf koleksiyonuna yaz</string>
     <string name="op_name_READ_MEDIA_IMAGES">fotoğraf koleksiyonunu oku</string>
@@ -348,9 +348,9 @@
     <string name="op_name_ASSIST_SCREENSHOT">ekran görüntüsü yardımcısı</string>
     <string name="op_name_WRITE_WALLPAPER">duvar kağıdı yaz</string>
     <string name="op_name_ACTIVATE_VPN">VPN etkinleştir</string>
-    <string name="op_name_PROJECT_MEDIA">proje medya ortamı</string>
-    <string name="op_name_TOAST_WINDOW">tost ekran göster</string>
-    <string name="op_name_MUTE_MICROPHONE">mikrofon sesi aç/kapa</string>
+    <string name="op_name_PROJECT_MEDIA">medya yansıtma</string>
+    <string name="op_name_TOAST_WINDOW">toast göster</string>
+    <string name="op_name_MUTE_MICROPHONE">mikrofonu aç/kapa</string>
     <string name="op_name_GET_USAGE_STATS">kullanım istatistiklerini al</string>
     <string name="op_name_MONITOR_HIGH_POWER_LOCATION">yüksek hassasiyetli konum izle</string>
     <string name="op_name_MONITOR_LOCATION">konumu izle</string>
@@ -372,25 +372,25 @@
     <string name="op_name_ACCESS_NOTIFICATIONS">bildirimlere erişim</string>
     <string name="op_name_SYSTEM_ALERT_WINDOW">diğer uygulamalar üzerinde görüntüle</string>
     <string name="op_name_WRITE_SETTINGS">sistem ayarlarında değişiklik yap</string>
-    <string name="op_name_WRITE_ICC_SMS">kısa mesaj (ICC) yaz</string>
-    <string name="op_name_READ_ICC_SMS">kısa mesajları (ICC) oku</string>
-    <string name="op_name_SEND_SMS">kısa mesaj gönder</string>
-    <string name="op_name_RECEIVE_WAP_PUSH">kısa mesaj (WAP) al</string>
-    <string name="op_name_RECEIVE_MMS">Multimedya mesajı al</string>
-    <string name="op_name_RECEIVE_EMERGECY_SMS">Acil durum SMS al</string>
+    <string name="op_name_WRITE_ICC_SMS">ICC SMS yaz</string>
+    <string name="op_name_READ_ICC_SMS">ICC SMS’leri oku</string>
+    <string name="op_name_SEND_SMS">SMS gönder</string>
+    <string name="op_name_RECEIVE_WAP_PUSH">WAP mesajı al</string>
+    <string name="op_name_RECEIVE_MMS">MMS al</string>
+    <string name="op_name_RECEIVE_EMERGECY_SMS">Acil durum SMS’i al</string>
     <string name="op_name_RECEIVE_SMS">SMS al</string>
     <string name="op_name_WRITE_SMS">SMS yaz</string>
-    <string name="op_name_READ_SMS">SMS oku</string>
+    <string name="op_name_READ_SMS">SMS’leri oku</string>
     <string name="op_name_CALL_PHONE">sesli çağrı yap</string>
-    <string name="op_name_NEIGHBORING_CELLS">hücresel ağ tara</string>
+    <string name="op_name_NEIGHBORING_CELLS">hücresel ağları tara</string>
     <string name="op_name_POST_NOTIFICATION">bildirim</string>
-    <string name="op_name_WIFI_SCAN">kablosuz ağ tara</string>
-    <string name="op_name_WRITE_CALENDAR">takvimde değişiklik yap</string>
-    <string name="op_name_WRITE_CONTACTS">kişileri değiştir</string>
+    <string name="op_name_WIFI_SCAN">kablosuz ağları tara</string>
+    <string name="op_name_WRITE_CALENDAR">takvimi düzenle</string>
+    <string name="op_name_WRITE_CONTACTS">kişileri düzenle</string>
     <string name="op_name_READ_CALENDAR">takvimi oku</string>
-    <string name="op_name_WRITE_CALL_LOG">çağrı günlüğünde değişiklik yap</string>
+    <string name="op_name_WRITE_CALL_LOG">çağrı günlüğünü düzenle</string>
     <string name="op_name_READ_CALL_LOG">çağrı günlüğünü oku</string>
-    <string name="op_name_READ_CONTACTS">kişilerinizi okuma</string>
+    <string name="op_name_READ_CONTACTS">kişileri oku</string>
     <string name="op_name_VIBRATE">titreşim</string>
     <string name="op_name_GPS">GPS</string>
     <string name="op_name_FINE_LOCATION">hassas konum</string>
@@ -408,12 +408,12 @@
     <string name="error_unable_to_start_remote_service">Hizmet başlatılamıyor.</string>
     <string name="error_license_about_to_invalid">Satın alma işlemi uzun süredir doğrulanmadı</string>
     <string name="error_license_about_to_invalid_message">Sahtekarlığı önlemek için satın alma işlemi düzenli doğrulama gerektirir.&lt;p&gt;Doğrulama işlemi otomatik olarak yapılır. Lütfen uygulamanın ağa erişmesini engellemeyin.</string>
-    <string name="something_went_wrong">Bir şeyler yanlış gitti</string>
+    <string name="something_went_wrong">Bir şeyler ters gitti</string>
     <string name="permission_group_device_identifiers">Cihaz tanımlayıcıları</string>
     <string name="permission_group_clipboard">Pano</string>
     <string name="op_mode_ignore_description_others">Uygulama boş veri alacak veya işlem gerçekleştirilmeyecek</string>
     <string name="shizuku_mode_error_user_denied_permission_sui">Bu uygulamanın Sui’yi kullanmasına izin vermediniz. &lt;br&gt;Lütfen Sui’den bu uygulamaya izin verin.</string>
-    <string name="op_added_by_others">s not request for \"%s\", but somedbgvdcbddb czcb cdd. Fedvbbv nb other requested permissions are controlled by it.</string>
+    <string name="op_added_by_others">Bu uygulama “%s” iznini talep etmiyor fakat talep edilen diğer bazı izinler bu izin tarafından kontrol ediliyor.</string>
     <plurals name="usage_history_and_more_apps">
         <item quantity="one">ve %1$d uygulama daha</item>
         <item quantity="other">ve %1$d uygulama daha</item>
@@ -466,4 +466,12 @@
     <string name="op_desc_TOAST_WINDOW_30_app_pre_30">Uygulama API 29 veya altını hedefliyor, bu nedenle bu uygulama için bu iznin değiştirilmesi işe yarayacaktır.</string>
     <string name="op_desc_TOAST_WINDOW_30_app_30">Uygulama API 30 veya üstünü hedefliyor, dolayısıyla bu uygulama için bu izni değiştirmenin bir etkisi olmayacaktır. &lt;p&gt;Bu uygulamanın uyarı mesajını gösterip gösteremeyeceğini kontrol etmek için yalnızca sistem arayüzünün iznini değiştirebilirsiniz, ancak bu işlem tüm sistemi ve bu tür tüm uygulamaları etkiler.</string>
     <string name="op_desc_TOAST_WINDOW_30">Cihazınız Android 11 veya üzeri, API 30 hedefleyen uygulamalar için uyarı mesajı, uygulamanın kendisi yerine sistem arayüzü aracılığıyla gösterilir.</string>
+    <string name="error_remote_service_killed_message">Uzak hizmet anormal bir şekilde durduruldu.&lt;p&gt;Sorun devam ederse geliştiriciyle iletişime geçin.</string>
+    <string name="storage_permission_29">Cihazınız Android 10 veya üzeri bir sürümdür, Android sistemi belirli uygulamaların standart klasörlere &lt;b&gt;herhangi bir izin olmaksızın&lt;/b&gt; dosya yazmasına izin verir.&lt;p&gt;Bu, siz izni nasıl değiştirirseniz değiştirin (ister bu uygulama ile ister sistem ayarları vasıtasıyla), uygulamanın her zaman standart klasöre dosya yazabileceği anlamına gelir. (Diğer uygulamalar tarafından oluşturulan dosyaları değiştirmek için hala izin gereklidir) &lt;p&gt;* Standart klasör; DCIM, Pictures, Download vb. gibi bir dizi sistem tanımlı klasörü ifade eder.&lt;br&gt;* Belirli uygulamalar, API 30 veya üstünü hedefleyen veya API 29’u hedefleyip aynı zamanda Kapsamlı Depolamaya uyarlanmış uygulamalardır.</string>
+    <plurals name="packages_selector_dialog_status_format_for_multi">
+        <item quantity="one">%d seçili uygulama</item>
+        <item quantity="other">%d seçili uygulama</item>
+    </plurals>
+    <string name="backup_include_system_components_summary">Sistem bileşenlerini, yani uid\'si 10000\'den küçük olan uygulamaları yedeklemeye dahil edin. Bunu yapmak sizin sorumluluğunuzdadır.</string>
+    <string name="error_remote_service_killed_button_restart">Uzak hizmeti yeniden başlat</string>
 </resources>
