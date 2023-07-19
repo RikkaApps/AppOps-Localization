@@ -60,6 +60,9 @@ You have disallowed this app to use Sui.
     <string name="error_license_about_to_invalid_message"><![CDATA[
 To avoid fraud, the purchase requires regular verification.<p>The verification process is done automatically. Please do not block the app from accessing the network.]]></string>
     <string name="something_went_wrong">Something went wrong</string>
+    <string name="error_remote_service_killed_message"><![CDATA[
+Remote service stopped abnormally.<p>If the problem persists, please contact the developer.]]></string>
+    <string name="error_remote_service_killed_button_restart">Restart remote service</string>
 
     <string name="progress_requesting_authorization">Requesting for authorization…</string>
     <string name="progress_checking_availability">Checking availability…</string>
