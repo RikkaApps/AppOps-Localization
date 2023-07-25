@@ -491,4 +491,6 @@
     </plurals>
     <string name="working_mode_dpm_removed_description">В соответствии с новыми требованиями политики Google Play режим делегированного администратора устройства необходимо удалить до 12 июля 2022 г. &lt;p&gt;Если вам нужно использовать режим делегированного администратора устройства, загрузите старую версию приложения с нашего веб-сайта.</string>
     <string name="working_mode_dpm_removed">Режим делегированного администратора устройства удален</string>
+    <string name="error_remote_service_killed_message">Удаленная служба была аварийно остановлена.&lt;p&gt;Если проблема будет сохраняться - обратитесь к разработчику.</string>
+    <string name="error_remote_service_killed_button_restart">Перезапустить удаленную службу</string>
 </resources>
