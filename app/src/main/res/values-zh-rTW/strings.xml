@@ -49,7 +49,7 @@
     <string name="op_never_used">（從未使用）</string>
     <string name="settings">設定</string>
     <string name="do_not_show_again">不再顯示</string>
-    <string name="progress_checking_availability">檢查可用性…</string>
+    <string name="progress_checking_availability">正在檢查可用性…</string>
     <string name="progress_fetching_user_list">取得用戶列表…</string>
     <string name="progress_fetching_app_list">取得程式列表…</string>
     <string name="progress_working">正在進行 （第 %1$d 個 共 %2$d 個）…</string>
@@ -90,7 +90,7 @@
     <string name="backup_not_installed">%1$s（未安裝）</string>
     <string name="monitors_service_label">監聽服務</string>
     <string name="monitors_service_description">被「新程式行為」，「剪貼簿監視器」，「使用情況監視器」，「使用情況歷史」所使用。</string>
-    <string name="progress_requesting_authorization">請求授權中…</string>
+    <string name="progress_requesting_authorization">正在要求授權…</string>
     <string name="shizuku_mode_error_adb_no_update_permission"><![CDATA[ADB 有獲取 appops 設定但沒有更新設定的權限。<br>請嘗試在系統的「開發者設定」中尋找並開啟類似<b>「USB 除錯 允許修改權限」</b>的選項。<p><small>比如，在 MIUI 中是 「USB 除錯（安全選項）」。</small>]]></string>
     <string name="new_app_behavior_notification_action_restore_backup">恢復備份</string>
     <string name="backup_notification_restored">已爲 %1$s 恢復備份。</string>
@@ -229,8 +229,8 @@
     <string name="requirement_working_mode">需要的工作模式：%s</string>
     <string name="your_android_version">您的 Android 版本：%s</string>
     <string name="your_working_mode">您的工作模式：%s</string>
-    <string name="shizuku_mode_over_root">Shizuku 模式（通過 root 啟動）</string>
-    <string name="shizuku_mode_over_adb">Shizuku 模式（通過 adb 啟動）</string>
+    <string name="shizuku_mode_over_root">Shizuku 模式 (透過 Root 啟動)</string>
+    <string name="shizuku_mode_over_adb">Shizuku 模式 (透過 Adb 啟動)</string>
     <string name="shizuku_mode_shizuku_not_running">（Shizuku 未在執行）</string>
     <string name="usage_history">使用情況歷史記錄</string>
     <string name="clipboard_monitor_settings_window_position">提示視窗位置</string>
@@ -470,5 +470,7 @@
     <string name="op_name_special_SENSORS">傳感器</string>
     <string name="op_desc_special_SENSORS">無需使用者同意即可使用的感測器，如加速度計、重力傳感器等。</string>
     <string name="core_app_warning">該應用程式可能是 Android 系統的核心元件，請務必謹慎操作。</string>
-
+    <string name="error_remote_service_killed_message">遠端服務異常停止。&lt;p&gt;如果問題持續，請聯絡開發人員。</string>
+    <string name="error_remote_service_killed_button_restart">重新啟動遠端服務</string>
+    <string name="translators">Adeptus2</string>
 </resources>
