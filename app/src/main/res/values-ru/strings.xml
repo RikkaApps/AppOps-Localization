@@ -123,7 +123,7 @@
     <string name="new_app_behavior_settings_restore_backup">Автоматически восстанавливать резервную копию</string>
     <string name="new_app_behavior_settings_restore_backup_summary">Резервное копирование может быть выполнено из предыдущей конфигурации или вручную из файла резервной копии</string>
     <string name="new_app_behavior_settings_apply_template">Автоматически применять шаблон</string>
-    <string name="new_app_behavior_settings_apply_template_summary">Если «Восстановить резервную копию» включен, эта опция будет действовать только в том случае, если резервная копия не существует.</string>
+    <string name="new_app_behavior_settings_apply_template_summary">Если «Восстановить резервную копию» включено, эта опция будет действовать только в том случае, если резервная копия отсутствует</string>
     <string name="backup_and_restore">Резервное копирование/восстановление</string>
     <string name="backup_and_restore_summary">Создавайте резервные копии Ваших настроек. И восстанавливайте их при смене устройства или после очистки/сброса данных.</string>
     <string name="backup_restore">Восстановить</string>
@@ -203,7 +203,7 @@
     <string name="op_unknown_description">Это разрешение отсутствует в стоковой версии Android (добавлено производителем вашего устройства или появилось в свежей версии ОС Android). Пожалуйста, будьте осторожны.</string>
     <string name="clipboard_monitor_settings_toggle_summary">Оповещать, когда приложения обращаются к буферу обмена</string>
     <string name="clipboard_monitor_settings_excluded_system_apps_summary">Не включать для системных приложений, независимо от предустановок</string>
-    <string name="clipboard_monitor_denied_access">Запрещено %1$s \u0020<b>%2$s</b> буфера обмена.</string>
+    <string name="clipboard_monitor_denied_access">Запрещено %1$s <b/> буфера обмена.</string>
     <string name="clipboard_monitor_settings_note">Если вы запретите приложениям использовать буфер обмена, в окне с подсказкой появится кнопка «Разрешить» для предоставления временного доступа.
 \n
 \nОбратите внимание, что вы всё равно получите оповещение, если сами что-нибудь скопируете или вставите (обращения к буферу обмена вами или приложением технически неотличимы).</string>
@@ -349,7 +349,7 @@
     <string name="op_name_AUDIO_ACCESSIBILITY_VOLUME">громкость подсказок</string>
     <string name="op_name_LOCK_APP">блокирование приложения</string>
     <string name="op_name_SU">получение root доступа</string>
-    <string name="op_name_DATA_CONNECT_CHANGE">переключение мобильных данных</string>
+    <string name="op_name_DATA_CONNECT_CHANGE">Переключить мобильных данных</string>
     <string name="op_name_NFC_CHANGE">переключение NFC</string>
     <string name="op_name_BOOT_COMPLETED">автозапуск по окончанию загрузки</string>
     <string name="op_name_BLUETOOTH_CHANGE">переключение Bluetooth</string>
@@ -387,7 +387,7 @@
     <string name="op_name_AUDIO_MASTER_VOLUME">общая громкость</string>
     <string name="op_name_TAKE_AUDIO_FOCUS">аудиофокус</string>
     <string name="op_name_TAKE_MEDIA_BUTTONS">кнопки мультимедиа</string>
-    <string name="op_name_WRITE_CLIPBOARD">изменение буфера обмена</string>
+    <string name="op_name_WRITE_CLIPBOARD">изменить буфер обмена</string>
     <string name="op_name_READ_CLIPBOARD">чтение буфера обмена</string>
     <string name="op_name_PLAY_AUDIO">воспроизведение аудио</string>
     <string name="op_name_RECORD_AUDIO">запись аудио</string>
@@ -402,7 +402,7 @@
     <string name="op_name_RECEIVE_MMS">получение ММС</string>
     <string name="op_name_RECEIVE_EMERGECY_SMS">получение экстренных СМС</string>
     <string name="op_name_RECEIVE_SMS">получение СМС</string>
-    <string name="op_name_WRITE_SMS">создание СМС</string>
+    <string name="op_name_WRITE_SMS">Написать СМС</string>
     <string name="op_name_READ_SMS">чтение SMS</string>
     <string name="op_name_CALL_PHONE">осуществление телефонных вызовов</string>
     <string name="op_name_NEIGHBORING_CELLS">поиск мобильных сетей</string>
@@ -422,7 +422,7 @@
     <string name="op_desc_START_FOREGROUND">Если вкратце, то активная служба – это фоновая служба с уведомлением, которое нельзя смахнуть. Поскольку вы можете созерцать ее существование в уведомлении, система обеспечит «выживаемость» таким активным службам.&lt;p&gt;Без уведомления активные службы откатываются до обычных, что может сломать поведение приложения (например, музыкальный плеер остановится, будучи свернутым, карты перестанут обновлять геоданные).&lt;p&gt;&lt;b&gt;&lt;a href=https://developer.android.com/guide/components/services&gt;Посмотреть документацию на Android Developers&lt;/a&gt;&lt;/b&gt;</string>
     <string name="op_desc_WAKE_LOCK">На стоковом Android, WAKE_LOCK используется лишь в статистических целях и не несёт практического значения. &lt;b&gt;&lt;a href=https://github.com/aosp-mirror/platform_frameworks_base/blob/oreo-release/services/core/java/com/android/server/power/Notifier.java#L191-L193&gt;Посмотреть связанный с ним код&lt;/a&gt;&lt;/b&gt;&lt;p&gt;Если вы хотите ограничить работу приложения в фоновом режиме, пожалуйста, переключите саму опцию «Работа в фоновом режиме» (требуется Android 7.0 и выше).</string>
     <string name="op_name_QUERY_ALL_PACKAGES">запрос всех пакетов</string>
-    <string name="op_name_ACCESS_MEDIA_LOCATION">доступ к расположению медиаконтента</string>
+    <string name="op_name_ACCESS_MEDIA_LOCATION">Прочитать информацию о местоположении из медиа файлов</string>
     <string name="op_name_READ_DEVICE_IDENTIFIERS">просмотр идентификаторов устройства</string>
     <string name="op_name_WRITE_MEDIA_IMAGES">запись в фотоколлекцию</string>
     <string name="op_name_READ_MEDIA_IMAGES">просмотр фотоколлекции</string>
