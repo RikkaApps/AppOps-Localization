@@ -511,4 +511,6 @@
         <item quantity="other">تم تحديد %d تطبيقًا</item>
     </plurals>
     <string name="backup_include_system_components_summary">قم بتضمين مكونات النظام ، أي التطبيقات التي يقل رقم تعريفها عن 10000 ، في النسخة الاحتياطية. تفعل ذلك على مسؤوليتك الخاصة.</string>
+    <string name="error_remote_service_killed_message">توقفت الخدمة عن بعد بشكل غير طبيعي. &lt;p&gt;إذا استمرت المشكلة، يرجى الاتصال بالمطور.</string>
+    <string name="error_remote_service_killed_button_restart">إعادة تشغيل الخدمة عن بعد</string>
 </resources>
