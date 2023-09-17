@@ -1,2 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources></resources>
+<resources>
+    <string name="working_mode_dpm_removed_description">नई Google Play नीति आवश्यकता के कारण, प्रत्यायोजित डिवाइस एडमिन मोड को 2022-07-12 से पहले हटाने की आवश्यकता है। &lt;p&gt;यदि आपको प्रत्यायोजित डिवाइस एडमिन मोड का उपयोग करने की आवश्यकता है, तो कृपया इसका पुराना संस्करण डाउनलोड करें</string>
+    <string name="working_mode_dpm_removed">प्रत्यायोजित डिवाइस एडमिन मोड हटा दिया गया है</string>
+    <string name="working_mode_button_open">खोले %s</string>
+    <string name="working_mode_button_download_format">डाउनलोड %s</string>
+    <string name="working_mode_button_switch">दूसरे कार्यशील मोड पर स्विच करें</string>
+    <string name="working_mode_button_continue">जारी रखना</string>
+    <string name="working_mode_button_retry">पुन: प्रयास करें</string>
+    <string name="working_mode_choice">कार्यशील मोड चुनें:</string>
+    <string name="working_mode_title">कार्य मोड: %s</string>
+    <string name="translators"></string>
+</resources>
