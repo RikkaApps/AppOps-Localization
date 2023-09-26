@@ -9,7 +9,7 @@
     <string name="user_name_fallback">用戶</string>
     <string name="menu_sort">排列</string>
     <string name="menu_save">儲存</string>
-    <string name="menu_apply_template">套用模版</string>
+    <string name="menu_apply_template">套用模板</string>
     <string name="menu_select_all">全選</string>
     <string name="menu_select_inverse">反選</string>
     <string name="menu_copy_info">複製信息</string>
@@ -78,7 +78,7 @@
     <string name="new_app_behavior_settings_switch_button_summary">點擊通知直接打開程式而不是進入設定</string>
     <string name="new_app_behavior_settings_notification_style">通知樣式</string>
     <string name="settings_appearance">界面外觀</string>
-    <string name="system_app_warning">這個程式是系統程式，修改可能會造成嚴重問題。</string>
+    <string name="system_app_warning">此為系統程式，修改可能會造成嚴重問題。</string>
     <string name="backup_and_restore">備份和恢復</string>
     <string name="backup_restore">恢復</string>
     <string name="backup_create_backup">建立新的備份檔案</string>
