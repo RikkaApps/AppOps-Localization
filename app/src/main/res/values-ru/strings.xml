@@ -203,7 +203,7 @@
     <string name="op_unknown_description">Это разрешение отсутствует в стоковой версии Android (добавлено производителем вашего устройства или появилось в свежей версии ОС Android). Пожалуйста, будьте осторожны.</string>
     <string name="clipboard_monitor_settings_toggle_summary">Оповещать, когда приложения обращаются к буферу обмена</string>
     <string name="clipboard_monitor_settings_excluded_system_apps_summary">Не включать для системных приложений, независимо от предустановок</string>
-    <string name="clipboard_monitor_denied_access">Запрещено %1$s <b/> буфера обмена.</string>
+    <string name="clipboard_monitor_denied_access">Запрещено %1$s <b>%2$s</b> буфера обмена.</string>
     <string name="clipboard_monitor_settings_note">Если вы запретите приложениям использовать буфер обмена, в окне с подсказкой появится кнопка «Разрешить» для предоставления временного доступа.
 \n
 \nОбратите внимание, что вы всё равно получите оповещение, если сами что-нибудь скопируете или вставите (обращения к буферу обмена вами или приложением технически неотличимы).</string>
