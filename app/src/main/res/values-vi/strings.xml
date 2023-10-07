@@ -23,7 +23,7 @@
     <string name="progress_checking_availability">Đang kiểm tra tính khả dụng…</string>
     <string name="progress_fetching_user_list">Đang tìm nạp danh sách người dùng…</string>
     <string name="progress_fetching_app_list">Đang tìm nạp danh sách ứng dụng…</string>
-    <string name="progress_working">Đang khởi động (%1$d của %2$d)…</string>
+    <string name="progress_working">Đang hoạt động (%1$d của %2$d)…</string>
     <string name="menu_reset">Đặt lại</string>
     <string name="menu_app_info">Thông tin ứng dụng</string>
     <string name="menu_show_app_info_in">Hiện thông tin ứng dụng trong…</string>
@@ -49,7 +49,7 @@
     <string name="menu_delete">Xoá</string>
     <string name="menu_last_used_first">Lần sử dụng cuối đầu tiên</string>
     <string name="menu_users">Người dùng</string>
-    <string name="menu_about">Giới thiệu</string>
+    <string name="menu_about">Về</string>
     <string name="menu_set_as">Đặt làm</string>
     <string name="menu_working_mode">Chế độ làm việc</string>
     <string name="menu_badge_early_access">Truy cập sớm</string>
@@ -308,11 +308,8 @@
     <string name="settings_integrations_storage_isolation_summary">\"%s\" là ứng dụng yêu cầu root từ chúng tôi. Nó cung cấp khả năng kiểm soát nâng cao hơn đối với việc lưu trữ.
 \n
 \nTùy chọn này để ngăn hoạt động sai khi bạn cố gắng thay đổi các cấu hình liên quan đến bộ nhớ.</string>
-    <string name="settings_send_data_summary">Chúng tôi sử dụng Visual Studio App Center (từ Microsoft).
-\n
-\nTheo mã nguồn của App Center SDK, chỉ phiên bản ứng dụng, phiên bản hệ thống, kiểu thiết bị, kích thước màn hình, ngôn ngữ, múi giờ và thông tin về nhà cung cấp dịch vụ mới được thu thập và gửi.
-\n
-\nMột ID cài đặt được tạo ngẫu nhiên được sử dụng để phân biệt giữa các thiết bị khác nhau.</string>
+    <string name="settings_send_data_summary">Các tính năng trên sử dụng Visual Studio App Center do Microsoft cung cấp. Thông tin được thu thập là ẩn danh và chúng tôi không thể truy ngược lại thông tin đó đến một thiết bị hoặc người dùng độc lập.
+\nXem Chính sách Quyền riêng tư để biết thêm.</string>
     <string name="auto_recovery_notification_channel_label">Trạng thái phục hồi tự động</string>
     <string name="auto_recovery_notification_waiting_text">Vui lòng hoàn tất quá trình thiết lập của \"%1$s\".</string>
     <string name="auto_recovery_settings_note">Bắt đầu từ Android 10, trong một số trường hợp nhất định, một số cài đặt \"Bỏ qua\" của bạn sẽ được đặt lại bởi hệ thống.
@@ -403,7 +400,7 @@
     <string name="op_name_WRITE_MEDIA_VIDEO">viết bộ sưu tập video của bạn</string>
     <string name="op_name_WRITE_MEDIA_IMAGES">viết bộ sưu tập ảnh của bạn</string>
     <string name="op_name_READ_DEVICE_IDENTIFIERS">đọc số nhận dạng thiết bị</string>
-    <string name="op_name_ACCESS_MEDIA_LOCATION">truy cập vị trí đa phương tiện</string>
+    <string name="op_name_ACCESS_MEDIA_LOCATION">đọc thông tin vị trí từ các tập tin phương tiện</string>
     <string name="op_name_QUERY_ALL_PACKAGES">truy vấn tất cả các gói</string>
     <string name="op_desc_START_FOREGROUND">Nói tóm lại, một dịch vụ nền trước là một dịch vụ nền có thông báo không thể bị loại bỏ. Bởi vì bạn có thể chủ động biết về sự tồn tại của nó từ thông báo, hệ thống sẽ đảm bảo sự tồn tại của các dịch vụ nền.&lt;p&gt;Từ chối điều này sẽ khiến các dịch vụ nền dự phòng trở lại các dịch vụ bình thường, điều này có thể phá vỡ hành vi của ứng dụng (chẳng hạn như trình phát nhạc dừng trong nền, ứng dụng bản đồ dừng cập nhật vị trí).&lt;p&gt;&lt;b&gt;&lt;a href=https://developer.android.com/guide/components/services&gt;Xem tài liệu tại Android Developers&lt;/a&gt;&lt;/b&gt;</string>
     <string name="op_desc_READ_CLIPBOARD">Từ Android 10 trở lên, các ứng dụng chỉ có thể đọc khay nhớ tạm nếu ở nền trước.</string>
@@ -423,4 +420,47 @@
     <string name="privacy_policy">Chính sách bảo mật</string>
     <string name="settings_request_to_delete_data">Xoá dữ liệu</string>
     <string name="settings_use_system_color">Sử dụng màu theo hệ thống</string>
+    <string name="ignore_for_now">Bỏ qua bây giờ</string>
+    <string name="op_name_MANAGE_EXTERNAL_STORAGE">quản lí tất cả tập tin</string>
+    <string name="op_desc_TOAST_WINDOW_30">Thiết bị của bạn chạy Android 11 hoặc cao hơn, đối với các ứng dụng nhắm mục tiêu API 30+, Toast được hiển thị thông qua SystemUI chứ không phải bản thân ứng dụng.</string>
+    <string name="op_name_special_SENSORS">Cảm biến</string>
+    <string name="op_desc_special_SENSORS">Các cảm biến có thể được sử dụng mà không cần sự chấp thuận của người dùng, chẳng hạn như gia tốc kế, cảm biến trọng lực, v.v.</string>
+    <string name="error_remote_service_killed_message">Dịch vụ từ xa dừng bất thường.&lt;p&gt;Nếu sự cố vẫn tiếp diễn, vui lòng liên hệ với nhà phát triển.</string>
+    <string name="backup_include_system_components_summary">Đưa các thành phần hệ thống, tức là các ứng dụng có uid nhỏ hơn 10000, vào bản sao lưu. Làm việc đó có nguy cơ của riêng bạn.</string>
+    <string name="usage_history_fetching">Đang tìm nạp lịch sử sử dụng…</string>
+    <string name="usage_history_over_all_access_count">%1$d ứng dụng đã truy cập các quyền nhạy cảm trong %2$d lần</string>
+    <plurals name="packages_selector_dialog_status_format_for_multi">
+        <item quantity="other">Đã chọn %d ứng dụng</item>
+    </plurals>
+    <string name="op_desc_TOAST_WINDOW_30_app_30">Ứng dụng nhắm mục tiêu API 30 hoặc cao hơn, vì vậy việc sửa đổi quyền này cho ứng dụng này không có tác dụng thực tế. &lt;p&gt;Để kiểm soát xem ứng dụng này có thể hiển thị Toast hay không, bạn chỉ có thể sửa đổi quyền của SystemUI nhưng nó sẽ ảnh hưởng đến hệ thống và tất cả các ứng dụng đó.</string>
+    <string name="op_desc_TOAST_WINDOW_30_systemui">Việc sửa đổi quyền này sẽ ảnh hưởng đến hệ thống và tất cả các ứng dụng được nhắm mục tiêu API 30 hoặc cao hơn.</string>
+    <string name="storage_permission_29">Thiết bị của bạn chạy Android 10 hoặc cao hơn, hệ thống Android cho phép các ứng dụng đủ điều kiện ghi tệp vào thư mục tiêu chuẩn &lt;b&gt;mà không cần bất kỳ quyền nào&lt;/b&gt;.&lt;p&gt;Điều này có nghĩa là bất kể bạn sửa đổi quyền như thế nào (dù trong ứng dụng này hay trong hệ thống), ứng dụng luôn có thể ghi tệp vào thư mục tiêu chuẩn. (Vẫn cần có quyền để sửa đổi các tệp do ứng dụng khác tạo)&lt;p&gt;* Thư mục tiêu chuẩn đề cập đến một loạt các thư mục do hệ thống xác định như DCIM, Pictures, Download, v.v.&lt;br&gt;* Ứng dụng đủ điều kiện là các ứng dụng được nhắm mục tiêu API 30 trở lên hoặc được nhắm mục tiêu API 29 và có Scoped Storage.</string>
+    <string name="error_remote_service_killed_button_restart">Khởi động lại dịch vụ từ xa</string>
+    <string name="permission_group_clipboard">Bảng nhớ tạm</string>
+    <string name="settings_request_to_delete_data_summary">Chặn vĩnh viễn dữ liệu gửi đi khỏi phiên bản này và xóa dữ liệu đã thu thập</string>
+    <string name="usage_history_in_the_past_24h">Trong 24 giờ qua</string>
+    <plurals name="usage_history_access_times">
+        <item quantity="other">%1$d lần</item>
+    </plurals>
+    <plurals name="usage_history_and_more_apps">
+        <item quantity="other">và thêm %1$d ứng dụng</item>
+    </plurals>
+    <string name="usage_history_access_in_the_background">Truy cập trong nền</string>
+    <string name="usage_history_access_rejected">Đã từ chối</string>
+    <string name="usage_history_timeline_today">Hôm nay</string>
+    <string name="usage_history_timeline_yesterday">Hôm qua</string>
+    <string name="usage_history_system_version_too_low_title">Phiên bản Android không tương thích</string>
+    <string name="usage_history_system_version_too_low_message">Lịch sử sử dụng yêu cầu %1$s, thiết bị của bạn chạy %2$s.</string>
+    <string name="op_desc_TOAST_WINDOW_30_app_pre_30">Ứng dụng được nhắm mục tiêu API 29 hoặc thấp hơn, vì vậy việc sửa đổi quyền này cho ứng dụng này sẽ có hiệu quả.</string>
+    <string name="core_app_warning">Ứng dụng này có thể là thành phần cốt lõi của hệ thống Android, cần phải thận trọng.</string>
+    <string name="permission_group_device_identifiers">Mã nhận dạng thiết bị</string>
+    <string name="working_mode_dpm_removed">Chế độ Quản trị Thiết bị được Ủy quyền đã bị xóa</string>
+    <string name="working_mode_dpm_removed_description">Do yêu cầu mới về chính sách của Google Play, chế độ Quản trị Thiết bị được Ủy quyền cần phải được xóa trước 12-07-2022. &lt;p&gt;Nếu bạn cần sử dụng chế độ Quản trị Thiết bị được Uỷ quyền, vui lòng tải xuống phiên bản cũ hơn của ứng dụng từ trang web của chúng tôi.</string>
+    <string name="error_license_about_to_invalid">Giao dịch chưa được xác minh trong một thời gian dài</string>
+    <string name="error_license_about_to_invalid_message">Để tránh gian lận, giao dịch cần được xác minh thường xuyên.&lt;p&gt;Quy trình xác minh được thực hiện tự động. Vui lòng không chặn ứng dụng truy cập mạng.</string>
+    <string name="error_unable_to_start_remote_service">Không thể bắt đầu dịch vụ.</string>
+    <string name="something_went_wrong">Có gì đó sai</string>
+    <string name="error_unable_to_start_remote_service_solution">Hãy buộc dừng ứng dụng và thử lại.</string>
+    <string name="permission_group_activity_recognition">Hoạt động thể chất</string>
+    <string name="permission_group_sensors">Cảm biến</string>
 </resources>
