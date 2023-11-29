@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="shizuku_mode_error_adb_no_update_permission">ADBにはget appopsだけがありますが、update appopsの許可はありません。&lt;br&gt;システムの開発者向けオプションで「変更許可」などのオプションを探してみてください。&lt;p&gt;&lt;small&gt;例えば、MIUIでは、USBデバッグ（セキュリティオプション）というオプションがあります。&lt;/small&gt;</string>
-    <string name="progress_requesting_authorization">承認を要求します…</string>
-    <string name="progress_checking_availability">可用性を確認中…</string>
-    <string name="progress_fetching_user_list">ユーザーを読み込んでいます…</string>
-    <string name="progress_fetching_app_list">アプリを読み込んでいます…</string>
-    <string name="progress_working">進行中 （%2$d 個中 %1$d 個）…</string>
+    <string name="shizuku_mode_error_adb_no_update_permission">ADBは appops get の権限しか持っておらず、update appops update の権限はありません。&lt;br&gt;システムの開発者オプションで、「権限の編集を許可」のようなオプションを探してください。&lt;p&gt;&lt;small&gt;例えば、MIUIでは、このオプションは「USBデバッグ（セキュリティ設定）」です。&lt;/small&gt;</string>
+    <string name="progress_requesting_authorization">認証を要求しています…</string>
+    <string name="progress_checking_availability">可用性を確認しています…</string>
+    <string name="progress_fetching_user_list">ユーザーリストを読み込んでいます…</string>
+    <string name="progress_fetching_app_list">アプリリストを取得しています…</string>
+    <string name="progress_working">進行中 (%1$d/%2$d)…</string>
     <string name="menu_reset">リセット</string>
     <string name="menu_app_info">アプリ情報</string>
     <string name="menu_show_app_info_in">アプリ情報を表示…</string>
     <string name="menu_show_system">システムを表示</string>
-    <string name="menu_sort_by_updated_time">最終更新時間</string>
-    <string name="menu_sort_by_install_time">インストール時間</string>
+    <string name="menu_sort_by_updated_time">最終更新日時</string>
+    <string name="menu_sort_by_install_time">インストール日時</string>
     <string name="menu_search">検索</string>
     <string name="menu_sort">並べ替え</string>
     <string name="menu_save">保存</string>
@@ -26,10 +26,10 @@
     <string name="menu_view_options">表示オプション</string>
     <string name="menu_options">オプション</string>
     <string name="menu_users">ユーザー</string>
-    <string name="menu_about">アプリについて</string>
+    <string name="menu_about">このアプリについて</string>
     <string name="app_detail_version">バージョン %1$s</string>
     <plurals name="app_view_item_modified">
-        <item quantity="other">%d つのアイテムを変更された</item>
+        <item quantity="other">%d アイテム変更済み</item>
     </plurals>
     <string name="app_view_item_not_modified">変更されていません</string>
     <string name="system_app">システムアプリ</string>
@@ -127,9 +127,9 @@
     </plurals>
     <string name="clipboard_monitor_read">読み込みました</string>
     <string name="shizuku_mode">Shizuku モード</string>
-    <string name="shizuku_mode_shizuku_not_running">(Shizuku が実行されていません)</string>
+    <string name="shizuku_mode_shizuku_not_running">(Shizuku が動作していません)</string>
     <string name="menu_delete">削除</string>
-    <string name="menu_working_mode">実行モード</string>
+    <string name="menu_working_mode">動作モード</string>
     <string name="button_discard">破棄</string>
     <string name="op_summary_unknown">デバイスメーカーや新しいAndroidバーションによる</string>
     <string name="clipboard_monitor_access">%1$s はクリップボードを<b>%2$s</b>。</string>
@@ -139,7 +139,7 @@
     <string name="usage_monitor_settings_toggle_summary">アプリが位置情報、カメラ、マイクを使用しているときに通知する</string>
     <string name="template_edit_title_for_create">テンプレートの作成</string>
     <string name="usage_history">利用履歴</string>
-    <string name="shizuku_mode_description">+ root デバイスと非 root デバイスの両方で動作します&lt;br&gt;+ 非常に高速で、リソースの消費もごくわずかです&lt;br&gt;+ すべての機能をお楽しみください&lt;br&gt;&lt;br&gt;- オープンソースのアプリ (Shizuku) をインストールする必要があります&lt;br&gt;- 非 root デバイスの場合、再起動のたびにコンピューターを使用して adb で Shizuku を起動する必要があります&lt;br&gt;- Android 11 以降を実行しているデバイスでは、コンピューターなしで Shizuku を起動できます</string>
+    <string name="shizuku_mode_description">+ root デバイスと非 root デバイスの両方で動作します&lt;br&gt;+ 非常に高速で、リソースの消費もごくわずかです&lt;br&gt;+ すべての機能をお楽しみください&lt;br&gt;&lt;br&gt;- オープンソースのアプリ (Shizuku) をインストールする必要があります&lt;br&gt;- 非 root デバイスの場合、再起動のたびにコンピューターを使用して adb で Shizuku を起動する必要があります&lt;br&gt;- Android 11 以降のデバイスでは、コンピューターなしで Shizuku を起動できます</string>
     <string name="apps_view">アプリの表示</string>
     <string name="usage_monitor_notification_text">%1$sを含みます。</string>
     <string name="shizuku_mode_error_manager_app_not_installed">先に Shizuku をインストールしてください。 &lt;p&gt;Shizukuは、2017年から始まったオープンソースプロジェクトです(GitHubの%sを参照)。root や adb 必要とする複数のアプリに役立つように設計されています。このアプリだけでなく、他の開発者のアプリにも Shizuku を使用しているものがあります。&lt;p&gt;Shizuku を使用すると、このアプリは非常に高速になり、より興味深い機能が追加されます。Shizuku 自体に関しては、バッテリーまたはパフォーマンスの消費は無視できます (使用していないときはゼロ)。&lt;p&gt;Unix の哲学と同様に、1つのプログラムは1つのジョブのみを実行する必要があります。Shizuku とこのアプリは、この哲学を追求しています。実際、すべてを内蔵することは、「悪いアプリ」が好むようなものです。</string>
@@ -196,7 +196,7 @@
     <string name="op_run_in_background_mode_strict">厳格な制限</string>
     <string name="op_mode_onetime">毎回尋ねる</string>
     <string name="op_mode_ignore_description_runtime">\"許可 \"しても、アプリが空のデータを取得したり、操作が実行されなかったりします</string>
-    <string name="op_mode_deny_crash">拒否（アプリがクラッシュする可能性があります</string>
+    <string name="op_mode_deny_crash">拒否 (アプリがクラッシュする可能性があります)</string>
     <string name="op_mode_ignore">無視</string>
     <string name="multi_selection_tip">アイコンを左にタップするか長押しすると、複数選択モードになり、素早く操作することができます。</string>
     <string name="shared_user_id_tip">このアプリケーションの Shared User ID は %s で、同じ Shared User ID を持つアプリケーションはほとんどの権限を共有しています。</string>
@@ -204,16 +204,16 @@
         <item quantity="other">%2$dのアプリは、%1$sで制御されています</item>
     </plurals>
     <plurals name="permissions_view_item_summary">
-        <item quantity="other">%1$dのアプリ</item>
+        <item quantity="other">%1$d のアプリ</item>
     </plurals>
     <string name="permissions_view">権限の表示</string>
     <string name="button_authorize">許可</string>
     <string name="button_learn_more">さらに詳しく</string>
     <string name="menu_badge_early_access">早期アクセス</string>
-    <string name="menu_set_as">として設定します</string>
+    <string name="menu_set_as">一括設定</string>
     <string name="menu_more">より多くのオプション</string>
-    <string name="shizuku_mode_error_version_too_low">現在インストールされているShizukuのバージョンが古すぎるため、最新版のShizukuをインストールしてください(バージョン%s以上)。</string>
-    <string name="shizuku_mode_error_not_running">Shizukuが動作していないか何らかの問題が発生しています。&lt;br&gt;Shizukuが動作している場合、このアプリの強制終了をお試しください。</string>
+    <string name="shizuku_mode_error_version_too_low">インストールされている Shizuku のバージョンが古すぎます。最新バージョンの Shizuku (%s以上) をダウンロードしてください。</string>
+    <string name="shizuku_mode_error_not_running">Shizuku が動作していないか、何らかの問題が発生しています。&lt;br&gt;Shizuku が動作している場合、このアプリを強制終了してみてください。</string>
     <string name="shizuku_mode_error_user_denied_permission_sui">このアプリは Sui の使用を許可されていません。&lt;br&gt;Sui でこのアプリの権限を付与してください。</string>
     <string name="shizuku_mode_description_rooted">+ すべての機能をお楽しみください&lt;br&gt;&lt;br&gt;オープンソースの、Sui (Magisk モジュール) または Shizuku (アプリ) をインストールする必要があります</string>
     <string name="shizuku_mode_over_root">Shizuku モード (rootで開始)</string>
@@ -316,4 +316,14 @@
     <string name="op_name_LOCATION">位置情報の使用</string>
     <string name="working_mode_dpm_removed">デバイス管理者モードは削除されました</string>
     <string name="working_mode_dpm_removed_description">Google Play ポリシーの要件により、デバイス管理者モードは2022年7月12日までに削除する必要があります。&lt;p&gt;デバイス管理者モードを使用する必要がある場合は、ウェブサイトから古いバージョンのアプリをダウンロードしてください。</string>
+    <string name="error_remote_service_killed_message">リモートサービスが異常停止しました。&lt;br&gt;問題が解決しない場合は、開発者にお問い合わせください。</string>
+    <string name="menu_badge_full_version">フル</string>
+    <string name="error_remote_service_killed_button_restart">リモートサービスを再起動</string>
+    <string name="permission_group_device_identifiers">デバイス ID</string>
+    <string name="translators">La prière</string>
+    <string name="error_unable_to_start_remote_service">サービスを開始できません。</string>
+    <string name="error_unable_to_start_remote_service_solution">アプリを強制終了して、もう一度やり直してください。</string>
+    <string name="error_license_about_to_invalid_message">不正な購入を防ぐため、定期的な確認が必要です。&lt;p&gt;確認プロセスは自動で行われます。アプリがネットワークにアクセスできないようにブロックしないでください。</string>
+    <string name="error_license_about_to_invalid">購入が長い間確認されていません</string>
+    <string name="something_went_wrong">問題が発生しました</string>
 </resources>
