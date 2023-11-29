@@ -103,18 +103,18 @@
     <string name="bug_report_dialog_title">何かが間違っている</string>
     <string name="send_to_developer">デベロッパーに送信</string>
     <string name="user_name_fallback">ユーザー</string>
-    <string name="working_mode_title">実行モード：%s</string>
-    <string name="working_mode_choice">実行モードをお選びください：</string>
-    <string name="working_mode_button_retry">もう一度試す</string>
+    <string name="working_mode_title">動作モード: %s</string>
+    <string name="working_mode_choice">動作モードを選択してください:</string>
+    <string name="working_mode_button_retry">再試行</string>
     <string name="clipboard_monitor_write">書き込みました</string>
     <string name="backup_writing_file">書き込んでいます…</string>
     <string name="bug_report_dialog_view_stacktrace">スタック トレースを見る</string>
     <string name="quotation_marks">「%s」</string>
     <string name="worker_service_notification_title">実行中……</string>
     <string name="brackets">（%s）</string>
-    <string name="working_mode_button_continue">次へ</string>
-    <string name="working_mode_button_switch">他の実行モードに切り替える</string>
-    <string name="working_mode_button_open">「%s」を開く</string>
+    <string name="working_mode_button_continue">続行</string>
+    <string name="working_mode_button_switch">別の動作モードに切り替え</string>
+    <string name="working_mode_button_open">%s を開く</string>
     <string name="permissions_view_all">すべて</string>
     <string name="op_mode_foreground">アプリの使用中のみ許可</string>
     <string name="op_mode_unspecified">設定されていません</string>
@@ -127,26 +127,26 @@
     </plurals>
     <string name="clipboard_monitor_read">読み込みました</string>
     <string name="shizuku_mode">Shizuku モード</string>
-    <string name="shizuku_mode_shizuku_not_running">（Shizuku が実行されていない）</string>
+    <string name="shizuku_mode_shizuku_not_running">(Shizuku が実行されていません)</string>
     <string name="menu_delete">削除</string>
     <string name="menu_working_mode">実行モード</string>
     <string name="button_discard">破棄</string>
     <string name="op_summary_unknown">デバイスメーカーや新しいAndroidバーションによる</string>
     <string name="clipboard_monitor_access">%1$s はクリップボードを<b>%2$s</b>。</string>
-    <string name="translators">翻訳者名</string>
+    <string name="translators"></string>
     <string name="clipboard_monitor_denied_access">クリップボード%1$sへの <b>%2$s</b> を拒否しました。</string>
     <string name="clipboard_monitor_settings_permission_summary">インタラクティブウィンドウを表示するには、この権限が必要です
 \nタップすると、システムの権限設定画面が表示されます</string>
     <string name="usage_monitor_settings_toggle_summary">アプリが位置情報、カメラ、マイクを使用しているときに通知する</string>
     <string name="template_edit_title_for_create">テンプレートの作成</string>
     <string name="usage_history">利用履歴</string>
-    <string name="shizuku_mode_description">+ rootデバイスでも非rootデバイスでも動作します &lt;br&gt;+非常に高速で、リソースの消費もごくわずかです&lt;br&gt;+完全な機能をお楽しみください&lt;br&gt;&lt;br&gt;-オープンソースのアプリ（Shizuku）をインストールする必要があります&lt;br&gt;-非root端末の場合、再起動のたびにパソコンでadbを使ってShizukuを起動する必要があります&lt;br&gt;- Android 11以上の端末の場合、パソコンなしでShizukuを起動することができます</string>
+    <string name="shizuku_mode_description">+ root デバイスと非 root デバイスの両方で動作します&lt;br&gt;+ 非常に高速で、リソースの消費もごくわずかです&lt;br&gt;+ すべての機能をお楽しみください&lt;br&gt;&lt;br&gt;- オープンソースのアプリ (Shizuku) をインストールする必要があります&lt;br&gt;- 非 root デバイスの場合、再起動のたびにコンピューターを使用して adb で Shizuku を起動する必要があります&lt;br&gt;- Android 11 以降を実行しているデバイスでは、コンピューターなしで Shizuku を起動できます</string>
     <string name="apps_view">アプリの表示</string>
     <string name="usage_monitor_notification_text">%1$sを含みます。</string>
-    <string name="shizuku_mode_error_manager_app_not_installed">先にShizukuをインストールしてください。&lt;p&gt;Shizukuは、2017年から始まったオープンソースのプロジェクトです（GitHubの%sを参照）。rootやadbを必要とする複数のアプリに恩恵を与えるように設計されています。このアプリだけでなく、他の開発者のアプリでもShizukuを使っているものがあります。&lt;p&gt;Shizukuを使うと、このアプリは信じられないほどの高速化と、より面白い機能を手に入れることができます。&lt;p&gt;Shizuku自体は、バッテリーやパフォーマンスの消費はごくわずかです（使用しない場合はゼロ）。</string>
-    <string name="shizuku_mode_error_manager_app_not_installed_rooted">「Sui」または「Shizuku」を先にインストールしてください。この2つのモジュールは同じAPIデザインを持つ双子の姉妹です。&lt;p&gt;「Sui」はMagiskのモジュールです。Magiskがインストールされている端末での使用を推奨します。&lt;p&gt;「Shizuku」は、スタンドアロンのAndroidアプリケーションです。</string>
+    <string name="shizuku_mode_error_manager_app_not_installed">先に Shizuku をインストールしてください。 &lt;p&gt;Shizukuは、2017年から始まったオープンソースプロジェクトです(GitHubの%sを参照)。root や adb 必要とする複数のアプリに役立つように設計されています。このアプリだけでなく、他の開発者のアプリにも Shizuku を使用しているものがあります。&lt;p&gt;Shizuku を使用すると、このアプリは非常に高速になり、より興味深い機能が追加されます。Shizuku 自体に関しては、バッテリーまたはパフォーマンスの消費は無視できます (使用していないときはゼロ)。&lt;p&gt;Unix の哲学と同様に、1つのプログラムは1つのジョブのみを実行する必要があります。Shizuku とこのアプリは、この哲学を追求しています。実際、すべてを内蔵することは、「悪いアプリ」が好むようなものです。</string>
+    <string name="shizuku_mode_error_manager_app_not_installed_rooted">先に Sui または Shizuku をインストールしてください。どちらも同じ API 設計を共有する双子の姉妹です。&lt;p&gt;Sui は Magisk モジュールです。Magisk がインストールされているデバイスに推奨されます。&lt;p&gt;Shizuku はスタンドアロンの Android アプリです。</string>
     <string name="requirements">要求事項</string>
-    <string name="shizuku_mode_error_user_denied_permission">このアプリにShizukuの使用を許可していません。&lt;br&gt;システム設定またはShizukuアプリで、このアプリに許可を与えてください。&lt;p&gt;MIUIを使用している場合、MIUIはAndroidのカスタムパーミッションメカニズムを破壊しているため、Shizukuアプリからのみパーミッションを付与することができます。</string>
+    <string name="shizuku_mode_error_user_denied_permission">このアプリは Shizuku の使用を許可されていません。&lt;br&gt;システム設定または Shizuku でこのアプリの権限を付与してください。&lt;p&gt;MIUI を使用している場合、MIUI が Android のカスタム権限のメカニズムを破壊するため、Shizuku アプリからのみ権限を付与できます。</string>
     <string name="op_mode_ignore_description_others">アプリが空のデータを取得するか、操作が行われない</string>
     <string name="op_mode_default_description">\"デフォルト \"とは、&lt;b&gt;&lt;a href=%1$s&gt;システム設定&lt;/b&gt;&lt;/b&gt;や&lt;b&gt;&lt;a href=%2$s&gt;アプリ情報&lt;/b&gt;&lt;/b&gt;に記載されている設定で制御されていることを意味します。</string>
     <string name="op_unknown_description">この許可は、純正のAndroidには含まれていません（端末メーカーが追加したものや、新しいAndroidのバージョンで追加されたもの）。ご注意ください。</string>
@@ -215,11 +215,11 @@
     <string name="menu_more">より多くのオプション</string>
     <string name="shizuku_mode_error_version_too_low">現在インストールされているShizukuのバージョンが古すぎるため、最新版のShizukuをインストールしてください(バージョン%s以上)。</string>
     <string name="shizuku_mode_error_not_running">Shizukuが動作していないか何らかの問題が発生しています。&lt;br&gt;Shizukuが動作している場合、このアプリの強制終了をお試しください。</string>
-    <string name="shizuku_mode_error_user_denied_permission_sui">このアプリにSuiの使用を許可していません。&lt;br&gt;このアプリにSuiでの使用を許可してください。</string>
-    <string name="shizuku_mode_description_rooted">+ 全機能を使用するには&lt;br&gt;&lt;br&gt;-Sui（Magiskモジュール）またはShizuku（アプリケーション）をインストールする必要がありますが、どちらもオープンソースです</string>
-    <string name="shizuku_mode_over_root">Shizukuモード(rootで開始)</string>
-    <string name="shizuku_mode_over_adb">Shizukuモード(adbで開始)</string>
-    <string name="working_mode_button_download_format">%sをダウンロード</string>
+    <string name="shizuku_mode_error_user_denied_permission_sui">このアプリは Sui の使用を許可されていません。&lt;br&gt;Sui でこのアプリの権限を付与してください。</string>
+    <string name="shizuku_mode_description_rooted">+ すべての機能をお楽しみください&lt;br&gt;&lt;br&gt;オープンソースの、Sui (Magisk モジュール) または Shizuku (アプリ) をインストールする必要があります</string>
+    <string name="shizuku_mode_over_root">Shizuku モード (rootで開始)</string>
+    <string name="shizuku_mode_over_adb">Shizuku モード (adbで開始)</string>
+    <string name="working_mode_button_download_format">%s をダウンロード</string>
     <string name="template_edit_title">タイトル</string>
     <string name="op_name_LOCK_APP">アプリのロック</string>
     <string name="op_name_SU">ルートアクセスの取得</string>
@@ -315,4 +315,6 @@
     <string name="op_name_AUDIO_ACCESSIBILITY_VOLUME">ユーザー補助機能の音量</string>
     <string name="op_name_RUN_IN_BACKGROUND">バックグラウンドで実行</string>
     <string name="op_name_LOCATION">位置情報の使用</string>
+    <string name="working_mode_dpm_removed">デバイス管理者モードは削除されました</string>
+    <string name="working_mode_dpm_removed_description">Google Play ポリシーの要件により、デバイス管理者モードは2022年7月12日までに削除する必要があります。&lt;p&gt;デバイス管理者モードを使用する必要がある場合は、ウェブサイトから古いバージョンのアプリをダウンロードしてください。</string>
 </resources>
