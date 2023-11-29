@@ -133,7 +133,6 @@
     <string name="button_discard">破棄</string>
     <string name="op_summary_unknown">デバイスメーカーや新しいAndroidバーションによる</string>
     <string name="clipboard_monitor_access">%1$s はクリップボードを<b>%2$s</b>。</string>
-    <string name="translators"></string>
     <string name="clipboard_monitor_denied_access">クリップボード%1$sへの <b>%2$s</b> を拒否しました。</string>
     <string name="clipboard_monitor_settings_permission_summary">インタラクティブウィンドウを表示するには、この権限が必要です
 \nタップすると、システムの権限設定画面が表示されます</string>
