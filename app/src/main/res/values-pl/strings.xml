@@ -186,4 +186,17 @@
     <string name="op_desc_WAKE_LOCK">W fabrycznym Androidzie WAKE_LOCK jest używany tylko do statystyk i nie ma praktycznego efektu. &lt;b&gt;&lt;a href=https://github.com/aosp-mirror/platform_frameworks_base/blob/oreo-release/services/core/java/com/android/server/power/Notifier.java#L191-L193&gt;Widok powiązany kod&lt;/a&gt;&lt;/b&gt;&lt;p&gt;Jeśli chcesz ograniczyć działanie aplikacji w tle, zmodyfikuj bezpośrednio opcję „Uruchom w tle” (wymaga systemu Android 7.0 lub nowszego).</string>
     <string name="op_name_RECEIVE_WAP_PUSH">odbierz powiadomienie WAP</string>
     <string name="op_name_READ_MEDIA_IMAGES">odczytaj swoją kolekcję zdjęć</string>
+    <string name="error_remote_service_killed_button_restart">Zrestartuj usługę zdalną</string>
+    <string name="menu_sort_by_install_time">Według czasu instalacji</string>
+    <string name="error_remote_service_killed_message">Usługa zdalna została niespodziewanie zatrzymana.&lt;p&gt;Jeśli problem nadal występuje, skontaktuj się z deweloperem.</string>
+    <string name="button_learn_more">Dowiedz się więcej</string>
+    <string name="error_unable_to_start_remote_service">Nie można uruchomić usługi.</string>
+    <string name="working_mode_dpm_removed">Wyznaczony tryb Administratora Urządzenia został usunięty</string>
+    <string name="working_mode_dpm_removed_description">Ze względu na nową polisę Google Play, tryb Wyznaczonego Administratora Urządzenia musi zostać usunięty przed 07.12.2022. &lt;p&gt; Jeżeli potrzebujesz tryb Wyznaczonego Administratora Urządzenia, proszę pobierz starszą wersję aplikacji z naszej strony.</string>
+    <string name="error_unable_to_start_remote_service_solution">Wymuś zatrzymanie aplikacji i spróbuj ponownie.</string>
+    <string name="error_license_about_to_invalid">Zakup nie został zweryfikowany przez dłuższy czas</string>
+    <string name="error_license_about_to_invalid_message">Aby uniknąć falszerstwa, zakup wymaga regularnej weryfikacji.&lt;p&gt;Proces weryfikacji odbywa się automatycznie. Nie blokuj aplikacji dostępu do sieci.</string>
+    <string name="something_went_wrong">Coś poszło nie tak</string>
+    <string name="menu_last_used_first">Najrzadziej używane pierwsze</string>
+    <string name="menu_sort_by_updated_time">Według czasu aktualizacji</string>
 </resources>
