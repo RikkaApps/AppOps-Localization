@@ -466,4 +466,5 @@
     <string name="settings_request_to_delete_data">Borrar información</string>
     <string name="working_mode_dpm_removed_description">Debido a un nuevo requisito de la política de Google Play, el modo Administrador delegado de dispositivos debe eliminarse antes del 2022-07-12. &lt;p&gt;Si necesita usar el modo Administrador delegado de dispositivos, descargue una versión anterior de la aplicación desde nuestro sitio web.</string>
     <string name="working_mode_dpm_removed">Se eliminó el modo de administrador delegado de dispositivos</string>
+    <string name="error_remote_service_killed_button_restart">Reiniciar el servicio remoto</string>
 </resources>
