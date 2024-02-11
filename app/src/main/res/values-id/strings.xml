@@ -214,4 +214,9 @@
     <string name="menu_sort_by_app_name">Berdasarkan nama aplikasi</string>
     <string name="permission_group_phone">Telepon</string>
     <string name="permission_group_sms">SMS</string>
+    <string name="error_remote_service_killed_button_restart">Mulai ulang layanan jarak jauh</string>
+    <string name="error_remote_service_killed_message">Layanan jarak jauh berhenti secara tidak normal.&lt;p&gt;Jika masalah terus berlanjut, hubungi developer.</string>
+    <string name="op_associated_with_runtime">Kecuali \"Abaikan\", opsi lainnya sama dengan yang ada di pengaturan izin sistem.</string>
+    <string name="op_associated_with_runtime_r">Di Android 11 atau lebih tinggi, sistem hanya mengizinkan \"lokasi\",\" kamera\", dan\" mikrofon \" untuk menggunakan %1$s.</string>
+    <string name="op_associated_with_runtime_dpm_unable_to_confirm">tidak dapat mengkonfirmasi</string>
 </resources>
