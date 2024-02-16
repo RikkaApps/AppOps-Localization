@@ -10,4 +10,6 @@
     <string name="working_mode_choice">Ընտրեք աշխատանքի ձև.</string>
     <string name="working_mode_title">Աշխատանքի ձև. %s</string>
     <string name="translators">Tigran Khachatryan</string>
+    <string name="working_mode_button_download_format">Ընտրել նորից</string>
+    <string name="working_mode_dpm_removed">Delegated Device Admin mode has been removed</string>
 </resources>
