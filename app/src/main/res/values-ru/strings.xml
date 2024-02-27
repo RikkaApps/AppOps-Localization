@@ -128,7 +128,7 @@
     <string name="backup_and_restore_summary">Создавайте резервные копии Ваших настроек. И восстанавливайте их при смене устройства или после очистки/сброса данных.</string>
     <string name="backup_restore">Восстановить</string>
     <string name="backup_create_backup">Создать новый файл резервной копии</string>
-    <string name="backup_create_backup_summary">Резервное копирование текущих настроек по установленным приложениям в файл (на внутренний накопитель, Google Drive и так далее).</string>
+    <string name="backup_create_backup_summary">Резервное копирование текущих настроек установленных приложений в файлы (внутреннее хранилище, Google Drive и т.д.).</string>
     <string name="backup_restore_backup">Восстановление из файла резервной копии</string>
     <string name="backup_restore_backup_summary">Восстановить настройки для &lt;b&gt;установленных приложений&lt;/b&gt;.&lt;br&gt;Для &lt;b&gt;приложений, которые еще не установлены&lt;/b&gt;, настройки будут автоматически восстановлены (требуется включить в «Реакция на новое приложение»).</string>
     <string name="backup_open_backup">Открыть файл резервной копии</string>
