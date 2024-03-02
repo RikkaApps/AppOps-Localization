@@ -1,2 +1,139 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources></resources>
+<resources>
+    <string name="shizuku_mode_over_adb">Mod Shizuku (dimulakan melalui adb)</string>
+    <string name="shizuku_mode_description">+ Berfungsi dengan peranti yang mempunyai root dan juga yang tidak mempunyai root &lt;br&gt;+ Berkelajuan tinggi,dengan penggunaan sumber yang boleh diendahkan &lt;br&gt;+ Alami kefungsian penuh &lt;br&gt;&lt;br&gt;- Sebuah aplikasi sumber terbuka (Shizuku) perlu dipasang terlebih dahulu &lt;br&gt;- Untuk peranti tanpa root, setiap kali peranti dihidupkan, Shizuku perlu dimulakan semula menggunakan adb dengan sebuah komputer &lt;br&gt;- Untuk peranti yang menggunakan Android 11 dan ke atas, Shizuku boleh dimulakan tanpa penggunaan sebuah komputer</string>
+    <string name="your_working_mode">Mod bekerja anda: %s</string>
+    <string name="clipboard_monitor_access">%1$s <b>%2$s</b> papan klip.</string>
+    <string name="clipboard_monitor_settings_note">Jika anda tidak membenarkan aplikasi menggunakan papan klip, \"butang benarkan\" yang akan memberi akses sementara akan ditunjukkan di dalam tetingkap pengesahan. 
+\n
+\nSila ambil perhatian yang anda juga akan diberitahu apabila anda cuba untuk menyalin atau melekatkan (Akses kepada papan klip samada oleh anda atau mana-mana aplikasi dianggap tiada beza).</string>
+    <string name="clipboard_monitor_settings_excluded_apps_summary">Pilih aplikasi-aplikasi yang tidak memerlukan pengesahan</string>
+    <string name="usage_monitor_settings_toggle_summary">Dapatkan notifikasi bila mana-mana aplikasi menggunakan lokasi, kamera atau mikrofon</string>
+    <string name="template_description">Anda mencipta templat untuk digunakan secara pantas.&lt;p&gt;Jika anda telah \"%2$s\" hidupkan \"%1$s\", anda perlu menetapkan satu templat lalai(menu tiga titik bertindih - %3$s).</string>
+    <string name="include_system_apps_dialog_message">Pengoperasian aplikasi penting sistem dengan cara yang salah boleh mengakibatkan masalah yang tidak boleh dibaiki. Sentiasa berwaspada. 
+\n
+\nTerdapat berberapa laporan peranti tidak boleh dihidupkan daripada pengguna-pengguna Samsung</string>
+    <string name="new_app_behavior_notification_app_installed">%1$s dipasang</string>
+    <string name="new_app_behavior_notification_apply_template_failed">Penggunaan templat gagal.</string>
+    <string name="new_app_behavior_settings_switch_button_summary">Sentuh notifikasi untuk membuka aplikasi secara terus tanpa membuka tetapan</string>
+    <string name="new_app_behavior_settings_apply_template_summary">Jika \"Pulihkan dengan sandaran\" dihidupkan, pilihan ini hanya akan menjadi sah jika sandaran tidak wujud</string>
+    <string name="backup_create_backup_summary">Sandarkan tetapan terkini untuk aplikasi terpasang dalam bentuk fail (Storan dalaman, Google Drive, dsb).</string>
+    <string name="backup_restore_backup_summary">Pulihkan tetapan untuk &lt;b&gt;aplikasi terpasang&lt;/b&gt;.&lt;b&gt;Untuk&lt;b&gt;aplikasi yang belum dipasang&lt;/b&gt;, konfigurasi akan dipulihkan secara automatik (perlu dihidupkan dalam aplikasi baharu).</string>
+    <string name="backup_include_system_components_summary">Termasuk komponen sistem, cth. aplikasi yang mana uid-nya adalah kurang daripada 10000, ke dalam sandaran. Lakukan dengan risiko sendiri.</string>
+    <string name="backup_review_action_restore_templates_replace">Padam semua templat dan pulihkan</string>
+    <string name="backup_error_legacy_backup">Ambil perhatian, Sandaran dicipta sebelum %s adalah tidak disokong kerana kekurangan maklumat yang diperlukan.</string>
+    <string name="working_mode_title">Mod bekerja : %s</string>
+    <string name="working_mode_choice">Pilih satu mod bekerja:</string>
+    <string name="working_mode_button_retry">Cuba Semula</string>
+    <string name="working_mode_button_continue">Teruskan</string>
+    <string name="working_mode_button_switch">Tukar ke mod bekerja yang lain</string>
+    <string name="working_mode_button_download_format">Muat turun %s</string>
+    <string name="working_mode_button_open">Buka %s</string>
+    <string name="working_mode_dpm_removed">Mod Pentadbir Peranti Terpilih telah dihapuskan</string>
+    <string name="working_mode_dpm_removed_description">Disebabkan oleh keperluan polisi Google Play yang baharu, Mod Pentadbir Peranti Terpilih harus dihapuskan sebelum 2022-07-12. &lt;p&gt;Jika and memerlukan Mod Pentadbir Peranti Terpilih, sila muat turun versi terdahulu aplikasi dari laman sesawang kami.</string>
+    <string name="shizuku_mode">Mod Shizuku</string>
+    <string name="shizuku_mode_over_root">Mod Shizuku (dimulakan melalui root)</string>
+    <string name="translators">Void - (Shahzuan Shafri)</string>
+    <string name="shizuku_mode_shizuku_not_running">(Shizuku tidak berjalan)</string>
+    <string name="shizuku_mode_description_rooted">+ Alami kefungsian penuh &lt;br&gt;&lt;br&gt;- Sui (sebuah modul Magisk) atau Shizuku (sebuah aplikasi) perlu dipasang terlebih dahulu, Kedua-duanya adalah sumber terbuka</string>
+    <string name="clipboard_monitor">Monitor Papan klip</string>
+    <string name="clipboard_monitor_denied_access">Tidak dibenarkan %1$s kepada <b>%2$s</b> papan klip.</string>
+    <string name="clipboard_monitor_read">baca</string>
+    <string name="clipboard_monitor_write">tulis</string>
+    <string name="clipboard_monitor_allow_for">Benarkan untuk %ds</string>
+    <string name="clipboard_monitor_settings_toggle">Hidupkan monitor papan klip</string>
+    <string name="clipboard_monitor_settings_toggle_summary">Dapatkan notifikasi bila mana-mana aplikasi mengakses papan klip</string>
+    <string name="clipboard_monitor_settings_permission">Memerlukan \"%s\"</string>
+    <string name="clipboard_monitor_settings_permission_summary">Untuk melihat tetingkap interaktif, kebenaran ini adalah wajib
+\nSentuh untuk membuka halaman kebenaran sistem</string>
+    <string name="clipboard_monitor_settings_window_position">Kedudukan tetingkap pengesahan</string>
+    <string name="clipboard_monitor_settings_window_position_bottom">Bahagian bawah skrin</string>
+    <string name="clipboard_monitor_settings_window_position_top">Bahagian atas skrin</string>
+    <string name="clipboard_monitor_settings_allow_timeout">Akses Masa Terhad</string>
+    <string name="clipboard_monitor_settings_allow_timeout_second">%s saat</string>
+    <string name="clipboard_monitor_settings_excluded_apps">Aplikasi terkecuali</string>
+    <string name="clipboard_monitor_settings_excluded_system_apps">Aplikasi sistem terkecuali</string>
+    <string name="clipboard_monitor_settings_excluded_system_apps_summary">Kecualikan semua aplikasi sistem tanpa mengambilkira pilihan tersendiri</string>
+    <string name="usage_monitor">Mengawasi pengunaan</string>
+    <string name="usage_monitor_settings_toggle">Hidupkan pengawasan penggunaan</string>
+    <string name="usage_monitor_location">lokasi</string>
+    <string name="usage_monitor_camera">kamera</string>
+    <string name="usage_monitor_microphone">mikrofon</string>
+    <string name="usage_monitor_notification_title">\"%1$s\" sedang menggunakan %2$s</string>
+    <string name="usage_monitor_notification_text">Termasuk %1$s.</string>
+    <string name="usage_history">Sejarah penggunaan</string>
+    <string name="template">Templat</string>
+    <string name="template_summary">Tetapkan senarai tetapan kebenaran dan aktifkan dengan satu sentuhan.</string>
+    <string name="template_default">Lalai</string>
+    <string name="template_create">Cipta templat…</string>
+    <plurals name="template_item_summary">
+        <item quantity="other">%1$d item</item>
+    </plurals>
+    <string name="template_default_title">Tanpa tajuk</string>
+    <string name="template_default_title_copy">%s - Salin</string>
+    <string name="template_menu_set_as_default">Tetapkan sebagai lalai</string>
+    <string name="template_menu_create_copy">Cipta salinan</string>
+    <string name="template_dialog_delete_message">Adakah anda pasti anda ingin memadamkan templat ini\?</string>
+    <string name="template_edit">Gubah templat</string>
+    <string name="template_edit_title_for_create">Cipta templat</string>
+    <string name="template_edit_title">Tajuk</string>
+    <string name="template_edit_dialog_not_saved_message">Anda telah membuat berberapa perubahan, simpan\?</string>
+    <plurals name="include_system_apps_dialog_title">
+        <item quantity="other">Termasuk %d aplikasi sistem</item>
+    </plurals>
+    <string name="include_system_apps_dialog_button_skip">Langkau aplikasi sistem</string>
+    <string name="include_system_app_button_dialog_do_not_skip">Jangan langkau</string>
+    <string name="apply_template_dialog_create">Cipta templat baharu…</string>
+    <string name="new_app_behavior">Perangai aplikasi baharu</string>
+    <string name="new_app_behavior_summary">Perangai bila sebuah aplikasi baharu dipasang, seperti notifikasi ditunjukkan atau templat digunakan secara automatik.</string>
+    <string name="new_app_behavior_notification_tap_to_set">Sentuh untuk tetapkan kebenaran untuk aplikasi ini.</string>
+    <string name="new_app_behavior_notification_tap_to_open">Sentuh untuk buka aplikasi.</string>
+    <string name="new_app_behavior_notification_applied_template">Templat digunakan untuk %1$s.</string>
+    <string name="new_app_behavior_notification_applying_template">Memasang templat…</string>
+    <string name="new_app_behavior_notification_action_open_app">Buka aplikasi</string>
+    <string name="new_app_behavior_notification_action_detail_settings">Tetapan Butiran</string>
+    <string name="new_app_behavior_notification_action_restore_backup">Pulihkan dengan sandaran</string>
+    <string name="new_app_behavior_notification_channel_label">Aplikasi baharu dipasang</string>
+    <string name="new_app_behavior_settings_show_notification">Tunjuk notifikasi</string>
+    <string name="new_app_behavior_settings_switch_button">Butang tukar</string>
+    <string name="new_app_behavior_settings_notification_style">Jenis notifikasi</string>
+    <string name="new_app_behavior_settings_restore_backup">Pulihkan melalui sandaran secara automatik jika sandaran wujud</string>
+    <string name="new_app_behavior_settings_restore_backup_summary">Sandaran boleh didapati dari konfigurasi terdahulu atau dari fail sandaran yang dicipta secara manual</string>
+    <string name="new_app_behavior_settings_apply_template">Guna templat secara automatik</string>
+    <string name="backup_and_restore">Sandarkan dan Pulihkan</string>
+    <string name="backup_and_restore_summary">Sandarkan tetapan anda dan pulihkan tetapan anda apabila anda menukar peranti atau kehilangan data.</string>
+    <string name="backup_restore">Pulihkan</string>
+    <string name="backup_create_backup">Cipta fail sandaran baharu</string>
+    <string name="backup_create_backup_summary_system_components">…Untuk mengelakkan masalah yang tidak boleh dibaiki, <b> mana-mana komponen sistem tidak akan disandarkan</b>.</string>
+    <string name="backup_restore_backup">Pulihkan dari fail sandaran</string>
+    <string name="backup_open_backup">Buka fail sandaran</string>
+    <string name="backup_open_backup_summary">Lihat kandungan fail sandaran yang tersimpan.</string>
+    <string name="backup_not_installed">%1$s (tidak dipasang)</string>
+    <string name="backup_notification_restored">Sandaran dipulihkan untuk %1$s.</string>
+    <string name="backup_notification_restoring">Memulihkan sandaran…</string>
+    <string name="backup_notification_restore_failed">Pemulihan sandaran gagal</string>
+    <string name="backup_creating_backup">Mencipta sandaran…</string>
+    <string name="backup_writing_file">Menulis fail…</string>
+    <string name="backup_reading_file">Membaca fail…</string>
+    <string name="backup_parsing_backup">Menghuraikan sandaran…</string>
+    <string name="backup_restoring_backup">Memulihkan sandaran…</string>
+    <string name="backup_review">Semak semula sandaran</string>
+    <string name="backup_review_description">Sandaran ini dicipta pada %1$s menggunakan %2$s.</string>
+    <string name="backup_review_description_from_newer_version">Bahagian ini ( sekiranya ) hanya wujud di dalam versi terkini sistem tidak boleh dilihat atau dipulihkan.</string>
+    <plurals name="backup_review_apps_title">
+        <item quantity="other">%1$d aplikasi dari %2$s</item>
+    </plurals>
+    <plurals name="backup_review_templates_title">
+        <item quantity="other">%1$d templat-templat</item>
+    </plurals>
+    <string name="backup_review_action_dont_restore">Jangan pulihkan</string>
+    <string name="backup_review_action_restore_apps_to_user">Pulihkan ke %s</string>
+    <string name="backup_review_action_restore_templates_add">Pulihkan sebagai templat baharu</string>
+    <string name="backup_error_not_backup">Fail ini bukanlah fail sandaran.</string>
+    <string name="backup_error_newer_version">Fail ini mungkin dicipta oleh versi terbaru aplikasi, sila naiktaraf aplikasi dan cuba semula.</string>
+    <string name="backup_error_broken">Fail ini mungkin telah dikorupkan.</string>
+    <string name="backup_error_open_input">Fail tidak boleh dibuka.</string>
+    <string name="backup_error_open_output">Fail tidak boleh ditulis.</string>
+    <string name="backup_error_io_exception">Sesuatu kesalahan berlaku ketika fail sedang dibaca/ditulis.</string>
+    <string name="no_files_app_dialog_title">Aplikasi Files gagal dimulakan</string>
+</resources>
