@@ -12,7 +12,7 @@
     <string name="worker_service_notification_title">Em execução…</string>
     <string name="menu_changelog">Registro de alterações</string>
     <string name="translators">Marcelo Amarante, Marcio de Andrade e Igor</string>
-    <string name="shizuku_mode_error_adb_no_update_permission">ADB só tem permissão para appops, mas nenhuma permissão para atualizar apps. &lt;br&gt;Por favor, tente procurar uma opção como Permitir permissão de modificação nas Opções do desenvolvedor do sistema. &lt;p&gt;&lt;small&gt;Por exemplo, na MIUI, a opção é Depuração USB (opções de segurança).&lt;/small&gt;</string>
+    <string name="shizuku_mode_error_adb_no_update_permission">ADB só tem permissão para AppOps, mas nenhuma permissão para atualizar apps. &lt;br&gt;Por favor, tente procurar uma opção como Permitir permissão de modificação nas Opções do desenvolvedor do sistema. &lt;p&gt;&lt;small&gt;Por exemplo, na MIUI, a opção é Depuração USB.&lt;/small&gt;</string>
     <string name="progress_requesting_authorization">Solicitando autorização…</string>
     <string name="progress_checking_availability">Confirmando disponibilidade…</string>
     <string name="progress_fetching_user_list">Obtendo lista de usuários…</string>
@@ -93,7 +93,7 @@
     <string name="do_not_show_again">Não mostrar novamente</string>
     <string name="do_not_show_again_dialog_message">Tem certeza que não deseja ver esta dica novamente\?</string>
     <string name="template">Modelo</string>
-    <string name="template_summary">Predefina uma lista de configurações de permissões e aplique-as com um toque.</string>
+    <string name="template_summary">Predefina uma lista de configurações de permissões e aplique-as com um clique.</string>
     <string name="template_description">Você pode criar modelos simples para aplicar rapidamente.&lt;p&gt;Se você ativou \"%2$s\" em \"%1$s\", você precisará definir um modelo padrão (menu 3 pontos - %3$s).</string>
     <string name="template_default">Padrão</string>
     <string name="template_create">Criar modelo…</string>
@@ -110,7 +110,7 @@
     <string name="template_edit">Editar modelo</string>
     <string name="template_edit_title_for_create">Criar modelo</string>
     <string name="template_edit_title">Título</string>
-    <string name="template_edit_dialog_not_saved_message">Você fez algumas alterações, salvou\?</string>
+    <string name="template_edit_dialog_not_saved_message">Você fez algumas alterações. Você salvou\?</string>
     <string name="include_system_apps_dialog_button_skip">Pular apps do sistema</string>
     <string name="include_system_app_button_dialog_do_not_skip">Não pular</string>
     <string name="apply_template_dialog_create">Criar novo modelo…</string>
@@ -133,7 +133,7 @@
     <string name="new_app_behavior_settings_restore_backup">Restaurar backup automaticamente se existir</string>
     <string name="new_app_behavior_settings_restore_backup_summary">O backup pode vir da configuração anterior ou do arquivo de backup manual</string>
     <string name="new_app_behavior_settings_apply_template">Aplicar modelo automaticamente</string>
-    <string name="new_app_behavior_settings_apply_template_summary">Se \"Restaurar backup\" estiver ativado, esta opção só terá efeito quando o backup não existir.</string>
+    <string name="new_app_behavior_settings_apply_template_summary">Se Restaurar backup estiver ativado, esta opção só terá efeito quando o backup não existir.</string>
     <string name="backup_and_restore">Backup e restauração</string>
     <string name="backup_and_restore_summary">Faça backup de suas configurações e restaure-as quando tiver um novo dispositivo ou limpe seus dados.</string>
     <string name="backup_restore">Restaurar</string>
@@ -145,11 +145,11 @@
     <string name="backup_open_backup_summary">Veja o conteúdo do arquivo de backup salvo.</string>
     <string name="backup_not_installed">%1$s (não instalado)</string>
     <string name="backup_notification_restored">Backup restaurado para %1$s.</string>
-    <string name="backup_notification_restoring">Restaurando o backup…</string>
+    <string name="backup_notification_restoring">Restaurando backup…</string>
     <string name="backup_notification_restore_failed">Falha ao restaurar o backup</string>
     <string name="no_files_app_dialog_title">Não foi possível iniciar o app Files</string>
     <string name="no_files_app_dialog_message">O app Files (ou Documentos, com.android.documentsui) é um app do sistema, também uma parte importante do sistema Android. É ridículo que o fornecedor do seu dispositivo (ou você) o tenha desativado (ou até mesmo excluído).
-\nPor favor, abra as configurações e ative-o.</string>
+\nPor favor, abra as Configurações e ative-o.</string>
     <string name="no_files_app_dialog_open_settings">Abrir Configurações</string>
     <string name="no_files_app_open_failed">Não foi possível abrir as informações do app Files.</string>
     <string name="all_op_title">Todas as permissões</string>
@@ -180,7 +180,7 @@
     <string name="shizuku_mode_error_user_denied_permission_sui">Você proibiu que este app usasse Sui. &lt;br&gt;Por favor, conceda permissão para este app no Sui.</string>
     <string name="shizuku_mode_error_manager_app_not_installed_rooted">Por favor, instale o Sui ou Shizuku primeiro. Eles são irmãos gêmeos que compartilham o mesmo design de API. &lt;p&gt;Sui é um módulo Magisk. Recomendado para dispositivos com Magisk instalado. &lt;p&gt;Shizuku é um app Android independente.</string>
     <string name="shizuku_mode_error_manager_app_not_installed">Por favor, instale o Shizuku primeiro. &lt;p&gt;Shizuku é um projeto de código aberto iniciado em 2017 (veja o %s no GitHub). Ele foi projetado para beneficiar vários apps que requerem root ou ADB. Não apenas este app, mas também alguns apps de outros desenvolvedores estão usando o Shizuku. &lt;p&gt;Com o Shizuku, este app terá uma velocidade incrivelmente alta e recursos mais interessantes. Para o próprio Shizuku, o consumo de bateria ou desempenho é insignificante (zero quando não usado). &lt;p&gt;Como na filosofia Unix, um programa deve realizar apenas uma tarefa. Shizuku e este app seguem essa filosofia. Na verdade, tudo integrado é mais parecido com o que os “apps ruins” gostam de fazer.</string>
-    <string name="shizuku_mode_description_rooted">+ Aproveite todas as funcionalidades &lt;br&gt;&lt;br&gt;- Requer a instalação do Sui (um módulo Magisk) ou do Shizuku (um app), ambos de código aberto.</string>
+    <string name="shizuku_mode_description_rooted">+ Aproveite todas as funcionalidades &lt;br&gt;&lt;br&gt;- Requer a instalação do Sui (um módulo Magisk) ou do Shizuku (um app independente), ambos de código aberto.</string>
     <string name="working_mode_button_download_format">Baixar %s</string>
     <string name="button_authorize">Autorizar</string>
     <string name="button_learn_more">Saiba mais</string>
@@ -249,7 +249,7 @@
     <string name="op_name_USE_BIOMETRIC">usar hardware biométrico</string>
     <string name="op_name_REQUEST_DELETE_PACKAGES">solicitar exclusão de pacote</string>
     <string name="op_name_BLUETOOTH_SCAN">escanear Bluetooth</string>
-    <string name="op_name_MANAGE_IPSEC_TUNNELS">criar e gerenciar Túneis IPsec</string>
+    <string name="op_name_MANAGE_IPSEC_TUNNELS">criar e gerenciar túneis IPsec</string>
     <string name="op_name_ACCEPT_HANDOVER">continuar uma chamada de outro app</string>
     <string name="op_name_BIND_ACCESSIBILITY_SERVICE">usar serviço de acessibilidade</string>
     <string name="op_name_ANSWER_PHONE_CALLS">atender chamadas recebidas</string>
@@ -260,7 +260,7 @@
     <string name="op_name_LOCK_APP">bloquear app</string>
     <string name="op_name_SU">obter acesso root</string>
     <string name="op_name_DATA_CONNECT_CHANGE">alternar dados móveis</string>
-    <string name="op_name_NFC_CHANGE">alternar o NFC</string>
+    <string name="op_name_NFC_CHANGE">alternar NFC</string>
     <string name="op_name_BOOT_COMPLETED">iniciar ao ligar</string>
     <string name="op_name_BLUETOOTH_CHANGE">alternar Bluetooth</string>
     <string name="op_name_WIFI_CHANGE">alterar estado do Wi-Fi</string>
@@ -317,7 +317,7 @@
     <string name="op_name_CALL_PHONE">ligar para telefone</string>
     <string name="op_name_NEIGHBORING_CELLS">busca por rede celular</string>
     <string name="op_name_POST_NOTIFICATION">notificação</string>
-    <string name="op_name_WIFI_SCAN">busca por wi-fi</string>
+    <string name="op_name_WIFI_SCAN">busca por Wi-Fi</string>
     <string name="op_name_WRITE_CALENDAR">modificar calendário</string>
     <string name="op_name_READ_CALENDAR">ler calendário</string>
     <string name="op_name_WRITE_CALL_LOG">modificar registro de chamadas</string>
@@ -331,11 +331,11 @@
     <string name="op_name_LOCATION">usar localização</string>
     <string name="op_desc_ACCESS_MEDIA_LOCATION">Permita que o app leia locais de arquivos de mídia (via Media Store).</string>
     <string name="op_desc_READ_DEVICE_IDENTIFIERS">No Android 10 ou superior, por padrão, nenhum app de usuário tem permissão para ler os identificadores do dispositivo (IMEI, MEID, IMSI, número do cartão SIM e série do dispositivo).</string>
-    <string name="op_name_READ_DEVICE_IDENTIFIERS">ler identificadores de dispositivo</string>
+    <string name="op_name_READ_DEVICE_IDENTIFIERS">ler identificadores do dispositivo</string>
     <string name="op_name_ACCESS_MEDIA_LOCATION">ler informações de localização de arquivos de mídia</string>
     <string name="op_name_QUERY_ALL_PACKAGES">consultar todos os pacotes</string>
     <string name="op_desc_READ_CLIPBOARD">No Android 10 ou superior, os apps só podem ler a área de transferência se estiverem em primeiro plano.</string>
-    <string name="op_desc_WAKE_LOCK">No Android padrão, WAKE_LOCK é usado apenas para estatísticas e não tem efeito prático. &lt;b&gt;&lt;a href=https://github.com/aosp-mirror/platform_frameworks_base/blob/oreo-release/services/core/java/com/android/server/power/Notifier.java#L191-L193&gt;Visualizar código relacionado&lt;/a&gt;&lt;/b&gt;&lt;p&gt;Se você deseja restringir a execução do app em segundo plano, modifique diretamente a opção \"Executar em segundo plano\" (requer Android 7.0 ou superior).</string>
+    <string name="op_desc_WAKE_LOCK">No Android padrão, WAKE_LOCK é usado apenas para estatísticas e não tem efeito prático. &lt;b&gt;&lt;a href=https://github.com/aosp-mirror/platform_frameworks_base/blob/oreo-release/services/core/java/com/android/server/power/Notifier.java#L191-L193&gt;Visualizar código relacionado&lt;/a&gt;&lt;/b&gt;&lt;p&gt;Se você deseja restringir a execução do app em segundo plano, modifique diretamente a opção Executar em segundo plano (requer Android 7.0 ou superior).</string>
     <string name="op_desc_START_FOREGROUND">Resumindo, um serviço em primeiro plano é um serviço em segundo plano com uma notificação que não pode ser ignorada. Como você pode estar ativamente ciente de sua existência a partir da notificação, o sistema garantirá a sobrevivência dos serviços em primeiro plano. Negar isso fará com que os serviços em primeiro plano retornem aos serviços normais, o que pode interromper o comportamento do app (como o reprodutor de música para em segundo plano, o app de mapa interrompe a atualização de localização).&lt;p&gt;&lt;b&gt;&lt;a href=https://developer.android.com/guide/components/services&gt;Veja a documentação em Android Developers&lt;/a&gt;&lt;/b&gt;</string>
     <string name="op_name_SMS_FINANCIAL_TRANSACTIONS">acesso SMS premium</string>
     <string name="op_name_START_FOREGROUND">executar serviço em primeiro plano</string>
@@ -365,10 +365,10 @@
     <string name="op_associated_with_runtime">Exceto \"Ignorar\", as outras opções são as mesmas das configurações de permissão do sistema.</string>
     <string name="op_associated_with_runtime_r">No Android 11 ou superior, o sistema permite apenas que \"localização\", \"câmera\" e \"microfone\" usem %1$s.</string>
     <string name="op_unknown_description">Esta permissão não está incluída no Android padrão (adicionada pelo fabricante do seu dispositivo ou adicionada na versão mais recente do Android). Por favor, seja cuidadoso.</string>
-    <string name="clipboard_monitor_settings_note">Se você proibir que os apps usem a área de transferência, o “botão permitir” para conceder acesso temporário será exibido na janela de solicitação.
+    <string name="clipboard_monitor_settings_note">Se você proibir que os apps usem a área de transferência, o botão \"permitir\" para conceder acesso temporário será exibido na janela de solicitação.
 \n
 \nObserve que você também será notificado quando tentar copiar ou colar (os acessos à área de transferência feitos por você ou pelo app são tecnicamente iguais).</string>
-    <string name="usage_monitor_settings_toggle_summary">Receba notificações quando apps estiverem usando localização, câmera ou microfone.</string>
+    <string name="usage_monitor_settings_toggle_summary">Receba notificações quando apps estiverem usando a localização, câmera ou microfone.</string>
     <string name="error_unable_to_start_remote_service">Não foi possível iniciar o serviço.</string>
     <string name="clipboard_monitor_settings_excluded_system_apps_summary">Exclua todos os apps do sistema, independentemente das opções individuais.</string>
     <string name="core_app_warning">Este app pode ser um componente central do sistema Android, deve-se ter cuidado.</string>
@@ -376,7 +376,7 @@
     <string name="clipboard_monitor_denied_access">%1$s negado para <b>%2$s</b> a área de transferência.</string>
     <string name="working_mode_dpm_removed">O modo administrador do dispositivo delegado foi removido</string>
     <string name="working_mode_dpm_removed_description">Devido a um novo requisito da política do Google Play, o modo administrador do dispositivo delegado precisa ser removido antes de 12/07/2022. &lt;p&gt;Se você precisar usar o modo administrador do dispositivo delegado, baixe uma versão mais antiga do app em nosso site.</string>
-    <string name="clipboard_monitor_settings_toggle">Ativar monitor da área de transferência</string>
+    <string name="clipboard_monitor_settings_toggle">Ativar Monitor da área de transferência</string>
     <string name="clipboard_monitor_settings_toggle_summary">Seja notificado quando os apps acessarem a área de transferência</string>
     <string name="clipboard_monitor_settings_permission">Requer \"%s\"</string>
     <string name="error_unable_to_start_remote_service_solution">Force a parada do app e tente novamente.</string>
@@ -392,7 +392,7 @@
     <string name="settings_send_data_summary">Os recursos acima usam o Visual Studio App Center fornecido pela Microsoft. As informações coletadas são anônimas e não podemos rastreá-las até um dispositivo ou usuário independente.
 \nConsulte a Política de Privacidade para obter mais informações.</string>
     <string name="auto_recovery_notification_waiting_title">Aguardando a recuperação das configurações…</string>
-    <string name="auto_recovery_settings_note">A partir do Android 10, sob certas circunstâncias, algumas das configurações de “Ignorar” serão redefinidas pelo sistema.
+    <string name="auto_recovery_settings_note">A partir do Android 10, sob certas circunstâncias, algumas das configurações de \"Ignorar\" serão redefinidas pelo sistema.
 \n
 \nPara sistemas altamente modificados (por exemplo, a MIUI), este comportamento pode aparecer em versões mais antigas.
 \n
@@ -452,7 +452,7 @@
     <string name="auto_recovery_notification_channel_label">Status da recuperação automática</string>
     <string name="auto_recovery_notification_title">Recuperando configurações…</string>
     <string name="auto_recovery_notification_waiting_text">Por favor, termine a configuração do \"%1$s\".</string>
-    <string name="auto_recovery_settings_toggle_title">Ativar recuperação automática</string>
+    <string name="auto_recovery_settings_toggle_title">Ativar Recuperação automática</string>
     <string name="auto_recovery_settings_toggle_summary">Recuperar automaticamente o conjunto anterior \"Ignorar\" quando necessário</string>
     <string name="auto_recovery_settings_start_now_title">Comecar a recuperar agora</string>
     <string name="auto_recovery_settings_start_now_summary">Pode haver situações que não foram consideradas</string>
