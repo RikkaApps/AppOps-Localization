@@ -1,2 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources></resources>
+<resources>
+    <string name="shizuku_mode_description_rooted">+ Nyt full funksjonalitet &lt;br&gt;&lt;br&gt;- Krever installasjon av Sui (en Magisk-modul) eller Shizuku (en applikasjon), begge av disse er åpen-kilde</string>
+    <string name="shizuku_mode_description">+ Virker for både root og ikke-root enheter &lt;br&gt;+ Veldig raskt, med ubetydelige ressursbruk &lt;br&gt;+ Nyt full funksjonalitet &lt;br&gt;&lt;br&gt;- Krever installasjon av en åpen-kilde app (Shizuku) &lt;br&gt;- For ikke-root-enheter, trenger du å starte Shizuku ved å bruke ADB via en datamaskin &lt;br&gt;- For enheter som kjører Android 11 eller nyere, kan du starte Shizuku uten datamaskin</string>
+    <string name="translators">Opera</string>
+    <string name="shizuku_mode_shizuku_not_running">(Shizuku kjører ikke)</string>
+    <string name="shizuku_mode_over_adb">Shizuku-modus (startet via ADB)</string>
+    <string name="shizuku_mode_over_root">Shizuku-modus (startet via root)</string>
+    <string name="shizuku_mode">Shizuku-modus</string>
+    <string name="working_mode_dpm_removed_description">Fordi av en ny Google Play-policy-krav, trenger Delegert enhetsadministrator-modus å bli fjernet før 12. juli 2022. &lt;p&gt;Hvis du trenger å bruke modusen, trenger du å laste ned en eldre versjon av appen fra nettstedet vårt.</string>
+    <string name="working_mode_dpm_removed">Delegert enhetsadministrator-modus har blitt fjernet</string>
+    <string name="working_mode_button_open">Åpne %s</string>
+    <string name="working_mode_button_download_format">Last ned %s</string>
+    <string name="working_mode_button_switch">Bytt til en annen arbeidende modus</string>
+    <string name="working_mode_button_continue">Fortsett</string>
+    <string name="working_mode_button_retry">Prøv igjen</string>
+    <string name="working_mode_choice">Velg en arbeidende modus:</string>
+    <string name="working_mode_title">Arbeidende modus: %s</string>
+</resources>
