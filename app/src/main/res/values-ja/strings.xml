@@ -218,7 +218,7 @@
     <string name="shizuku_mode_description_rooted">+ すべての機能をお楽しみください&lt;br&gt;&lt;br&gt;オープンソースの、Sui (Magisk モジュール) または Shizuku (アプリ) をインストールする必要があります</string>
     <string name="shizuku_mode_over_root">Shizuku モード (rootで開始)</string>
     <string name="shizuku_mode_over_adb">Shizuku モード (adbで開始)</string>
-    <string name="working_mode_button_download_format">%s をダウンロード</string>
+    <string name="working_mode_button_download_format">%s ダウンロード中</string>
     <string name="template_edit_title">タイトル</string>
     <string name="op_name_LOCK_APP">アプリのロック</string>
     <string name="op_name_SU">ルートアクセスの取得</string>
