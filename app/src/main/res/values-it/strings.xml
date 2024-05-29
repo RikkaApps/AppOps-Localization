@@ -100,8 +100,8 @@
     <string name="shizuku_mode_error_manager_app_not_installed">Per favore installa Shizuku prima &lt;p&gt;Shizuku è un proggetto open source partito il 2017 (guarda %s su GitHub). È ideato in modo da beneficiare di diverse applicazioni che richiedono root oppure adb. Non solo quest\'app, ma anche altre applicazioni da altri sviluppatori che usano Shizuku.&lt;p&gt;Con Shizuku, quest\'applicazione diventerà incredibilmente veloce e avrà molte caratteristiche interessanti. Per Shizuku stesso, il consumo di batteria o la richiesta di prestazioni sono irrisorie (zero consumi quando non usata). &lt;p&gt;Come la filosofia di Unix, un solo programma dovrebbe fare solo un lavoro. Shizuku e quest\'app vogliono seguire questa filosofia. In effetti, tutto incorporato è meglio di ciò che piace fare alle \"app cattive\".</string>
     <string name="shizuku_mode_description_rooted">+ Goditi la piena funzionalità &lt;br&gt;&lt;br&gt;- Richiede di installare Sui (un modulo Magisk) o Shizuku (un\'app), entrambi open source</string>
     <string name="shizuku_mode_shizuku_not_running">(Shizuku non è in esecuzione)</string>
-    <string name="shizuku_mode_over_adb">Modalità Shizuku (avviata via ADB)</string>
-    <string name="shizuku_mode_over_root">Modalità Shizuku (avviata via root)</string>
+    <string name="shizuku_mode_over_adb"></string>
+    <string name="shizuku_mode_over_root">Mod Shizuku (dimulakan melalui root)</string>
     <string name="working_mode_button_open">Apri %s</string>
     <string name="working_mode_button_download_format">Scarica %s</string>
     <string name="working_mode_button_switch">Passa ad un\'altra modalità di lavoro</string>
