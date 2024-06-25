@@ -434,4 +434,5 @@
     <string name="something_went_wrong">Etwas ist schief gelaufen</string>
     <string name="error_unable_to_start_remote_service_solution">Beenden der App erzwingen und erneut versuchen.</string>
     <string name="working_mode_dpm_removed">Der Modus \"Delegierte Geräteverwaltung\" wurde entfernt</string>
+    <string name="error_remote_service_killed_message">Der Fern-dienst wurde auf eine ungewöhnliche art gestoppt.&lt;p&gt;Wenn das Problem weiter besteht, bitte kontaktiere den Entwickler.</string>
 </resources>
