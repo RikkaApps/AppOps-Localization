@@ -23,7 +23,7 @@
     <string name="permission_group_storage">저장소</string>
     <string name="permission_group_other">기타</string>
     <string name="op_mode_allow">허용</string>
-    <string name="op_mode_deny">거부</string>
+    <string name="op_mode_deny">무시</string>
     <string name="op_mode_default">기본</string>
     <string name="op_mode_unknown">알 수 없음 (%1$d)</string>
     <string name="reset_settings_dialog_title">모든 설정을 시스템 기본값으로 초기화하겠습니까\?</string>
@@ -147,5 +147,72 @@
     <string name="op_desc_READ_DEVICE_IDENTIFIERS">Android 10 이상에서 기본적으로 모든 사용자 앱에는 기기 식별자(IMEI, MEID, IMSI, SIM 카드 번호 및 기기 일련번호)를 읽을 수 있는 권한이 없습니다.</string>
     <string name="op_desc_WAKE_LOCK">기본 Android에서 WAKE_LOCK은 통계용으로만 사용되며 실질적인 효과가 없습니다. &lt;b&gt;&lt;a href=https://github.com/aosp-mirror/platform_frameworks_base/blob/oreo-release/services/core/java/com/android/server/power/Notifier.java#L191-L193&gt;관련 코드 보기&lt;/a&gt;&lt;/b&gt;&lt;p&gt;앱이 백그라운드에서 실행되는 것을 제한하려면 \"백그라운드에서 실행\" 옵션을 직접 수정하세요(Android 7.0 이상 필요).</string>
     <string name="op_desc_START_FOREGROUND">간단히 말해서 포그라운드 서비스는 해제할 수 없는 알림이 있는 백그라운드 서비스입니다. 알림에서 그 존재를 능동적으로 알 수 있기 때문에 시스템은 포그라운드 서비스의 유지를 보장합니다.&lt;p&gt;이를 거부하면 포그라운드 서비스가 일반 서비스로 대체되고 앱 동작이 중단될 수 있습니다(예: 음악 플레이어가 백그라운드에서 멈춤, 지도 앱이 위치 업데이트를 중지함).&lt;p&gt;&lt;b&gt;&lt;a href=https://developer.android.com/guide/components/services&gt;Android 개발자 문서 보기&lt;/a&gt;&lt;/b&gt;</string>
-
+    <string name="error_remote_service_killed_button_restart">원격서비스 재시작</string>
+    <string name="apps_view">앱 보기</string>
+    <plurals name="app_view_item_modified">
+        <item quantity="other">%d개 항목 선택됨</item>
+    </plurals>
+    <string name="system_app">시스템 앱</string>
+    <string name="permissions_view">권한 보기</string>
+    <plurals name="permissions_view_item_summary">
+        <item quantity="other">%1$d 앱</item>
+    </plurals>
+    <string name="app_view_item_not_modified">선택되지 않음</string>
+    <string name="permissions_view_summary">앱을 권한별로 나열하고 명확하게 관리하기.</string>
+    <string name="permissions_view_all">모두 선택</string>
+    <string name="system_app_warning">이것은 시스템 응용 프로그램이므로 설정을 변경하면 심각한 문제가 발생할 수 있습니다.</string>
+    <string name="multi_selection_tip">아이콘을 왼쪽 또는 길게 눌러 다중 선택 모드로 전환하여 빠르게 작동할 수 있습니다.</string>
+    <string name="app_name_multi_user">%1$s앱 이름 (%2$s앱 사용자이름)</string>
+    <string name="op_mode_onetime">항상묻기</string>
+    <string name="op_mode_unspecified">아직 설정되지않음</string>
+    <string name="permission_group_device_identifiers">장치식별</string>
+    <string name="progress_fetching_user_list">사용자 목록 가져오는 중…</string>
+    <string name="progress_working">작업(%1$d 의%2$d)</string>
+    <string name="error_license_about_to_invalid">구매가 오랫동안 확인되지않음</string>
+    <string name="something_went_wrong">뭔가 잘못되었습니다</string>
+    <string name="progress_fetching_app_list">앱 목록을 가져오는중…</string>
+    <string name="menu_badge_early_access">초기 엑세스</string>
+    <string name="menu_show_app_info_in">에 앱 정보 표시…</string>
+    <string name="button_discard"></string>
+    <string name="permission_group_sensors">센서</string>
+    <string name="permission_group_activity_recognition">신체활동</string>
+    <string name="menu_more">기타옵션</string>
+    <string name="menu_options">설정</string>
+    <string name="menu_delete">제거</string>
+    <string name="menu_last_used_first">마지막으로 처음 사용한 순</string>
+    <string name="menu_about">대해서</string>
+    <string name="menu_set_as">세팅하기</string>
+    <string name="menu_working_mode">작업 모드</string>
+    <string name="menu_changelog">변경로그</string>
+    <string name="menu_help">도움 &amp; 지원</string>
+    <string name="menu_view_options">옵션보기</string>
+    <string name="menu_sort_by_app_name">앱 이름 순</string>
+    <string name="menu_users">사용자</string>
+    <string name="menu_badge_full_version">전체</string>
+    <string name="button_learn_more">더보기</string>
+    <string name="op_mode_deny_crash">무시 (거무할경우 앱이 충돌할수도있음)</string>
+    <string name="shizuku_mode_error_manager_app_not_installed">먼저 Shizuku를 설치해주세요. &lt;p&gt;Shizuku는 2017년부터 시작되는 오픈 소스 프로젝트입니다(깃허브의 %s 참조). 루트나 애드비가 필요한 여러 앱에 혜택을 주도록 설계되었습니다. 이 앱뿐만 아니라 다른 개발자의 일부 앱도 Shizuku를 사용하고 있습니다. &lt;p&gt;Shizuku를 사용하면 이 앱은 엄청나게 빠른 속도와 더 흥미로운 기능을 얻을 수 있습니다. Shizuku 자체의 경우 배터리나 성능 소비는 무시할 수 있습니다(사용하지 않을 때는 0입니다). &lt;p&gt;유닉스 철학처럼 하나의 프로그램은 한 가지 작업만 해야 합니다. Shizuku와 이 앱은 이 철학을 추구합니다. 사실 빌트인은 모든 것이 \"나쁜 앱\"이 하는 것과 더 비슷합니다.</string>
+    <string name="shizuku_mode_error_manager_app_not_installed_rooted">Shizuku 또는 sui를 설치해주세요.API 디자인이 같은 쌍둥이 자매입니다. &lt;p&gt;Sui는 Magisk 모듈입니다. Magisk가 설치된 기기에 추천합니다. &lt;p&gt;Shizuku는 독립형 Android 애플리케이션입니다.</string>
+    <string name="shizuku_mode_error_user_denied_permission">이 앱에서 Shizuku 비활성화되었습니다. &lt;br&gt; 설정에 가셔서 이 앱에 대한 사용 권한을 활성화해주세요.
+\nMIUI를 사용하는 경우 MIUI가 안드로이드의 사용자 지정 권한 메커니즘을 위반하면 시즈쿠 앱에서만 사용 권한을 부여할 수 있습니다.</string>
+    <string name="shizuku_mode_error_not_running">Shizuku가 작동하지않거나 무언가 오류가있습니다 &lt;br&gt;Shizuku을 강제종료해보세요.</string>
+    <string name="shizuku_mode_error_version_too_low">설치된 버전이 너무 낮습니다. (%s이상)의 버전을 설치하세요.</string>
+    <string name="shizuku_mode_error_adb_no_update_permission">ADB는 get appops만 있고 업데이트 appops 권한은 없습니다. &lt;br&gt;시스템의 개발자 옵션에서 수정 권한 허용과 같은 옵션을 찾아보세요. &lt;p&gt;&lt;small&gt;예를 들어, MIUI에서 옵션은 USB 디버깅(보안 옵션)입니다.&lt;small&gt;</string>
+    <string name="progress_requesting_authorization">권한 요청 중…</string>
+    <string name="working_mode_dpm_removed">관리모드가 제거되었습니다</string>
+    <string name="working_mode_dpm_removed_description">새로운 구글 플레이 정책 요구 사항으로 인해 2022-07-12년 이전에 장치관리모드(Delegated Device Admin)를 제거해야 합니다. &lt;p&gt;장치관리모드를 사용해야 하는 경우 당사 웹사이트에서 이전 버전의 앱을 설치하세요.</string>
+    <string name="error_unable_to_start_remote_service">서비스를 시작할수없습니다.</string>
+    <string name="error_unable_to_start_remote_service_solution">강제종료하고 다시시작해보세요.</string>
+    <string name="error_license_about_to_invalid_message">사기를 방지하기 위해 정기적인 확인이 필요합니다.&lt;p&gt;확인 절차는 자동으로 진행되며 앱의 와이파이를 끄지마세요</string>
+    <string name="error_remote_service_killed_message">원격 서비스가 비정상적으로 중지되었습니다.&lt;p&gt;문제가계속 지속되면 개발자에게 문의하세요.</string>
+    <string name="menu_copy_info">정보 복사</string>
+    <string name="menu_show_framework">시스템 프레임워크 앱 표시</string>
+    <string name="button_authorize">권한부여하기</string>
+    <string name="core_app_warning">이 응용 프로그램은 Android 시스템의 핵심 구성 요소일 수 있으므로 주의해야 합니다.</string>
+    <plurals name="permissions_view_item_summary_controlled_by_other">
+        <item quantity="other">%2$d 앱, 제어된 앱 %1$s</item>
+    </plurals>
+    <string name="shared_user_id_tip">이 응용 프로그램의 공유 사용자 ID는 %s이며 동일한 공유 사용자 ID를 가진 응용 프로그램은 대부분의 권한을 공유합니다.</string>
+    <string name="permission_group_clipboard">클립보드</string>
+    <string name="op_mode_ignore">거부</string>
 </resources>
