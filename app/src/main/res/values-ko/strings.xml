@@ -173,7 +173,6 @@
     <string name="progress_fetching_app_list">앱 목록을 가져오는중…</string>
     <string name="menu_badge_early_access">초기 엑세스</string>
     <string name="menu_show_app_info_in">에 앱 정보 표시…</string>
-    <string name="button_discard"></string>
     <string name="permission_group_sensors">센서</string>
     <string name="permission_group_activity_recognition">신체활동</string>
     <string name="menu_more">기타옵션</string>
