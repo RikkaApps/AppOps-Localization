@@ -18,7 +18,7 @@
     <string name="menu_save">Сохранить</string>
     <string name="menu_apply_template">Применить шаблон</string>
     <string name="menu_select_all">Выбрать все</string>
-    <string name="menu_select_inverse">Обратное выделение</string>
+    <string name="menu_select_inverse">Обратить выделение</string>
     <string name="menu_copy_info">Копировать информацию</string>
     <string name="menu_more">Дополнительные параметры</string>
     <string name="menu_changelog">Изменения</string>
@@ -32,7 +32,7 @@
     <string name="button_discard">Отменить</string>
     <string name="app_detail_version">версия %1$s</string>
     <plurals name="app_view_item_modified">
-        <item quantity="one">Изменен %d пункт</item>
+        <item quantity="one">Изменён %d пункт</item>
         <item quantity="few">Изменены %d пункта</item>
         <item quantity="many">Изменено %d пунктов</item>
         <item quantity="other">Изменено %d пунктов</item>
@@ -85,13 +85,13 @@
     <string name="do_not_show_again">Не показывать снова</string>
     <string name="do_not_show_again_dialog_message">Вы уверены, что не хотите снова видеть этот совет\?</string>
     <string name="template">Шаблон</string>
-    <string name="template_summary">Предварительно создайте список разрешений и применяйте его в один клик.</string>
-    <string name="template_description">Вы создаете шаблоны для быстрого применения.&lt;p&gt;Если в «%2$s» включен параметр «%1$s», необходимо задать шаблон по умолчанию (меню с троеточием - %3$s).</string>
+    <string name="template_summary">Предварительно создайте список разрешений и применяйте его в одно нажатие.</string>
+    <string name="template_description">Вы создаёте шаблоны для быстрого применения.&lt;p&gt;Если в «%2$s» включён параметр «%1$s», необходимо задать шаблон по умолчанию (меню с троеточием - %3$s).</string>
     <string name="template_default">По умолчанию</string>
     <string name="template_create">Создать шаблон…</string>
     <plurals name="template_item_summary">
         <item quantity="one">%1$d шаблон</item>
-        <item quantity="few">%1$d шаблоны</item>
+        <item quantity="few">%1$d шаблона</item>
         <item quantity="many">%1$d шаблонов</item>
         <item quantity="other">%1$d шаблонов</item>
     </plurals>
@@ -128,9 +128,9 @@
     <string name="backup_and_restore_summary">Создавайте резервные копии Ваших настроек. И восстанавливайте их при смене устройства или после очистки/сброса данных.</string>
     <string name="backup_restore">Восстановить</string>
     <string name="backup_create_backup">Создать новый файл резервной копии</string>
-    <string name="backup_create_backup_summary">Резервное копирование текущих настроек установленных приложений в файлы (внутреннее хранилище, Google Drive и т.д.).</string>
+    <string name="backup_create_backup_summary">Резервное копирование текущих настроек установленных приложений в файлы (внутреннее хранилище, Google Диск и т.д.).</string>
     <string name="backup_restore_backup">Восстановление из файла резервной копии</string>
-    <string name="backup_restore_backup_summary">Восстановить настройки для &lt;b&gt;установленных приложений&lt;/b&gt;.&lt;br&gt;Для &lt;b&gt;приложений, которые еще не установлены&lt;/b&gt;, настройки будут автоматически восстановлены (требуется включить в «Реакция на новое приложение»).</string>
+    <string name="backup_restore_backup_summary">Восстановить настройки для &lt;b&gt;установленных приложений&lt;/b&gt;.&lt;br&gt;Для &lt;b&gt;приложений, которые ещё не установлены&lt;/b&gt;, настройки будут автоматически восстановлены (требуется включить в «Реакция на новое приложение»).</string>
     <string name="backup_open_backup">Открыть файл резервной копии</string>
     <string name="backup_open_backup_summary">Просмотр содержимого файла резервной копии.</string>
     <string name="backup_not_installed">%1$s (не установлено)</string>
@@ -138,10 +138,10 @@
     <string name="backup_notification_restoring">Восстановление резервной копии…</string>
     <string name="backup_notification_restore_failed">Сбой восстановления резервной копии</string>
     <string name="no_files_app_dialog_title">Не удалось запустить приложение Файлы</string>
-    <string name="no_files_app_dialog_message">Приложение «Файлы» (или «Документы», com.android.documentsui) — это системное приложение, которое также является важной частью системы Android. Gроизводитель вашего устройства (или вы) отключил (или даже удалил) его.
+    <string name="no_files_app_dialog_message">Приложение «Файлы» (или «Документы», com.android.documentsui) — это системное приложение, которое также является важной частью системы Android. Производитель вашего устройства (или вы) отключил (или даже удалил) его.
 \nПожалуйста, откройте настройки и включите его.</string>
     <string name="no_files_app_dialog_open_settings">Открыть настройки</string>
-    <string name="no_files_app_open_failed">Не удалось открыть приложение Файлы.</string>
+    <string name="no_files_app_open_failed">Не удалось открыть приложение «Файлы».</string>
     <string name="all_op_title">Все разрешения</string>
     <string name="all_op_summary">Просмотр всех разрешений (операций), поддерживаемых системой</string>
     <string name="all_op_header">Ниже приведены все разрешения, поддерживаемые вашей системой (на самом деле, не реальные разрешения, пожалуйста, обратитесь к справке).&lt;br&gt;&lt;br&gt;* Чем выше версия Android, тем больше элементов. &lt;br&gt;* Некоторые элементы скрыты, потому что их изменение не имеет никакого эффекта.</string>
@@ -164,10 +164,10 @@
     <string name="bug_report_mail_message">По возможности опишите ситуацию, в которой произошла ошибка.</string>
     <string name="send_to_developer">Сообщить разработчику</string>
     <string name="user_name_fallback">Пользователь</string>
-    <string name="worker_service_notification_channel_label">Статус работы</string>
+    <string name="worker_service_notification_channel_label">Состояние работы</string>
     <string name="worker_service_notification_title">Работа…</string>
     <string name="storage_isolation_not_running">Не удается получить конфигурацию из «%s».</string>
-    <string name="translators">WANTES, anton.galyshev, ruvlad, tommynok</string>
+    <string name="translators">WANTES, anton.galyshev, ruvlad, tommynok, berry</string>
     <string name="working_mode_title">Режим работы: %s</string>
     <string name="working_mode_choice">Выберите режим работы:</string>
     <string name="working_mode_button_retry">Повторить</string>
@@ -177,15 +177,15 @@
     <string name="shizuku_mode_shizuku_not_running">(Shizuku не запущен)</string>
     <string name="working_mode_button_download_format">Скачать %s</string>
     <string name="shizuku_mode_over_root">Режим Shizuku (запущен через root)</string>
-    <string name="shizuku_mode_description">+ Работает с устройствами без и с root правами &lt;br&gt;+ Очень быстр, незначительное потребление ресурсов &lt;br&gt;+ Доступна вся функциональность &lt;br&gt;&lt;br&gt;- Требуется установить open-source приложение (Shizuku) &lt;br&gt;- Для устройств без root прав после каждой перезагрузки придется запускать Shizuku с помощью adb на компьютере &lt;br&gt;- Для устройств на Android 11 и выше Shizuku может запускаться без компьютера</string>
+    <string name="shizuku_mode_description">+ Работает с устройствами без и с root правами &lt;br&gt;+ Очень быстр, незначительное потребление ресурсов &lt;br&gt;+ Доступна вся функциональность &lt;br&gt;&lt;br&gt;- Требуется установить open-source приложение (Shizuku) &lt;br&gt;- Для устройств без root прав после каждой перезагрузки придётся запускать Shizuku с помощью adb на компьютере &lt;br&gt;- Для устройств на Android 11 и выше Shizuku может запускаться без компьютера</string>
     <string name="shizuku_mode_error_manager_app_not_installed">Пожалуйста, сперва установите Shizuku. &lt;p&gt;Shizuku – это проект с открытым исходным кодом, зародившийся в 2017 году (см. %s на GitHub). Он служит опорой разным программам, которым нужны root права или adb. Не только это, но и некоторые другие приложения от сторонних разработчиков используют Shizuku. &lt;p&gt;С Shizuku это приложение получит немыслимо высокую скорость работы и немало интересных функций. Сам Shizuku потребляет ничтожно малые ресурсы процессора и батареи (когда не используется, не потребляет их вовсе). &lt;p&gt;Исходя из философии Unix, одна программа должна выполнять только одну работу. Shizuku и это приложение придерживаются данной философии. По сути, делать комбайн «всё в одном» значит повторять за «плохими» приложениями.</string>
     <string name="shizuku_mode_error_user_denied_permission">Вы запретили этому приложению использовать Shizuku. &lt;br&gt;Пожалуйста, предоставьте ему разрешение в системных настройках или из приложения Shizuku. &lt;p&gt;Если вы сидите на MIUI, эта оболочка ломает механизм выдачи сторонних разрешений на Android, и вам удастся управлять ими только из приложения Shizuku.</string>
-    <string name="settings_send_data_summary">Вышеупомянутые функции используют Visual Studio App Center, предоставляемый корпорацией Microsoft. Собранная информация является анонимной, и мы не можем отследить ее до независимого устройства или пользователя.
-\nПодробнее см. в Политике конфиденциальности.</string>
-    <string name="unlock_full_version">Разблокировать полную версию</string>
+    <string name="settings_send_data_summary">Вышеупомянутые функции используют Visual Studio App Center, предоставляемый корпорацией Майкрософт. Собранная информация является анонимной, и мы не можем отследить её до независимого устройства или пользователя.
+\nПодробнее см. в политике конфиденциальности.</string>
+    <string name="unlock_full_version">Открыть полную версию</string>
     <string name="full_version">Полная версия</string>
     <string name="menu_badge_full_version">Полная</string>
-    <string name="op_mode_ignore_description_runtime">Приложению якобы дается разрешение, но на самом деле оно получает «пустышку» вместо запрошенных данных или невыполненное действие</string>
+    <string name="op_mode_ignore_description_runtime">Приложению якобы даётся разрешение, но на самом деле оно получает «пустышку» вместо запрошенных данных или невыполненное действие</string>
     <string name="op_mode_unspecified">Не выбрано</string>
     <string name="op_mode_default_description">«По умолчанию» означает, что контролируется опциями, которые можно изучить в &lt;b&gt;&lt;a href=%1$s&gt;системных настройках&lt;/a&gt;&lt;/b&gt; или &lt;b&gt;&lt;a href=%2$s&gt;информации о приложении&lt;/a&gt;&lt;/b&gt;.</string>
     <string name="requirement_android_version">Требуемая версия Android: %s</string>
@@ -214,16 +214,16 @@
     <string name="backup_error_legacy_backup">Учтите, что резервные копии, созданные до %s, не поддерживаются из-за недостатка необходимых сведений.</string>
     <string name="monitors_service_label">Служба слежения</string>
     <string name="monitors_service_description">Нужна для работы функций «Реакция на новое приложение», «Контроль за буфером обмена», «Контроль за использованием» и «История использования».</string>
-    <string name="storage_isolation_requires_enhance_mode">Учтите, что «%1$s» нужно запускать из \"Расширенного режима\".</string>
+    <string name="storage_isolation_requires_enhance_mode">Учтите, что «%1$s» нужно запускать из «Расширенного режима».</string>
     <string name="auto_recovery_settings_ignore_summary">Если вы уверены, что в вашей системе нет такой проблемы (например, на Pixel или AOSP-подобных прошивках), включите эту опцию, чтобы убрать принудительный автоматический откат</string>
     <string name="comma">", "</string>
-    <string name="auto_recovery_settings_note">Начиная с Android 10, при определенных обстоятельствах некоторые из ваших настроек «Игнорировать» будут сброшены системой.
+    <string name="auto_recovery_settings_note">Начиная с Android 10, при определённых обстоятельствах некоторые из ваших настроек «Игнорировать» будут сброшены системой.
 \n
 \nВ сильно модифицированных системах (например, MIUI), такое поведение может встречаться и в более старых версиях.
 \n
 \nЕдинственное решение – переключить опции обратно после вмешательства системы. Вы увидите уведомление, когда автоматический откат сработает.</string>
-    <string name="op_associated_with_runtime_r">На Android 11 и выше система дает «%1$s» доступ только к «местоположению», «камере» и «микрофону».</string>
-    <string name="manufacturer_restriction_dialog_message">Многие производители (в основном с континентального Китая), в их числе OnePlus, Xiaomi, Huawei, Samsung (но не только они), по умолчанию ограничивают фоновую активность. &lt;p&gt;Ограничения производителей, как правило, отвратительно реализованы. &lt;b&gt;Для приложения, сделанного по стандартам Android, их ограничения не сэкономят ресурсы батареи, а только нарушат его работу&lt;/b&gt;. Что более нелепо, те же самые производители &lt;b&gt;обычно встраивают «список разрешенных», куда добавляют приложения от крупных компаний&lt;/b&gt;. Вся экосистема Android глубоко пострадала от них. &lt;p&gt;Чтобы заставить «%1$s» работать, пожалуйста, снимите эти ограничения. Вы можете обратиться в %2$s. И не волнуйтесь, оно не потребляет ресурсы процессора в непрерывном режиме, приложение даже не появится в списке использования батареи вашей системы.</string>
+    <string name="op_associated_with_runtime_r">На Android 11 и выше система даёт «%1$s» доступ только к «местоположению», «камере» и «микрофону».</string>
+    <string name="manufacturer_restriction_dialog_message">Многие производители (в основном с континентального Китая), в их числе OnePlus, Xiaomi, Huawei, Samsung (но не только они), по умолчанию ограничивают фоновую активность. &lt;p&gt;Ограничения производителей, как правило, отвратительно реализованы. &lt;b&gt;Для приложения, сделанного по стандартам Android, их ограничения не сэкономят ресурсы батареи, а только нарушат его работу&lt;/b&gt;. Что более нелепо, те же самые производители &lt;b&gt;обычно встраивают «список разрешённых», куда добавляют приложения от крупных компаний&lt;/b&gt;. Вся экосистема Android глубоко пострадала от них. &lt;p&gt;Чтобы заставить «%1$s» работать, пожалуйста, снимите эти ограничения. Вы можете обратиться в %2$s. И не волнуйтесь, оно не потребляет ресурсы процессора в непрерывном режиме, приложение даже не появится в списке использования батареи вашей системы.</string>
     <string name="apps_view">По приложениям</string>
     <string name="shizuku_mode_over_adb">Режим Shizuku (запущен через adb)</string>
     <string name="shizuku_mode_description_rooted">+ Доступна вся функциональность &lt;br&gt;&lt;br&gt;- Требуется установить Sui (модуль Magisk) или Shizuku (приложение), они оба с открытым исходным кодом (open-source)</string>
@@ -250,7 +250,7 @@
     <string name="your_working_mode">Ваш режим работы: %s</string>
     <string name="clipboard_monitor">Контроль за буфером обмена</string>
     <string name="op_summary_unknown">От производителя устройства или из более свежей ОС Android</string>
-    <string name="op_associated_with_runtime_dpm_unable_to_confirm">не удается подтвердить</string>
+    <string name="op_associated_with_runtime_dpm_unable_to_confirm">не удаётся подтвердить</string>
     <string name="op_associated_with_runtime">За исключением «Игнорировать», все остальные параметры те же самые, что и в системных настройках разрешений.</string>
     <string name="op_added_by_others">Это приложение не запрашивает «%s», однако часть других запрошенных разрешений от него зависит.</string>
     <string name="op_summary_controlled_by_other">Зависит от параметра «%s»</string>
@@ -261,12 +261,12 @@
     <string name="usage_monitor_microphone">Микрофон</string>
     <string name="usage_monitor_notification_text">А также %1$s.</string>
     <string name="usage_history">История использования</string>
-    <string name="clipboard_monitor_settings_allow_timeout_second">%s секунд</string>
+    <string name="clipboard_monitor_settings_allow_timeout_second">%s сек.</string>
     <string name="clipboard_monitor_settings_toggle">Вкл. контроль за буфером обмена</string>
     <string name="clipboard_monitor_settings_excluded_apps">Исключения</string>
     <string name="clipboard_monitor_settings_excluded_apps_summary">Выбрать приложения, для которых не требуются подсказки</string>
     <string name="clipboard_monitor_settings_excluded_system_apps">Исключить системные приложения</string>
-    <string name="clipboard_monitor_settings_allow_timeout">Продолжительность временного доступа</string>
+    <string name="clipboard_monitor_settings_allow_timeout">Длительность временного доступа</string>
     <string name="clipboard_monitor_settings_window_position">Расположение окна с подсказкой</string>
     <string name="clipboard_monitor_settings_window_position_bottom">В нижней части экрана</string>
     <string name="clipboard_monitor_settings_window_position_top">В верхней части экрана</string>
@@ -304,22 +304,22 @@
     <string name="backup_review_action_restore_templates_add">Восстановить как новые шаблоны</string>
     <string name="backup_review_action_restore_templates_replace">Очистить имеющиеся шаблоны и восстановить</string>
     <string name="backup_error_newer_version">Этот файл мог быть создан в более новой версии приложения, пожалуйста, обновите его и повторите ещё раз.</string>
-    <string name="backup_error_broken">Этот файл может быть поврежден.</string>
-    <string name="backup_error_open_input">Не удается открыть файл.</string>
-    <string name="backup_error_open_output">Не удается записать файл.</string>
+    <string name="backup_error_broken">Этот файл может быть повреждён.</string>
+    <string name="backup_error_open_input">Не удаётся открыть файл.</string>
+    <string name="backup_error_open_output">Не удаётся записать файл.</string>
     <string name="backup_error_io_exception">Что-то пошло не так при чтении/записи файла.</string>
     <string name="settings_more">Прочие</string>
-    <string name="settings_crash_report_title">Отправлять отчеты об ошибке</string>
+    <string name="settings_crash_report_title">Отправлять отчёты об ошибке</string>
     <string name="settings_crash_report_summary">Так мы сможем быстрее находить причину проблемы</string>
     <string name="settings_reselect_working_mode_title">Выбрать другой режим</string>
     <string name="settings_reselect_working_mode_summary">Выбор режима работы при следующем открытии домашней страницы</string>
     <string name="settings_translation_contributors">Внесли свой вклад</string>
-    <string name="settings_black_night_theme">Черная тема</string>
-    <string name="settings_black_night_theme_summary">Глубокий черный цвет фона при работе темной темы</string>
+    <string name="settings_black_night_theme">Чёрная тема</string>
+    <string name="settings_black_night_theme_summary">Глубокий чёрный цвет фона при работе тёмной темы</string>
     <string name="monitors_notification_title">Используется %s</string>
     <string name="monitors_notification_summary">Нажмите для настройки уведомлений.</string>
-    <string name="monitors_notification_channel_label">Текущий статус</string>
-    <string name="cannot_open_browser_dialog_title">Не удается открыть браузер</string>
+    <string name="monitors_notification_channel_label">Текущее состояние</string>
+    <string name="cannot_open_browser_dialog_title">Не удаётся открыть браузер</string>
     <string name="auto_recovery_settings_start_now_title">Начать восстановление прямо сейчас</string>
     <string name="auto_recovery_settings_start_now_summary">Полезно в ситуациях, когда изменения не были отслежены</string>
     <string name="manufacturer_restriction_dialog_title">Ограничения со стороны производителей</string>
@@ -349,7 +349,7 @@
     <string name="op_name_AUDIO_ACCESSIBILITY_VOLUME">громкость подсказок</string>
     <string name="op_name_LOCK_APP">блокирование приложения</string>
     <string name="op_name_SU">получение root доступа</string>
-    <string name="op_name_DATA_CONNECT_CHANGE">Переключить мобильных данных</string>
+    <string name="op_name_DATA_CONNECT_CHANGE">переключение мобильных данных</string>
     <string name="op_name_NFC_CHANGE">переключение NFC</string>
     <string name="op_name_BOOT_COMPLETED">автозапуск по окончанию загрузки</string>
     <string name="op_name_BLUETOOTH_CHANGE">переключение Bluetooth</string>
@@ -402,8 +402,8 @@
     <string name="op_name_RECEIVE_MMS">получение ММС</string>
     <string name="op_name_RECEIVE_EMERGECY_SMS">получение экстренных СМС</string>
     <string name="op_name_RECEIVE_SMS">получение СМС</string>
-    <string name="op_name_WRITE_SMS">Написать СМС</string>
-    <string name="op_name_READ_SMS">чтение SMS</string>
+    <string name="op_name_WRITE_SMS">написание СМС</string>
+    <string name="op_name_READ_SMS">чтение СМС</string>
     <string name="op_name_CALL_PHONE">осуществление телефонных вызовов</string>
     <string name="op_name_NEIGHBORING_CELLS">поиск мобильных сетей</string>
     <string name="op_name_POST_NOTIFICATION">уведомления</string>
@@ -419,10 +419,10 @@
     <string name="op_name_FINE_LOCATION">точное местоположение</string>
     <string name="op_name_COARSE_LOCATION">приблизительное местоположение</string>
     <string name="op_name_LOCATION">использование местоположения</string>
-    <string name="op_desc_START_FOREGROUND">Если вкратце, то активная служба – это фоновая служба с уведомлением, которое нельзя смахнуть. Поскольку вы можете созерцать ее существование в уведомлении, система обеспечит «выживаемость» таким активным службам.&lt;p&gt;Без уведомления активные службы откатываются до обычных, что может сломать поведение приложения (например, музыкальный плеер остановится, будучи свернутым, карты перестанут обновлять геоданные).&lt;p&gt;&lt;b&gt;&lt;a href=https://developer.android.com/guide/components/services&gt;Посмотреть документацию на Android Developers&lt;/a&gt;&lt;/b&gt;</string>
+    <string name="op_desc_START_FOREGROUND">Если вкратце, то активная служба – это фоновая служба с уведомлением, которое нельзя смахнуть. Поскольку вы можете созерцать её существование в уведомлении, система обеспечит «выживаемость» таким активным службам.&lt;p&gt;Без уведомления активные службы откатываются до обычных, что может сломать поведение приложения (например, музыкальный плеер остановится, будучи свёрнутым, карты перестанут обновлять геоданные).&lt;p&gt;&lt;b&gt;&lt;a href=https://developer.android.com/guide/components/services&gt;Посмотреть документацию на Android Developers&lt;/a&gt;&lt;/b&gt;</string>
     <string name="op_desc_WAKE_LOCK">На стоковом Android, WAKE_LOCK используется лишь в статистических целях и не несёт практического значения. &lt;b&gt;&lt;a href=https://github.com/aosp-mirror/platform_frameworks_base/blob/oreo-release/services/core/java/com/android/server/power/Notifier.java#L191-L193&gt;Посмотреть связанный с ним код&lt;/a&gt;&lt;/b&gt;&lt;p&gt;Если вы хотите ограничить работу приложения в фоновом режиме, пожалуйста, переключите саму опцию «Работа в фоновом режиме» (требуется Android 7.0 и выше).</string>
     <string name="op_name_QUERY_ALL_PACKAGES">запрос всех пакетов</string>
-    <string name="op_name_ACCESS_MEDIA_LOCATION">Прочитать информацию о местоположении из медиа файлов</string>
+    <string name="op_name_ACCESS_MEDIA_LOCATION">чтение информации о местоположении из медиа файлов</string>
     <string name="op_name_READ_DEVICE_IDENTIFIERS">просмотр идентификаторов устройства</string>
     <string name="op_name_WRITE_MEDIA_IMAGES">запись в фотоколлекцию</string>
     <string name="op_name_READ_MEDIA_IMAGES">просмотр фотоколлекции</string>
@@ -430,7 +430,7 @@
     <string name="op_name_READ_MEDIA_VIDEO">просмотр видеоколлекции</string>
     <string name="op_name_WRITE_MEDIA_AUDIO">запись в музыкальную коллекцию</string>
     <string name="op_name_READ_MEDIA_AUDIO">просмотр музыкальной коллекции</string>
-    <string name="op_name_SMS_FINANCIAL_TRANSACTIONS">доступ к платным SMS</string>
+    <string name="op_name_SMS_FINANCIAL_TRANSACTIONS">доступ к платным СМС</string>
     <string name="op_name_ACTIVITY_RECOGNITION">распознание физической активности</string>
     <string name="op_name_USE_BIOMETRIC">использование биометрического оборудования</string>
     <string name="op_name_REQUEST_DELETE_PACKAGES">запросы на удаление пакетов</string>
@@ -463,10 +463,10 @@
         <item quantity="other">%1$d раз</item>
     </plurals>
     <plurals name="usage_history_and_more_apps">
-        <item quantity="one">и еще %1$d приложение</item>
-        <item quantity="few">и еще %1$d приложения</item>
-        <item quantity="many">и еще %1$d приложений</item>
-        <item quantity="other">и еще %1$d приложений</item>
+        <item quantity="one">и ещё %1$d приложение</item>
+        <item quantity="few">и ещё %1$d приложения</item>
+        <item quantity="many">и ещё %1$d приложений</item>
+        <item quantity="other">и ещё %1$d приложений</item>
     </plurals>
     <string name="ignore_for_now">Пока игнорировать</string>
     <string name="permission_group_clipboard">Буфер обмена</string>
@@ -481,7 +481,7 @@
     <string name="op_desc_TOAST_WINDOW_30_app_30">Приложение предназначено для API 30 или выше, поэтому изменение этого разрешения для этого приложения не имеет практического эффекта. &lt;p&gt;Чтобы контролировать, может ли это приложение отображать всплывающее уведомление, вы можете изменить только разрешение SystemUI, но это повлияет на систему и все подобные приложения.</string>
     <string name="op_desc_TOAST_WINDOW_30_app_pre_30">Приложение предназначено для API 29 или более ранней версии, поэтому изменение этого разрешения для этого приложения будет работать.</string>
     <string name="op_desc_TOAST_WINDOW_30_systemui">Изменение этого разрешения повлияет на систему и все приложения, ориентированные на API 30 или более поздней версии.</string>
-    <string name="storage_permission_29">Ваше устройство работает под управлением Android 10 или более поздней версии, ОС андроид позволяет соответствующим приложениям записывать файлы в стандартные папки &lt;b&gt;без каких-либо разрешений&lt;/b&gt;.&lt;p&gt;Это означает, что независимо от того, как вы изменяете разрешение (будь то в этом приложении или в системе) приложение всегда может записывать файлы в стандартную папку. (Разрешение по-прежнему требуется для изменения файлов, созданных другими приложениями)&lt;p&gt;* Стандартная папка — это набор системных папок, таких как DCIM, Pictures, Download и т. д.&lt;br&gt;* Подходящие приложения — это приложения, предназначенные для API 30. или выше, или целевой API 29, приспособленые к Scoped Storage.</string>
+    <string name="storage_permission_29">Ваше устройство работает под управлением Android 10 или более поздней версии, ОС Android позволяет соответствующим приложениям записывать файлы в стандартные папки &lt;b&gt;без каких-либо разрешений&lt;/b&gt;.&lt;p&gt;Это означает, что независимо от того, как вы изменяете разрешение (будь то в этом приложении или в системе) приложение всегда может записывать файлы в стандартную папку. (Разрешение по-прежнему требуется для изменения файлов, созданных другими приложениями)&lt;p&gt;* Стандартная папка — это набор системных папок, таких как DCIM, Pictures, Download и т. д.&lt;br&gt;* Подходящие приложения — это приложения, предназначенные для API 30. или выше, или целевой API 29, приспособленные к Scoped Storage.</string>
     <string name="backup_include_system_components_summary">Включить в резервную копию системные компоненты, т. е. приложения, uid которых меньше 10000, . Делайте это на свой страх и риск.</string>
     <plurals name="packages_selector_dialog_status_format_for_multi">
         <item quantity="one">Выбрано %d приложение</item>
@@ -489,8 +489,8 @@
         <item quantity="many">Выбрано %d приложений</item>
         <item quantity="other">Выбрано %d приложений</item>
     </plurals>
-    <string name="working_mode_dpm_removed_description">В соответствии с новыми требованиями политики Google Play режим делегированного администратора устройства необходимо удалить до 12 июля 2022 г. &lt;p&gt;Если вам нужно использовать режим делегированного администратора устройства, загрузите старую версию приложения с нашего веб-сайта.</string>
-    <string name="working_mode_dpm_removed">Режим делегированного администратора устройства удален</string>
-    <string name="error_remote_service_killed_message">Удаленная служба была аварийно остановлена.&lt;p&gt;Если проблема будет сохраняться - обратитесь к разработчику.</string>
-    <string name="error_remote_service_killed_button_restart">Перезапустить удаленную службу</string>
+    <string name="working_mode_dpm_removed_description">В соответствии с новыми требованиями политики Google Play режим делегированного администратора устройства необходимо удалить до 12 июля 2022 г. &lt;p&gt;Если вам нужно использовать режим делегированного администратора устройства, скачайте старую версию приложения с нашего веб-сайта.</string>
+    <string name="working_mode_dpm_removed">Режим делегированного администратора устройства удалён</string>
+    <string name="error_remote_service_killed_message">Удалённая служба была аварийно остановлена.&lt;p&gt;Если проблема будет сохраняться - обратитесь к разработчику.</string>
+    <string name="error_remote_service_killed_button_restart">Перезапустить удалённую службу</string>
 </resources>
