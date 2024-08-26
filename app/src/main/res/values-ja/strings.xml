@@ -326,4 +326,16 @@
     <string name="error_license_about_to_invalid_message">不正な購入を防ぐため、定期的な確認が必要です。&lt;p&gt;確認プロセスは自動で行われます。アプリがネットワークにアクセスできないようにブロックしないでください。</string>
     <string name="error_license_about_to_invalid">購入が長い間確認されていません</string>
     <string name="something_went_wrong">問題が発生しました</string>
+    <plurals name="include_system_apps_dialog_title">
+        <item quantity="other">%d システムアプリを含む</item>
+    </plurals>
+    <string name="include_system_apps_dialog_message">重要なシステムアプリに対する操作を誤ると、取り返しのつかない問題を引き起こす可能性があります。 ご注意ください。 
+\n 
+\nサムスンユーザーからの起動不能の報告が複数あります。</string>
+    <string name="include_system_apps_dialog_button_skip">システムアプリをスキップ</string>
+    <string name="include_system_app_button_dialog_do_not_skip">スキップしない</string>
+    <string name="template_edit_dialog_not_saved_message">変更を加えました。保存しますか\?</string>
+    <string name="core_app_warning">このアプリケーションは、Androidシステムのコア・コンポーネントである可能性がある為、注意が必要です。</string>
+    <string name="permission_group_clipboard">クリップボード</string>
+    <string name="apply_template_dialog_create">新しいテンプレートを作成…</string>
 </resources>
