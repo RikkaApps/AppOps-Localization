@@ -200,4 +200,6 @@
     <string name="op_name_LOCATION">Utiliser la localisation</string>
     <string name="op_name_CALL_PHONE">Appel téléphonique</string>
     <string name="op_name_NEIGHBORING_CELLS">Balayage cellulaire</string>
+    <string name="shizuku_mode_error_user_denied_permission">Vous avez bloqué l\'application d\'utiliser Shizuku. &lt;br&gt;Prière de l\'autoriser dans les paramètres système et de l\'application Shizuku.
+\n&lt;p&gt;Si vous utilisez MIUI, MIUI bloque les mécanismes de notifications personnalisés d\'Android, vous pouvez seulement autoriser l\'accès depuis l\'app Shizuku.</string>
 </resources>
