@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="template">نموذج</string>
-    <string name="translators">io_2020,tajf0000, aali022, moha5000</string>
+    <string name="translators">i00</string>
     <string name="progress_requesting_authorization">طلب التفويض…</string>
     <string name="progress_checking_availability">التحقق من الجاهزية…</string>
     <string name="progress_fetching_user_list">إحضار قائمة المستخدمين…</string>
