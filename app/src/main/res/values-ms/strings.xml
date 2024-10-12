@@ -136,4 +136,5 @@
     <string name="backup_error_open_output">Fail tidak boleh ditulis.</string>
     <string name="backup_error_io_exception">Sesuatu kesalahan berlaku ketika fail sedang dibaca/ditulis.</string>
     <string name="no_files_app_dialog_title">Aplikasi Files gagal dimulakan</string>
+    <string name="shizuku_mode_error_manager_app_not_installed">Start via Wireless debugging On Android 11 or above, you can enable Wireless debugging and start Shizuku directly from your device, without connecting to a computer. Please view the step-by-step guide first. Step-by-step guide Pairing Start Start by connecting to a Computer For devices without root, you need to use adb to start Shizuku (requires computer connection). This process needs to be repeated every time the device is restarted. Please read the help.</string>
 </resources>
