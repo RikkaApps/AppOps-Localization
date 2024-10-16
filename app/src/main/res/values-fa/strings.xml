@@ -1,2 +1,4 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources></resources>
+<resources>
+    <string name="storage_permission_29">Your device runs Android 10 or higher, the Android system allows eligible apps to write files in standard folders &lt;b&gt;without any permissions&lt;/b&gt;.&lt;p&gt;This means that no matter how you modify the permission (whether in this app or in the system), the app can always write files to the standard folder. (Permission is still required for modifying files created by other apps)&lt;p&gt;* Standard folder refers to a series of system-defined folders such as DCIM, Pictures, Download, etc.&lt;br&gt;* Eligible apps are apps that target API 30 or above, or target API 29 and have adapted Scoped Storage.</string>
+</resources>
