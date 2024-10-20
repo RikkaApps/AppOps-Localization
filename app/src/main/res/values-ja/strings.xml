@@ -341,4 +341,6 @@
     <string name="backup_create_backup_summary_system_components">修復不可能な問題を避けるため、<b>システムコンポーネントはバックアップされません</b>。</string>
     <string name="new_app_behavior_settings_restore_backup_summary">バックアップは以前の設定からまたは手動でバックアップファイルから行うことができます。</string>
     <string name="new_app_behavior_settings_apply_template_summary">「バックアップの復元」が有効な場合、このオプションはバックアップが存在しない場合にのみ有効になります。</string>
+    <string name="backup_creating_backup">バックアップを作成しています…</string>
+    <string name="backup_review_action_dont_restore">復元しない</string>
 </resources>
