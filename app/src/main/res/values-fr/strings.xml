@@ -2,7 +2,7 @@
 <resources>
     <string name="translators">mollyman, Younes-L, vincenziojovanoski</string>
     <string name="shizuku_mode_error_adb_no_update_permission">ADB a seulement obtenu app ops mais aucune mise a jour de permission d\'app ops.&lt;br&gt;Essayez de chercher une option comme \" Autoriser la modification des permissions \" dans les \" Options du développeur \" du système.&lt;p&gt;&lt;small&gt;Par exemple, dans MIUI, l\'option est \"Débogage USB (options de sécurité)\".&lt;/small&gt;</string>
-    <string name="progress_requesting_authorization">Demande d\'autorisation......</string>
+    <string name="progress_requesting_authorization">Demande d\'autorisation...…</string>
     <string name="progress_checking_availability">Vérification de la disponibilité…</string>
     <string name="progress_fetching_user_list">Recherche de la liste des utilisateurs…</string>
     <string name="progress_fetching_app_list">Recherche de la liste des applications…</string>
@@ -29,6 +29,7 @@
     <string name="app_detail_version">version %1$s</string>
     <plurals name="app_view_item_modified">
         <item quantity="one">%d élément modifié</item>
+        <item quantity="many">%d éléments modifiés</item>
         <item quantity="other">%d éléments modifiés</item>
     </plurals>
     <string name="app_view_item_not_modified">Non modifié</string>
@@ -59,8 +60,9 @@
     <string name="template_summary">Prédéfinir une liste de permissions et les appliquer une par une.</string>
     <string name="template_default">Défaut</string>
     <plurals name="template_item_summary">
-        <item quantity="one">Element %1$d</item>
-        <item quantity="other">Elements %1$d</item>
+        <item quantity="one">Élément %1$d</item>
+        <item quantity="many">Éléments %1$d</item>
+        <item quantity="other">Éléments %1$d</item>
     </plurals>
     <string name="new_app_behavior">Nouveau comportement de l\'application</string>
     <string name="new_app_behavior_summary">Comportements quand une nouvelle application est installée, comme montrer une notification ou appliquer un modèle automatiquement.</string>
@@ -68,7 +70,7 @@
     <string name="new_app_behavior_notification_tap_to_open">Toucher pour ouvrir l\'application.</string>
     <string name="new_app_behavior_notification_app_installed">%1$s installé</string>
     <string name="new_app_behavior_notification_applied_template">Modèle appliqué pour %1$s.</string>
-    <string name="new_app_behavior_notification_applying_template">Application du modèle.....</string>
+    <string name="new_app_behavior_notification_applying_template">Application du modèle..…</string>
     <string name="new_app_behavior_notification_apply_template_failed">Echec de l\'application du modèle.</string>
     <string name="new_app_behavior_notification_action_open_app">Ouvrir l\'application</string>
     <string name="new_app_behavior_notification_action_detail_settings">Réglages détaillés</string>
