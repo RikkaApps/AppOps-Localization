@@ -94,7 +94,7 @@
     <string name="backup_open_backup_summary">Affichez le contenu du fichier de sauvegarde enregistré.</string>
     <string name="backup_not_installed">%1$s (non installé)</string>
     <string name="backup_notification_restored">Sauvegarde restaurée pour %1$s.</string>
-    <string name="backup_notification_restoring">Restauration de la sauvegarde.....</string>
+    <string name="backup_notification_restoring">Restauration de la sauvegarde..…</string>
     <string name="backup_notification_restore_failed">Echec de la restauration de la sauvegarde</string>
     <string name="all_op_title">Toutes les permissions</string>
     <string name="all_op_summary">Afficher toutes les permissions (opération) prises en charge par votre système.</string>
@@ -176,7 +176,7 @@
     <string name="op_name_READ_CLIPBOARD">Lire le presse-papiers</string>
     <string name="op_name_PLAY_AUDIO">Lecture audio</string>
     <string name="op_name_RECORD_AUDIO">Enregistrement audio</string>
-    <string name="op_name_CAMERA">camera</string>
+    <string name="op_name_CAMERA">Caméra</string>
     <string name="op_name_ACCESS_NOTIFICATIONS">Notifications d\'accès</string>
     <string name="op_name_WRITE_SETTINGS">Modifier les paramètres du système</string>
     <string name="op_name_WRITE_ICC_SMS">Ecrire des ICC SMS</string>
@@ -204,4 +204,5 @@
     <string name="op_name_NEIGHBORING_CELLS">Balayage cellulaire</string>
     <string name="shizuku_mode_error_user_denied_permission">Vous avez bloqué l\'application d\'utiliser Shizuku. &lt;br&gt;Prière de l\'autoriser dans les paramètres système et de l\'application Shizuku.
 \n&lt;p&gt;Si vous utilisez MIUI, MIUI bloque les mécanismes de notifications personnalisés d\'Android, vous pouvez seulement autoriser l\'accès depuis l\'app Shizuku.</string>
+    <string name="working_mode_dpm_removed">Le mode Administrateur d\'Appareil Délégué a été supprimé</string>
 </resources>
