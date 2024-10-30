@@ -32,6 +32,7 @@
     <string name="app_detail_version">versión %1$s</string>
     <plurals name="app_view_item_modified">
         <item quantity="one">%d artículo modificado</item>
+        <item quantity="many">%d artículos modificados</item>
         <item quantity="other">%d artículos modificados</item>
     </plurals>
     <string name="app_view_item_not_modified">No modificado</string>
@@ -40,10 +41,12 @@
     <string name="permissions_view_all">Todos</string>
     <plurals name="permissions_view_item_summary">
         <item quantity="one">%1$d aplicación</item>
+        <item quantity="many">%1$d aplicaciones</item>
         <item quantity="other">%1$d aplicaciones</item>
     </plurals>
     <plurals name="permissions_view_item_summary_controlled_by_other">
         <item quantity="one">%2$d aplicación, controlada por %1$s</item>
+        <item quantity="many">%2$d aplicaciones, controladas por %1$s</item>
         <item quantity="other">%2$d aplicaciones, controladas por %1$s</item>
     </plurals>
     <string name="system_app_warning">Esta es una aplicación del sistema, cambiar las opciones puede causar problemas graves.</string>
@@ -84,6 +87,7 @@
     <string name="template_create">Crear plantilla…</string>
     <plurals name="template_item_summary">
         <item quantity="one">%1$d artículo</item>
+        <item quantity="many">%1$d artículos</item>
         <item quantity="other">%1$d artículos</item>
     </plurals>
     <string name="template_default_title">Sin título</string>
@@ -182,7 +186,7 @@
     <string name="working_mode_button_retry">Reintentar</string>
     <string name="working_mode_choice">Elige un modo de trabajo:</string>
     <string name="working_mode_title">Modo de trabajo: %s</string>
-    <string name="translators">—Peter Cuevas, NoelFeijooIglesias</string>
+    <string name="translators">—Peter Cuevas, NoelFeijooIglesias, pcurz</string>
     <string name="backup_error_io_exception">Algo salió mal al leer/escribir el archivo.</string>
     <string name="backup_reading_file">Leyendo el archivo…</string>
     <string name="manufacturer_restriction_dialog_message">Muchos fabricantes (principalmente de China), incluyendo pero no limitándose a OnePlus, Xiaomi, Huawei, Samsung, restringen los comportamientos de fondo por defecto. &lt;p&gt;Las restricciones de los fabricantes suelen estar mal diseñadas. &lt;b&gt;Para la aplicación que sigue el estándar de Android, sus restricciones no ahorrarán más batería, sino que sólo romperán la función de la aplicación &lt;/b&gt;. Lo que es más ridículo es que estos fabricantes &lt;b&gt;normalmente tienen una \"lista de permisos\" por defecto que incluye aplicaciones de grandes empresas&lt;/b&gt;. Todo el ecosistema Android está profundamente afectado por ellos. &lt;p&gt;Para hacer que \"%1$s\" funcione, por favor deshabilite esas restricciones. Puedes referirte a %2$s. Y no te preocupes, no usa la CPU continuamente, la aplicación ni siquiera aparecerá en la lista de uso de la batería del sistema.</string>
@@ -220,8 +224,9 @@
     <string name="backup_review_action_restore_templates_replace">Borrar todas las plantillas y restablecer</string>
     <string name="backup_review_action_restore_templates_add">Restaurar como nuevas plantillas</string>
     <plurals name="backup_review_apps_title">
-        <item quantity="one">1$d aplicación de 2$s</item>
-        <item quantity="other">1$d aplicaciones de 2$s</item>
+        <item quantity="one">%1$d aplicación de %2$s</item>
+        <item quantity="many">%1$d aplicaciones de %2$s</item>
+        <item quantity="other">%1$d aplicaciones de %2$s</item>
     </plurals>
     <string name="backup_review_description">Esta copia de seguridad fue creada el %1$s ejecutando %2$s.</string>
     <string name="clipboard_monitor_settings_excluded_system_apps_summary">Excluir todas las aplicaciones del sistema, independientemente de las opciones individuales</string>
@@ -239,6 +244,7 @@
     <string name="backup_review_action_dont_restore">No restaurar</string>
     <plurals name="backup_review_templates_title">
         <item quantity="one">%1$d plantilla</item>
+        <item quantity="many">%1$d plantillas</item>
         <item quantity="other">%1$d plantillas</item>
     </plurals>
     <string name="backup_review">Revisa la copia de seguridad</string>
@@ -261,7 +267,8 @@
     <string name="unlock_full_version">Desbloquear la versión completa</string>
     <string name="settings_crash_report_summary">Esto nos ayudará a encontrar los problemas más rápido</string>
     <string name="settings_crash_report_title">Enviar informe de errores</string>
-    <string name="settings_send_data_summary">Las características anteriores utilizan el Centro de aplicaciones de Visual Studio proporcionado por Microsoft. La información recopilada es anónima y no podemos rastrearla hasta un dispositivo o usuario independiente. Consulte la Política de privacidad para obtener más información.</string>
+    <string name="settings_send_data_summary">Las funciones anteriores utilizan Visual Studio App Center, proporcionado por Microsoft. La información recopilada es anónima y no podemos rastrearla hasta un dispositivo o usuario individual. 
+\nConsulta la Política de Privacidad para más detalles.</string>
     <string name="settings_integrations_storage_isolation_summary">\"%s\" es una aplicación necesaria para la root de nosotros. Proporciona un control más avanzado sobre el almacenamiento.
 \n
 \nEsta opción es para prevenir un mal funcionamiento cuando intentas cambiar las configuraciones relacionadas con el almacenamiento.</string>
@@ -277,6 +284,7 @@
 \nHay varios informes de usuarios de Samsung que no pueden iniciar el sistema.</string>
     <plurals name="include_system_apps_dialog_title">
         <item quantity="one">Incluir %d aplicación del sistema</item>
+        <item quantity="many">Incluir %d aplicaciones del sistema</item>
         <item quantity="other">Incluir %d aplicaciones del sistema</item>
     </plurals>
     <string name="usage_history">Historial de uso</string>
@@ -416,7 +424,7 @@
     <string name="op_desc_START_FOREGROUND">En resumen, un servicio en primer plano es un servicio en segundo plano con una notificación que no puede ser descartada. Debido a que puede ser activamente consciente de la existencia de la misma a partir de la notificación, el sistema asegurará la permanencia de los servicios en primer plano.&lt;p&gt;Denegar esto causará que los servicios en primer plano pasen a ser servicios normales, esto puede romper el comportamiento de las aplicaciones (como las pausas del reproductor de música en segundo plano, la actualización de la ubicación de las paradas de las aplicaciones de mapas).&lt;p&gt;&lt;b&gt;&lt;a href=https://developer.android.com/guide/components/services&gt;Ver la documentación en Android Developers&lt;/a&gt;&lt;/b&gt;</string>
     <string name="op_desc_WAKE_LOCK">En Android de stock, WAKE_LOCK sólo se usa para estadísticas y no tiene ningún efecto práctico. &lt;b&gt;&lt;a href=https://github.com/aosp-mirror/platform_frameworks_base/blob/oreo-release/services/core/java/com/android/server/power/Notifier.java#L191-L193&gt;Ver código relacionado&lt;/a&gt;&lt;/b&gt;&lt;p&gt;Si quieres restringir la aplicación para que no se ejecute en segundo plano, por favor modifica directamente la opción \"Ejecutar en segundo plano\" (requiere Android 7.0 o superior).</string>
     <string name="op_name_QUERY_ALL_PACKAGES">consulta todos los paquetes</string>
-    <string name="op_name_ACCESS_MEDIA_LOCATION">acceso a la ubicación de multimedia</string>
+    <string name="op_name_ACCESS_MEDIA_LOCATION">leer la información de ubicación desde archivos multimedia</string>
     <string name="op_name_READ_DEVICE_IDENTIFIERS">leer los identificadores del dispositivo</string>
     <string name="op_name_WRITE_MEDIA_IMAGES">escribir en tu colección de fotos</string>
     <string name="op_name_READ_MEDIA_IMAGES">lee tu colección de fotos</string>
@@ -467,8 +475,12 @@
     <string name="working_mode_dpm_removed_description">Debido a un nuevo requisito de la política de Google Play, el modo Administrador delegado de dispositivos debe eliminarse antes del 2022-07-12. &lt;p&gt;Si necesita usar el modo Administrador delegado de dispositivos, descargue una versión anterior de la aplicación desde nuestro sitio web.</string>
     <string name="working_mode_dpm_removed">Se eliminó el modo de administrador delegado de dispositivos</string>
     <string name="error_remote_service_killed_button_restart">Reiniciar el servicio remoto</string>
-    <string name="error_remote_service_killed_message">El servicio remoto se detuvo de manera anormal.&lt;p&gt;Si el problema persiste, comuníquese con el...</string>
-    <string name="backup_include_system_components_summary">Include system components, i.e. apps whose uid is less than 10000, into the backup. Do it at your own risk.
-\n
-\nIncluye componentes del sistema, es decir, aplicaciones cuyo uid es menor que...</string>
+    <string name="error_remote_service_killed_message">El servicio remoto se detuvo de forma anormal.&lt;p&gt;Si el problema persiste, por favor contacta al desarrollador.</string>
+    <string name="backup_include_system_components_summary">Incluir componentes del sistema, es decir, aplicaciones cuyo uid es menor a 10000, en la copia de seguridad. Hazlo bajo tu propio riesgo.</string>
+    <string name="storage_permission_29">Tu dispositivo corre Android 10 o superior, y este permite que las aplicaciones autorizadas escriban archivos en carpetas estándar &lt;b&gt;sin ningún permiso&lt;/b&gt;.&lt;p&gt;Esto significa que, sin importar cómo modifiques los permisos (ya sea en esta aplicación o en el sistema), la aplicación siempre podrá escribir archivos en la carpeta estándar. (Aún se requiere permiso para modificar archivos creados por otras aplicaciones).&lt;p&gt;* La carpeta estándar se refiere a una serie de carpetas definidas por el sistema, como DCIM, Pictures, Download, etc.&lt;br&gt;* Las aplicaciones autorizadas son aquellas que tienen como objetivo la API 30 o superior, o que apuntan a la API 29 y se han adaptado al Almacenamiento Limitado (Scoped Storage).</string>
+    <plurals name="packages_selector_dialog_status_format_for_multi">
+        <item quantity="one">Seleccionada %d aplicación</item>
+        <item quantity="many">Seleccionadas %d aplicaciones</item>
+        <item quantity="other">Seleccionadas %d aplicaciones</item>
+    </plurals>
 </resources>
