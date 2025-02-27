@@ -2,4 +2,9 @@
 <resources>
     <string name="settings_behavior">התנהגות</string>
     <string name="settings">הגדרות</string>
+    <string name="working_mode_choice">בחר מצב עבודה:</string>
+    <string name="working_mode_button_continue">המשך</string>
+    <string name="translators">א.ד</string>
+    <string name="working_mode_title">מצב עבודה: %s</string>
+    <string name="working_mode_button_retry">נסה שוב</string>
 </resources>
