@@ -181,7 +181,7 @@
     <string name="op_unknown_description"><![CDATA[此權限不包含於原生 Android（由你的裝置製造商新增或是在新版本 Android 新增）。請謹慎。]]></string>
     <string name="op_summary_unknown">來自裝置製造商或是新版本 Android 系統</string>
     <plurals name="include_system_apps_dialog_title">
-        <item quantity="other">包含 %d 個系統程式</item>
+        <item quantity="other">包含 %d 這個系統程式</item>
     </plurals>
     <string name="include_system_apps_dialog_message">錯誤操作重要系統程式可能帶來難以挽回的問題，請務必謹慎。\n\n共有數個來自 Samsung 使用者的無法開機的報告。</string>
     <string name="include_system_apps_dialog_button_skip">跳過系統程式</string>
@@ -357,7 +357,7 @@
     <string name="op_desc_ACCESS_MEDIA_LOCATION"><![CDATA[允許應用程式從媒體檔案讀取位置資訊（通過媒體儲存）。]]></string>
     <string name="op_name_QUERY_ALL_PACKAGES">查詢所有套件</string>
     <string name="op_name_MANAGE_EXTERNAL_STORAGE">管理所有檔案</string>
-    <string name="op_name_ACCESS_MEDIA_LOCATION">訪問媒體位置</string>
+    <string name="op_name_ACCESS_MEDIA_LOCATION">從媒體檔案讀取位置資訊</string>
     <string name="op_name_READ_DEVICE_IDENTIFIERS">讀取裝置識別碼</string>
     <string name="op_name_WRITE_MEDIA_IMAGES">寫入你的相片收藏</string>
     <string name="op_name_READ_MEDIA_IMAGES">讀取你的相片收藏</string>
@@ -473,4 +473,10 @@
     <string name="error_remote_service_killed_message">遠端服務異常停止。&lt;p&gt;如果問題持續，請聯絡開發人員。</string>
     <string name="error_remote_service_killed_button_restart">重新啟動遠端服務</string>
     <string name="translators">Adeptus2</string>
+    <string name="op_desc_READ_CLIPBOARD">在 Android 10 或更高版本上，應用程式只有在前台運作時才能讀取剪貼簿。</string>
+    <string name="op_desc_TOAST_WINDOW_30_app_pre_30">這個應用程式的目標 API 為 29 或更低版本，因此修改此應用程式的這項權限將會生效。</string>
+    <string name="op_desc_TOAST_WINDOW_30_systemui">修改此權限將會影響系統和所有目標 API 為 30 或更高版本的應用程式。</string>
+    <string name="op_desc_TOAST_WINDOW_30">您的裝置運行 Android 11 或更高版本。對於目標 API 30 以上的應用程式，Toast 會透過 SystemUI 顯示，而不是應用程式本身。</string>
+    <string name="op_desc_TOAST_WINDOW_30_app_30">這個應用程式的目標 API 為 30 或更高版本，因此修改此應用程式的這項權限沒有實際作用。&lt;p&gt;若要控制此應用程式是否可以顯示 Toast，您只能修改 SystemUI 的權限，但這會影響系統和所有這類應用程式。</string>
+    <string name="storage_permission_29">您的裝置運行 Android 10 或更高版本，Android 系統允許符合條件的應用程式在標準資料夾中寫入檔案，&lt;b&gt;無需任何權限&lt;/b&gt;。&lt;p&gt;這表示無論您如何修改權限 (無論是在此應用程式中還是在系統中)，該應用程式始終可以將檔案寫入標準資料夾。(修改其他應用程式建立的檔案仍然需要權限)&lt;p&gt; * 標準資料夾指的是一系列系統定義的資料夾，例如 DCIM、Pictures、Download 等。&lt;br&gt;* 符合條件的應用程式是指目標 API 為 30 或更高版本，或目標 API 為 29 且已適配分區儲存空間的應用程式。</string>
 </resources>
