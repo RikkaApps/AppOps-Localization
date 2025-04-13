@@ -343,4 +343,5 @@
     <string name="new_app_behavior_settings_apply_template_summary">「バックアップの復元」が有効な場合、このオプションはバックアップが存在しない場合にのみ有効になります。</string>
     <string name="backup_creating_backup">バックアップを作成しています…</string>
     <string name="backup_review_action_dont_restore">復元しない</string>
+    <string name="menu_last_used_first">最終使用時の新しい順</string>
 </resources>
