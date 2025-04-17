@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="template">نموذج</string>
-    <string name="translators">i00</string>
+    <string name="translators">‌i00</string>
     <string name="progress_requesting_authorization">طلب التفويض…</string>
     <string name="progress_checking_availability">التحقق من الجاهزية…</string>
     <string name="progress_fetching_user_list">إحضار قائمة المستخدمين…</string>
@@ -92,7 +92,7 @@
     <string name="bug_report_mail_message">إذا أمكن ، يرجى وصف الموقف الذي حدث فيه الخطأ.</string>
     <string name="send_to_developer">أرسل إلى المطور</string>
     <string name="user_name_fallback">المستخدم</string>
-    <string name="working_mode_button_retry">إعادة المحاولة</string>
+    <string name="working_mode_button_retry">إعادة ا‌i00لمحاولة</string>
     <string name="working_mode_choice">اختر وضع العمل:</string>
     <string name="working_mode_title">وضع العمل: %s</string>
     <plurals name="app_view_item_modified">
