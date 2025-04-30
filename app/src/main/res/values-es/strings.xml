@@ -184,7 +184,7 @@
     <string name="working_mode_button_switch">Cambie a otro modo de trabajo</string>
     <string name="working_mode_button_continue">Continuar</string>
     <string name="working_mode_button_retry">Reintentar</string>
-    <string name="working_mode_choice">+ Funciona tanto en dispositivos root como no root &lt;br&gt;+ Muy rápido, con un consumo de recursos insignificante &lt;br&gt;+ Disfruta de todas las funcionalidades &lt;br&gt;&lt;br&gt;- Requiere instalar una aplicación de código abierto (Shizuku) &lt;br&gt;- Para los dispositivos no root, cada vez que se reinicia, se requiere iniciar Shizuku usando adb con el ordenador &lt;br&gt; - Para dispositivos con Android 11 o superior, Shizuku se puede iniciar sin computadora</string>
+    <string name="working_mode_choice">Elige un modo de trabajo:</string>
     <string name="working_mode_title">Modo de trabajo: %s</string>
     <string name="translators">+ Disfruta de toda la funcionalidad &lt;br&gt;&lt;br&gt;- Requiere instalar Sui (un módulo de Magisk) o Shizuku (una aplicación), ambos de código abierto</string>
     <string name="backup_error_io_exception">Algo salió mal al leer/escribir el archivo.</string>
