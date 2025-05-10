@@ -22,4 +22,16 @@
     <string name="error_license_about_to_invalid">Hindi naka verify ang purchase ng matagal</string>
     <string name="something_went_wrong">Something went wrong</string>
     <string name="menu_badge_early_access">Early Access</string>
+    <string name="error_license_about_to_invalid_message">Para maiwasan ang fraud, ang iyong babayaran ay nangangailangan ng regular na beripikasyon.&lt;p&gt;Ang beripikasyon ay awtomatikong isinisigawa. Huwag harangan ang app sa pag-access ng network.</string>
+    <string name="error_remote_service_killed_message">Ang \"Remote service\" ay huminto ng abnormal.&lt;p&gt;Kung nagpapatuloy ang problema, i-contact ang developer.</string>
+    <string name="error_remote_service_killed_button_restart">I-restart ang remote service</string>
+    <string name="menu_reset">I-reset</string>
+    <string name="menu_app_info">Impormasyon ng app</string>
+    <string name="menu_show_app_info_in">Pinapakita ang impormasyon ng app sa…</string>
+    <string name="menu_show_system">Ipakita ang system apps</string>
+    <string name="shizuku_mode_error_not_running">Ang \"Shizuku\" ay hindi tumatakbo o may pagkakamali. &lt;br&gt;Kung tumatakbo ang \"Shizuku\", paki hinto ang aplikasyon na ito.</string>
+    <string name="shizuku_mode_error_version_too_low">Ang bersyon ng \"Shizuku\" na iyong ginagamit ay masyadong mababa. paki download ang pinakabagong bersyon ng \"Shizuku\" (%s o mas mataas).</string>
+    <string name="progress_checking_availability">Sinusuri kung maaaring magamit…</string>
+    <string name="progress_fetching_user_list">Kinukuha ang user list…</string>
+    <string name="progress_fetching_app_list">Kinukuha ang app list…</string>
 </resources>
